@@ -1,0 +1,147 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.203.73 with SMTP id h9csp441433edi;
+        Fri, 19 Jan 2018 22:44:26 -0800 (PST)
+X-Google-Smtp-Source: AH8x227E27pOjTuchoUGH50TWVKwlJ/G4tBt83vppyCFR4PDVfSeEp3bNy5vqmDyDkbkzoNJkLj5
+X-Received: by 10.46.86.194 with SMTP id k63mr423162lje.101.1516430665978;
+        Fri, 19 Jan 2018 22:44:25 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1516430665; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tz8IyTtsonLwApnmTMN74y1w4zM3AtBx0W38FpDeQbTRiexQHutIhIZf3O6W45t7N9
+         m/xbzGxXRaAqraTrRYY+584BDvayyQ/nf2Qb6m/nftE3vbAsArGrXKfI8kR0HJtSEBAC
+         u+oh4DaPwe+MR6QMv/P67nrRL9KdWfENKdnmSJqi1x0zDKk/WM1Z7vhgr/4Nx7qmZEJt
+         dU0DX9ayNqH8sLOvAWIBhIiBz3q+OFZIVOV2kxTKPA73eCaFSfoMMkJ6yA+GCSCptLi6
+         Vff3JNdR4YcbtmvicLLzbPqE1xLyJLPX1MMp+a1dOe0Cb9vBofOLqFiCtK6mgNiFBZkI
+         Mg4Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:message-id:to:reply-to:from:date
+         :arc-authentication-results;
+        bh=7GUghBhqtIk3Y7rsBPbppYQUY+84NyKKtFk9dwIaR3Y=;
+        b=NDtnsrdNxPGOuGHLB5r5TCEKiN4LBJjN5ZCKdojyiG6MIeodUrr5O4iEULqJaPosgj
+         y+fWebtwNJrmE8dkNqZwKQovv7B7zdz16ICjK924qXwZLhptCtoFAye9/3OxrCIMumsn
+         BHTqn+V/JynsXegvE0+ChacZweui3A+Wzrs7FsQFclvi8TN2gYv5XPL97JSWtkU4THLA
+         1zC+KYBPJE2b5PM9oQjEt8lNRgB0BjF1Oxmvz4rqEdcu6ZCQpRgPkh1BKhXrffbCDJO2
+         WpPL7hqsgb6tRpHR/kX619iDZ21PswjQKPZFQlglGM4PWGp2cSy2qXOqK/GgQC7x4By8
+         v9hw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of psych@kmarkss.com designates 83.217.10.100 as permitted sender) smtp.mailfrom=psych@kmarkss.com
+Return-Path: <psych@kmarkss.com>
+Received: from kmarkss.com (kmarkss.com. [83.217.10.100])
+        by mx.google.com with ESMTP id l26si5431186lja.366.2018.01.19.22.44.25
+        for <kongxiangzheng@gmail.com>;
+        Fri, 19 Jan 2018 22:44:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of psych@kmarkss.com designates 83.217.10.100 as permitted sender) client-ip=83.217.10.100;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of psych@kmarkss.com designates 83.217.10.100 as permitted sender) smtp.mailfrom=psych@kmarkss.com
+Received: from WIN-A9S0SUBJN6U (unknown [222.73.31.225])
+	by kmarkss.com (Postfix) with ESMTPA id 61077BF7AB
+	for <kongxiangzheng@gmail.com>; Sat, 20 Jan 2018 13:44:19 +0700 (+07)
+Date: Sat, 20 Jan 2018 14:44:09 +0800 (CST)
+From: Psychology <psych@kmarkss.com>
+Reply-To: psych@scirp.org
+To: kongxiangzheng@gmail.com
+Message-Id: <33EACAE743ED5C55F257252246A58768.20180120144408@kmarkss.com>
+Subject: Special Issue: Developmental Psychology for Xiang-zhen Kong
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_100661170_485327961.1516430648744"
+
+------=_Part_100661170_485327961.1516430648744
+Content-Type: multipart/related; 
+	boundary="----=_Part_100661171_764149221.1516430648744"
+
+------=_Part_100661171_764149221.1516430648744
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+ </head>
+ <body>
+  <table width=3D"700" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"font-family:Georgia, Times New Roman, Times, serif;font-size:16px;lin=
+e-height:1.5em;overflow:hidden;border:1px solid #c9bfbb;" class=3D"ke-zerob=
+order">
+   <tbody>
+    <tr>
+     <td colspan=3D"2">
+      <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"ke-zeroborder">
+       <tbody>
+        <tr>
+         <td width=3D"25%" style=3D"font-size:16px;line-height:1.5em;paddin=
+g-left:10px;background-color:#c9bfbb;border-radius:0 150px 150px 0;">Submis=
+sion Deadline: May 18th, 2018</td>
+         <td width=3D"75%" align=3D"center" style=3D"font-size:30px;padding=
+:5px 10px;line-height:1.3em;">Special Issue on<br />&quot;Developmental Psy=
+chology&quot;</td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"font-size:16px;padding:5px 10px;line-height=
+:1.5em;"><span style=3D"font-size:20px;">Dear Xiang-zhen Kong,</span><br />=
+<br /> The special issue on &quot;<a href=3D"http://www.scirp.org/journal/h=
+tmlOfSpecialIssue.aspx?ID=3D4704&amp;JournalID=3D148&amp;utm_campaign=3DSpe=
+cialIssue&amp;utm_source=3De_si&amp;utm_medium=3Dpsych_dev_20180109_leiming=
+_132049&amp;utm_content=3D2085_kmarkss.com" target=3D"_blank" style=3D"colo=
+r:#b37861;font-size:18px;"><u>Developmental Psychology</u></a>&quot; of the=
+ [FULLNAME] ([SHORTNAME], ISSN Online: [ISSNONLINE]) is just around the cor=
+ner. As the online version is free to access and download, it enables you t=
+o share your achievements with a worldwide audience, and get the recognitio=
+n and rewards that you deserve. To better track the status of the article, =
+you are advised to submit the article through our <a href=3D"http://papersu=
+bmission.scirp.org/paper/showAddPaper?journalID=3D25&amp;utm_campaign=3Dpap=
+ersubmission&amp;utm_source=3De_si&amp;utm_medium=3Dpsych_dev_20180109_leim=
+ing_132049&amp;utm_content=3D2085_kmarkss.com" target=3D"_blank" style=3D"c=
+olor:#b37861;font-size:18px;"><u>Article Submission System </u></a>. Or by =
+e-mail to papersubmissionmcy@gmail.com (please indicate the name of journal=
+ or special issue you want to submit). </td>=20
+    </tr>
+    <tr></tr>
+    <tr>
+     <td colspan=3D"2" align=3D"center" style=3D"overflow:hidden;border:1px=
+ solid #c9bfbb;padding:5px;">
+      <table width=3D"100%" align=3D"center" style=3D"background:linear-gra=
+dient(to right bottom,#ffffff,#c9bfbb,#ffffff);background-color:#c9bfbb;">
+       <tbody>
+        <tr>
+         <td align=3D"center" style=3D"font-size:16px;line-height:1.5em;pad=
+ding:5px 10px;"><span style=3D"font-size:20px;">Potential Topics Include (n=
+ot limited to) </span><br /><br />Language acquisition<br /> Learning disab=
+ilities<br /> Emotional development<br /> Self-awareness and self-concept<b=
+r /> Cognitive development<br /> Social and cultural influences<br /> Perso=
+nality development<br /> Moral reasoning</td>=20
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+    <tr>
+     <td colspan=3D"2">&nbsp;</td>
+    </tr>
+    <tr>
+     <td width=3D"65%" style=3D"font-size:16px;line-height:1.5em;padding:0p=
+x 10px 5px;"><span style=3D"font-size:20px;">Google Scholar</span><br /> <b=
+r /> * There are 6772 citations for articles published in the journal PSYCH=
+ as of September 2017 based on the statistics from Google Scholar.</td>=20
+     <td width=3D"35%" align=3D"right" style=3D"padding:10px;font-size:16px=
+;line-height:1.5em;background-color:#c9bfbb;border-radius:150px 0 0 150px;"=
+>Best regards,<br />Ms. Ray Wong (Editorial Assistant) <br /> PSYCH Editori=
+al Office</td>
+    </tr>
+   </tbody>
+  </table>
+  <span id=3D"unSub" style=3D"font-size:10pt;font-family:verdana,arial,helv=
+etica,sans-serif;line-height:20px;">This message was sent to [kongxiangzhen=
+g@gmail.com]. <a href=3D"http://www.member.scirp.org/member/transferParamet=
+erAction.action?personID=3D9115028&amp;identifier=3D612C70ABF8DCFE1314E8A4E=
+92378133D1AEB3F5C105B4208B7502F8EC0C5FE72&amp;blackListTypeId=3D1" target=
+=3D"_blank">Unsubscribe</a></span>
+  <br />
+ </body>
+</html>
+------=_Part_100661171_764149221.1516430648744--
+
+------=_Part_100661170_485327961.1516430648744--

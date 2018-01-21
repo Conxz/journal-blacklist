@@ -1,0 +1,410 @@
+Received: from HE1EUR01HT233.eop-EUR01.prod.protection.outlook.com
+ (2603:1096:a00:1::16) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0100.INDPRD01.PROD.OUTLOOK.COM; Fri, 19 Jan 2018 08:42:49 +0000
+Received: from HE1EUR01FT023.eop-EUR01.prod.protection.outlook.com
+ (10.152.0.52) by HE1EUR01HT233.eop-EUR01.prod.protection.outlook.com
+ (10.152.1.113) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.345.12; Fri, 19
+ Jan 2018 08:42:48 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.101.89)
+ smtp.mailfrom=surgeryinsights.com; outlook.com; dkim=pass (signature was
+ verified) header.d=chemistryinsights.onmicrosoft.com;outlook.com;
+ dmarc=bestguesspass action=none header.from=surgeryinsights.com;
+Received-SPF: Pass (protection.outlook.com: domain of surgeryinsights.com
+ designates 104.47.101.89 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.47.101.89;
+ helo=IND01-BO1-obe.outbound.protection.outlook.com;
+Received: from IND01-BO1-obe.outbound.protection.outlook.com (104.47.101.89)
+ by HE1EUR01FT023.mail.protection.outlook.com (10.152.0.162) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12 via
+ Frontend Transport; Fri, 19 Jan 2018 08:42:47 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:5CAB7EED1007CB41B071B5569696F5B165A38780E4D7C906D015527A296C987E;UpperCasedChecksum:D735DBC6288965EA60B369DE6F6F8811463C51ADB67BF37B814B117045F7FAD8;SizeAsReceived:8428;Count:39
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=chemistryinsights.onmicrosoft.com; s=selector1-surgeryinsights-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=67RKFtIGLDeKbS/qOrv2259q0248RQLW8tm/mkvuKJY=;
+ b=iLggFEEBnkZGi2i9Fqn18FMYKyDQBjmv7q7QXXDzdHPFqrqgGHelZvpkmcNDXD7hRE0gNXzSXRAjx0K/pkRz9j95YugnqvG6Qh1wLKMgWXPsjzhW8LQe+0o+dU3zbhtzH85ooDeMCeSm71pajq50MlkG3Dor34WU7iiJNJSNH9M=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=editor.ves@surgeryinsights.com; 
+Received: from omicswa0047 (220.225.72.25) by
+ PN1PR0101MB1328.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c00:12::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.428.17; Fri, 19
+ Jan 2018 08:42:45 +0000
+From: "Editor- Journal of Vascular and Endovascular Therapy" <editor.ves@surgeryinsights.com>
+To: <xiangzhen.kong@outlook.com>
+Subject: Anatomical Variations - Volume 11 Issue 1
+Date: Fri, 19 Jan 2018 14:07:58 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAGgQq9f0IkdOjW2vQ/14LHLCgAAAEAAAAFC2Xnyzh+RCgvbbDN1uItABAAAAAA==@surgeryinsights.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_006A_01D3912E.E9BFA350"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdORAMzDNdroPXZER+6IWqXlANkN5g==
+Content-Language: en-us
+Disposition-Notification-To: Editor- Journal of Vascular and Endovascular
+ Therapy <editor.ves@surgeryinsights.com>
+X-Originating-IP: [220.225.72.25]
+X-ClientProxiedBy: MA1PR0101CA0006.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:a00:21::16) To PN1PR0101MB1328.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:c00:12::14)
+Return-Path: editor.ves@surgeryinsights.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 53b93c5a-88f2-42ee-8284-08d55f189e20
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(5600026)(4604075)(2017052603307)(7153060)(7193020);SRVR:PN1PR0101MB1328;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1328;3:wLK9OfwIwnzEwQBEAPutkOmQifVJAKWNVFlJG4rAaUGXjjiDGCFM5hscJIUHzAcJzK+QMujGrcEWhnPcx7nL/gYbt00jh1qhBYUQ8CQOMq6XP9Ljlf+NttQ9s9Ure/W/LY2yH1a0XfZuL5kfE5qE+wG+IIBY5ZZEBuxGNbvSa1/j1KFybBsg+Yu7XMGe/zOwwSFj7rDHiPNSfeKU7i391Cw7Yvf5yiWCtF9YBYZALzUZZ7E+RGxq0KsITtjeam7Z;25:2yS1CENsR0LaUNnB5gBaU59Jgi9sLp6cDdDrtof5YrTWmVdtLIkU6V+XmBT9IkhsdCxrp/n1tLd4Q6eRMymrkInvOvTJiosPrY2GnA9tR9uogxcXc2US04J2GeypCL2FPKAqvE64lBvqGipw2SIETsGhfDLluExOF7+RVr7wyMQfwDSQySJnCihZ6nffGYSwMSjcIug+pWO2K8itryMHfauVTq+u4JmU8hXRdrCnc4g9/2/GbkJ7HLZCOgVEpizjbxprGfz0TEVny7Zj6svboVHfn702rcLF5Nu3CgGFTFUyetH8uA1rog6jCg5wIrdM0uDuEN2O7z6Lw4s7XrjobA==;31:dE6hLyRTEiAGsdJVCgARSFRWaf9amAq76IifhOzzwXFEO+6+/S3F9aGOX6ig+Oasb5ovr04MglRCTQOqZL0HNiOIY2HQEhKrPEcEQhRvZidKVEm0oGPK8EBxaDYnNaLc8rr0gPRbHUqEHFUk+vnWvUjalx9aXw+plJNW8K3LUQW1LIaZsrChW//TWrGL7aX/MGDK8NJwX7IjtgHmtejsFlKGp/CWDT2UFDXbfrtXMYo=
+X-MS-TrafficTypeDiagnostic: PN1PR0101MB1328:|HE1EUR01HT233:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1328;20:C/D84Fvv8glFA8Er9zLkauuUpQYLL6SW2dcZBZLOZkPvME+wHo3mtnMCZH90XkeKvPYQaZCP0pMrcTZ5MLxCIrC6iSFumgqnxOsaPZmsEfcXeqfrv0KoKIZLjI9e/NrC07vKG4v8T8yAhzkw3dfFJlsn+B1sp4rgQJMfgjufxOE=;4:Zd3DpGQdInm6XRxUnRE8ON5lWsK7gsBrrJH1Oelsv2Gdtu5380rSQb1Bd3f4tAr0LbTFcadKOWLf6LQhHg/xaepeWPHIlmNHMZOQGKQwRGL9+71guGqJAZKunm2us9eTvaWPnJCi5y6GRc9TcZe4OZc2iPy+b6KBOLesg6Rs48e+3gqOu24UXDTR2LaZjQ2NFx8dv8Cb6pVUa37TKHC7Ykx8vEwvVy6QuYiYqP1UzYCJ+3G8yb70m+ox0btJmVfMSSQyC9V+d9FsiZ/12eKxFX9+qJCwNPjNVu4Gci3S1J0EoHanyU6ieuYrRC1bEAjPJ8DWs9JuTMb4MJaXPM9ASbUC3E8f99l79KtWdzFp9TaHhO/6RdJyxqBvEWlL5pwZAw4H4MxoHLQdRiNL1BrWz+ysf+pgNJz6AnzBlQzCgVs=
+X-Microsoft-Antispam-PRVS: <PN1PR0101MB13282E185F9801CCC626364B92EF0@PN1PR0101MB1328.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(209352067349851)(21748063052155);UriScan:(28532068793085)(20558992708506)(209352067349851)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040470)(2401047)(8121501046)(5005006)(3002001)(10201501046)(93006095)(93001095)(3231023)(2400075)(944501161)(6041268)(20161123558120)(20161123564045)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(6072148)(201708071742011);SRVR:PN1PR0101MB1328;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:PN1PR0101MB1328;BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:HE1EUR01HT233;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:HE1EUR01HT233;
+X-Forefront-PRVS: 0557CBAD84
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(346002)(396003)(376002)(39860400002)(366004)(39380400002)(189003)(199004)(5403001)(10533003)(54896002)(71636004)(3846002)(36756003)(81166006)(1720100001)(606006)(8936002)(50226002)(478600001)(88246002)(2351001)(68736007)(49950200003)(106356001)(75216001)(270700001)(105586002)(413944005)(260700001)(8676002)(236005)(81156014)(6116002)(6306002)(7066003)(6666003)(6916009)(5660300001)(61296003)(16526018)(84326002)(6486002)(26005)(66066001)(53936002)(39060400002)(86362001)(16586007)(316002)(102836004)(25786009)(7736002)(6496006)(59450400001)(7826002)(386003)(52116002)(97736004)(626008)(2906002);DIR:OUT;SFP:1101;SCL:1;SRVR:PN1PR0101MB1328;H:omicswa0047;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: surgeryinsights.com does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;PN1PR0101MB1328;23:2eapcAnCGq1GC3HOWf6sy/Vme1oc9N50EdxUuLA?=
+ =?us-ascii?Q?GHuiSAkNZ4iDJ1VZCJdfRq5jAkca1/XEXwWIQ+BCQ9yXALck6Kc5om6nn4Lw?=
+ =?us-ascii?Q?rh2ZPuq2FRIgTupK8Hk1/k9pKa1ksAXgRvlslrzEozD3YlVyu9CHi7WZqOFa?=
+ =?us-ascii?Q?QcvxY2TPuxE1FFDpie8vATdAwUdvgqxyJdFZjCZvumfgBX1THw30VI4SmmcD?=
+ =?us-ascii?Q?k4/Srr1PlP6Le2MaK6EFi4/NmEugk2ZrfUgRD6ND6K4xse343vKBA7HkU+Vj?=
+ =?us-ascii?Q?dHYeN6YCyjeUjS9MfGw2hX2hxkPBKqA7wdilHKY4f+/ADDTGC5ESFf8eb+oR?=
+ =?us-ascii?Q?NI3tjAc922TV43pdhrWkB4JA5VV6Y22haE42hRbp7lNv4yQhuXnFjjXI8fsO?=
+ =?us-ascii?Q?bezGS6fXb6saId9lPb2gmTEZxNm0I6bM1n4yvC2u9wqvNJAtj88iXYN3lSyz?=
+ =?us-ascii?Q?odz1h+YjubgjOHZJgNEpRsOe9Y57DSr0hL+B57MgSVKvLrvR6YH5Sdni/pm4?=
+ =?us-ascii?Q?ANezTWTdX13KvkpSYMGrYcXyeSd/3V+boeXOjxC35YZQUQbfaZZI50adHxLJ?=
+ =?us-ascii?Q?IS8beJ2QdTXU9e6nTDP+lTvJ5t8NkY/LjK8cYSSGv8hYdyJtVol1ctaQyAvw?=
+ =?us-ascii?Q?NfqwhvU73X7O7bTTxR88vy+0lSkrd74Q/qS3BjZk2QFXCoJ9fY6O36hHwh1G?=
+ =?us-ascii?Q?a14Si0lWOVQ7Gl4BSmYno3GKWaF7pMtx+YkeCwJdIoKTsrk4CCeYZ73ypV2y?=
+ =?us-ascii?Q?3Rrzelk+P5ZO7wWEgMYiBtszVkK8sYGBbVUUl5J1fY83BaHkYbT89DShmvnG?=
+ =?us-ascii?Q?kyIz1VEPfd8bYnJzwpFzkW7RQKbWgrepdMDSZoz/IT7LonBb6hCCrO90YsiE?=
+ =?us-ascii?Q?cf7tGmA3fi0tZIG9BEspNqV75sT32Yxm6MCAtfkAXCfTvH+yBkheN5Whr8lU?=
+ =?us-ascii?Q?w+TIfQDR5cYbKpsEv0GSQn8DBAgJQckE/Ueos0f1Kd3O/REXkfobYq0xY968?=
+ =?us-ascii?Q?peZRm5rVzFuOPSm7EUFMuPxiKoHtYsO/jezKx1ZswWJSzz482ggG4GmjKtQE?=
+ =?us-ascii?Q?P/Um8rYrQ0zfckmcFHvlDM3RZxkbIGZi65vhlBbmyTM4in1DwJNtHeGoGRSo?=
+ =?us-ascii?Q?YND/azjF/EWhj5ajBnNCJu47/kFBHDM7HzJ37OZW949/spAQ4/mai0Yph/Qy?=
+ =?us-ascii?Q?zMoydXzL/L0RVqV/+vtSlEaxZoKWaoCRTn6NZPt8Pv1br1Hesv16WDfNoLHD?=
+ =?us-ascii?Q?PsOG8No9AV/asjUQ3eS+I0ORuhXngzcIMiyCPSr8iuwYR4oVN9c1FNK+aZsj?=
+ =?us-ascii?Q?dsV7cLDnT4jaKfv4DAu4lbtzlfhNRUhVZp4DL8SJRMt5vv6OA7714ecJzTWc?=
+ =?us-ascii?Q?luan8UJPuVVkesc/ARWMgcrvb4kk=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1328;6:+FFvOYh7lo4sYUEatPfV7YAbLM3UcB8q64vSkE+AXdmTo7eylEI8kHZsh8E+EIDiHVBpjJ2yaVWLc8b+J0+rRZQ8qyQf2j1OmpwQI3mZbEANlaINgcVS4/GhQBiXvtVQCk6PzFjwRRjfnFhiyquU2rlj44qjquMNcOO5PamEXL/vS9irof2sL6FU67o25mE0RWj1A85zNEzdPbrkF+iZZLb8uxPY+IglbGZY2yTHW/TTNjUEgY0wl8vJag/CRhTFZ2Ym3v/Ba7D6di4cHEEk5WVNX9bU3veoVK5F5WmWXqw+/OSuy0dIxHCP8J/rS+8xae9sSS1rj//vNkSsHnv968w8/0AU5qaW+zzWlFu4GF0=;5:ofs7l4pQSodeM1xvb1D7/UWmDcXy6vlN+iT1h79rkB35pEiGks2A+zLzeFo1v7Q+PKZgDB74MLYbli5m+/8AwgusEPyjupQpOsj46XosOEqGowTsmD7esAXQ6YfSF6S58rn2yfY6LhnOoYsx16CQ9+CMVkp4BjnX81AhMnquPBE=;24:DCd/PaXEM7dughVEbLV+MTbBQkKF/2RDN3RFFocxwqFkcjwEAjPKEZ6PFpXy1MIJ5wtaZCSDJ6L/OFZoGpm0e/CFzWM46LUnR6S3oECwqHw=;7:fX769HPYJjgRVTxnmeaF2UITVOEFcjVi2rFDiWxQm9CfN8mj4Up2KM78ionEW70E5KhiiH8MhvRbOZPLCc9CbT92LGqxzzL6J3Cz07QvOLwHbpeQvNgxkEYop79uoW1plrKYbsg/MhjodrtkV3FcouFmouDZYpuyG3yCxEkyouohcGyRFY42VPIwiiEJEmAYTTfUXuuX+pVa+D38Fy51rUQ6TFYYgjsL5WTHsJWVCN0d73eU9SsAQx3dkwV1L6jp
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN1PR0101MB1328
+X-IncomingHeaderCount: 39
+X-MS-Exchange-Organization-Network-Message-Id: 53b93c5a-88f2-42ee-8284-08d55f189e20
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: HE1EUR01FT023.eop-EUR01.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01FT023;1:TJ5fXCpbKlVl1zdFGHknLOslwz8j3UDsTsRlrP2dB9V5vKLjBDRQvvbQ+7cFpMrSHuMXG7SD2hHwlqQwTXGhWgiuTvkkcumJqvd+zFZKnFMCqGg+WdaIevWThkzc5/4c
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:HE1EUR01HT233;H:IND01-BO1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: HE1EUR01FT023.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:HE1EUR01HT233;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT233;3:CMFCWFJTZc+KWfRIcJH0EWf7NFNNSpBQcfKjpgAi9K2EmMlUrVW37DV94L8MxrG6VVtDySrlHO2n7ELJYg5dZUAbOnfhTCBs0Yd7PcYC4RBCGZXD4200Y7X1MR5BUpU4+jgE0OzQMkn//vMtVq4dEt8WLBkI8QDfI8b6eRfahg77KxNALNdhdbhRBvuCNO3vns/XoIPLm3aNdPxWwpkXNL1yK1rNgvHz+RXo+neb3GcFWwntM1R8WCVkOKvSCHa4DwXWmDsT8oqcuNXqpXQ0C41YRQGJ1+QTWBGgdANxocQNoTyjgeWqlDdbNdoSxcLq;25:Q3TR3MQm7Rfoc4/2YN/EU9/9WqCHQuitPEADY2YLs31VXGDFza+N8IMPAm++t3Y7BPQOKZnPri468IZQK3hIY8lejz6vb1DLKR1gNW0tS7Y6jd89YV5tTeiBhNhEpW+5iGJNmMgDwBOnev8CukyuGbIQnM1jOL7kqRUqvRzXEpsnDD4REgNSz1o5JXPFsrg9FJR3/RsxUnzjhUMv9DQNKZKfYNN/CyTlHOi8eGD9habtug7nbHt6OGN/Owrmqkg9D6AWgnAQN5Q1ak00h7WtuO8ZLca2nAKksFGKgWgjGfh59u5Gc1lH9rYV5GRY7c+bN4IAcjqjBZ5LaFirno5GYw==;31:0WVfMpH/je5ZP4aYb44Uj8oiV03hJNWkhs4BFPDwAq6jwEl5LYV3rDx4pItdG8Kv7f0dhm1OsHg2fctY9kScFpa35RDS++3xMSNB/q4BjSaHQnHnCRNz82g8SAb3sO+k25jaOqY58uurq4YS6npldIsisMOn7qJ1Wb9LSeUid76IgGxXUXd6CBXmM0cHTEuA8tTobzRqgZn5IjyZZJG3Mqfk7EPOez/3Cc1hq8ME22Y=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.101.89
+X-SID-PRA: EDITOR.VES@SURGERYINSIGHTS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT233;4:Yme+1w3OSXHK64kHEF+Zu/PUJBYzovbXmgkjdA4xkyXCtwwLkYLmLGMF51ck8rUh97A/ChfR02Zzd3isHQMpcVG04dO3KLRer42ZzaDaKTGvd6xuVviLb9w1IYHP9Ei6Rxzi4G7wPoWAieVIeQjcTKmNeLJmnavCyQvcKwEqGQEh8HjOSmG15d6pEnocNw5QIC9ks1o+ynilRbB1IKTjVnsniMT0Pd12O0rAo6up8ClynXibK03s5/7pIOAMkq4jeitSKgmn9Grubz2nTUpREJip1SVOHN+lSs1CEK9FQoH3K3aMlcV42BUrNeZHT74CfmprL3IPTcJ9KaXgT30+5qXcm/se1onh+jYPypjGn1DxFcpaJfaJf6rJxViSap+Lfiy3nMUo3zZ2K4W3k/GgVWr0JB5MSzeqXkBjivfmnoM=;23:oyxLGu9161RzuHiRgAR1I03WOVHiEssgABpLsWvNI0CMrzr4sUx0td9vmu/Iy9smV2QYr+gkSl6l2nGRdlM88w0eTXW7nKYLQkAPVofGYjB2W3hXvuNMeynWwkjy9IwvYh+GpFXIxLQx6WIY6Cn/YwB29ER+okP9sj9+PhuZpG0=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 9dZqR3nlXuqnUbeI1xJKPRIt0o/SVPbY9w4wHdBIabzeC5+V0iYF7INWiy/Fses/DPJ/cSWrywj5v7b+4KtJvk34l3vwEqqoGSDlR41dzho=
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT233;6:ScBJ+IlkkFw/2g5VXqE4m570TCww2hazedkaUWbiMyLFSZuR6oWzP1SavPq2iX8HeuloT3ZheMumrbf6A1Drky8Wbx5zwTo6L++u0GVz0jNZ0sRe70iD5hL6fcGtBoAsiyGZFXSQgBvZ3c+rKiAXwBqg4cvoNKju2OKqeg4JqJfLrQJYgh38E9m9Hyvzi86SRw5PxcvDd9aJH8oMPikCERxf1TeHDAORziIGKhZjKNXy+RtiS16AvlYyxf12p83ijzlinGII0FH4njoi26s7gouBL+Brnf42zSW2O1zkacXlD1Xg71Kas4jDHbj+vS+0i2Zs8My+FKrqpnB8ijI84DjNqT4FNdIZ5YUK+LGH0/s=;5:IJHTx30JOCscEdb63qdzCZm+rT9aZ50CEqjDHIT9/Akt/8Y9bU3X9M941Vm1HKNGg4YmSsWmy61osY3cVoviJiYk2sMzj3Pkf9hEm7TgxbbJaEnf77f6SX+uuahvR/a7Ww0YY/9EV6bF7pbjgHwE2s8oHTWi1FDeyr00tAIrPQw=;24:NkszeKnrOwQsW4zUcd7ruAP7u49MU1qYLd5GTXMnE5rUh0+UpppWj90OVRDtaUwXiIcR3gaczkekqq+975tpYC+gXgX295op8U+/SGbhJQg=;7:g3eQgqrArtdYJOHVx2CMho6IgD5SF7bbUt+AUJJxGSda85GdoDGo+qXBBY6uIwyNhe1JWu5u0bXU0EfENqaF5OAHmXV3a7+QpELKeLIXVIe/+PgGv82bzS+iYfiUtwrrCY+mOh3gHXxigb1bJW63QP1xvGMVtNkV6HNaltxBJ+fshCsXddIelb2C9LF8IZFEmeGcg/teKoYSsUWBempOImyOWoIru9LC6c6Xrimd1hCK+l26X8CQWCcwFCg7Of3R
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jan 2018 08:42:47.6296
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 53b93c5a-88f2-42ee-8284-08d55f189e20
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR01HT233
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8341675
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0407.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:CxYLpjlxStbEDWIvaDYfYLyXpbT3gkjGTa9cBkVK4+UjBrvZ+RycpZQHzYX3podgzthUtqYbOGG8kx9xrx7bTDAEygmHp82h4QjzG50VYw9niZKUgrx6LieYpJ58p+3q
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoGRQp72So/XWdXsX/PeX1q0hZJUqHx4Ps8JJ0r8rFp0DYI7TMpr8xQSWr3EZ6XPtHAZwgr2TanD2u1K/YRc3yXft9aCECmXqt+oAG9QDfm2y9uwBR/zYx91wvOHIq3jo/eaCMzVU1Z8NsACEhyTz2ZHOMDVvhMKh+C5CQHNmd+4/m9KDL/7bYVo8NwXK1gmqE=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	BFG6hSjpXH1n2ItOrbuzpSR0XDToCqKTeWD6YglgbJX2414K+ZbYujLXKx99zlG/UXHWJRHtX92ymzWu2Rxzx4bR6SlZSgmo9Ul5PJZOarrenTs5loq4XlXB9G1Q3IJNuiZR623mNJJqJKZWR0Dsj5GzbbUx55B389z6LW2QEQvvFgCJBknHYZqWJ1Mh6Qd2CAsB8sFl5nJCU5KlsbJWDfHnMdlw3Tlgqp55T2ar797/zC9frhc3q7ODp4ZdsWrTJeykrUN7ENlrFMXEvc4V6w==
+MIME-Version: 1.0
+
+------=_NextPart_000_006A_01D3912E.E9BFA350
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:CxYLpjlxStbEDWIvaDYfYLyXpbT3gkjGTa9cBkVK4+UjBrvZ+RycpZQHzYX3podgzthUtqYbOGG8kx9xrx7bTDAEygmHp82h4QjzG50VYw9niZKUgrx6LieYpJ58p+3q
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoGRQp72So/XWdXsX/PeX1q0hZJUqHx4Ps8JJ0r8rFp0DYI7TMpr8xQSWr3EZ6XPtHAZwgr2TanD2u1K/YRc3yXft9aCECmXqt+oAG9QDfm2y9uwBR/zYx91wvOHIq3jo/eaCMzVU1Z8NsACEhyTz2ZHOMDVvhMKh+C5CQHNmd+4/m9KDL/7bYVo8NwXK1gmqE=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	BFG6hSjpXH1n2ItOrbuzpSR0XDToCqKTeWD6YglgbJX2414K+ZbYujLXKx99zlG/UXHWJRHtX92ymzWu2Rxzx4bR6SlZSgmo9Ul5PJZOarrenTs5loq4XlXB9G1Q3IJNuiZR623mNJJqJKZWR0Dsj5GzbbUx55B389z6LW2QEQvvFgCJBknHYZqWJ1Mh6Qd2CAsB8sFl5nJCU5KlsbJWDfHnMdlw3Tlgqp55T2ar797/zC9frhc3q7ODp4ZdsWrTJeykrUN7ENlrFMXEvc4V6w==
+
+
+Dear Xiang-Zhen Kong,
+
+ 
+
+
+
+Greetings from the International Journal of Anatomical Variations.
+
+ 
+
+
+ 
+
+ 
+
+
+It gives us immense contentment to invite you to submit a Manuscript
+[Research, Review, Short Commentaries, Case reports, Mini Review, etc.] for
+publication in forthcoming issue of International Journal of Anatomical
+Variations
+<http://www.pulsus.com/journals/international-journal-of-anatomical-variatio
+ns.html> 
+
+ 
+
+
+ 
+
+The due date for submission of manuscript is January 30, 2018 or please let
+us knows the feasible duration for the same.
+
+ 
+
+
+
+You may submit your paper by e-mail at editor@ijav.org or online at
+Anatomical Variations <http://www.editorialmanager.com/pulsus/Default.aspx> 
+
+ 
+
+
+
+Kindly, let me know as soon as possible if you are interested in submitting
+a manuscript for our journal issue. It is an opportunity to take part in and
+to influence future trends in one of the fastest growing fields of research.
+
+ 
+
+
+
+We will be looking forward to hear a positive response from you soon. 
+
+ 
+
+Have a great & healthy day ahead.
+
+ 
+
+
+
+Best regards,
+David Cobb
+
+Editorial Manager
+
+International Journal of Anatomical Variations
+
+Tel: +44-203-769-1765
+
+Fax: +44-203-004-1157
+
+ 
+
+			
+			
+
+ 
+
+ 
+
+ 
+
+
+------=_NextPart_000_006A_01D3912E.E9BFA350
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:CxYLpjlxStbEDWIvaDYfYLyXpbT3gkjGTa9cBkVK4+UjBrvZ+RycpZQHzYX3podgzthUtqYbOGG8kx9xrx7bTDAEygmHp82h4QjzG50VYw9niZKUgrx6LieYpJ58p+3q
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoGRQp72So/XWdXsX/PeX1q0hZJUqHx4Ps8JJ0r8rFp0DYI7TMpr8xQSWr3EZ6XPtHAZwgr2TanD2u1K/YRc3yXft9aCECmXqt+oAG9QDfm2y9uwBR/zYx91wvOHIq3jo/eaCMzVU1Z8NsACEhyTz2ZHOMDVvhMKh+C5CQHNmd+4/m9KDL/7bYVo8NwXK1gmqE=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	BFG6hSjpXH1n2ItOrbuzpSR0XDToCqKTeWD6YglgbJX2414K+ZbYujLXKx99zlG/UXHWJRHtX92ymzWu2Rxzx4bR6SlZSgmo9Ul5PJZOarrenTs5loq4XlXB9G1Q3IJNuiZR623mNJJqJKZWR0Dsj5GzbbUx55B389z6LW2QEQvvFgCJBknHYZqWJ1Mh6Qd2CAsB8sFl5nJCU5KlsbJWDfHnMdlw3Tlgqp55T2ar797/zC9frhc3q7ODp4ZdsWrTJeykrUN7ENlrFMXEvc4V6w==
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-language:EN-IN;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div =
+class=3D"WordSection1"><table class=3D"MsoNormalTable" border=3D"0" cellpad=
+ding=3D"0" align=3D"left" width=3D"796" style=3D"width:597.0pt;margin-left:=
+6.75pt;margin-right:6.75pt"><tr><td width=3D"780" colspan=3D"2" style=3D"wi=
+dth:585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"line-h=
+eight:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wra=
+p:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizonta=
+l:column;mso-height-rule:exactly"><b><span lang=3D"EN-IN" style=3D"font-siz=
+e:11.0pt;line-height:115%">Dear Xiang-Zhen Kong,</span></b><span lang=3D"EN=
+-IN" style=3D"font-size:11.0pt;line-height:115%"><o:p></o:p></span></p></td=
+><td width=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D=
+"MsoNormal">&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"780" colspan=3D=
+"2" style=3D"width:585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" =
+style=3D"line-height:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly"><span lang=3D"EN-IN" style=
+=3D"font-size:11.0pt;line-height:115%"><br>Greetings from the International=
+ Journal of Anatomical Variations.<o:p></o:p></span></p></td><td width=3D"1=
+0" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal">&nb=
+sp;<o:p></o:p></p></td></tr><tr><td width=3D"780" colspan=3D"2" style=3D"wi=
+dth:585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"line-h=
+eight:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wra=
+p:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizonta=
+l:column;mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:1=
+1.0pt;line-height:115%"><o:p>&nbsp;</o:p></span></p></td><td width=3D"10" s=
+tyle=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal">&nbsp;<=
+o:p></o:p></p></td></tr><tr><td width=3D"780" colspan=3D"2" style=3D"width:=
+585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"line-heigh=
+t:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:ar=
+ound;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:co=
+lumn;mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0p=
+t;line-height:115%">It gives us immense contentment to invite you to <b>sub=
+mit a Manuscript [Research, Review, Short Commentaries, Case reports, Mini =
+Review, etc.] </b>for publication in forthcoming issue of <a href=3D"http:/=
+/www.pulsus.com/journals/international-journal-of-anatomical-variations.htm=
+l">International Journal of Anatomical Variations</a><o:p></o:p></span></p>=
+</td><td width=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p clas=
+s=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:9.0pt;m=
+so-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-an=
+chor-horizontal:column;mso-height-rule:exactly">&nbsp;<o:p></o:p></p></td><=
+/tr><tr><td width=3D"780" colspan=3D"2" style=3D"width:585.1pt;padding:0cm =
+0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:f=
+rame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anc=
+hor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule=
+:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;line-height:115%">=
+<o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal" style=3D"line-height:115=
+%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;=
+mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;=
+mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;lin=
+e-height:115%">The due date for submission of manuscript is <b>January 30, =
+2018</b> or please let us knows the feasible duration for the same.<o:p></o=
+:p></span></p></td><td width=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0c=
+m 0cm"><p class=3D"MsoNormal">&nbsp;<o:p></o:p></p></td></tr><tr><td width=
+=3D"780" colspan=3D"2" style=3D"width:585.1pt;padding:0cm 0cm 0cm 0cm"><p c=
+lass=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-element-=
+frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:para=
+graph;mso-element-anchor-horizontal:column;mso-height-rule:exactly"><span l=
+ang=3D"EN-IN" style=3D"font-size:11.0pt;line-height:115%"><br>You may submi=
+t your paper by e-mail at&nbsp;<a href=3D"mailto:editor@ijav.org">editor@ij=
+av.org</a> or online at <a href=3D"http://www.editorialmanager.com/pulsus/D=
+efault.aspx">Anatomical Variations</a><o:p></o:p></span></p></td><td width=
+=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal=
+">&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"780" colspan=3D"2" style=
+=3D"width:585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"=
+line-height:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-eleme=
+nt-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hor=
+izontal:column;mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-=
+size:11.0pt;line-height:115%"><br>Kindly, let me know as soon as possible i=
+f you are interested in submitting a manuscript for our journal issue. It i=
+s an opportunity to take part in and to influence future trends in one of t=
+he fastest growing fields of research.<o:p></o:p></span></p></td><td width=
+=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal=
+">&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"780" colspan=3D"2" style=
+=3D"width:585.1pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"=
+line-height:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-eleme=
+nt-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hor=
+izontal:column;mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-=
+size:11.0pt;line-height:115%"><br>We will be looking forward to hear a posi=
+tive response from you soon. <o:p></o:p></span></p><p class=3D"MsoNormal" s=
+tyle=3D"line-height:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;m=
+so-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-an=
+chor-horizontal:column;mso-height-rule:exactly"><span lang=3D"EN-IN" style=
+=3D"font-size:11.0pt;line-height:115%"><o:p>&nbsp;</o:p></span></p><p class=
+=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-element-fram=
+e-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragrap=
+h;mso-element-anchor-horizontal:column;mso-height-rule:exactly"><span lang=
+=3D"EN-IN" style=3D"font-size:11.0pt;line-height:115%">Have a great &amp; h=
+ealthy day ahead.<o:p></o:p></span></p></td><td width=3D"10" style=3D"width=
+:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal">&nbsp;<o:p></o:p></p=
+></td></tr><tr><td width=3D"780" colspan=3D"2" style=3D"width:585.1pt;paddi=
+ng:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"line-height:115%;mso-el=
+ement:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-elem=
+ent-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-heig=
+ht-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;line-height=
+:115%"><br>Best regards,<br><b>David Cobb</b><o:p></o:p></span></p><p class=
+=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-element-fram=
+e-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragrap=
+h;mso-element-anchor-horizontal:column;mso-height-rule:exactly"><span lang=
+=3D"EN-IN" style=3D"font-size:11.0pt;line-height:115%">Editorial Manager<o:=
+p></o:p></span></p><p class=3D"MsoNormal" style=3D"line-height:115%;mso-ele=
+ment:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-eleme=
+nt-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-heigh=
+t-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;line-height:=
+115%">International Journal of Anatomical Variations<o:p></o:p></span></p><=
+p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-eleme=
+nt-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:p=
+aragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly"><spa=
+n lang=3D"EN-IN" style=3D"font-size:11.0pt;line-height:115%">Tel: &#43;44-2=
+03-769-1765<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"line-heigh=
+t:115%;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:ar=
+ound;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:co=
+lumn;mso-height-rule:exactly"><span lang=3D"EN-IN" style=3D"font-size:11.0p=
+t;line-height:115%">Fax: &#43;44-203-004-1157<o:p></o:p></span></p></td><td=
+ width=3D"10" style=3D"width:7.4pt;padding:0cm 0cm 0cm 0cm"><p class=3D"Mso=
+Normal">&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"6" style=3D"width:4=
+.4pt;padding:0cm 0cm 0cm 0cm"></td><td width=3D"772" style=3D"width:579.2pt=
+;padding:0cm 0cm 0cm 0cm"></td><td width=3D"10" style=3D"width:7.4pt;paddin=
+g:0cm 0cm 0cm 0cm"></td></tr><tr><td width=3D"6" style=3D"width:4.4pt;paddi=
+ng:0cm 0cm 0cm 0cm"></td><td width=3D"772" style=3D"width:579.2pt;padding:0=
+cm 0cm 0cm 0cm"></td><td width=3D"10" style=3D"width:7.4pt;padding:0cm 0cm =
+0cm 0cm"></td></tr></table><p class=3D"MsoNormal"><span style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;<=
+/o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font=
+-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span=
+></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div></body></html>=
+
+------=_NextPart_000_006A_01D3912E.E9BFA350--
+

@@ -1,0 +1,291 @@
+Received: from SN1NAM04HT127.eop-NAM04.prod.protection.outlook.com
+ (2603:1096:a00:1::33) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0117.INDPRD01.PROD.OUTLOOK.COM; Thu, 11 Jan 2018 08:36:05 +0000
+Received: from SN1NAM04FT014.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.53) by SN1NAM04HT127.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.192) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.345.12; Thu, 11
+ Jan 2018 08:36:02 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.101.77)
+ smtp.mailfrom=neurologyjournals.org; outlook.com; dkim=pass (signature was
+ verified) header.d=omicsgroupo365.onmicrosoft.com;outlook.com;
+ dmarc=bestguesspass action=none header.from=neurologyjournals.org;
+Received-SPF: Pass (protection.outlook.com: domain of neurologyjournals.org
+ designates 104.47.101.77 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.47.101.77;
+ helo=IND01-BO1-obe.outbound.protection.outlook.com;
+Received: from IND01-BO1-obe.outbound.protection.outlook.com (104.47.101.77)
+ by SN1NAM04FT014.mail.protection.outlook.com (10.152.88.112) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.345.12 via
+ Frontend Transport; Thu, 11 Jan 2018 08:36:01 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:9C2ADB5D289486D498B0DE20B243C3728F02EE7C6A4B4055DCAB129FFECC2EED;UpperCasedChecksum:543D56BAE12F9E01B50DE5CFF2B541D3817F7C6047AF8E8CB7D669EC6479381D;SizeAsReceived:8511;Count:40
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=omicsgroupo365.onmicrosoft.com; s=selector1-omicsgroupo365-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=5P2hoifSjh2b/JcNuWh+rTVyggNzCCw7xHM+HB4IarQ=;
+ b=F0EKo2JuODVtR1GfsDhCu/ya+iY4NycCZCcCDWvc2DauuC78hYm6cDZi8Z5WGmSvix7WHtLNGFxFeYEgW/2tp9bcd1cgSHNL9FbaT2DMxJzFCNJIRDDzs/zRN3scvQfttOyWXEBZvRjSjROiDZNMwLEG/2Q7zmMuGrGuztzBeEg=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=neuropsychiatry@neurologyjournals.org; 
+Received: from 9VXG152 (220.225.72.25) by
+ MA1PR0101MB1288.INDPRD01.PROD.OUTLOOK.COM (2603:1096:a00:25::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.386.5; Thu, 11
+ Jan 2018 08:35:59 +0000
+Return-Receipt-To: Neuropsychiatry <neuropsychiatry@neurologyjournals.org>
+From: "Neuropsychiatry" <neuropsychiatry@neurologyjournals.org>
+To: <xiangzhen.kong@outlook.com>
+Subject: Research submissions: Neuropsychiatry London (IF: 4.77)
+Date: Thu, 11 Jan 2018 13:59:34 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAJ0GDIYwJL5BscvWDskZGYPCgAAAEAAAAIi5PMe/Zc5JjJm8TmBlzFQBAAAAAA==@neurologyjournals.org>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_05A1_01D38AE4.AAEECE30"
+X-Mailer: Microsoft Outlook 14.0
+Content-Language: en-in
+Thread-Index: AdOKta6yaJKaxbLpSiGwxUTYTr/VmQ==
+Disposition-Notification-To: Neuropsychiatry
+	<neuropsychiatry@neurologyjournals.org>
+X-Originating-IP: [220.225.72.25]
+X-ClientProxiedBy: SG2PR0601CA0023.apcprd06.prod.outlook.com (2603:1096:3::33)
+ To MA1PR0101MB1288.INDPRD01.PROD.OUTLOOK.COM (2603:1096:a00:25::20)
+Return-Path: neuropsychiatry@neurologyjournals.org
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: e128dad3-2a28-44f0-bf5e-08d558ce58f8
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020063)(4652020)(5600026)(4604075)(2017052603307)(7153060)(7193020);SRVR:MA1PR0101MB1288;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR0101MB1288;3:V3sI5g91fOs5k+Z5MoTSO1hstx/P79ElMnAWFdVtnL90wBOkl5M8vf5XygXdEXSluo1hUks41p7hUMw3lX7TP6zAcwNMvTo3mGTd3pchJ4dD586X/Cs3lwt5w3g8hzX7yoQMzYgk7R+EQpTFlSV1G5np6wshQMHN+y9HhGNhG85O2Y+B9vwke6om08sJw4SxLT5IkMstdF2QimsGrpF4A3aCe9+Or4LEDvcMBEyiV66sJdX6mrdtKvXLTASNkiGS;25:Li+1J7F3OEm1Cus2HPJLuUFvm9srhqzYpXRMs9i4AvkLhOuSZV8s5reIyRAL/DWXv9Eax8pW0CytMczvq0rWBJ8/AVsvZl/PUcFEjExiwX8wCuUkCyOx8Z8F2hYuWxCl0hBOhPU2TA6CJ3nNBb8atoMrxSonzF9TLt0ROdsEta43DHhg0gpOq8QR01vKlcM6Gm6mqBqvYOtZrOoAiJGsrzTtzpmn11bPx867EBzgOm5+f/YYG1b8cxMik7OD/dXw9W3010XeghhV71mSDS90ElJYdFzLeKBWGQho1IaVVud/hldBKweR1QrsyB3coEmQBIdlL4TrTEvVpZSoPHQQDg==;31:ClfqOPjnWfmnjReCNTdjNtrSHYXd1LYcl7puwoyOqcpBiwfTO1XZLOnwGRsJGBnS+fUJc/l0zV1Khjhlw9RmUBWcpNAtY7kU3G+vX+5QBhZk+21SyBKAYWNrtrUT/jJA0rgvdnwMSxB89LCr5EVZv6BGROGa0G2VGGbRAWfGgeDSolO9oJ3SZKcg4mq51DkU6CeE/mABAcwWgl7eDbxZQijZgg8N2jBy380J93Jv4/g=
+X-MS-TrafficTypeDiagnostic: MA1PR0101MB1288:|SN1NAM04HT127:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR0101MB1288;20:paSJiAjYlsZMj7DO5ywwzM1cgKyJni13kjFcjERnFOiw2DXF0GxmqXHJ1QqN9dCrL+wpS2cAU1PeyiGDmLyCidf7gs4o2pE6FMFUUfqGVgiA8GNlmJbEYPqDbo5CQ/cYYhjPlCIpDufLz30wZ7WBipYpE+KVXzJTR6lUfFsFF0Ffsmn31gbDrFxyesyWylE4i3BDwfvtcVdjUg7GI4b3TRj3MKhonjzWl54P6WLRrlwMxA62xMfK6zRHbkwFNcLK;4:KP9dzePpaUoiDuMresILmIdCFxwQ/mRo+CIF1fLydHYW+kOVPklevImyOLsylaMf2PT5YzX263uShX0OvO2KJd4duIDq1YF87jXmc8qltXwSS3ZXTpQjiTK10CzuXxE1KRvDSbWbttVORmFe2sfCzJ7sZxoEUy2mRR0WLS4dLJvhF8IqyC4B3hgNKeTzubO9LIKka7yYnYJ266nJmoVEioidTtg0GEjAmG7Ipvw2YaxSPbCibNxNXx2gAbRy9QN4kaH2/S9GQ2oktLuLDW7NVZPDRqh5+ipioD1VVnqtmln3oQOFP4qSrZ8qDYmI0UFKbDtck7eRm1HvyCBMXGeFtutnDxxXWa7GxT4o7BW4tcV3nmKWMGeToH41xrMKTNGu
+X-Microsoft-Antispam-PRVS: <MA1PR0101MB128808FEFDE5F78B3E8594B0A7160@MA1PR0101MB1288.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(21748063052155);UriScan:(28532068793085)(20558992708506)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040470)(2401047)(8121501046)(5005006)(3002001)(10201501046)(3231023)(944501134)(93006095)(93001095)(6041268)(20161123560045)(20161123562045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123564045)(6072148)(201708071742011);SRVR:MA1PR0101MB1288;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:MA1PR0101MB1288;BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:SN1NAM04HT127;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:SN1NAM04HT127;
+X-Forefront-PRVS: 0549E6FD50
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(39860400002)(366004)(396003)(346002)(376002)(39380400002)(199004)(189003)(626008)(6666003)(6496006)(71636004)(2351001)(81156014)(7826002)(81166006)(3846002)(478600001)(105586002)(106356001)(25786009)(16586007)(52116002)(316002)(16526018)(790700001)(8936002)(59450400001)(6116002)(6916009)(8676002)(7736002)(39060400002)(5660300001)(386003)(7066003)(50226002)(88246002)(606006)(86362001)(2906002)(75216001)(102836004)(270700001)(6306002)(236005)(260700001)(53936002)(68736007)(36756003)(54896002)(9326002)(84326002)(97736004)(5890100001)(66066001)(61296003)(49950200003)(19273905006)(6486002)(563064011);DIR:OUT;SFP:1101;SCL:1;SRVR:MA1PR0101MB1288;H:9VXG152;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: neurologyjournals.org does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;MA1PR0101MB1288;23:AemDugjhpBgj7oOEYUKw8fOtArtcRTaJwlKNY3o?=
+ =?us-ascii?Q?KjxC8vNtk6Sz/ZtICNllKiIExMtyhijilA26y56A73vjANfXAl8phwE65hAX?=
+ =?us-ascii?Q?fhOpO2DMyAyz9G08ADrYJ1kwWqYmREjIS5msWTgW1lfhhnDnfNjD4YevpUe9?=
+ =?us-ascii?Q?kZjbia7Uwq9qoqGiPPSlulVN8MCzmBcar2iWdnZ9lQrAh6Ex8Exdqc73/NlZ?=
+ =?us-ascii?Q?MLx9UDbxAbR8IPJJfdiEji41mnaROyomOxhAT7pSQCTrTr1maE2NowMwjda6?=
+ =?us-ascii?Q?m/bD+18OksKd2+mqDMqSBv75ckEyBtPunsQ7zZnnpDze/VLL2cJLXlckDm+T?=
+ =?us-ascii?Q?bXa/CIVb4FdO7qdgh6KgRKFQo7fvNIgC2MNL3ydSGMvBZbcv/wQPgbaq1UCu?=
+ =?us-ascii?Q?TYpW7qrPwFF5sAgenVJybjugiKnL/kDcZoaRWzy3eIhCfGiUMJzzjXCb2B7R?=
+ =?us-ascii?Q?sYUkxmI0VN4ChW6PDWdEoH+bN21Pk1A+dDsZiBvUUNgL849aP8iLtZ+YPo9U?=
+ =?us-ascii?Q?sI1zO2QjYVPigUSPfl0TuaqhJH+rS+Kp0FpJ+mgPm+HZJVESrdSugDx+tZbf?=
+ =?us-ascii?Q?wgHziRk85VoafeLHG/bbzvh/6v/zsPV18SwTq9R64dd8Bz7V8oPHXPUsvKSW?=
+ =?us-ascii?Q?Wyzk7yMakthMW/OM+mTzSiGWKfTfxWWIbxOSovoK7oe4JCxuFMW3AbCe0GEH?=
+ =?us-ascii?Q?fAeHOjNUqTdQcaoDJvpvsdCnFfSjOh7sRK0HHdgnOpIw3xaEDua4uwbXIGNE?=
+ =?us-ascii?Q?W+PyyyWDnv+kuP0HosMn7nymP6RQLoKaUgLh+jIg5kFOt5LkjMd6Xi3zRMp4?=
+ =?us-ascii?Q?WEU3IF5xFzv4oKCtnHShEQkDL05ZlD41C+kMhOyz3S7W81Gq77Vc+TRMbZri?=
+ =?us-ascii?Q?eNBd2mEhN0wW+4yNzhPkGSTZfbuFEdvmTQYvDikDPK3T+zwPCtULfIPoYu/L?=
+ =?us-ascii?Q?Xd6/v2iLKZVu4NnwCyVIoK+d/Zkas+w4fkRZX/4od9K0x9ofOSm8EqXj7h9T?=
+ =?us-ascii?Q?HueBRkCv9oLYKp8iWx8d1uASJ1xJNhDOJF4tBdeDisu8U3Wo1mRgNf3zuAqt?=
+ =?us-ascii?Q?FbLQOeprB0sgankum3MbGiV+oiojbEugGECtkeNWB0/NdtdCU927b/O5fr4u?=
+ =?us-ascii?Q?81eq2EIFpDB0f+uk+d264QIByqYOFoKcxIdDCPafq7QCYYXixOT2Fkxym/lR?=
+ =?us-ascii?Q?ohjVFC6yYDr0eWJs9JWvijjoHTMz4/CiHykT17x0eXEMX7lp8QeVfYcfsSjD?=
+ =?us-ascii?Q?BwLG6++17qz/TAnAsCmQ+/sBK4hthTmT0Q9xppYWGn4o79J0ssGUHHJ9CyTL?=
+ =?us-ascii?Q?reo2CY3bArKOM4I/xdgyAnxc5daF9xNrlyow+M91CfET7je4j7CJJ0/Yvhuz?=
+ =?us-ascii?Q?CtqY4HW6IY3zAhug2mmdaBrxovwmjPWOHU5GvSXfoK/bVy8Ih?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR0101MB1288;6:msSZ3Avbnw+cpophyqQ2dcjEFwmeDqZa/jZao60+UftBGZmRSCX/0c0eOXeA3L7MMzLpCG0dEhfZfeOtCEJ3nTY7b3ZWlsxi2yFMmUjxZInExI7SWZG1gEP8/wrBv0OcJIyPIhpDZQzkaRdNcF3WMq6XxsS8kEaieCmQ9RzHOfKHkGxEMm9JLZ1tQK5I/adMlGgrRpPYZwualF8pJRKYk6jQzsyd1mEOVV5SJ66V89RI6lmJasxCtG7eSQ6FVbydtl/05xV5dnUa0LfUeMfAmTu5D0VKRmLND2h6LoVSJPCay4DEKUCQIfKSNYedEia19tHHONouVIz6QaFtapl6tAjYH82OiCDUncvMgg72AkQ=;5:l6XfA5hCZWUEH3mbkS3Usrr3T3NAgEB1uNX//9lhrklChpbVkWsdf05DMUT/lOYqUByb2x3JHypS8HNygq4XbgJzOYSfAQ1TxPIJMqzoCgL/Q5UPwbbsZMsZGRbl/lA7NEVO7BXboC28dvvZ5h8NeMnmZI+pVJ8mr99cJTMrBdU=;24:TR5e8SQwePIajYVkqsYYWQliiwMrwikbAiTowEDFnCLnw7Z365s1EcgPWUjdgRZDHCTcI5O5lMPSgvNpjv3eaeICB2cSPvP9IVLlwhd20yY=;7:Whw2eob/GPrhuCjXyttZ6Dd5OPL7ryMNG+U3Ya13AJAX03bmNUsIQ0Rn4WImYGfslcklTvePx6lZWSRI2tINCCme1QYda2e5CbRsj0a6jSzSSE7DJjG6DI140k04lcJQYrimCnYi/jJ2Ei+/QiMvJtuO2g8Q86FjBvHHrzfgF/kEoRAQGoaFe1pJ22Fl4vf7LX+4oREoFVKOq9UcnxRPLP9BZAFlrUCS8dBK8X9a1Gr0jvzRD6fT9RU2jgnzYgus
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MA1PR0101MB1288
+X-IncomingHeaderCount: 40
+X-MS-Exchange-Organization-Network-Message-Id: e128dad3-2a28-44f0-bf5e-08d558ce58f8
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: SN1NAM04FT014.eop-NAM04.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04FT014;1:T0+k6CXdn69K9Oz9bE0rq/k3o09zI1/dnSv3ssDzdaZZfRV5u3gjPCBd2TR/A9ZNOHQsdshi4EXIT1a+mhJ50Vf4ZHb/Ps4iXwbyNGWmLllspqFMA5xH9cYe8s4yKD/i
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM04HT127;H:IND01-BO1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM04FT014.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:SN1NAM04HT127;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT127;3:VxrDTXLGAlMq/eXlVjvH6YpIljryZ/o8fnHNd4SkRl69Wmqu4B3E2zMi2Z1UmwvOJDQIJkqDphbMIqZIQ8UZ4HgV8BAxQVFJiEzZIjm80mmOmV1sBYvwdZggfFvaGNTaRaqJPdmRbKsnLpPDgvzanmKuLtXvzuP9yhhuxJlPJRwhVXJ+TrrDDLj3cA+URs4DIzdjLX5CPakELHTM5Fcl03fhiyaZoSnb0vagyq8p0ZWzBBB+TWp7eg+2Ct1qeMOKipLJAjD4Pq2czd9EF/22mb7YAzmJbI3LFZiQYFMnySp12f+qTBEyOC0k7YMTC38G;25:VuKhYwhCrlIV3ReSvglnoXt67yMCSXfUu+AC4RjzdXSD3uBmtHG3uwezEHZnyzC41fwvOyGzV2vtg2BUnP6rvF5+wTxKb6bm+Q19kWVfig/TrGCDpBSR3LcLLIaU2Nzm3DeKXeEE1oQ/DhKNUFXcT6gQx9yrpaQ0hNrzpSH5Ph8F5A6lljFnaWtOCalOqhkoUJgg0l+KS+AQbleaqgSZ0f6zlk+9r+zMhOrkqXtl3MB8LiADRsN3nvsJlWr0TaBtoOVoebx3MWClU5QltxcFccpWJZtFXYHJO7Ycqr/dPFlTGL00DGpHCdg/SBHbTW0q3q+UheszP8v3CvQUJMD9eQ==;31:FLDiXITlGu6s6Fky4e4GNsnIEeGIkYTn4m8YaOVzSfO1Kk3T89rtuaIAnRyNK42cVH1O/OKKYF/ebEeI98HkHiqA2nz/0tlkxS5/tv4JPutR12b2ijqjnyEx+962alscdVopwttWD3Fe8VL9S8N3xUwwtnUnI6Tej5nYA7x208Osfxma6IPOgRZaQYJUlM30I6p7rsCtsXbIvcli+HMI8SdpkNacVrUzEdSGtZ4ZzmY=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.101.77
+X-SID-PRA: NEUROPSYCHIATRY@NEUROLOGYJOURNALS.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT127;4:rkAOOBFNcDGbbTvDOYfaL/aoOYHddk6fpHdPWHe/LhdgI/+HVv25TPX96R0vd7EBDbmeQXpBxSgBJFTlFrdncMkTaWlk5R4aKV38hMl9xdhRmH8IF/ZsYi5ICLGHIBZWwMRn5UYPEGy56P9Y9VXAeYsAzqXXzjqtBieOfJ3mh2yBY89RxdQaDqvM58RZnb47w/o0umndjB5LpWyJRhmKV5pH18HxOVcefeq3z+xSWLYkUhFsuV7k9U8rhRfo3yzZjpfIVEHvN91IvmwCu2yj01k9YQVf0Th/xA6W+kPZkE7wgKADRa/UhCqmjZ/t3C12moiLOTbtkI72wVof5Je14XMGXGl0UQxU3flv8vkug73BsyjvgzaMMgvgThuBNR+g;23:PNWsl96LJY4Vt20emqeuo6XBcyvFmVi2BiP9Ne1P9YgMJMfIau8+PfknMkdU8PZ4ZGg64tounD8ynt3ENYvhH29G9Ilq48MgSLm0Kls0pv4slbMxsQhbaiY0xdvriucH3uR6YtqyjrN4Hjvfrsg9Hpdhi0Ym8T7g/qPemrcbb2o=;6:yL9f9WSB1oG56foGpMdVzLkpMV56QE8zMcc3Q3vEHNAg8VZR5XzfaV3rV1GbjrPU86GEpsUEnU5++JceTtmB39w9yI3fPTV2iacu1k9h7H1yOSGRs9qf4ZGj+rt+cdkh0ysUBKfXBqTTOP4XvNJ2LJAgvoXWlFYU9EO+aW4lbK468Y2BP0ZPmtxVAmpOoH9Ck6sUthdsPRBvhz727DAKm8j46KofJVM4pnJIw6Muo2gf3S14wme/L6LruKCI1CDJAcFMgayBQuYT9Ws2m6SeqD6D591IzuGGlW5v6LCJQOLH5d66qT8tLJHrOEtJtShdkxH3W3O96znLoEE0f1qao+WaWT51uyKu/QUscsHUmCs=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: rVlB9ym9jzw9nFBGk3y8s7QqRIpKOGAuxa/j0tEbFkjYlZwyMQhytktxLl7w+8pI5yj0lBPgHJ0Mae93oqlD40Jpph4mXsnHoWh9yOTLTtM=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT127;5:A8XeKWBTJv17uHLzi+bmTaYpjqrmZ45E5HrCqZ239AN44mhSoED0booX6mQkSS8z+AjLz37Q1sc7fY6VRICoapjKCbNON7xB28Y2EZi1kcttTaeqbjaduCm5bxnnro3odGcuVdHLc8oUIuqsiTpnkOyY1HDxO1O8Z6OZEI0lKbI=;24:JYDNkPxPNGrI4vo2QsGtajWW/aEBQ5Y3VT7Hs+gRwe+tLQk0iUY4M8MGIbfdcn89YSO9emqpzxmKFp2vRt1QgWYzOTWfJoBIh3yqGcOxNEs=;7:LWP3wjNip/6n927vuTN6uZAW5zUSQjbeG8I9HwIfzAdsoFOBXA8BNqeRplnoC4+Pp+Rm0fiZ3FqPtTRFuXiA/0NsSbFoO3kIsquFjADsYHLUPuLUxUDdKLQO8IWtQmbOkdDSx3PmI/2893de856ypFjL9c31tt1n3AY/3nhIjyFHFI6Xn9OlAxg1cXri+93iho+xyPY22qYyBw7KBIaCxfzd9WAfd7wgB0n4LbJCV1hS0yRADk914m+iJslBu1pu
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Jan 2018 08:36:01.6684
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e128dad3-2a28-44f0-bf5e-08d558ce58f8
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM04HT127
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.3394030
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0386.009
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qexR5oVxmHLaaTLhcRfKTn0KJ7ZhGj1RHugP2w6pQrjv/39GEzyeJVF2pQK437Duyyv+wDMFg0ZZPz2KV+ijmg3tHJ0JwvYUDs2f7tghjFR9bmjsgQZSY1ehquciPDVV
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3QNdq6hJyEbgfLqLSGmp9Y/SYzJaXCbLql3tmgHHuX5yAXQd3As3JGgHKzEiKxmRWcIlhXMNtFP3ifUKFENlu+AM/FQ5e+qUk8HP7EwEF8PCfecRzYfH7FlLdiATyz7qqceoZkkBAxkiHp7TjM5mIDAMXdZeMPjhVrjX/k9dTsyftjV+G50Fw3jWO137TLZ1aomoZneg4PQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	wefZl2ScNaFdr7h1K7K8wYfsvxDfEo3VMaGyGHIjoxvVJZJR2unV8p9D81LIOZBVgxFGMeKxUbk3Nt2DIrNwlfe5FYRM5hso1qo7bhQmdAPezbZdW7Kz226yy5LNydw2nMNvz184BMiWZdE3b6LrB080nn11fOgQYHU4b9sepnvaXx80gr83QtM2qIyteI+QLqyTyi4kh39cFaTnMPTybLApbvyaRtaU4+3L/mhSAR98rWiqCfAnx//j1uYtDRWGIY0/khz+x2yb8xhiikhnMg==
+MIME-Version: 1.0
+
+------=_NextPart_000_05A1_01D38AE4.AAEECE30
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qexR5oVxmHLaaTLhcRfKTn0KJ7ZhGj1RHugP2w6pQrjv/39GEzyeJVF2pQK437Duyyv+wDMFg0ZZPz2KV+ijmg3tHJ0JwvYUDs2f7tghjFR9bmjsgQZSY1ehquciPDVV
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3QNdq6hJyEbgfLqLSGmp9Y/SYzJaXCbLql3tmgHHuX5yAXQd3As3JGgHKzEiKxmRWcIlhXMNtFP3ifUKFENlu+AM/FQ5e+qUk8HP7EwEF8PCfecRzYfH7FlLdiATyz7qqceoZkkBAxkiHp7TjM5mIDAMXdZeMPjhVrjX/k9dTsyftjV+G50Fw3jWO137TLZ1aomoZneg4PQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	wefZl2ScNaFdr7h1K7K8wYfsvxDfEo3VMaGyGHIjoxvVJZJR2unV8p9D81LIOZBVgxFGMeKxUbk3Nt2DIrNwlfe5FYRM5hso1qo7bhQmdAPezbZdW7Kz226yy5LNydw2nMNvz184BMiWZdE3b6LrB080nn11fOgQYHU4b9sepnvaXx80gr83QtM2qIyteI+QLqyTyi4kh39cFaTnMPTybLApbvyaRtaU4+3L/mhSAR98rWiqCfAnx//j1uYtDRWGIY0/khz+x2yb8xhiikhnMg==
+
+Hello Doctor,
+
+Greetings for the day!
+
+ <http://www.jneuropsychiatry.org/> Neuropsychiatry (London) is an
+international, open-access journal give special importance to publish
+research and reviews in all the fields of Neurostudies.
+
+We thought your expertise would be an excellent fit to contribute to our
+journal. We request you to submit your efforts in the form of Research/
+Review/ Short Communication/ Case Reports to this email as an attachment or
+<http://www.editorialmanager.com/openaccessjournals/default.aspx>
+Neuropsychiatry Journal.
+
+I appreciate your submission before 15 Jan 2018. However we extend the time
+limit with intimation. Kindly acknowledge your submission with a mail.
+
+Kindly contact us for any sort of further assistance. 
+
+We look forward to a positive response.
+
+ 
+
+Warm Regards,
+
+Journal Coordinator | Neuropsychiatry (London)
+
+
+------=_NextPart_000_05A1_01D38AE4.AAEECE30
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qexR5oVxmHLaaTLhcRfKTn0KJ7ZhGj1RHugP2w6pQrjv/39GEzyeJVF2pQK437Duyyv+wDMFg0ZZPz2KV+ijmg3tHJ0JwvYUDs2f7tghjFR9bmjsgQZSY1ehquciPDVV
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3QNdq6hJyEbgfLqLSGmp9Y/SYzJaXCbLql3tmgHHuX5yAXQd3As3JGgHKzEiKxmRWcIlhXMNtFP3ifUKFENlu+AM/FQ5e+qUk8HP7EwEF8PCfecRzYfH7FlLdiATyz7qqceoZkkBAxkiHp7TjM5mIDAMXdZeMPjhVrjX/k9dTsyftjV+G50Fw3jWO137TLZ1aomoZneg4PQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	wefZl2ScNaFdr7h1K7K8wYfsvxDfEo3VMaGyGHIjoxvVJZJR2unV8p9D81LIOZBVgxFGMeKxUbk3Nt2DIrNwlfe5FYRM5hso1qo7bhQmdAPezbZdW7Kz226yy5LNydw2nMNvz184BMiWZdE3b6LrB080nn11fOgQYHU4b9sepnvaXx80gr83QtM2qIyteI+QLqyTyi4kh39cFaTnMPTybLApbvyaRtaU4+3L/mhSAR98rWiqCfAnx//j1uYtDRWGIY0/khz+x2yb8xhiikhnMg==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-IN" link=3D"blue"=
+ vlink=3D"purple"><div class=3D"WordSection1"><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:.0001pt;text-al=
+ign:justify;line-height:14.65pt"><span style=3D"font-family:&quot;Times New=
+ Roman&quot;,&quot;serif&quot;;mso-fareast-language:EN-IN">Hello Doctor,<o:=
+p></o:p></span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;=
+margin-bottom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:14.6=
+5pt"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quo=
+t;;mso-fareast-language:EN-IN">Greetings for the day!<o:p></o:p></span></p>=
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;margin-bottom:0cm;m=
+argin-bottom:.0001pt;text-align:justify;line-height:14.65pt"><a href=3D"htt=
+p://www.jneuropsychiatry.org/"><span style=3D"font-family:&quot;Times New R=
+oman&quot;,&quot;serif&quot;;mso-fareast-language:EN-IN">Neuropsychiatry (L=
+ondon)</span></a><span style=3D"font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;;mso-fareast-language:EN-IN"> is an international, open-acces=
+s journal give special importance to publish research and reviews in all th=
+e fields of Neurostudies.<o:p></o:p></span></p><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:.0001pt;text-al=
+ign:justify;line-height:normal"><span style=3D"font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;;mso-fareast-language:EN-IN">We thought your e=
+xpertise would be an excellent fit to contribute to our journal. We request=
+ you to submit your efforts in the form of&nbsp;<b>Research/ Review/ Short =
+Communication/ Case Reports&nbsp;</b>to this email as an&nbsp;attachment or=
+ </span><a href=3D"http://www.editorialmanager.com/openaccessjournals/defau=
+lt.aspx"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif=
+&quot;;mso-fareast-language:EN-IN">Neuropsychiatry Journal</span></a><span =
+style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fare=
+ast-language:EN-IN">.<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"=
+mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:.0001pt;text-align:=
+justify;line-height:14.65pt"><span style=3D"font-family:&quot;Times New Rom=
+an&quot;,&quot;serif&quot;;mso-fareast-language:EN-IN">I appreciate your su=
+bmission before&nbsp;<b>15 Jan 2018</b>. However we extend the time limit w=
+ith intimation. Kindly acknowledge your submission with a mail.<o:p></o:p><=
+/span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;margin-bo=
+ttom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:14.65pt"><spa=
+n style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fa=
+reast-language:EN-IN">Kindly contact us for any sort of further assistance.=
+&nbsp;<a name=3D"m_-7410744787585672282_m_-74615918605334"></a><o:p></o:p><=
+/span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;margin-bo=
+ttom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:14.65pt"><spa=
+n style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fa=
+reast-language:EN-IN">We look forward to a positive response.<o:p></o:p></s=
+pan></p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New R=
+oman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNo=
+rmal"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Warm Regards,<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=
+=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Journal Coor=
+dinator | Neuropsychiatry (London)<o:p></o:p></span></p></div></body></html=
+>=
+
+------=_NextPart_000_05A1_01D38AE4.AAEECE30--
+

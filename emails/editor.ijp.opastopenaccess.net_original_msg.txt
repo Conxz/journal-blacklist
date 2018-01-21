@@ -1,0 +1,289 @@
+Received: from SN1NAM02HT231.eop-nam02.prod.protection.outlook.com
+ (2603:1096:a00:1::26) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0110.INDPRD01.PROD.OUTLOOK.COM; Thu, 18 Jan 2018 05:29:37 +0000
+Received: from SN1NAM02FT062.eop-nam02.prod.protection.outlook.com
+ (10.152.72.54) by SN1NAM02HT231.eop-nam02.prod.protection.outlook.com
+ (10.152.72.204) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12; Thu, 18
+ Jan 2018 05:29:35 +0000
+Authentication-Results: spf=none (sender IP is 182.50.145.4)
+ smtp.mailfrom=opastopenaccess.net; outlook.com; dkim=none (message not
+ signed) header.d=none;outlook.com; dmarc=none action=none
+ header.from=opastopenaccess.net;
+Received-SPF: None (protection.outlook.com: opastopenaccess.net does not
+ designate permitted sender hosts)
+Received: from sg2plout10-01.prod.sin2.secureserver.net (182.50.145.4) by
+ SN1NAM02FT062.mail.protection.outlook.com (10.152.72.208) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.428.12 via Frontend Transport; Thu, 18 Jan 2018 05:29:34 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:05EAAFE47B15DC514418395CB5D0FA04F2656BFB9FC1BBBCACA3C398B250A9D3;UpperCasedChecksum:4905F4AF83E0389712266A0BB7D112AF7ED80D88C061FFF5DEEDF44F2A0AE2BF;SizeAsReceived:993;Count:13
+Received: from user10PC ([49.206.207.69])
+	by :SMTPAUTH: with SMTP
+	id c2lXeNqB5KMG2c2laeedao; Wed, 17 Jan 2018 22:29:34 -0700
+From: International Journal of Psychiatry <editor.ijp@opastopenaccess.net>
+To: <xiangzhen.kong@outlook.com>
+Subject: Inviting Manuscript for Publishing
+Date: Thu, 18 Jan 2018 10:59:27 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAACAsZpSdYLREq5fPs0K3rYTCgAAAEAAAAAl8aO0E/cNMuHOatpmzKSEBAAAAAA==@opastopenaccess.net>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_014C_01D3904B.68DD31F0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdOQHU8HENrkbMv5SUGdDxrXiXJ0LQ==
+Content-Language: en-us
+Disposition-Notification-To: International Journal of Psychiatry
+	<editor.ijp@opastopenaccess.net>
+X-CMAE-Envelope: MS4wfInbVX6zC6tWel5Rg9zPgAfISZ6op7ffNCHBAOnyQ11cTetiFtoqMtcC5gILwZ4gjYU11PrJUivcIHu9HwYpXOFaV60avj430065paGdNwKcsC+DssBQ
+ Wja+w8Z6jGaY1UJniWZR+vLpvDhOkEOLtm6NjQnq2cZPlpguXtQXiEYlV3/0RulV4neew8tQaMcxCQ==
+X-IncomingHeaderCount: 13
+Return-Path: editor.ijp@opastopenaccess.net
+X-MS-Exchange-Organization-Network-Message-Id: 22ac9a8c-af85-4f6f-b0e6-08d55e3475e4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02FT062;1:FVFojlTPTjODrC81M7e8WGJtynN8osys8kxLCvlIGF/K7FfxtOiunEn2eOz1OMJQxS9RL/DIgWyYQ30Hx37NrG1kUCuPxOphwZprBhN5lT2Na3DHTAWxHCzWB4a69I7i
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM02HT231;H:sg2plout10-01.prod.sin2.secureserver.net;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM02FT062.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 22ac9a8c-af85-4f6f-b0e6-08d55e3475e4
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(8291501071);SRVR:SN1NAM02HT231;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT231;3:4XBSeS9gpuM14vIUaDxI6hYo65rVCLld0X0nH79YH+Pw2oqN++8sOc0Do8v0WTiAq3sdGllNk9SRol0tAlpdF2VTipQxX7J8cMyZ8zs3hN6HL2iNMIttuOJLbm8GZmLCKndn8PPg2EKHcCOgV6IRFlUr5J2vSqeAZbBPl/2b0lfl9cc12GHGiOdxX76R1It1Zox8VKvFq98LBA07wp87rB4w7wrrCdnalXJCOb5TF+Tk7UwLquym2GFSdGsmElebXpPle0iR71y7ZnThpkwhNQFbguy65IXGk0hVikSbMWYYBkjrc9ppcfzuzT0wN1ai;25:k7GRKq9dFVuPoKiaSnKqwTQpHKqy+wmIiBw4EWtuc4Ad6rJO6w/R2dsIOH+uinC62eqtEYodHF0uw44wckue4WSGlWwHN+OeZ79tXccN/GRfRsKFt5K4L1eqa0rcE7unQkU36cYb1OWGUQG2uWBveiEjJdYVswj6MMxiYf1/JW9BdU1Nk0CFjz1THPiLM1gqbx1kwhGIMg7oI4a5vTpBndFC4Vz1s9ESFCE7Ww6rcgEmosDkm6v38M3+B+0GTe9AjafE/fSxwQqQEMCvxHHk4piWqBM4zP5dzjHCU6kfGnrZKHm9ANszd4AwT3m2DbPnmoxyAsxQl0+EqPL2qejB2Q==;31:cBTUYFKTKCTReJmMGjEfsOTmYHbzpxGX/VZSDKeFLC6iRJmrffg78bbYkjCCLJBQatLLVgmb3FisVKIJHtr2YsQ3ixcRjKv3i3ugCxmVXcyGLnOEkln3gdRqQ2b0RLiEqBA8VvlM9TQap3RLBKQxdiUGoR7ZvvWK/L8ObaZTyiEND50Z0oKimQYq+jL+gc2WNeiESQgTuyDAHUb0LDbmSiXZL6CTCuHb6GxzU7oYueU=
+X-MS-TrafficTypeDiagnostic: SN1NAM02HT231:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 182.50.145.4
+X-SID-PRA: EDITOR.IJP@OPASTOPENACCESS.NET
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(20558992708506);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:SN1NAM02HT231;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:SN1NAM02HT231;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT231;4:2OuZxYQGqQbPP2DGmmCUIXKArl6CyjWSnFGRZrHykB6hYr9SMs4Lr2wRM0rDWaKh7IVPUsDElRvzfzI1UZDS5JQzps4LR2XoKfeVYd5zC8kLUVYVveDozeh8vnqH6OQMQReAwecFWcrioaXKYbAnIKnGdGPRVMCZxz+/LGI0eb66FnR1lihZCQrtfpzYxs2o31+hI3nbxmTQyfnFm0a7xJ30y6zNIAwrxCLyGTV5zvqkOUM2ryJ1J4/VVmATWXr4Z+iFbuZc7xkLb0ITQNKHTQY9IA4iyGqy6wpTNBBtP4YRoua/TWfXDjMZLpwx3xxl;23:9ftSU41brvmxppTnFgd/ccW6H2M7dS1xbgf5JIykuG4r3hOe2TIuXC8sl2PvLrkKcfmV4Bl8Z9xogRiDlj6GPpTnNA/YN6C8HoSwjLt2Q1gyot9QDXwSM5xYXavdFCSwTcQyhGPV/vXe6OQ7G6V0+8eFA4duGZmaYsM4eXanMM8=;6:FEcTuNu9wsfJgZ7R06NsaBIscEesN8lQWLfaUFgTfPKEPcWDZY0qh6CKz+SvZ7P7AeeHBMEfufJX10Hj+Bh8i+EAfeqh7rJNYO5JJENl9NgJ2WyDAbcDeMMkN5XA4DrRcai9bVN2hSrdhL/59ktx7OHrJOP71xjWTJINVn5SfcadMcCMeTLcDfiy1sWFXoJnMutfHQbxuwqMVCtfjDLb7inmH2G/ANrKfwPRHHQvmp9C49aNRw9mdFtrtIOlTla/jsGV5SsY4eQFtyGqIWIeqvxtnVUZdicgL0zoeWmY02roO/qv1UMz4PtPhyRcCF+cMfFmD8pX6MEQWSJ0QP/boZ2hKqqfc+stvh+VVJHwRJM=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: LYKUtzJcD01UCaN9o8jLSIFTZhKSEm0w6TOvmJsJttRTMZ24MeQK6J7WvQH4PA9Ff/ROHB3qboVI52dJHUInvJgEvzYGvu40EZWb3L3hCZw=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT231;5:apH/AzJXH0rYDz47dyetfv0HLTxELZg8BJNW20ePLSiqqb8ndqMCpToU5Lr98H2q+B3ykxT8mvPN2uSMGJHbfn6ICuN+VFsZCe9zrD7D6T+UCw/jlkl1THgqaOHbblrjG6Za8gQD4g6nz53ozj35VK2nmKyJnL2IW2S0Zjw2nwU=;24:+OjL8pXbO6Dy5nwdgIS4YD/052GyTY7KQePTaAOQhxRRI69ZL3iNUuM35HiZW8o2Cuga9QcPhsZ24dn6LJHjDdLSbH/kQh78Z9RcS/3edXQ=;7:GUnjfBNX7JE/zlueXMMIep30XhhubxY9xQVxsG/KH7kwTIBwlNY74m15SmwkrCHPd7QcpF3W5XAeUuTN578Bd7TpId1TqoCqNPQXCYmxHwJnXI5PrkDrpJnwNcZMDxS71x4CE5a5tOcygCZCaqeyGRx2N3J8j9RJDDdk18F3b6U1stZfRm/Q57uDYwNGgj10AiRoFAmNRcWAiKpulszKMFU1IXvMJxD6a37rWIY5d99H2kR6ZmITrlrYTuaZf112
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Jan 2018 05:29:34.4056
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 22ac9a8c-af85-4f6f-b0e6-08d55e3475e4
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM02HT231
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.0227541
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0407.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qzmJvuMURLcTlhQ7Dh1Z6bnMdDoO/SWxnnUnarD235vNTv4vJhxuRJ4GBJSTHX1r04dcS7GB22N+gAbgQ54JKNWryZ8oqZoAUBcpM3p/Yr2hsih8u5Es2d/adQac52co
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvjxfbwqIaPk1M2hPZzgPZH3Yan4+wKUuBMCU7H+sF7hj5PeXiRF/S+/gG1lBZZd4L/dlik7lPNFTgq4vGZmE2pb8+4dzIxesDJvAyGbsxlDYZiBQOPMacQvYJe6gSFXR2HsmIkAsbvszIhSD5a7Ek5cl6CeKp5acqNzxYuH7YL0znY21xPEi7n75c6ADZiU+TpuDeWRYGpQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	wZpl3dHKCCsEzlsrwmFzBRty1eWaLw82GdzjzTkN2X4/+MIvP5/saLQ5gu7vDp806MP9WQvITqLqE4wvPp0TQufU+5JwEwPpfGNpGc79Ex9ZVpcYltL92/8nsFCaFm1Nn9c+XW8a9wPSR9MHuo3hDQ8ysO9tGCs1zNofsq7ljCWZ3JTSpr0LcZJLNuTKO3/ot3WU8RsW8tLztADUh9cZtjx1fqIWD8RVwMpVSAu/QvAn9gtkptMgLZ8/RNZjT5kuAjwowHCSqGF/YHhpzZkRbw==
+MIME-Version: 1.0
+
+------=_NextPart_000_014C_01D3904B.68DD31F0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qzmJvuMURLcTlhQ7Dh1Z6bnMdDoO/SWxnnUnarD235vNTv4vJhxuRJ4GBJSTHX1r04dcS7GB22N+gAbgQ54JKNWryZ8oqZoAUBcpM3p/Yr2hsih8u5Es2d/adQac52co
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvjxfbwqIaPk1M2hPZzgPZH3Yan4+wKUuBMCU7H+sF7hj5PeXiRF/S+/gG1lBZZd4L/dlik7lPNFTgq4vGZmE2pb8+4dzIxesDJvAyGbsxlDYZiBQOPMacQvYJe6gSFXR2HsmIkAsbvszIhSD5a7Ek5cl6CeKp5acqNzxYuH7YL0znY21xPEi7n75c6ADZiU+TpuDeWRYGpQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	wZpl3dHKCCsEzlsrwmFzBRty1eWaLw82GdzjzTkN2X4/+MIvP5/saLQ5gu7vDp806MP9WQvITqLqE4wvPp0TQufU+5JwEwPpfGNpGc79Ex9ZVpcYltL92/8nsFCaFm1Nn9c+XW8a9wPSR9MHuo3hDQ8ysO9tGCs1zNofsq7ljCWZ3JTSpr0LcZJLNuTKO3/ot3WU8RsW8tLztADUh9cZtjx1fqIWD8RVwMpVSAu/QvAn9gtkptMgLZ8/RNZjT5kuAjwowHCSqGF/YHhpzZkRbw==
+
+Dear Dr. Xiang-Zhen Kong,
+
+Greetings!!
+
+The purpose of this letter is to welcome you to write a Research Articles,
+Review Articles, Case Reports, Short review, Short Commentary based on your
+research interests, which would be publishing in the upcoming issue in our
+<http://www.opastonline.com/international-journal-of-psychiatry/>
+International Journal of Psychiatry.
+
+DEADLINE:
+
+You are requested to submit your manuscripts by Jnauary 31, 2018.
+Manuscripts received after shall be considered for the next issue.
+
+SUBMISSION PROCEDURE:
+
+Submissions should be emailed to us at
+<mailto:editor.ijp@opastopenaccess.org> editor.ijp@opastopenaccess.org   
+
+CONTACT:
+
+For further information or clarifications, you may also write to at
+<mailto:editor.ijp@opastopenaccess.org> editor.ijp@opastopenaccess.org   
+
+For more details visit our site:
+<http://www.opastonline.com/international-journal-of-psychiatry/>
+International Journal of Psychiatry
+
+We are very confident that we will definitely offer you an unforgettable
+experience in exploring new opportunities.
+
+Regards,
+
+Emmanuelle T
+
+ <http://www.opastonline.com/international-journal-of-psychiatry/>
+International Journal of Psychiatry  
+
+ISSN: 2475-5435
+
+OVERLAND PARK, KS
+
+US
+
+
+------=_NextPart_000_014C_01D3904B.68DD31F0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qzmJvuMURLcTlhQ7Dh1Z6bnMdDoO/SWxnnUnarD235vNTv4vJhxuRJ4GBJSTHX1r04dcS7GB22N+gAbgQ54JKNWryZ8oqZoAUBcpM3p/Yr2hsih8u5Es2d/adQac52co
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvjxfbwqIaPk1M2hPZzgPZH3Yan4+wKUuBMCU7H+sF7hj5PeXiRF/S+/gG1lBZZd4L/dlik7lPNFTgq4vGZmE2pb8+4dzIxesDJvAyGbsxlDYZiBQOPMacQvYJe6gSFXR2HsmIkAsbvszIhSD5a7Ek5cl6CeKp5acqNzxYuH7YL0znY21xPEi7n75c6ADZiU+TpuDeWRYGpQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	wZpl3dHKCCsEzlsrwmFzBRty1eWaLw82GdzjzTkN2X4/+MIvP5/saLQ5gu7vDp806MP9WQvITqLqE4wvPp0TQufU+5JwEwPpfGNpGc79Ex9ZVpcYltL92/8nsFCaFm1Nn9c+XW8a9wPSR9MHuo3hDQ8ysO9tGCs1zNofsq7ljCWZ3JTSpr0LcZJLNuTKO3/ot3WU8RsW8tLztADUh9cZtjx1fqIWD8RVwMpVSAu/QvAn9gtkptMgLZ8/RNZjT5kuAjwowHCSqGF/YHhpzZkRbw==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><title></title>
+</head>
+<body>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);"></span>=
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;,&q=
+uot;serif&quot;;"><o:p></o:p></span><b><span style=3D"font-size: 12pt; font=
+-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, =
+125);">Dear
+Dr. Xiang-Zhen Kong,</span></b><span style=3D"font-size: 12pt; font-family:=
+ &quot;Times New Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">Greetin=
+gs!!</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Rom=
+an&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">The
+purpose of this
+letter is to welcome you to write a Research Articles, Review Articles,
+Case Reports,
+Short review, Short Commentary based on your research interests, which
+would be
+publishing in the upcoming issue in our </span><span style=3D"font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><a href=3D=
+"http://www.opastonline.com/international-journal-of-psychiatry/"><span sty=
+le=3D"color: blue;">International Journal of Psychiatry</span></a><span sty=
+le=3D"color: rgb(31, 73, 125);">.</span><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">DEADLIN=
+E:</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman=
+&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">You
+are requested to
+submit your manuscripts by <b>Jnauary 31, 2018</b>. Manuscripts
+received after shall be
+considered for the next issue.</span><span style=3D"font-size: 12pt; font-f=
+amily: &quot;Times New Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">SUBMISS=
+ION
+PROCEDURE:</span><span style=3D"font-size: 12pt; font-family: &quot;Times N=
+ew Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">Submiss=
+ions
+should be
+emailed to us at </span><span style=3D"font-size: 12pt; font-family: &quot;=
+Times New Roman&quot;,&quot;serif&quot;;"><a href=3D"mailto:editor.ijp@opas=
+topenaccess.org"><span style=3D"color: blue;">editor.ijp@opastopenaccess.or=
+g</span></a><span style=3D"color: rgb(31, 73, 125);">&nbsp;&nbsp; </span><o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">CONTACT=
+:</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&=
+quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">For
+further
+information or clarifications, you may also write to at </span><span style=
+=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&q=
+uot;;"><a href=3D"mailto:editor.ijp@opastopenaccess.org"><span style=3D"col=
+or: blue;">editor.ijp@opastopenaccess.org</span></a><span style=3D"color: r=
+gb(31, 73, 125);">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">For
+more details visit
+our site: </span><span style=3D"font-size: 12pt; font-family: &quot;Times N=
+ew Roman&quot;,&quot;serif&quot;;"><a href=3D"http://www.opastonline.com/in=
+ternational-journal-of-psychiatry/"><span style=3D"color: blue;">Internatio=
+nal Journal of Psychiatry</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">We
+are very confident
+that we will definitely offer you an unforgettable experience in
+exploring new
+opportunities.</span><span style=3D"font-size: 12pt; font-family: &quot;Tim=
+es New Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">Regards=
+,</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&=
+quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">Emmanue=
+lle
+T</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&=
+quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;;"><a href=3D"http://www.opastonlin=
+e.com/international-journal-of-psychiatry/"><span style=3D"color: blue;">In=
+ternational Journal of Psychiatry</span></a><span style=3D"color: rgb(31, 7=
+3, 125);">&nbsp; </span><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">ISSN:
+2475-5435</span><span style=3D"font-size: 12pt; font-family: &quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">OVERLAN=
+D
+PARK, KS</span><span style=3D"font-size: 12pt; font-family: &quot;Times New=
+ Roman&quot;,&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; text-align: justif=
+y; line-height: normal;"><span style=3D"font-size: 12pt; font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: rgb(31, 73, 125);">US</spa=
+n><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;,=
+&quot;serif&quot;;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color: rgb(31, 73, 125);"><o:p></o:p>=
+</span></p>
+</body>
+</html>
+
+------=_NextPart_000_014C_01D3904B.68DD31F0--
+

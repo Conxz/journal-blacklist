@@ -1,0 +1,222 @@
+Received: from CO1NAM03HT048.eop-NAM03.prod.protection.outlook.com
+ (2603:1096:a00:1::20) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0104.INDPRD01.PROD.OUTLOOK.COM; Wed, 17 Jan 2018 16:58:21 +0000
+Received: from CO1NAM03FT056.eop-NAM03.prod.protection.outlook.com
+ (10.152.80.54) by CO1NAM03HT048.eop-NAM03.prod.protection.outlook.com
+ (10.152.81.141) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.345.12; Wed, 17
+ Jan 2018 16:58:19 +0000
+Authentication-Results: spf=pass (sender IP is 101.37.174.55)
+ smtp.mailfrom=eopfen.com; outlook.com; dkim=none (message not signed)
+ header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=eopfen.com;
+Received-SPF: Pass (protection.outlook.com: domain of eopfen.com designates
+ 101.37.174.55 as permitted sender) receiver=protection.outlook.com;
+ client-ip=101.37.174.55; helo=eopfen.com;
+Received: from eopfen.com (101.37.174.55) by
+ CO1NAM03FT056.mail.protection.outlook.com (10.152.81.144) with Microsoft SMTP
+ Server id 15.20.345.12 via Frontend Transport; Wed, 17 Jan 2018 16:58:18
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:2AC2CCD44CB665D2C377C935DF7E69F768E0BFF1866E737D8A17CD5895580FB1;UpperCasedChecksum:B8AEE065E1523876B107534782E5D3F940960B63701C96753EBF6BF2FD44A4B9;SizeAsReceived:640;Count:9
+Received: from WIN-A9S0SUBJN6U (unknown [222.73.31.225])
+	by eopfen.com (Postfix) with ESMTPA id EF964180499
+	for <xiangzhen.kong@outlook.com>; Thu, 18 Jan 2018 00:58:17 +0800 (CST)
+Date: Thu, 18 Jan 2018 00:58:10 +0800
+From: Materials Sciences and Applications <msa@eopfen.com>
+Reply-To: <msa@scirp.org>
+To: <xiangzhen.kong@outlook.com>
+Message-ID: <B9EE48A444FBC72C653D8F3FE2C90D46.20180118005810@eopfen.com>
+Subject: Special Issue on "Magnetic Materials and Its Applications" - More
+ Citations & Rapid Publication
+Content-Type: multipart/mixed;
+	boundary="----=_Part_95426086_890469522.1516208290163"
+X-IncomingHeaderCount: 9
+Return-Path: msa@eopfen.com
+X-MS-Exchange-Organization-Network-Message-Id: 0a4a863c-9db2-470c-4d95-08d55dcb826e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03FT056;1:SdFCGB87hQHQ4jFj0usOH8jFoKE/wch1+dZ7eXh6nnkdTQzq26WElloaixKpYR9N3JhHgGgv7O8DZ+ugXQhEUWq5/ZeC6iPEHQXG9EYc97ziG4mqZKZM0ma6ixFZs84G
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:CO1NAM03HT048;H:eopfen.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: CO1NAM03FT056.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 0a4a863c-9db2-470c-4d95-08d55dcb826e
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:CO1NAM03HT048;
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT048;3:p1L7bvsjmhypqXpdA37jJoBI7yfu7x4X2STUz+vZvO+Rq1cel6YhCTfkG74nElbdITIt0Max7ZR7cZSECs2OQAJCk6lhtTTFMdSqThTNI3fQQ9635ZZ+FJdrT25B4F2ou+8TjOyi0ptDHMmBgOiGMmS+eeWoV/Q2t0RQZNQErHZW2sRph0bvNhsBzjg919InCW6m4UjJivtdH5PsZs4E3UAc6Vm54sgDkw4V+qmBhUf0xJM3QQaNF7JxZqu/Rm/jRf9ZPRaazvyUEYQoAhNfhOsdooQAOVyQ39qsOelMisLFsqF1TV8D6cXrQOgJIsjG;25:5cWF3W3IK4RiCFlbEZhno6cMhGMfGzEH7+BFy/9Pq1iu4x5NqrOqMxGdts5BxNqIT7cMZaS5K94O/YevVTe6XG9lQb494Tu+6lNXYXrU+en9LQEeoRxQXDJlY2rzISVdS8miJlVdBJq9KaQ2xwTNMDnLdEEdnM3XY1md+lRvMqdG+3vzaD4aSGmbEftDxKrjLvsPKZ3BRtTvoJ3piw5E5O77AHKvbW7AGVQcTWq53Q41UhUe9Wj2ASu3Nd/Kro4YsT9P8APXLyALiIoUzw7wISRI6nNUXHWCd/8pUNPlHOHMhi541xDtpeyMEe5erBUHLNe1yP5JQs7b55ODcWo9xQ==;31:aMemivHlxshgIPN8QsCJntsbE+nSJKYuYxFPxAPRBTQcJVJ3eTELrWcBD6vIlavqR1s1ns8+i/0xOBWLkAZC+8fMYsq2ruIeyilx/0KmrEExQS8FP4Ay7TX7H08wrcO7jj9j5DjRN5uklkT/tm+QG6POF/2SN2tq3tJT568FCkxo57e1Fb2my9XXxYsLravqKYQjShuKYhmlkBGH7M8piQQKQIFoDSdpVHaJ2mXfeAQ=
+X-MS-TrafficTypeDiagnostic: CO1NAM03HT048:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 101.37.174.55
+X-SID-PRA: MSA@EOPFEN.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(278428928389397)(209352067349851)(189930954265078)(85827821059158)(113634229765325)(279946029387781)(280776846648045);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:CO1NAM03HT048;BCL:0;PCL:0;RULEID:(100000803126)(100110400120);SRVR:CO1NAM03HT048;
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT048;4:p77IJp5/bQTZ3ocCFwW8w/EWNtoeAhCFbS9hYU6wrTXvBJFG/7n6itKJiDJg8HBa/xAhnMCAzT+ZT6D6FJBIzV5jw7Wo9na3eWJTVVSBlYnGE/1yTjgI3IhnW1lBdG5bhNUoZs7onx8eXXV3tWJfCDD5cemH4H3KUbSvqOUN1+TXTeqYckZg6tapYgCQOc3N5FhCU50yOcl0xONHyGqzBBEPn0qjdGQ/EQEXycoFuFhgkYETbmkGzwa+gMgnqIrkmRTpebp4LpesaxadP0dHzDL/DmjdiBd/ukqGiGYBOl7w2escwKoXJem7buBz51PSbB0sRcwyCLXnBMnH4yEj2i3HZ6Ab2FJWMKdw62xPMHeEtJof6PmnSp06rL5MhNDew/o2Cv5eoRgRa6zqx2YsuPiwzKK/q3UZuHXj6nEj4E3jwB4F4p7TnF35lcX2zMrzFp9hp9k0cMgY6W8D6nWl720bR9MRRsLqv/OzrG6NTIws4iaJOayw9BRZSFjIUNcGy1DBEWV46uH5NJxMmJp9RQ==;23:d/3mehQRURkgkUitsKmIuxh6V4RrB+XiRwB/11t/kNMt99WvX0X/w0K5TTrmpWgKp93Smvb/bBE9TTs3rQ7/Tq96gtkf1m/T5DUxyZHpAizQpChVaL/rVRob7AyW6RLNGSg09HPYjZb7HcBSXjSijlWUY6QL4cMpoMh75BD6yHs=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: kY5xGKEQfhpiUA5B/KczbI6Bq7IMmko04UDQ74tyQ22MDci5Tc5Oqnmnen/x3GNx3L//O1STE5IJcMpQ0mI+432GqWM/FYVzooo70Cz8bhE=
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT048;6:0JX6m8r6rjQ0tBBGM1ui2s9ZjSidcjlDaHLdahi+bW0++bJE6ugu32ancAgY/N4Gbk8fPa1D/96y2Y7GCcFJs4cropj2zUMaoWxSjV+5vFnkfw5FUB9QSynqU99mucCRLmvQF9KcVc6V33w4QrB1WzAq6eiQWL+kMcAXJ5B1AZjsvvml20/iPz0oz3uQD0GHW5p6ZSZWPQuzQ0fEf4atQE/VJKbHWeeZHMQiyM+RKQz1z13gg5jV/8dwmgFMLxuxKW+ug2r7yzUdcS5YolNBFT81NTiOLNdhljxofv5fr3neTsP2OXDlPz85uII7//nwEt11s4DCVaCnm++tt8eCZ3HC+rWPp/lFeZ/ykNgsKmk=;5:KEot8WEqLs0Q5/tewhzaqW3KSUUpUGkza0ZF0VrdWLjVwZgeSNrWywvt07f0+V0/d4MA/KNkmGLL9jsEg1gvxEKLKmZ5KGHOXtHL0ofYyyT8oUqa3racq25OjCgNjLqECbY8kWFFLUh1UpWac+NY/qRJrX/UU1HHG4Jsma/GIdQ=;24:kI6mO8eGI4HHNkf/+VmkwiZVMuU40LAHJM5/hdO6f6EKN3OpMUTbNu9WBrRRpiopwHRSh4FCjtBaMGifleFL45d+t3RxAQxuAeLCtGPG6yg=;7:f7U3Q6KQagVifoNzPhmxdk1FZtgy1xSy6oKWBs5gXfAPz6HqYR+R79r06hfO7UjwVBFwIg5YCyNGjWpsoHJ7vADEWSRPkuL/7Nh753hpJB1bxUkMCw2EAxggoB7kv/o15yqY8yiR3KaDCMSSY6akmPq23QEDDY859BAaIFmBjAqJ91IoYkgk3GIdOf9XfuOUc9MhV6SvZGupslVygBr4AWt3JjOAnhxcI36Lr9yu/c3diuNw7jHhYUGVuZO5riYv
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jan 2018 16:58:18.8616
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0a4a863c-9db2-470c-4d95-08d55dcb826e
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM03HT048
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2072567
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0407.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:HWyXBIHAuFMAOXdj9yqqAht3USbN3Ed/uekO5AtSIJDDFR192cnoRJz04oXjTG+u+MgugOsz80Ey5VJhbcg3cexXMyNKo5qEARfpOzJj9FKVI1tP8CtjZyoZznJUBhsO
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdcGbhYD+84Oud36dPsTh51TeqXlLZKBDfT6qdVyScSeXa1AJRb+UgiauLaGsZa9huoKtOymi1XViF2YHB+IM1ygUAGMpXGkgU4JB+AfnNdHAT7Ibu9dx2t68yeK1IfYCkL8vI3g2885ew9P7F//HTiPJS46N7IPif/i2YA1fWai845i7S6dGtqWg0r3gisHeNZe39mmWNALZw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	PoLQqb+eJSziEJh73hD5OsCX+447fd5iJgT9nlP1/oOWhQ1b+lgjzn5eYi7k0HCY+hg/DinsyHWaNOJthCiSmP/kG5dtrF0EsvmjubtUgluoMWs70ZFKcTeuswDjj98aiyIh7uNddA+VopYwNZa2tgnp34CmPPnQW9/1kISVSKnAcGQTtfd/kw8r/vrL4XOnxXRiP0wk0KWEehGJHhGm1lp57LfJ9/ni/fnOzREPmbU2a6z9EvBFZoVgTXzXMSy7WuIQCt+IQ3y0AMoLNfB2AA==
+MIME-Version: 1.0
+
+------=_Part_95426086_890469522.1516208290163
+Content-Type: multipart/related;
+	boundary="----=_Part_95426087_307720311.1516208290163"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:HWyXBIHAuFMAOXdj9yqqAht3USbN3Ed/uekO5AtSIJDDFR192cnoRJz04oXjTG+u+MgugOsz80Ey5VJhbcg3cexXMyNKo5qEARfpOzJj9FKVI1tP8CtjZyoZznJUBhsO
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdcGbhYD+84Oud36dPsTh51TeqXlLZKBDfT6qdVyScSeXa1AJRb+UgiauLaGsZa9huoKtOymi1XViF2YHB+IM1ygUAGMpXGkgU4JB+AfnNdHAT7Ibu9dx2t68yeK1IfYCkL8vI3g2885ew9P7F//HTiPJS46N7IPif/i2YA1fWai845i7S6dGtqWg0r3gisHeNZe39mmWNALZw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	PoLQqb+eJSziEJh73hD5OsCX+447fd5iJgT9nlP1/oOWhQ1b+lgjzn5eYi7k0HCY+hg/DinsyHWaNOJthCiSmP/kG5dtrF0EsvmjubtUgluoMWs70ZFKcTeuswDjj98aiyIh7uNddA+VopYwNZa2tgnp34CmPPnQW9/1kISVSKnAcGQTtfd/kw8r/vrL4XOnxXRiP0wk0KWEehGJHhGm1lp57LfJ9/ni/fnOzREPmbU2a6z9EvBFZoVgTXzXMSy7WuIQCt+IQ3y0AMoLNfB2AA==
+
+------=_Part_95426087_307720311.1516208290163
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:HWyXBIHAuFMAOXdj9yqqAht3USbN3Ed/uekO5AtSIJDDFR192cnoRJz04oXjTG+u+MgugOsz80Ey5VJhbcg3cexXMyNKo5qEARfpOzJj9FKVI1tP8CtjZyoZznJUBhsO
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdcGbhYD+84Oud36dPsTh51TeqXlLZKBDfT6qdVyScSeXa1AJRb+UgiauLaGsZa9huoKtOymi1XViF2YHB+IM1ygUAGMpXGkgU4JB+AfnNdHAT7Ibu9dx2t68yeK1IfYCkL8vI3g2885ew9P7F//HTiPJS46N7IPif/i2YA1fWai845i7S6dGtqWg0r3gisHeNZe39mmWNALZw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	PoLQqb+eJSziEJh73hD5OsCX+447fd5iJgT9nlP1/oOWhQ1b+lgjzn5eYi7k0HCY+hg/DinsyHWaNOJthCiSmP/kG5dtrF0EsvmjubtUgluoMWs70ZFKcTeuswDjj98aiyIh7uNddA+VopYwNZa2tgnp34CmPPnQW9/1kISVSKnAcGQTtfd/kw8r/vrL4XOnxXRiP0wk0KWEehGJHhGm1lp57LfJ9/ni/fnOzREPmbU2a6z9EvBFZoVgTXzXMSy7WuIQCt+IQ3y0AMoLNfB2AA==
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+ </head>
+ <body>
+  <table width=3D"700" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"font-family:Georgia, Times New Roman, Times, serif;font-size:16px;lin=
+e-height:1.3em;border:1px solid #aaaaaa;box-shadow:10px 10px 10px #aaaaaa;"=
+ class=3D"ke-zeroborder">
+   <tbody>
+    <tr>
+     <td colspan=3D"2" align=3D"right" style=3D"padding:5px 20px;font-size:=
+16px;margin-top:50px;background:linear-gradient(to right,#A8B1DC,#D7D8E1);b=
+ackground-color:#A8B1DC;">Submission Deadline: April 12th 2018</td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" align=3D"center" style=3D"font-size:26px;padding:10p=
+x 30px 10px;line-height:1.5em;text-shadow:10px 15px 10px #aaaaaa;">Special =
+Issue on <br> &quot;Magnetic Materials and Its Applications&quot;</td>
+    </tr>
+    <tr></tr>
+    <tr>
+     <td colspan=3D"2" style=3D"background:linear-gradient(to right,#A8B1DC=
+,#D7D8E1);background-color:#A8B1DC;font-size:20px;padding:10px 30px 10px;">=
+Dear Xiang-Zhen Kong,</td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"font-size:16px;line-height:1.5em;padding:10=
+px 30px 10px;"><p>&nbsp; &nbsp; &nbsp; We are soliciting papers for a speci=
+al issue on &quot;<a href=3D"http://www.scirp.org/journal/htmlOfSpecialIssu=
+e.aspx?ID=3D4639&amp;JournalID=3D174&amp;utm_campaign=3DSpecialIssue&amp;ut=
+m_source=3De_si&amp;utm_medium=3Dmsa_magm_20180109_ranxiaoqiong_131306&amp;=
+utm_content=3D3175_eopfen.com" target=3D"_blank" style=3D"color:#0987CB;fon=
+t-size:18px;"><u>Magnetic Materials and Its Applications</u></a>&quot; now,=
+ which will be published in Materials Sciences and Applications (MSA), a pe=
+er-review and open-access academic journal. If you have related research fi=
+ndings ready for publication, please feel free to submit your papers to us.=
+ We sincerely hope that our journal will be the suitable platform of making=
+ your research work reaches to worldwide readers.&nbsp; To submit a paper, =
+please enter the <a href=3D"http://papersubmission.scirp.org/paper/showAddP=
+aper?journalID=3D32&amp;sub=3Dtrue&amp;utm_campaign=3Dpapersubmission&amp;u=
+tm_source=3De_si&amp;utm_medium=3Dmsa_magm_20180109_ranxiaoqiong_131306&amp=
+;utm_content=3D3175_eopfen.com" target=3D"_blank" style=3D"color:#0987CB;fo=
+nt-size:18px;"><u>Online Submission Website</u></a>.<br> <br> Or please att=
+ach your paper by replying the email:&nbsp;<strong>PaperSubmission.ran@gmai=
+l.com</strong>&nbsp;(E-mail Subject Format: msa_article title).Your paper w=
+ill be handled in 24 hours. <br> <br> * Google-based Impact Factor: 0.96<br=
+> * Articles downloads exceed 3,911,550 ; * Articles Citations&gt;4856<br> =
+* MSA indexed by Biotechnology Source(EBSCO); Chemical Abstracts Service(CA=
+S) <br> CNKI SCHOLAR; Open Science Directory (EBSCO)</p></td>
+    </tr>
+    <tr>
+     <td width=3D"330" style=3D"background:linear-gradient(to right,#A8B1DC=
+,#D7D8E1);background-color:#A8B1DC;font-size:20px;padding:10px 30px 10px;">=
+Other Special Issues in MSA</td>
+     <td width=3D"368" style=3D"background:linear-gradient(to right,#A8B1DC=
+,#D7D8E1);background-color:#A8B1DC;font-size:20px;padding:10px 30px 10px;">=
+Aims &amp; Scope(not limited to)</td>
+    </tr>
+    <tr>
+     <td style=3D"font-size:16px;line-height:1.5em;padding:10px 30px 10px;"=
+>* Material Fatigue and Fracture <span style=3D"color:#999999;">(Submission=
+ Deadline: February 14th 2018 )</span><br> * Materials Modelling and Its Ap=
+plications<br> <span style=3D"color:#999999;">(Submission Deadline: Februar=
+y 27th 2018 )</span><br> * Material Heat Treatments Development<br> <span s=
+tyle=3D"color:#999999;">(Submission Deadline: March 20th 2018)</span> </td>
+     <td style=3D"font-size:16px;line-height:1.5em;padding:10px 30px 10px;"=
+>* Ferromagnetism and ferromagnetic materials <br> * Soft magnetic material=
+s <br> * Hard magnetic materials <br> * Magnetic semiconductor materials <b=
+r> * Thermodynamic properties of magnetic materials <br> * The mechanical p=
+roperties of magnetic materials <br> * Physical properties of magnetic mate=
+rials</td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"background:linear-gradient(to right,#A8B1DC=
+,#D7D8E1);background-color:#A8B1DC;font-size:20px;padding:10px 30px 10px;">=
+Published Articles in MSA <a href=3D"http://www.scirp.org/Journal/JournalAr=
+ticles.aspx?JournalID=3D174&amp;utm_campaign=3Dpapersubmission&amp;utm_sour=
+ce=3De_si&amp;utm_medium=3Dmsa_magm_20180109_ranxiaoqiong_131306&amp;utm_co=
+ntent=3D3175_eopfen.com" target=3D"_blank" style=3D"color:#0987CB;font-size=
+:18px;"><u>&gt;&gt;More Articles </u></a></td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"font-size:16px;line-height:1.5em;padding:10=
+px 30px 10px;">Study of Structural and Dielectrical Properties of Lead Free=
+ Polycrystalline Electro Ceramics Ba5CaTi2Nb8O30 (BCTN) for Microwave Tunab=
+le Device Applications <br> <span style=3D"color:#666666;font-size:14px;">S=
+hilpi Jindal, Sheela Devi, Ajay Vasishth, Gagan Kumar </span><br> Structura=
+l and Thermomechanical Study of Plastic Films Made from Cassava-Starch Rein=
+forced with Kaolin and Metakaolin <br> <span style=3D"color:#666666;font-si=
+ze:14px;">Namory Meite, L=C3=A9on Koffi Konan, Drissa Bamba, Bi Iri=C3=A9 H=
+erv=C3=A9 Goure-Doubi, Samuel Oyetola </span><br> Surface Roughness Quality=
+ and Dimensional Accuracy=E2=80=94A Comprehensive Analysis of 100% Infill P=
+rinted Parts Fabricated by a Personal/Desktop Cost-Effective FDM 3D Printer=
+ <br> <span style=3D"color:#666666;font-size:14px;">Mohammad S. Alsoufi, Ab=
+dulrhman E. Elsayed</span></td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"padding:10px 30px 10px;font-size:16px;line-=
+height:1.5em;">Best regards,<br> Ms. Martina MA (Editorial Assistant)<br> M=
+SA Editorial Office</td>
+    </tr>
+   </tbody>
+  </table>
+  <span id=3D"unSub" style=3D"font-size:10pt;font-family:verdana,arial,helv=
+etica,sans-serif;line-height:20px;">This message was sent to [xiangzhen.kon=
+g@outlook.com]. <a href=3D"http://www.member.scirp.org/member/transferParam=
+eterAction.action?personID=3D19802239&amp;identifier=3D99508ED20EEDE13993D0=
+7D4C5D8DC064D9715EAAF646445D9E2FA05825D852D9&amp;blackListTypeId=3D1" targe=
+t=3D"_blank">Unsubscribe</a></span>
+ </body>
+</html>=
+
+------=_Part_95426087_307720311.1516208290163--
+
+------=_Part_95426086_890469522.1516208290163--
+

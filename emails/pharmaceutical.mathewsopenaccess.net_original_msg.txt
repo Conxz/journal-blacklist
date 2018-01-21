@@ -1,0 +1,353 @@
+Received: from DB5EUR03HT205.eop-EUR03.prod.protection.outlook.com
+ (2603:1096:a00:1::24) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0108.INDPRD01.PROD.OUTLOOK.COM; Wed, 17 Jan 2018 05:44:32 +0000
+Received: from DB5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+ (10.152.20.51) by DB5EUR03HT205.eop-EUR03.prod.protection.outlook.com
+ (10.152.21.196) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.345.5; Wed, 17
+ Jan 2018 05:44:30 +0000
+Authentication-Results: spf=pass (sender IP is 69.59.179.29)
+ smtp.mailfrom=mathewsopenaccess.net; outlook.com; dkim=pass (signature was
+ verified) header.d=qlc.co.in;outlook.com; dmarc=bestguesspass action=none
+ header.from=mathewsopenaccess.net;
+Received-SPF: Pass (protection.outlook.com: domain of mathewsopenaccess.net
+ designates 69.59.179.29 as permitted sender) receiver=protection.outlook.com;
+ client-ip=69.59.179.29; helo=af.qa.qlc.co.in;
+Received: from af.qa.qlc.co.in (69.59.179.29) by
+ DB5EUR03FT024.mail.protection.outlook.com (10.152.20.67) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_RSA_WITH_AES_256_CBC_SHA) id 15.20.345.5
+ via Frontend Transport; Wed, 17 Jan 2018 05:44:29 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:94B4CAAC71A6F4750C49673C3477B7598023AEF3F45CBD36205A9361CB3DF49E;UpperCasedChecksum:8902943E02832C3BD682C13DCEA66A1F82B82B788C46AF9A6F4C1FB59A923B03;SizeAsReceived:2664;Count:21
+Received: from smtp-out.qlc.co.in (unknown [69.59.131.218])
+	by af.qa.qlc.co.in (Postfix) with ESMTP id EA27F4698397
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:27 +0530 (IST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=qlc.co.in;
+	s=defaultqlc; t=1516167867;
+	bh=b98U230QVr28R4OmRgZFjeflojXN0vo0jmUvbMSfZ0w=;
+	h=From:To:Subject:Date:From;
+	b=CmFwtzpaH1kPPFfHdq6nv9Avya3bWBjWBfQwPWYfwtp0HntEL/Z9uFtHoP5Hnnxpo
+	 JNItlyYpYkMra0XAyQgvToMJ67ZRCquoIlTwAcislEgoZGaal8qpECyODSAouMskGm
+	 vq4xfvNqUZ7/krX0h4ODpHJd0wH3UZRuRct+F5Fs=
+Received: from smtp-out.qlc.co.in (localhost.localdomain [127.0.0.1])
+	by smtp-out.qlc.co.in (Postfix) with ESMTP id D87E64E3535
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:27 +0530 (IST)
+Received: from relay2.qlc.co.in (chathistory.qlc.co.in [121.241.242.212])
+	by smtp-out.qlc.co.in (Postfix) with ESMTP id 5B3224AC082
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:27 +0530 (IST)
+Received: from relay3.qlc.co.in (localhost [127.0.0.1])
+	by relay2.qlc.co.in (Postfix) with ESMTP id 87882EC0FE
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:28 +0530 (IST)
+Received: from relay2.qlc.co.in (localhost [127.0.0.1])
+	by relay3.qlc.co.in (Postfix) with ESMTP id 572F9EE05F
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:28 +0530 (IST)
+Received: from relay3.qlc.co.in (localhost [127.0.0.1])
+	by relay2.qlc.co.in (Postfix) with ESMTP id 37A7DEC753
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:28 +0530 (IST)
+Received: from relay2.qlc.co.in (localhost [127.0.0.1])
+	by relay3.qlc.co.in (Postfix) with ESMTP id EB5B3EC112
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:27 +0530 (IST)
+Received: from relay2.qlc.co.in (localhost [127.0.0.1])
+	by relay2.qlc.co.in (Postfix) with ESMTP id C8850409C
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:27 +0530 (IST)
+Received: from pcPC (unknown [122.175.53.219])
+	(Authenticated sender: pharmaceutical@mathewsopenaccess.net)
+	by relay2.qlc.co.in (Postfix) with ESMTPA id B821FEC73D
+	for <xiangzhen.kong@outlook.com>; Wed, 17 Jan 2018 11:14:25 +0530 (IST)
+From: "Mathews Journal of Pharmaceutical Science" <pharmaceutical@mathewsopenaccess.net>
+To: <xiangzhen.kong@outlook.com>
+Subject: Share Your Research Work 
+Date: Wed, 17 Jan 2018 11:14:13 +0530
+Message-ID: <057101d38f56$3a99be30$afcd3a90$@mathewsopenaccess.net>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0572_01D38F84.54557CA0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdOPViG+z7XiO2k9RqKVYe/ejZGOQQ==
+Content-Language: en-us
+X-QLC-SMTP: Unknown
+X-IncomingHeaderCount: 21
+Return-Path: pharmaceutical@mathewsopenaccess.net
+X-MS-Exchange-Organization-Network-Message-Id: 491264ce-dfed-48b0-27c3-08d55d6d60b0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03FT024;1:OdTSll7iqYR+2CMln5/0+D/YyRxhu89P6GX0wDKGhjc6nI5vZjdbcDX7vNuFZrjvgcdSA3vaDsZ9FPna84zGyQhUf0FekAW2Dg+rZkymkx38c/cCPouv0vM4RCsuRUe3
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:DB5EUR03HT205;H:af.qa.qlc.co.in;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: DB5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 491264ce-dfed-48b0-27c3-08d55d6d60b0
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:DB5EUR03HT205;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT205;3:ctthZ37ysrCCefdm9SydVqTg7+4PpEZ66uspPD8+1e9ZFkZqd650u7wDJv64D5akS/0wRc6gP/MMX3GDN9bFc5F/RH8Sxi6FQia8W+ayzFBhEPtA52JW9aTF41JLZFgmHNSXje79rzUgUOoZhZbYCtjupvWo0OIOdFX/9J2mFDxJapP8j+mYruj4wYQK4j+krpWwxg8hLoQaAIGpd4Rh4ERXyrfvi/dtS0fnsPYGxie+2FaCGFGk+mv+7+fZXyZ6rbFaHTmWNYY8qqtOg7pK4/6u6gKQ5vVF5gwef7xqwZcy6e8XWzbEhqfZKo6lpMRB;25:nQi7/gUuH2aVzjiMXR1jePRkYCAtxAKcoLUzta1L1XFYUXXGS5nPtLq+uH5JizgLz6yJEkDGOfADyDogphzBqZ0ZqDmyXKMAb6YHbQfBERod7CYEPCdO9RImYUz/P/lfbaLu8jpTbXxcr0xp9wYpMhF29zee+ByU4MXOmRWT2RyO+hrp1L6qXCksaOSLzDTvLGpRxwm1edlKFovhjgTZKMk2O/ux0t0HV2G+dP99shYtJcCbZYi5bGXlh/efNQzSG/6Xe9ek6LiSr/doZsW+NBTlKJDfRn8ks8SXmQGl3l/uPOSDzxHPb4TaAGj+fLYg6Y/tV9SXB5hoBfUqkMzpJw==;31:WfTZIh+m3sAYL0rdOWOxnSP+Xy3FFoa4MnRLjiGBOcPi7AK3FxKxNQdoUjegWU8YCEypeey9QrYdPUSzp6DGfNYa3Y/8doqb8hqK9je1FcKJRwtKv2GQIt5SykW0j8lPEyXdQzSZNIGq/ZgFNapcqKC8OCiNyXL8BzijTiV/jODPz7GCskV4hOlcHDwMFL5DYDzKeGje83e4+9WG2XnixKwEZR+UYJDMl6UCysO1pSY=
+X-MS-TrafficTypeDiagnostic: DB5EUR03HT205:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 69.59.179.29
+X-SID-PRA: PHARMACEUTICAL@MATHEWSOPENACCESS.NET
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:DB5EUR03HT205;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:DB5EUR03HT205;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT205;4:MIfNM9F8h7zITGPgIMuy0tiDbwdqyErvxclQIBfU6oCAAIkt6AB9UH+3VaA44/l46X9Y4A31Mqib0nndknC14VtmE8YyhQnB+OAcMBLGzBJqH4YHmqvWqKqN3ArNlE9QT7jOR5X2T57bXpV+c2V1466hk3PDPwRnrErHFqPmCLZ9Xa8+Gw30wL0GgGsTtpjBaxl1q91a/QL3eniPl9kMzPLNlqTaEE5WZCIw/fMIi8v1PM9H6U6/GQ1NLO5P4TWXhbLJ12tkg2ihhsxMKz28G0Yej8fTUTMsHLDQulrQjXgyqbji4NNOAVBoN2HQsWkNB+qpToEr1mObEwfJl+uaL/eOpkU0BGAPtJFr4htP9WM=;23:A7GAue6jLLsrQbmkjSidj5qajTx0wJwLMmDnZEyi+TdWJKlDFy7wJuGek0bErd6+ERQzKwxStmDevDQev25Emr5VCbdqZn1EI0UGc3Cth2nq8LhWFp+MNQjWzL2AHRE+SC7BtAQan8ORekQSFAKUpnyBlwGX5aYgK/KJKroLsLE=;6:ntopyfTVZsz/kpTfOrrssgaCofJ6gsaW62Q4aYnPtvlVHoGZ911D5DDnIxo9ectf/oYEwPWY2RtgpJMjZhpvzXOUe5++WjBOS0CHJwDEmqlKQj8GfKTjkqlrw9DExz2KT6War/QDhsw8h4sBvbdJxxlo4Jc+r2dJPKPjzUfHXmPkUA4pWjASfTf/AsilnLIYbTQFwRd40Z0Y/zKftlWhp23yhLG3RWii9S4JK7hMAbzEVAsygJX4bHsbKZ0Ug0NonToQr5isQ5TDqZ676LMyc7CD0Ch6ioWZ/NQdKvbMNEBOWzGTOebwKZkiSoRL+R5k0qAlDyO117/+H0BI1z1iTZkdHiLJCi6hqw7RdDp/Wf8=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: dWVE/xkwCFA/qq213Eo3qKrAPXhiM3x453grqgZXq2CdCfy3SWFxbRYzZ5l4fZvwZZ3u8DApOMfkQQ4rX2PFtcMIwKCiGfxFc0DXo6zbouQ=
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT205;5:53Cp0w/yZwPV4C42QLnOuAnhYK7Ihuhm8EGVH+vnaabBT8EUjlWCW4yYADf/ZWwjVCCB6gIFVEPOsrBErPgQ/JUetGWkvfTLQXV1v/SA2wulMqFXFewsB1fPzyOtDUij1f73Pc+EFURnPw37jAGsgndEAlXL/SSM77D+PKb034I=;24:+PHcdnNkpoclBwrX7qfTSh840S9zAMvSBg8eatt9wqnodqzDyIkDJOrn9S/mRNYfsnPe9xnVS68Ca4LzdU5Bl6cEeJvP4hWJzVkwgsqfzXg=;7:i3wqfUtaq7AyaLd/5YT7IL2jGty2tM6ZgllguIiPadvPjNTxSounR4bdICPAaObRDrYM+1KJ0lOPd4m2+VsEHdNlCJLGG3t7NEsBvj3t7OyGf1947E2zCpEcWuY6WhHiHmbONch8QDb8Sgik3ALHirtMXyuOr8rGKWY+9MmOt0YxdZ545/Ajg7CR5E4M4iRxzLaR3kihb0X/iflr47zoLZKPZu04f16zAioogsnbHWnkkkrRsj3YDOCCoRpWrjlv
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jan 2018 05:44:29.4777
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 491264ce-dfed-48b0-27c3-08d55d6d60b0
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR03HT205
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.7860250
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0407.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:yjP+eiYERs5LkGPM5ISbLt0f539WdBTYQeqbXBqdfJIAl6jRB8a1xRNNs7L9BTW3p7DYzAim6Er+Yz1AlX9pLsPvvgTSMrT4e9wQi6di7YoLdbl+dguP/3JCL6uUtn4y
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfZNeVF/jW1RVW8jQqDfuiePmMWuw9E+81qmnofK8DSWgXiBRVy4yGBNAkcDv6sKR7O+DeLq18HXHnApPQxG2oIk+W2DohjJ/+L8/Ywt4ZxDmRmxvlP3JQFYn93ZP7WkWupDeP9e07lDq5gCKVZXp7OvflgooQBH4R4ryye/6GsTVTwWNY3Hqehy+LdcAps4qnDUGlpdHYT8g==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	AuiwTof7+WckRGmO0twpEoZ2+VDCsxHt//DbOhMKkB74KKB001F/3hxDLMK+CCxBhSXXS+Zv8nAO2h3MZ/BXRj3hvgzdHFdQ+Q6JsZfEE6+0mUsm67xXCPxM5sBxfosLIqsAp4C0XF48Ji6MS7Jwh3AY83UjEL7fJVygoOKHosfe5yEqC6FihnXJ4PDoQd5TkiwPSqLcRKRkt9S/+L7L4oMZ+xO0jjdfgd34K24YFSuYNNHBlscQwPy0Dhtbq5sNYdPrZItmMteBq1J6hD/beg==
+MIME-Version: 1.0
+
+------=_NextPart_000_0572_01D38F84.54557CA0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:yjP+eiYERs5LkGPM5ISbLt0f539WdBTYQeqbXBqdfJIAl6jRB8a1xRNNs7L9BTW3p7DYzAim6Er+Yz1AlX9pLsPvvgTSMrT4e9wQi6di7YoLdbl+dguP/3JCL6uUtn4y
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfZNeVF/jW1RVW8jQqDfuiePmMWuw9E+81qmnofK8DSWgXiBRVy4yGBNAkcDv6sKR7O+DeLq18HXHnApPQxG2oIk+W2DohjJ/+L8/Ywt4ZxDmRmxvlP3JQFYn93ZP7WkWupDeP9e07lDq5gCKVZXp7OvflgooQBH4R4ryye/6GsTVTwWNY3Hqehy+LdcAps4qnDUGlpdHYT8g==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	AuiwTof7+WckRGmO0twpEoZ2+VDCsxHt//DbOhMKkB74KKB001F/3hxDLMK+CCxBhSXXS+Zv8nAO2h3MZ/BXRj3hvgzdHFdQ+Q6JsZfEE6+0mUsm67xXCPxM5sBxfosLIqsAp4C0XF48Ji6MS7Jwh3AY83UjEL7fJVygoOKHosfe5yEqC6FihnXJ4PDoQd5TkiwPSqLcRKRkt9S/+L7L4oMZ+xO0jjdfgd34K24YFSuYNNHBlscQwPy0Dhtbq5sNYdPrZItmMteBq1J6hD/beg==
+
+Mathews Open Access Journals
+
+                  ISSN 2474-753X
+
+                                                                    
+
+ 
+
+Dear Dr. Xiang-Zhen Kong,
+
+
+ 
+
+Warm Greetings from
+<http://mathewsopenaccess.com/pharmaceutical-science.html> Mathews Journal
+of Pharmaceutical Science!!
+
+ 
+
+It is our honour to invite eminent scientists like you to publish your
+quality research work as manuscripts to support global scientific community.
+
+ 
+
+We are planning to release the next issue by 22nd February 2018, under the
+esteem guidance of our Editorial board members. 
+
+ 
+
+Considering you as Potential Author we are pleased to invite you to submit a
+Research, Review, Commentary, Opinion articles, Short commentaries, Case
+report towards the journal. 
+
+ 
+
+Mathews Open Access is been indexed in J-Gate, Google Scholar other sites
+too. 
+
+ 
+
+Kindly submit your articles by 31st January 2018 as an email to
+<mailto:pharmaceutical@mathewsopenaccess.net>
+pharmaceutical@mathewsopenaccess.net, So that we could process it for next
+issue.
+
+ 
+
+NOTE: If it is not feasible to you at this time, please allow us to grasp
+your feasible time to contribute.
+
+ 
+
+Please provide us your acceptance for the same!
+
+ 
+
+With kind regards,
+
+Jennifer Winget
+
+Editorial Coordinator
+
+Mathews International Publishers
+
+ 
+
+ 
+
+
+------=_NextPart_000_0572_01D38F84.54557CA0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:yjP+eiYERs5LkGPM5ISbLt0f539WdBTYQeqbXBqdfJIAl6jRB8a1xRNNs7L9BTW3p7DYzAim6Er+Yz1AlX9pLsPvvgTSMrT4e9wQi6di7YoLdbl+dguP/3JCL6uUtn4y
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfZNeVF/jW1RVW8jQqDfuiePmMWuw9E+81qmnofK8DSWgXiBRVy4yGBNAkcDv6sKR7O+DeLq18HXHnApPQxG2oIk+W2DohjJ/+L8/Ywt4ZxDmRmxvlP3JQFYn93ZP7WkWupDeP9e07lDq5gCKVZXp7OvflgooQBH4R4ryye/6GsTVTwWNY3Hqehy+LdcAps4qnDUGlpdHYT8g==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	AuiwTof7+WckRGmO0twpEoZ2+VDCsxHt//DbOhMKkB74KKB001F/3hxDLMK+CCxBhSXXS+Zv8nAO2h3MZ/BXRj3hvgzdHFdQ+Q6JsZfEE6+0mUsm67xXCPxM5sBxfosLIqsAp4C0XF48Ji6MS7Jwh3AY83UjEL7fJVygoOKHosfe5yEqC6FihnXJ4PDoQd5TkiwPSqLcRKRkt9S/+L7L4oMZ+xO0jjdfgd34K24YFSuYNNHBlscQwPy0Dhtbq5sNYdPrZItmMteBq1J6hD/beg==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-US" link=3D"#0563=
+C1" vlink=3D"#954F72"><div class=3D"WordSection1"><p class=3D"MsoNormal" al=
+ign=3D"center" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;=
+text-align:center"><b><u><span lang=3D"EN-IN" style=3D"font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-fareast-language:EN-IN">Mathews Open Access J=
+ournals</span></u></b><b><span lang=3D"EN-IN" style=3D"font-family:&quot;Ti=
+mes New Roman&quot;,serif"><o:p></o:p></span></b></p><p class=3D"MsoNormal"=
+ align=3D"right" style=3D"text-align:right"><b><span lang=3D"EN-IN" style=
+=3D"font-family:&quot;Times New Roman&quot;,serif">&nbsp; &nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><=
+/b><span lang=3D"EN-IN" style=3D"font-size:12.0pt;font-family:&quot;Times N=
+ew Roman&quot;,serif">&nbsp;<b>&nbsp;</b></span><b><u><span lang=3D"EN-IN" =
+style=3D"font-family:&quot;Times New Roman&quot;,serif;color:blue">ISSN 247=
+4-753X</span></u></b><b><span lang=3D"EN-IN" style=3D"font-family:&quot;Tim=
+es New Roman&quot;,serif"><o:p></o:p></span></b></p><p class=3D"MsoNormal">=
+<span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif=
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></p><p class=3D"MsoNormal">=
+<b><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,se=
+rif"><o:p>&nbsp;</o:p></span></b></p><p class=3D"MsoNormal"><b><span lang=
+=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif">Dear Dr.=
+ Xiang-Zhen Kong,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p><=
+/span></b></p><p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p class=
+=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Ro=
+man&quot;,serif">Warm Greetings from </span><span lang=3D"EN-IN"><a href=3D=
+"http://mathewsopenaccess.com/pharmaceutical-science.html"><b><span style=
+=3D"font-family:&quot;Times New Roman&quot;,serif">Mathews Journal of Pharm=
+aceutical Science</span></b></a></span><span lang=3D"EN-IN" style=3D"font-f=
+amily:&quot;Times New Roman&quot;,serif">!!<b><o:p></o:p></b></span></p><p =
+class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times N=
+ew Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><s=
+pan lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif">=
+It is our honour to invite eminent scientists like you to publish your qual=
+ity research work as manuscripts to support global scientific community.<o:=
+p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:justify;text-=
+justify:inter-ideograph"><span lang=3D"EN-IN" style=3D"font-size:12.0pt;fon=
+t-family:&quot;Times New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p =
+class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideograp=
+h"><b><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;=
+,serif;background:yellow;mso-highlight:yellow">We are planning to release t=
+he next issue by 22<sup>nd</sup> February 2018</span></b><span lang=3D"EN-I=
+N" style=3D"font-family:&quot;Times New Roman&quot;,serif">, under the este=
+em guidance of our Editorial board members.&nbsp;<o:p></o:p></span></p><p c=
+lass=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times Ne=
+w Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><sp=
+an lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif">C=
+onsidering you as Potential Author we are pleased to invite you to submit a=
+ Research, Review, Commentary, Opinion articles, Short commentaries, Case r=
+eport towards the journal. <o:p></o:p></span></p><p class=3D"MsoNormal"><sp=
+an lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif"><=
+o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:justi=
+fy;text-justify:inter-ideograph"><span lang=3D"EN-IN" style=3D"font-family:=
+&quot;Times New Roman&quot;,serif">Mathews Open Access is been indexed in J=
+-Gate, Google Scholar other sites too. <o:p></o:p></span></p><p class=3D"Ms=
+oNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><b><span lang=
+=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif">Kindly s=
+ubmit your articles by 31<sup>st</sup> January 2018</span></b><span lang=3D=
+"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif"> as an emai=
+l to </span><span lang=3D"EN-IN"><a href=3D"mailto:pharmaceutical@mathewsop=
+enaccess.net"><span style=3D"font-family:&quot;Times New Roman&quot;,serif"=
+>pharmaceutical@mathewsopenaccess.net</span></a></span><span lang=3D"EN-IN"=
+ style=3D"font-family:&quot;Times New Roman&quot;,serif">, So that we could=
+ process it for next issue.<b><span style=3D"color:red"><o:p></o:p></span><=
+/b></span></p><p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p class=
+=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Ro=
+man&quot;,serif">NOTE: If it is not feasible to you at this time, please al=
+low us to grasp your feasible time to contribute.<o:p></o:p></span></p><p c=
+lass=3D"MsoNormal"><b><span lang=3D"EN-IN" style=3D"font-family:&quot;Times=
+ New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></b></p><p class=3D"MsoNorm=
+al"><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,s=
+erif">Please provide us your acceptance for the same!<o:p></o:p></span></p>=
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"=
+><span lang=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,seri=
+f">With kind regards,<o:p></o:p></span></p><p class=3D"MsoNormal"><span lan=
+g=3D"EN-IN" style=3D"font-family:&quot;Times New Roman&quot;,serif">Jennife=
+r Winget<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-IN" s=
+tyle=3D"font-family:&quot;Times New Roman&quot;,serif">Editorial Coordinato=
+r<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D=
+"font-family:&quot;Times New Roman&quot;,serif">Mathews International Publi=
+shers<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-IN"><o:p=
+>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-IN"><o:p>&n=
+bsp;</o:p></span></p></div></body></html>=
+
+------=_NextPart_000_0572_01D38F84.54557CA0--
+
