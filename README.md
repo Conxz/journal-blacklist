@@ -20,6 +20,8 @@ Journal | Link | Email | Press
 ------- |------|-------|------
 International Journal of Psychiatry | [Website](http://www.opastonline.com/international-journal-of-psychiatry/) | editor.ijp@opastopenaccess.net | [OPAST Group](http://www.opastonline.com/)
 International Journal of Anatomical Variations | [Website](https://www.pulsus.com/international-journal-anatomical-variations.html) | editor.ves@surgeryinsights.com | [Pulsus Group](https://www.pulsus.com/)
+International journal of Current Advanced Research | [Website](www.journalijcar.org) | journalijcar4@info-journalijcar.com | 
+Journal of Neuropsychiatry Disorders & Therapy | [Website](http://www.annexpublishers.org/journals/journal-of-neuropsychiatry-disorders-and-therapy/jhome.php) | jndt@journalmail.online | [Annex Publishers](http://www.annexpublishers.org/)
 
 ## J
 Journal | Link | Email | Press

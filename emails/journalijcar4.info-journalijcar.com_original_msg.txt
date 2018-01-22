@@ -1,0 +1,209 @@
+Received: from SN1NAM02HT216.eop-nam02.prod.protection.outlook.com
+ (2603:1096:a00:1::24) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0108.INDPRD01.PROD.OUTLOOK.COM; Mon, 22 Jan 2018 11:34:56 +0000
+Received: from SN1NAM02FT051.eop-nam02.prod.protection.outlook.com
+ (10.152.72.52) by SN1NAM02HT216.eop-nam02.prod.protection.outlook.com
+ (10.152.73.154) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12; Mon, 22
+ Jan 2018 11:34:55 +0000
+Authentication-Results: spf=pass (sender IP is 208.91.199.209)
+ smtp.mailfrom=info-journalijcar.com; outlook.com; dkim=pass (signature was
+ verified) header.d=info-journalijcar.com;outlook.com; dmarc=bestguesspass
+ action=none header.from=info-journalijcar.com;
+Received-SPF: Pass (protection.outlook.com: domain of info-journalijcar.com
+ designates 208.91.199.209 as permitted sender)
+ receiver=protection.outlook.com; client-ip=208.91.199.209;
+ helo=us2-ob2-3.mailhostbox.com;
+Received: from us2-ob2-3.mailhostbox.com (208.91.199.209) by
+ SN1NAM02FT051.mail.protection.outlook.com (10.152.73.103) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_RSA_WITH_AES_256_CBC_SHA) id 15.20.428.12
+ via Frontend Transport; Mon, 22 Jan 2018 11:34:55 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:BD4ED55DE238641818CC9607C3462E72AC4AACCA3545AEBAC354D78F004B6B94;UpperCasedChecksum:D1D7D0052587234D2D4771D3C8056333AD7A1DB9C25B28E7484A1236CB1860D4;SizeAsReceived:2053;Count:16
+Received: from 172.16.214.51 (unknown [172.16.214.51])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: journalijcar4@info-journalijcar.com)
+	by us2.outbound.mailhostbox.com (Postfix) with ESMTPSA id DE774781479;
+	Mon, 22 Jan 2018 11:34:55 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=info-journalijcar.com; s=20171102; t=1516620896;
+	bh=EFbVFVq91NG0mEAj6IewShiG1GJZt3VxbOO3ye9YMjs=;
+	h=Date:From:Reply-To:To:Subject;
+	b=Os7+Lw4fFGui1rOGT1lqDLPF980+EL34Q48kceI1Cgz/TLIeuhXy9PLo7JenHeFZe
+	 NYzOhSIf8Lkn1GaANEAhByF6GOvmIg216BeSRUkyIhKOup1TtaKp6Kv0vJJd9Pct6c
+	 /i3B0jlDhkdqOFlMqdZlvcNdUBAja8XEPHC7EXmA=
+Date: Mon, 22 Jan 2018 17:04:55 +0530 (IST)
+From: Journal IJCAR <journalijcar4@info-journalijcar.com>
+Reply-To: Journal IJCAR <journalijcar4@info-journalijcar.com>
+To: voigt@izw-berlin.de, voreill@emory.edu, vrupasinghe@dal.ca,
+	weinsteinn@cardiff.ac.uk, whoomin@hotmail.com, wintry_morn@msn.com,
+	wkma@hksyu.edu, wstan@upm.edu.my, xiangzhen.kong@outlook.com,
+	xjzhenghong@aliyun.com, xremesar@ub.edu, yano@is.tokushima-u.ac.jp,
+	yaolin@fjnu.edu.cn, ydfeng@tjh.tjmu.edu.cn, yfcui@tmu.edu.cn,
+	yingxm@bmi.ac.cn, ymsu2@126.com, Yong.P@chula.ac.th,
+	yousri.marzouki@gmail.com, yuriyivanovich@gmail.com
+Message-ID: <598776085.839.1516620895836@webmail.info-journalijcar.com>
+Subject: Smooth, simple and timely publishing of review and research
+ articles-2018
+Content-Type: multipart/alternative;
+	boundary="----=_Part_838_2015335829.1516620895798"
+X-Mailer: Open-Xchange Mailer v7.8.3-Rev22
+X-Originating-Client: open-xchange-appsuite
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.2 cv=LqTi8jVc c=1 sm=1 tr=0
+	a=q81Wa3Eb8KrLM7fJk7apig==:117 a=FvTbtPOFTkuz9iiO-TwA:9
+	a=D4D5cF3NkaUh8wCK:21 a=Ft7potocENKkjTmg:21 a=QEXdDO2ut3YA:10
+	a=cTAWMcc6CjoA:10 a=Ux1zSqYNKLeYDCU8xKcA:9 a=swQ12X0J802brQKa:21
+	a=c7uzIVNspuUn0kCY:21 a=8OhN1VWBvwnV7by9:21 a=_W_S_7VecoQA:10
+	a=erXYEDkzN0pnTYa1Q-e1:22
+X-IncomingHeaderCount: 16
+Return-Path: journalijcar4@info-journalijcar.com
+X-MS-Exchange-Organization-Network-Message-Id: 3031a50b-9468-4a9c-8593-08d5618c2921
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02FT051;1:/iKF60cg4k7fP1WivLvIQQXwoaz/NrAALrXNkeufvJhpLtKK0zcsL8pQxcRUd62J1iMQTbrCEbmPfvgOwbcigTnN45a/XgZQGpUNuBQgw+2oitYaBsWMsCOGRxoZOH4i
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM02HT216;H:us2-ob2-3.mailhostbox.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM02FT051.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 3031a50b-9468-4a9c-8593-08d5618c2921
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(651021)(8291501071);SRVR:SN1NAM02HT216;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT216;3:1er4FC52G6MWbmuKsMZWKEtTPTZUChdhvKec297jbJ4qooh7j1PZ30U+zErCsuN5jDba2P6jUWfwDgTOoQZVJiBBq0tyc+uA1UJ87bEF8UZnqtXEM4nwpEziRZh6bk8zbkJwJsKHVNWRCdo/NWJdZHnA04/nJcFCdl/wEOc1Jtfnr33ZCujvheLLvdlaxUwBMmnujTV4tZ6usZc5NvstTHelQjNZg83TlGxXhK2NtAth+vG0qHgp9WaWIrOX4Raw2xaFHRtsfvwhN4VvbAxfIQSlWef1tLgsVidnWvW6qxDw8a7BItpBtFQDDeG9W16J;25:rlLK2wwYJH/b2J+YSzfooYJffETOq85B4lTFLOsvvwy93qX8fj91DEA4b8TrVXBsHZfX/h7qdDfwC1XWJNaf3bNAHaCjgc2zTfioNco1keYXOuyBqKUTn4+hQkSzAeqLTvVmWRTWK+cngvANmLy/FmKeJSVfiwzKyReMVzkcLM/Y2CXdJoSbblNuN3LP6lfdGnIwN01OSKTdxXwKJXeSqMpJGxIY1JpLNxNVcGxCSctvJS2BSatR4w0fWMToWZM2yoFUC+huDDoq1Es3K+2s8SysVUFNDjW6WJg3Ltue42Bv+gm3igqejHuKliMTOf9moDu2CyfJa3GhQZHMhWj+Bg==;31:9HfM6DFxsOpsRGsZzzJ0elwxBKrG4vBpvwZuLhPxdJDoykudh0SmsBvBKvEd1j370GRWBjNeziK3ne5sEvN07ro3FDHZtp7pRbDo0W8ydGwJUnV/n3UzgEb0KHTIZXtvWaluen9smsoHJ5RyNoQavQl3xbxzPWf0+szyusZO4c17cEVTkaABabRxiCWvaM9fn3h9rZQTwYLck5ins1eeaMXk8HsPWEDkqK3O/TrOxik=
+X-MS-TrafficTypeDiagnostic: SN1NAM02HT216:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.91.199.209
+X-SID-PRA: JOURNALIJCAR4@INFO-JOURNALIJCAR.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(20558992708506)(209352067349851)(85827821059158);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111551)(2400081)(82015058);SRVR:SN1NAM02HT216;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:SN1NAM02HT216;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT216;4:E2ZqO3L02sHcfkNutyls3LanWQWkD83Bd7SU3rYLTKSCPj2lnDwf6OOid16LXswwN46b0ae14z+1Gh36JphDbXCfTWtvPU3k3YvObUzNF+rqJNuSENciOnCJqprVU00f1dKK5ObNqObC1osdrif1zS6JobABLSS1ER4m3Rb0vDLOKdHIKjWXUiPuOp6N8mwllGp6dtwfzq0nTjbcvwACCmiZxU/YwZo+RmYPsXrL3YDktTHc4WLnKY4Y8sFQy9H9TcTFVOUH/Rn4SJMJQpRrR2fAnxAHRoak/0Q45MgODfn09y96sFiVWDkSL8U5pbYHbXS7j9z80rjj6G45TatLVdt2geyDG2viw+uIzhrn73WJKU9sVbpuE2VsA816KPmY;23:mInyizi3sZ1sU8BeSlYb90ut0LyypBb39vw3efT8asxtfSF4kWT8tWEOX/P8scCR6Nby2qPyvtow2LmGVnXi+Mq7/D6WyD5mWySAfzIjvyyJcUn14WFwxZh+3uwjhouB7lk2PVPTLJ67UtxPAvrz4U0RYnCaWTGzP2YSqSo91Do=;6:cKyLtYozqBfwpNRNYI9AkTs8O8Fvj0KgFiXXF7GcyBCnlI0Y1rlY1Qo1L8SB2ZSd//MCA3sBMyRdP8pZCC1Dz89VC6emj8BvRsRK0uxSph9K5AKk/U8ruQMNpczLFzSo/f0ycz8PtdrdUdbMDaYXR2n+Het2QKZSZkBosg5e9aXezRDOymRT4uy1ZE58rgdNxP9+PlAxJvwDHGn78Z6ZaYEJOd23QAqtDEYhVNvXYeK23jKpKpaslATrMdQo3iXGi2F7bXdL7V7Ku9yz7FvQW1bUppKRc89DvK+HDVosV5BCj+mpbWavkhJOx79QsGYLvC6oCgmdR+bkcySqGKIoXZ4hw3qWzLMVM0sv/GZeWUk=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 0XkSp1GH/f+gAVE9TURrZ63kHrc+Ak5zSjdTVGS4e50u6MYBL7TwUg4vgdzMwa1blSyMJLkRmEbHwSVJr9oa9bEEZ7LZm636DT8ibCpjfG4=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT216;5:oVnek3KvoMrCyD++pVg/Dk+/mx/65/SHO1jvn8kQFcWKoZIwHoIQaWdIRmPzinkLdZ4ddNiTLzSkNmSkS/vxCoOphGGYxkUsvQD7lwljLVJVn+cv/yoJIflLlLDTkbyA83/tfG7UyoXW26nfyQxGaIlcNsxnoX6Y38st4WXPWFo=;24:DUDPxh4Psb47VwQYZbyMy7N0w0/8ulhW71LdkGm6WMIaQb/KPIxAv6YkE4/gaIpU6s4wCdPKNSNBTdexstTXDwWLrp4AkSMRnVedJ7QkOvE=;7:l5oVVzgA6OCUrWLsXJ4V3j8JUT0Cj7LOH5XPeofcspw2MFRCJNdS3th7soMla7/BtRJad5gmqG/buBk+6vpn9oHH9LVXYGEXbvvtGjzYPIcoGp+u3AdHGhamhYGMaSspalFcaHWZwi/bANLfl2Z0etpogMj0AYWmdMwxBAEP+le0OL/Ugz8bJLt79CWprgiBYHiymqDZ3vlZWAS/5PSxADw9w2T8TLHqFS2l6kdqI+53BiIupNeusgCgOg35jzuE
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Jan 2018 11:34:55.5546
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3031a50b-9468-4a9c-8593-08d5618c2921
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM02HT216
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2065343
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0428.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:Esv0tivr8vg3ZDQKDQlIAa1Y5Jy4u+SHHcHHCb+9Lc3yFR18oGFlHJXPZ6TZMuZ7gGoUzJKzN40gKkaRwGyarEDJj1aQKrRMKPL0CV2mlyXMVaAC+Dgiw8h7ZkoHH6wG
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddZpmMelIiOaZh6o4uzZtUNSLGRDk7ShIek6k4szBSoFDzBvYj7NeTJHdyAcvGs/USbi1vBAtiJ6kjkaQjUl/PmN6n+1/ALY9C1Gvx23XOsbpnxjuJHWXUCJ3HYc8AKIcjDPRRA2F1w0RO1xADsm90xsAJIzWoTLEWvlvSxDueQu/DXQVIFOZtX5FsgW5NQCZPEWVjodYBEdQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	pivoHqzV4T+CPm67J+oVzKGefCeA/yE/adkAayi/JGsHu3tkdJsadoj6D19hKeJvGiqA53nkU7T6CEjDe9byJvChm62DojDSwW9TvlPucKn95/vy2r8LPL2lAwNtt5QUOD/BJd6ZsCLmLPm/MJ9Z4hLPjt4fYpEKk67HC0mahUgo+sO3OnrMHhxKU7J+t1klbBntRtRkU4ReH7x3IaI8xiAN/9OeRx3dt7PRJWuLknEGT2jZKZ+WIHBis7wugTIO71X0tw3zl0DWGVj1LzJ8dw==
+MIME-Version: 1.0
+
+------=_Part_838_2015335829.1516620895798
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:Esv0tivr8vg3ZDQKDQlIAa1Y5Jy4u+SHHcHHCb+9Lc3yFR18oGFlHJXPZ6TZMuZ7gGoUzJKzN40gKkaRwGyarEDJj1aQKrRMKPL0CV2mlyXMVaAC+Dgiw8h7ZkoHH6wG
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddZpmMelIiOaZh6o4uzZtUNSLGRDk7ShIek6k4szBSoFDzBvYj7NeTJHdyAcvGs/USbi1vBAtiJ6kjkaQjUl/PmN6n+1/ALY9C1Gvx23XOsbpnxjuJHWXUCJ3HYc8AKIcjDPRRA2F1w0RO1xADsm90xsAJIzWoTLEWvlvSxDueQu/DXQVIFOZtX5FsgW5NQCZPEWVjodYBEdQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	pivoHqzV4T+CPm67J+oVzKGefCeA/yE/adkAayi/JGsHu3tkdJsadoj6D19hKeJvGiqA53nkU7T6CEjDe9byJvChm62DojDSwW9TvlPucKn95/vy2r8LPL2lAwNtt5QUOD/BJd6ZsCLmLPm/MJ9Z4hLPjt4fYpEKk67HC0mahUgo+sO3OnrMHhxKU7J+t1klbBntRtRkU4ReH7x3IaI8xiAN/9OeRx3dt7PRJWuLknEGT2jZKZ+WIHBis7wugTIO71X0tw3zl0DWGVj1LzJ8dw==
+
+INTERNATIONAL JOURNAL OF CURRENT ADVANCED RESEARCH (IJCAR)
+
+www.journalijcar.org http://www.journalijcar.org
+
+2015 Impact Factor: 5.995
+
+2015 IC Value: 61.97
+
+UGC APPROVED JOURNAL
+
+(UGC Journal NO:43892)
+
+Dear Researcher
+
+We are happy to inform you that International journal of Current Advanced R=
+esearch (ISSN:-NO: 2319-6475 P: 2319-6505) is launching its next issue (Jan=
+uary-2017). We would like to invite you to contribute your Research Paper f=
+or publication in IJCAR.
+
+We publish
+
+Original papers, Theory-based Empirical Papers, Review Papers, Case Reports=
+, Conference Reports/Papers, Technology Reports, Book Reviews, Commentaries=
+, Events and News. This journal is a Print & Online journal which provides =
+an International Exposure to researcher.
+
+It=E2=80=99s our pleasure to inform you that IJCAR is an interdisciplinary =
+journal Indexed with Index Copernicus, Poland with ICV Value of 61.97 in 20=
+15 and Scored Publication Impact Factor (PIF) of 2016: 5.995 powered by SJI=
+F and listed in Ulrich's Periodicals Directory, Proquest, USA, Pubmed, and =
+Google Scholar.
+
+Kindly submit your manuscript through online submission system (http://jour=
+nalijcar.org/submit-article) or to the mail id journalijcar@gmail.com mailt=
+o:journalijcar@gmail.com in MS word format as attachment.
+
+With Regards
+
+Editorial Office-International Journal of Current Advanced Research
+
+http://www.journalijcar.com
+
+E-mail ID:   journalijcar@gmail.com mailto:journalijcar@gmail.com or journa=
+lijcar2015@gmail.com
+------=_Part_838_2015335829.1516620895798
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:Esv0tivr8vg3ZDQKDQlIAa1Y5Jy4u+SHHcHHCb+9Lc3yFR18oGFlHJXPZ6TZMuZ7gGoUzJKzN40gKkaRwGyarEDJj1aQKrRMKPL0CV2mlyXMVaAC+Dgiw8h7ZkoHH6wG
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddZpmMelIiOaZh6o4uzZtUNSLGRDk7ShIek6k4szBSoFDzBvYj7NeTJHdyAcvGs/USbi1vBAtiJ6kjkaQjUl/PmN6n+1/ALY9C1Gvx23XOsbpnxjuJHWXUCJ3HYc8AKIcjDPRRA2F1w0RO1xADsm90xsAJIzWoTLEWvlvSxDueQu/DXQVIFOZtX5FsgW5NQCZPEWVjodYBEdQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	pivoHqzV4T+CPm67J+oVzKGefCeA/yE/adkAayi/JGsHu3tkdJsadoj6D19hKeJvGiqA53nkU7T6CEjDe9byJvChm62DojDSwW9TvlPucKn95/vy2r8LPL2lAwNtt5QUOD/BJd6ZsCLmLPm/MJ9Z4hLPjt4fYpEKk67HC0mahUgo+sO3OnrMHhxKU7J+t1klbBntRtRkU4ReH7x3IaI8xiAN/9OeRx3dt7PRJWuLknEGT2jZKZ+WIHBis7wugTIO71X0tw3zl0DWGVj1LzJ8dw==
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head><body><p><strong>INTERNATIONAL JOURNAL OF CURRENT ADVANCED RESEARCH =
+(IJCAR)</strong></p><p><a href=3D"http://www.journalijcar.org"><strong>www.=
+journalijcar.org</strong></a></p><p><strong>2015 Impact Factor: 5.995</stro=
+ng></p><p><strong>2015 IC Value: 61.97</strong></p><p><strong>UGC APPROVED =
+JOURNAL</strong></p><p><strong>(UGC Journal NO:43892)</strong></p><p><stron=
+g>Dear Researcher </strong></p><p>We are happy to inform you that <strong>I=
+nternational journal of Current Advanced Research (ISSN:-NO: 2319-6475 P: 2=
+319-6505) </strong>is launching its next issue (<strong>January-2017</stron=
+g>). We would like to invite you to contribute your Research Paper for publ=
+ication in IJCAR.</p><p><strong>We publish </strong></p><p><strong>Original=
+ papers, Theory-based Empirical Papers, Review Papers, Case Reports, Confer=
+ence Reports/Papers, Technology Reports, Book Reviews, Commentaries, Events=
+ and News</strong>. This journal is a <strong>Print &amp; Online</strong> j=
+ournal which provides an International Exposure to researcher.</p><p>It=E2=
+=80=99s our pleasure to inform you that <strong>IJCAR</strong> is an interd=
+isciplinary journal Indexed with Index Copernicus, Poland with <strong>ICV =
+Value of 61.97</strong> in 2015 and Scored Publication Impact Factor (PIF) =
+of <strong>2016: 5.995 </strong>powered by SJIF and listed in <strong>Ulric=
+h's Periodicals Directory, Proquest, USA, Pubmed, and Google Scholar.</stro=
+ng></p><p>Kindly submit your manuscript through online submission system (<=
+a href=3D"http://journalijcar.org/submit-article">http://journalijcar.org/s=
+ubmit-article</a>) or to the mail id <a href=3D"mailto:journalijcar@gmail.c=
+om">journalijcar@gmail.com</a> in MS word format as attachment.</p><p>With =
+Regards</p><p>Editorial Office-<strong>International Journal of Current Adv=
+anced Research</strong></p><p>http://www.journalijcar.com</p><p>E-mail ID:&=
+nbsp;&nbsp; <a href=3D"mailto:journalijcar@gmail.com">journalijcar@gmail.co=
+m</a> or journalijcar2015@gmail.com</p></body></html>
+ =
+
+------=_Part_838_2015335829.1516620895798--
+
