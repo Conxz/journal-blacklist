@@ -1,0 +1,260 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.203.73 with SMTP id h9csp2918693edi;
+        Mon, 22 Jan 2018 04:08:37 -0800 (PST)
+X-Received: by 10.28.234.200 with SMTP id g69mr4599250wmi.137.1516622917195;
+        Mon, 22 Jan 2018 04:08:37 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1516622917; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ubEwK1/80gTO9ibPRlb9T0XkbjA84cY4EA1UamnYrSj6mlgpm+6GHYgnREgvby7zWR
+         Wv2bcryW07uxWGK2STMFJpvjnNsMecKIstp3EBjawsO6sn6J+Xtyvbl1DQf1jKTeEGrD
+         9KM+hOd1Wq7WzZll6TdW+YLIKyqUV74YRcG8SScmTl0wqSom/a6Ul8u5QtNSbQa6GMTz
+         vhieDQWvUgH3FGs4dBWzPkF4/BzWq/zG9eHL4wasXFr+s4Mfgui58Hn5MxO+cTVxI4x2
+         DuAemkO3wNCD616OC3M+tduFI25v31lNaaeXCwYxDIGdWFIkrzVGsfuxAc+vNo+es0PN
+         /Cdg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature
+         :arc-authentication-results;
+        bh=JGIaoRM7PC0c/unXB5X+b9SvMQQWcSMexRWkzk++HS8=;
+        b=eaaczikX2+rVLekyaMXMi4xk28w32wuoZ9dICdNlZ3Br9PQHIvwLFvLAyFgc0LCz/N
+         5BDEX93eqO2RXOfVfRioi9bL6CEQ+STGHoRL75qFM5/RzIPRI+EigmvANtPu3lb16Y9d
+         PyzzkSC/tlwaNAvdvIL/00Z6Ti+c9d2TKV5krXstUAW8BKnKwq2O3B+51Iu7hflCpHac
+         cWDtc3NvdHkTNKH9RQrZWG6ZOrtxi9eyMqQ0WUfXAYC88a86jEDaKZ5cI2KD8h1B9gIz
+         aX5vYK3bBwf23VsBS1lhiQ59KGUk3XBUshVCeYXNoh0yJ08MBzNqkBc8kDKJsNAhoyde
+         Sasw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@arjonline-org.20150623.gappssmtp.com header.s=20150623 header.b=yCCt1svK;
+       spf=softfail (google.com: domain of transitioning arjneu_editor@arjonline.org does not designate 209.85.220.65 as permitted sender) smtp.mailfrom=arjneu_editor@arjonline.org
+Return-Path: <arjneu_editor@arjonline.org>
+Received: from mail-sor-f65.google.com (mail-sor-f65.google.com. [209.85.220.65])
+        by mx.google.com with SMTPS id b9sor7157122wrh.7.2018.01.22.04.08.36
+        for <kongxiangzheng@gmail.com>
+        (Google Transport Security);
+        Mon, 22 Jan 2018 04:08:37 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning arjneu_editor@arjonline.org does not designate 209.85.220.65 as permitted sender) client-ip=209.85.220.65;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@arjonline-org.20150623.gappssmtp.com header.s=20150623 header.b=yCCt1svK;
+       spf=softfail (google.com: domain of transitioning arjneu_editor@arjonline.org does not designate 209.85.220.65 as permitted sender) smtp.mailfrom=arjneu_editor@arjonline.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=arjonline-org.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=JGIaoRM7PC0c/unXB5X+b9SvMQQWcSMexRWkzk++HS8=;
+        b=yCCt1svKUoiSSmzxq8gwRBc/qKe2R8RWsY0AVGitqQEkcI2a/mM4W6G4nkge0JoEet
+         mDJyK2rElSY327O9w7lOx4X0TeVX6GJA93oWX4KWXZPuUv+alROKavoqIORKDvZZvIMr
+         zBeuPnQkDyfSaOuSua/7N5XYVxNb9KpiIgilPqGkwT3RxOznxJvVv5CjuU5AbJACsjvJ
+         MjScsVRSrvU3GRy0fv8bhcN9ZxMBu3tbnFwSZSqdIYkZHfn20vg/ph2ntRFw+jytzSIJ
+         3+eD2A7/th93rhK7qtIC4+1g3fy7U1fy1xG0oOG7C+75RF4iRRXDGJ8lCAZh81r9b9nO
+         CP5g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=JGIaoRM7PC0c/unXB5X+b9SvMQQWcSMexRWkzk++HS8=;
+        b=LL/3vAGtCB5s1hEnL8iqRowAsS2MWctvu1Gu+rOV2C+JIdklt1DnKu5ujNibQG4JTh
+         ZTBgQ9RUHEU3x5RBIna5occ6dXpV/HoIYFUWt/DRytG39ZY/OQ0JerCcqUTEYZpdX1sH
+         NWM1SZD0cBWKjLJDqNPvS3myTqhqQhJ/A++ydQbe0zbr+iCFMAFSZ4WMoHZCpjW9eYfE
+         vsHgjsN12o7awYQT5+a1viElhX351SHpoM44J7uBQA7Xw0QOhCUnq8JLfl3stWLA5nQJ
+         9KdCmPyh+iDvNKF0GDsRQCTNlvxd53sZeDIUVPAYlT1D0GSR9t1ygt6joBb1QfR/+xHK
+         v4Mg==
+X-Gm-Message-State: AKwxyteioHzQQBOLA+iGtz/2T/93wQ0ntwqaxAfEpaaY3XhoLj2iWwi3 SUsrfqUd5eZp0hnAYEsRit+MNAQut6Xfce6SxVxPmg==
+X-Google-Smtp-Source: AH8x226vB2wHFsWyntjsePl8Ri8kxDYwssw35P5e0mlEC1e8L6vFWBbKWFUtcmLn1CykhC+rJypzSTH2iBc9SfbeOU0=
+X-Received: by 10.223.196.211 with SMTP id o19mr5759508wrf.201.1516622916349; Mon, 22 Jan 2018 04:08:36 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.28.158.148 with HTTP; Mon, 22 Jan 2018 04:08:35 -0800 (PST)
+From: EDITOR ARJNEU <arjneu_editor@arjonline.org>
+Date: Mon, 22 Jan 2018 17:38:35 +0530
+Message-ID: <CA+T1pWk8ir0Qn7Zv4c3suXrjhHQfq1PeHHweNCtFYRvntrvM0A@mail.gmail.com>
+Subject: Submit your research aricles - ARJNEU
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="f403045f7cc4300b9105635c4ab0"
+Bcc: kongxiangzheng@gmail.com
+
+--f403045f7cc4300b9105635c4ab0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*Call for Papers*
+
+*American Research Journal of Neurology*
+<https://www.arjonline.org/american-research-journal-of-neurology>
+
+
+ *American Research Journal of Neurology
+<https://www.arjonline.org/american-research-journal-of-neurology> (ARJNEU)=
+*
+ is an online, open access journal that publishes manuscripts. Authors are
+invited to submit their Research Papers, Review Papers, Case Reports, and
+Short Communications to =E2=80=9C*American Research Journal of Neurology*=
+=E2=80=9D which
+helps in promotion of your research work. The Scientists, Professors, and
+Research Scholars can publish their high-quality papers for global
+scientific visibility on our online platform.
+
+*Submission Deadline*: *Open*
+
+*Submit Paper:* *arjneu_editor@arjonline.org* <arjneu_editor@arjonline.org>
+
+*Thanks & Regards*
+
+*Andre Brooks*
+
+*Assistant Managing Editor*
+
+*American Research Journal of Neurology
+<https://www.arjonline.org/american-research-journal-of-neurology>*
+
+*773-649-9077 Ext 404*
+
+*American Research Journals, Inc.*
+
+*8770 West Bryn Mawr Ave, Suite 1300*
+
+*Chicago, IL - 60631-3515.*
+*www.arjonline.org* <http://www.arjonline.org/>
+
+*CONFIDENTIALITY NOTICE:*
+The contents of this email message and any attachments are intended solely
+for the addressee(s) and may contain confidential and/or privileged
+information and may be legally protected from disclosure. If you are not
+the intended recipient of this message or their agent, or if this message
+has been addressed to you in error, please immediately alert the sender by
+reply email and then delete this message and any attachments. If you are
+not the intended recipient, you are hereby notified that any use,
+dissemination, copying or storage of this message or its attachments is
+strictly prohibited.
+
+*If you are not interested in receiving this emails from us, you can
+<unsubscribe <arjneu_editor@arjonline.org>**> by sending UNSUBSCRIBE.*
+
+--f403045f7cc4300b9105635c4ab0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div class=3D"gmail_signature"><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div=
+ dir=3D"ltr"><div style=3D"font-size:small"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div=
+ dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><span style=3D"font-siz=
+e:9.5pt;line-height:14.5667px;color:rgb(33,33,33)"><p class=3D"gmail-m_-456=
+4173400334614759m_-8691594492816040399m_-5132175872504334709m_-895832465309=
+4976804m_2767402809300629902gmail-m_8153171864911918371gmail-m_163627105567=
+4176891gmail-MsoNormal" align=3D"center" style=3D"margin:6pt 0in;font-size:=
+12.6667px;text-align:center;line-height:normal"><b><span style=3D"font-size=
+:9.5pt;font-family:&quot;times new roman&quot;,serif;color:black">Call=C2=
+=A0for=C2=A0Papers</span></b><span style=3D"font-size:9.5pt;color:rgb(34,34=
+,34)"></span></p><p class=3D"gmail-m_-4564173400334614759m_-869159449281604=
+0399m_-5132175872504334709m_-8958324653094976804m_2767402809300629902gmail-=
+m_8153171864911918371gmail-m_1636271055674176891gmail-MsoNormal" align=3D"c=
+enter" style=3D"margin:6pt 0in;font-size:12.6667px;text-align:center;line-h=
+eight:normal"><a href=3D"https://www.arjonline.org/american-research-journa=
+l-of-neurology" target=3D"_blank"><b><span style=3D"font-size:9.5pt;font-fa=
+mily:&quot;times new roman&quot;,serif"><font color=3D"#0000ff">American Re=
+search Journal of Neurology</font></span></b></a><span style=3D"font-size:9=
+.5pt"></span></p><p class=3D"gmail-m_-4564173400334614759m_-869159449281604=
+0399m_-5132175872504334709m_-8958324653094976804m_2767402809300629902gmail-=
+m_8153171864911918371gmail-m_1636271055674176891gmail-MsoNormal" style=3D"m=
+argin-bottom:0.0001pt;font-size:12.6667px;text-align:justify;line-height:no=
+rmal"><span style=3D"font-size:9.5pt;color:black"><br></span></p><p class=
+=3D"gmail-m_-4564173400334614759m_-8691594492816040399m_-513217587250433470=
+9m_-8958324653094976804m_2767402809300629902gmail-m_8153171864911918371gmai=
+l-m_1636271055674176891gmail-MsoNormal" style=3D"margin-bottom:0.0001pt;fon=
+t-size:12.6667px;text-align:justify;line-height:normal"><span style=3D"font=
+-size:9.5pt;color:black">=C2=A0</span><font color=3D"#0000ff" style=3D"font=
+-size:12.6667px"><b><a href=3D"https://www.arjonline.org/american-research-=
+journal-of-neurology" target=3D"_blank"><span style=3D"font-size:9.5pt;font=
+-family:&quot;times new roman&quot;,serif"><font color=3D"#0000ff">American=
+ Research Journal of Neurology</font></span></a><span style=3D"font-size:9.=
+5pt;font-family:&quot;times new roman&quot;,serif">=C2=A0(ARJNEU)</span></b=
+><span style=3D"font-size:9.5pt;font-family:&quot;times new roman&quot;,ser=
+if">=C2=A0</span></font><span style=3D"color:black;font-size:9.5pt;font-fam=
+ily:&quot;times new roman&quot;,serif">is an online, open access journal th=
+at publishes manuscripts. Authors are invited to submit their Research Pape=
+rs, Review Papers, Case Reports, and Short Communications to=C2=A0=E2=80=9C=
+<b><i>American Research Journal of Neurology</i></b>=E2=80=9D=C2=A0which he=
+lps in promotion of your research work. The Scientists, Professors, and Res=
+earch Scholars can publish their high-quality papers for global scientific =
+visibility on our online platform.</span></p><p class=3D"gmail-m_-456417340=
+0334614759m_-8691594492816040399m_-5132175872504334709m_-895832465309497680=
+4m_2767402809300629902gmail-m_8153171864911918371gmail-m_163627105567417689=
+1gmail-MsoNormal" style=3D"margin-bottom:0.0001pt;font-size:12.6667px;line-=
+height:normal"><b><span style=3D"font-size:9.5pt;font-family:&quot;times ne=
+w roman&quot;,serif;color:black">Submission Deadline</span></b><span style=
+=3D"font-size:9.5pt;font-family:&quot;times new roman&quot;,serif;color:bla=
+ck">:=C2=A0<b>Open</b></span></p><p class=3D"gmail-m_-4564173400334614759m_=
+-8691594492816040399m_-5132175872504334709m_-8958324653094976804m_276740280=
+9300629902gmail-m_8153171864911918371gmail-m_1636271055674176891gmail-MsoNo=
+rmal" style=3D"margin-bottom:5pt;font-size:12.6667px;line-height:normal"><b=
+><span style=3D"font-size:9.5pt;font-family:&quot;times new roman&quot;,ser=
+if;color:black">Submit Paper:</span></b><b><span style=3D"font-size:9.5pt;f=
+ont-family:&quot;times new roman&quot;,serif;color:rgb(34,34,34)">=C2=A0</s=
+pan></b><a href=3D"mailto:arjneu_editor@arjonline.org" target=3D"_blank"><s=
+pan style=3D"font-size:9.5pt;font-family:&quot;times new roman&quot;,serif;=
+color:blue"><b>arjneu_editor@arjonline<wbr>.org</b></span></a></p><div styl=
+e=3D"font-size:12.6667px"><div class=3D"gmail-m_-4564173400334614759m_-8691=
+594492816040399m_-5132175872504334709m_-8958324653094976804m_27674028093006=
+29902gmail-m_8153171864911918371gmail-m_1636271055674176891gmail_signature"=
+><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div d=
+ir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"l=
+tr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><di=
+v style=3D"font-size:small"><div style=3D"font-size:12.8px"></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div><div style=3D"color:rgb(34,34,34);font-size:small"><div class=
+=3D"gmail-m_-4564173400334614759m_-8691594492816040399m_-513217587250433470=
+9m_-8958324653094976804m_2767402809300629902gmail-m_8153171864911918371gmai=
+l_signature"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr" style=3D"font-size:12.8px"><b style=3D"font-famil=
+y:&quot;times new roman&quot;,serif;font-size:13.3333px"><br></b></div><div=
+ dir=3D"ltr" style=3D"font-size:12.8px"><b style=3D"font-family:&quot;times=
+ new roman&quot;,serif;font-size:13.3333px">Thanks &amp; Regards</b></div><=
+div dir=3D"ltr" style=3D"font-size:12.8px"><b style=3D"font-family:&quot;ti=
+mes new roman&quot;,serif;font-size:13.3333px"><br></b></div><div dir=3D"lt=
+r" style=3D"font-size:12.8px"><span style=3D"font-family:&quot;times new ro=
+man&quot;,serif"><b>Andre Brooks</b></span></div><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div style=3D"font-siz=
+e:12.8px"><font face=3D"times new roman, serif" size=3D"2"><b>Assistant=C2=
+=A0Managing Editor<br></b></font></div><div style=3D"font-size:12.8px"><fon=
+t size=3D"2"><b><a href=3D"https://www.arjonline.org/american-research-jour=
+nal-of-neurology" target=3D"_blank"><font face=3D"times new roman, serif" c=
+olor=3D"#0000ff">American Research Journal of Neurology</font></a><font fac=
+e=3D"times new roman, serif"><br></font></b></font></div><div style=3D"font=
+-size:12.8px"><font face=3D"times new roman, serif" size=3D"2"><b><font col=
+or=3D"#0000ff">773-649-9077 Ext 404</font><br></b></font></div><div style=
+=3D"font-size:12.8px"><font face=3D"times new roman, serif" size=3D"2"><b>A=
+merican Research Journals, Inc.<br></b></font></div><div style=3D"font-size=
+:12.8px"><font face=3D"times new roman, serif" size=3D"2"><b>8770 West Bryn=
+ Mawr Ave, Suite 1300<br></b></font></div><div style=3D"font-size:12.8px"><=
+font face=3D"times new roman, serif" size=3D"2"><b>Chicago, IL - 60631-3515=
+.<br></b></font></div><div style=3D"font-size:12.8px"><font face=3D"times n=
+ew roman, serif"><a href=3D"http://www.arjonline.org/" target=3D"_blank"><s=
+pan style=3D"color:blue"><font size=3D"2"><b>www.arjonline.org</b></font></=
+span></a><br></font></div><div><font face=3D"times new roman, serif"><br></=
+font></div><div><font face=3D"times new roman, serif"><span style=3D"color:=
+rgb(0,0,0);font-size:12px"><b>CONFIDENTIALITY NOTICE:</b></span><br></font>=
+</div><div><font face=3D"times new roman, serif"><span style=3D"color:rgb(0=
+,0,0);font-size:12px">The contents of this email message and any attachment=
+s are intended solely for the addressee(s) and may contain confidential and=
+/or privileged information and may be legally protected from disclosure. If=
+ you are not the intended recipient of this message or their agent, or if t=
+his message has been addressed to you in error, please immediately alert th=
+e sender by reply email and then delete this message and any attachments. I=
+f you are not the intended recipient, you are hereby notified that any use,=
+ dissemination, copying or storage of this message or its attachments is st=
+rictly prohibited.</span><br></font></div><div><font face=3D"times new roma=
+n, serif"><b><br></b></font></div><div><font face=3D"times new roman, serif=
+" size=3D"1"><b><span style=3D"line-height:14.5667px;color:rgb(33,33,33)">I=
+f you are not interested in receiving=C2=A0this emails from us, you can &lt=
+;</span><span style=3D"line-height:18.4px"><a href=3D"mailto:arjneu_editor@=
+arjonline.org" target=3D"_blank"><span style=3D"line-height:14.5667px"><fon=
+t color=3D"#0000ff">unsubscribe</font></span></a></span></b></font><span st=
+yle=3D"line-height:14.5667px;color:rgb(33,33,33)"><font face=3D"times new r=
+oman, serif"><b><font size=3D"1">&gt; by sending UNSUBSCRIBE.</font></b></f=
+ont></span></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></span></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div>
+</div>
+
+--f403045f7cc4300b9105635c4ab0--
