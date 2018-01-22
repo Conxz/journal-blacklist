@@ -1,5 +1,5 @@
 # Journal Blacklist 期刊黑名单
-I list these journals here in the **Blacklist** mainly because of their frequent spam (and usually ugly) emails which make me (and other researchers) feel bad about them (from 2018.1). These journals are destroying current academic publication, and does NOT deserve any good papers. 
+I list these journals here in the **Blacklist** mainly because of their frequent spam (and usually ugly) emails which make me (and other researchers) feel bad about them (from 2018.1). These journals, usually named themselve as open access journals, are destroying current academic publication, and does NOT deserve any good papers. 
 
 ## Template
 Journal | Link | Email | Press
@@ -10,6 +10,7 @@ journal name | [Website](link) | email | [press company](link)
 Journal | Link | Email | Press
 ------- |------|-------|------
 Austin Journal of Pharmacology and Therapeutics | [Website](http://austinpublishinggroup.com/pharmacology-therapeutics/) | jayne-radke@austinpublishers.com | [Austin Publishing Group](http://austinpublishinggroup.com/)
+American Research Journal of Neurology | [Website](https://www.arjonline.org/american-research-journal-of-neurology) | arjneu_editor@arjonline.org | [American Research Journals](https://www.arjonline.org/)
 
 ## B
 ## C
