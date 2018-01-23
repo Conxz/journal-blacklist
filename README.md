@@ -39,6 +39,7 @@ Magnetic Materials and Its Applications | [Website](http://www.scirp.org/journal
 Journal | Link | Email | Press
 ------- |------|-------|------
 Neuropsychiatry (London) | [Website](http://www.jneuropsychiatry.org/) | neuropsychiatry@neurologyjournals.org | [OMICS International](https://www.omicsonline.org/about.php)
+Neuroscience and Psychiatry | [Website](https://www.omicsonline.org/neuroscience-psychiatry.php) | neuroscience@scientificres.com | [OMICS International](https://www.omicsonline.org/about.php)
 
 ## P
 Journal | Link | Email | Press
@@ -51,3 +52,7 @@ Journal | Link | Email | Press
 Research journal of Nervous System | [Research Journal of Nervous System](http://www.imedpub.com/research-journal-of-nervous-system/) | nervousystem@imedjournals.com | [Insight Medical Publishing](http://www.imedpub.com/)
 Research Advances in Brain Disorders and Therapy | [Website](https://gavinpublishers.com/journals/submitmanuscript) | braindisorder@medicinalsciences.com | [Gavin Publishers](https://gavinpublishers.com/)
 
+## Others
+Journal | Link | Email | Press
+------- |------|-------|------
+All journals | [Website](http://www.ajmie.org/journals) | submission@ijmsa.org | [SciencePublishing Group](http://www.ajmie.org/journals)

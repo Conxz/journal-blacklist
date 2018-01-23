@@ -1,0 +1,343 @@
+Received: from VE1EUR02HT084.eop-EUR02.prod.protection.outlook.com
+ (10.174.208.33) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS via
+ BM1PR01CA0117.INDPRD01.PROD.OUTLOOK.COM; Tue, 23 Jan 2018 09:34:37 +0000
+Received: from VE1EUR02FT045.eop-EUR02.prod.protection.outlook.com
+ (10.152.12.59) by VE1EUR02HT084.eop-EUR02.prod.protection.outlook.com
+ (10.152.13.204) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12; Tue, 23
+ Jan 2018 09:34:36 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.100.235)
+ smtp.mailfrom=scientificres.com; outlook.com; dkim=pass (signature was
+ verified) header.d=AlliedAcademies.onmicrosoft.com;outlook.com;
+ dmarc=bestguesspass action=none header.from=scientificres.com;
+Received-SPF: Pass (protection.outlook.com: domain of scientificres.com
+ designates 104.47.100.235 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.47.100.235;
+ helo=IND01-MA1-obe.outbound.protection.outlook.com;
+Received: from IND01-MA1-obe.outbound.protection.outlook.com (104.47.100.235)
+ by VE1EUR02FT045.mail.protection.outlook.com (10.152.12.192) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12 via
+ Frontend Transport; Tue, 23 Jan 2018 09:34:36 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:E2A9DA3C1A7649AB67581764989C76F082F9E76AF28B72148ED6098158F6C573;UpperCasedChecksum:9A49D4834FC09B1263F704BC15A56AC5BF1F4637DDA510F8506CA0203E777D40;SizeAsReceived:10273;Count:39
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=AlliedAcademies.onmicrosoft.com; s=selector1-scientificres-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=rlbhli5vFbbcKRCua4YJDwNZoF2jFocgBJ90OEC2xKI=;
+ b=oDCUxm/YyCxikikOoXGkg1aOcp+mwODu4UAsSR6futOmd5cSxsw8ffr+x46olYgh/eKIKhRprVjtSXAdH/UDhF0ZJd0fb3icKoaqVcwyeqBNw8dzYFABEiFmEj8s37lTTta3huB8t/IWm5jBJShHjg9RXHvL+w9aGfeqML+xwl0=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=neuroscience@scientificres.com; 
+Received: from OMGJDP0059 (182.76.66.162) by
+ BM1PR0101MB1617.INDPRD01.PROD.OUTLOOK.COM (2603:1096:b00:25::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.428.17; Tue, 23
+ Jan 2018 09:34:33 +0000
+From: "Neuroscience and Psychiatry" <neuroscience@scientificres.com>
+To: <xiangzhen.kong@outlook.com>
+References:
+In-Reply-To:
+Subject: Article on Neuroscience and Psychiatry
+Date: Tue, 23 Jan 2018 14:59:41 +0530
+Message-ID: <0bf501d3942c$b2dbfdb0$1893f910$@scientificres.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0BF6_01D3945A.CC96AAB0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: =?us-ascii?Q?AdOUJgiVR1C47uhtQQSczPhLbI0S2AAABcqAAAAACDAAAAAJAAAAAAowAAAA?=
+ =?us-ascii?Q?CzAAAAAO8AAAAAyQAAAACpAAAAAV8AAAAA3gAAAAClAAAAALEAAAAAlwAAAA?=
+ =?us-ascii?Q?C7AAAAAJEAAAAApwAAAAC3AAAAAKAAAAAAzQAAAACpAAAAALMAAAAAuQAAAA?=
+ =?us-ascii?Q?C1AAAAAMIAAAAAuwAAAAC4AAAAANUAAAAAtAAAAADBAAAAALEAAAAAsQAAAA?=
+ =?us-ascii?Q?DHAAAAALcAAAAAtgAAAADDAAAAAKAAAAAAyQAAAACpAAAAAM8AAAAAvwAAAA?=
+ =?us-ascii?Q?C4AAAAALUAAAAAywAAAACrAAAAALEAAAAAsQAAAACnAAAAALMAAAAAtgAAAA?=
+ =?us-ascii?Q?DDAAAAALkAAAAAsAAAAADMAAAAAKwAAAAAvwAAAADMAAAAANsAAAAAtQAAAA?=
+ =?us-ascii?Q?DeAAAAAMEAAAAAxAAAAADEAAAAANMAAAAAugAAAADZAAAAAM0AAAAAzAAAAA?=
+ =?us-ascii?Q?C5AAAAALUAAAAAxQAAAAEvAAAAAQEAAAAB+AAABkhXAAAAAKgAAAAAlwAAAA?=
+ =?us-ascii?Q?CqAAAAAJEAAAAAnQAAAACkAAAAAKcAAAAArQAAAACTAAAAAMYAAAAAowAAAA?=
+ =?us-ascii?Q?C5AAAAAKIAAAAAyAAAAACYAAAAALsAAAAAuwAAAACuAAAAALcAAAAAsQAAAA?=
+ =?us-ascii?Q?DBAAAAAMoAAAAArQAAAADWAAAAAKYAAAAA0AAAAACjAAAAAMkAAAAAyQAAAA?=
+ =?us-ascii?Q?C7AAAAALgAAAAA0QAAAAC4AAAAALEAAAAAvgAAAADXAAAAAKoAAAAAwAAAAA?=
+ =?us-ascii?Q?CwAAAAALwAAAAAvAAAAACyAAAAAKIAAAAA5QAAAAC/AAAAANgAAAAAvgAAAA?=
+ =?us-ascii?Q?C4AAAAAOcAAAAA3gAAAAC0AAAAAM0AAAAArQAAAADWAAAAALAAAAAA2QAAAA?=
+ =?us-ascii?Q?CsAAAAAM8AAAAAsgAAAADMAAAAAMsAAAAAywAAAAC7AAAAAMQAAAAAqgAAAA?=
+ =?us-ascii?Q?DNAAAAAKAAAAAAwwAAAADKAA_AAB0kAAAb17QAAAA=09C0AAAAAI4AAAAAng?=
+ =?us-ascii?Q?AAAAB7AAAAAJQAAAAAjgAAAAB6AAAAALQAAAAAqgAAAACQAAAAAJMAAAAAkA?=
+ =?us-ascii?Q?AAAACDAAAAAK8AAAAAhgAAAACvAAAAAIIAAAAAnwAAAACiAAAAAJUAAAAAmA?=
+ =?us-ascii?Q?AAAACUAAAAAKcAAAAAlwAAAACdAAAAAK0AAAAAkwAAAACTAAAAANAAAAAAkw?=
+ =?us-ascii?Q?AAAACpAAAAAKwAAAAAnwAAAACvAAAAAKwAAAAAnAAAAACiAAAAAKUAAAAAuw?=
+ =?us-ascii?Q?AAAACUAAAAAKcAAAAAugAAAADXAAAAAMoAAAAAqgAAAADDAAAAAKAAAAAAuQ?=
+ =?us-ascii?Q?AAAADTAAAAANwAAAAArAAAAADCAAAAAMUAAAAAxQAAAADBAAAAAKEAAAAAyg?=
+ =?us-ascii?Q?AAAAC6AAAAAOQAAAAAwAAAAADdAAAAAKMAAAAAnAAAAACsAAAAAKIAAAAAqQ?=
+ =?us-ascii?Q?AAAACcAAAAAKsAAAAApQAAAADIAAAAAOQAAAAA5AAAAADRAAAAAMQAAAAB8w?=
+ =?us-ascii?Q?AABxbPAAAAALAAAAAApwAAAACNAAAAAJkAAAAAhgAAAACWAAAAAJkAAAAAkg?=
+ =?us-ascii?Q?AAAACCAAAAAI8AAAAAnwAAAACIAAAAAIUAAAAAkQAAAACOAAAAAIsAAAAAlw?=
+ =?us-ascii?Q?AAAACXAAAAAJQAAAAAmgAAAACXAAAAAJcAAAAAmgAAAACZAAAAAJwAAAAAmQ?=
+ =?us-ascii?Q?AAAACpAAAAALwAAAAAlQAAAACsAAAAAJsAAAAAmwAAAACuAAAAAJQAAAAApw?=
+Content-Language: en-in
+X-Originating-IP: [182.76.66.162]
+X-ClientProxiedBy: HK2PR02CA0156.apcprd02.prod.outlook.com
+ (2603:1096:201:1f::16) To BM1PR0101MB1617.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:b00:25::15)
+Return-Path: neuroscience@scientificres.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: d15434cd-225d-4ff8-64d5-08d5624484c6
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(4534164)(4627221)(201703031133081)(201702281549075)(5600026)(4604075)(2017052603307)(7153060)(7193020);SRVR:BM1PR0101MB1617;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BM1PR0101MB1617;3:x96odQgHRCnSwx4+CaNM5K+Y/fmnA8BZudAioJ0TnPoIyIrFNdYyJ1GRldyH4kz0TpU4VNWsVs/J6zkq/Qis+NO1xagMHiCvWEsCSvsSX1eHSCMW7KZtJ4wvRyI28DVUQwNAqGpYXu3iBGMXcHOjlDBINOMlCmcyIVXF+V8mBZw2d9WqedcUZ/OGGYa/+S6sKJ/4fJREW2Dv4KkI9NNLwYBbXQAAaUiFEMf5FS360OxXyAyG/XAk0z+Fndtyv4Vj;25:aIsiYm0ETKsNHMabT7AfFX3Nvq2H+UHCGruY7132na1fyM+ZMyrDLdthqkFKg0xtL7oyr//QZZeLs5z1obX2M1RlHRgK1Mnh87cEpfGvRgUI11qaO8FwMBAmSpVY56YcTDR/k2nynqf2i0QJRrhjhTFI+9JvpoWc2RH7/iZSrd0UDLDD7kj/0chXSulY6+HxX6+584Ma1tWMAkLcqm2OylfUrnTsEPwYunwH+NDlk7lZg53+tq04H61NpB96jg/BQDETFIqLsscRFMRPqiIFKZ0QclsmMbe0/0CSwMt6LMII6uMDN7a0Y0KQdGCi9pk9UWXzN9+fvWFceZh6FSC3VQ==;31:sO62m9G4/8P+kQnakTQOykiHb95BGRjF01tJGvpM4lMcwiqzo6+yJaA+iDSIuNRM6c4NyR+dyJsp49vFXVdz2eZmphMfojm6slVP3jNQI0yrYVidPT+E9lp7tWnnqGVsZF+ML+t9g1f7dfzxTokJ1U9gZlzXcGGhkZsX9OP6evu//XEHLV++kH5EV2EoRBu2xFsQlP79o1qobyMIio05RyW00EpKv1t+d+0FpWeRM0A=
+X-MS-TrafficTypeDiagnostic: BM1PR0101MB1617:|VE1EUR02HT084:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BM1PR0101MB1617;20:UXAvlHV1BhftGGiNT8pM3FNSr82cFYwze0bEDltVkFAXAKYtSvpJ5mbmGIvwT+HpHCyi7ojC1l4mcObTqEFdl1PQyJu1cg9Es+sw365vRt4eJLSLrsnhEk49y0QalzYZhaPNAVgzelMYdJct1prxaaRNVFVM9BCsR/CmEi+g5xg=;4:0TaV+L4Qu+aixOa0ukcDSpDCSHNYhoRFQTfs8Oz7RtGXF9noA47/XubHcR6nEbaui1VToYsUoX2l753ytJw0/LtrX1AdSzWRDHpcfdwbftH9AZZYOWGck/t/aRo21GnK17hmdRnOYfPK/ovSSUYwF2r6JLS7RO5R2KbyStMKD/5cPlKikjqgOa/n2TIvifnld2YdwUKHUKJS+CAoJ1l3Mprq8bFVUYtEl4HdCQXvAeYtfGN5aUMEutvcsRSEK+mkqh4HXPM6jL7JH6O2ph+XnF14r3XbEP/s31wCM32Oy7ntHfk+DZPjOUrS4i/rT2evumzuEF8PDi4McvL4dpiDrXDLmYO3ZiCyjedJYSfuLC1BClmpAdgleJaQJfNjcHfZvq8w6RILyxfg0e34ZfGudvX1Uif2f3QeD5dTZdi38r8=
+X-Microsoft-Antispam-PRVS: <BM1PR0101MB16176823993E48677C08FEABC5E30@BM1PR0101MB1617.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(209352067349851)(21748063052155);UriScan:(28532068793085)(20558992708506)(209352067349851)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040501)(2401047)(5005006)(8121501046)(3231023)(2400081)(944501161)(93006095)(93001095)(10201501046)(3002001)(6041288)(20161123564045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123562045)(6072148)(201708071742011);SRVR:BM1PR0101MB1617;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:BM1PR0101MB1617;BCL:0;PCL:0;RULEID:(444111537)(595095)(82015058);SRVR:VE1EUR02HT084;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:VE1EUR02HT084;
+X-Forefront-PRVS: 05610E64EE
+X-Forefront-Antispam-Report-Untrusted: SFV:SPM;SFS:(10009020)(396003)(366004)(376002)(346002)(39860400002)(39380400002)(189003)(199004)(23363002)(61296003)(16586007)(86362001)(8936002)(6496006)(19273905006)(316002)(5660300001)(16799955002)(8676002)(81156014)(81166006)(97736004)(39060400002)(53936002)(75216001)(46816001)(106356001)(6666003)(270700001)(260700001)(105586002)(16526018)(386003)(59450400001)(6116002)(3846002)(790700001)(6916009)(102836004)(1420700001)(44736005)(36756003)(50226002)(52116002)(76176011)(25786009)(2351001)(68736007)(6486002)(84116003)(49950200003)(2906002)(54896002)(6306002)(5890100001)(606006)(84326002)(236005)(7826002)(71636004)(7736002)(66066001)(478600001)(26005)(60130200001)(120606002)(353074003);DIR:OUT;SFP:1501;SCL:5;SRVR:BM1PR0101MB1617;H:OMGJDP0059;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: scientificres.com does not
+ designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BM1PR0101MB1617;23:ccJ7EOxXqk4OFOBjV5cUqZnOd8KLWd0qcB7uZY1?=
+ =?us-ascii?Q?mm3gqq9CMY2bwzS7pu5AEmJnnhnNJnKMUMpwg4wK0p65olROZAVKMpcthdeK?=
+ =?us-ascii?Q?MJXCNV3cQKo+fo3PvTyDw70pmHyg39+IK/RKJppUMHX+89o/NBn2KNJD8Pyf?=
+ =?us-ascii?Q?Sj5Ep21H5cthU7F2+Iw0XkmptFzAFyt0d0qDwI92/unQMp2d2dQPO3Eavax+?=
+ =?us-ascii?Q?pNR0K5rQ0OcmusY6bIwne2tv+qZuZ4IkodOkf4qnDUOnDTo2UFxajmDkDNbG?=
+ =?us-ascii?Q?uJ2B17Jtw7maSqqU1UL847i68oqUZmZSZ3MEdNQZJmZvVZ/5ukXuKrR153h3?=
+ =?us-ascii?Q?h8lYTERWq/siIhMnt+MuBPgrn68bjUROuFSFavCpIDsVDoLlu82otmcWw1R1?=
+ =?us-ascii?Q?l8Yx2G5kgRQe9R1dnVqX4HvPfLZXClRFEL6x/wINkCPZDeFdAC5tkvKHDrOD?=
+ =?us-ascii?Q?mVmfL8u8LVKiuVwkPQkZtG/cNj0HOILNlOVva2YUScd9yQvdodbqAzDVsMQ3?=
+ =?us-ascii?Q?Jk9smasWoyrJNXuvipwtKRM/pRYP7ewtJEehs+MtUZTXI2lL5HxDL/+4i0Ce?=
+ =?us-ascii?Q?/XeI5g1QnPErLQ2zHFcgLfVJog+lmrZUeSRoJwWEvjL4ncpIyEY5yhhvpB9P?=
+ =?us-ascii?Q?8thdJD9TTp+wAiOpi9PYDkL95EP5gaN4MTHkP4fuyrzjBL3cbZQ8td7HWtAx?=
+ =?us-ascii?Q?3y6a4/YRaY6oxI6s7JSLj6fLGsONYM0MgRdjZ+boksNYBETpqY9ZqFFmEz0J?=
+ =?us-ascii?Q?x1hEsHZcaE1LKBR90p8XfEpQX6Ztjr4IXUSFbMyRu4LDMlSu29Y9bT6DhGMj?=
+ =?us-ascii?Q?HZerq+C19olVQGXH+giJK4qj6rt9qPAhsg+I21GgsPld7Yey+ZHpP2z5chDt?=
+ =?us-ascii?Q?B/a2dV0LWcMYwvLrcnJjAwnZbjOM1UdbEOkJg/7IkGz/dZv0Ty/INbUpeLKD?=
+ =?us-ascii?Q?qEXsVk3w0mgDj3ngwEw/6AoSp7m9yE1OMNpr4eAUkpjv0OuWLFfGMoFwpldL?=
+ =?us-ascii?Q?SQaVeUkaxVvW6Y9PsjTwAQpP1FKtcjKKuhqH8wYiYlwLTYG8PAeHo6ADmZ5i?=
+ =?us-ascii?Q?sCHRq1DFzoXkwH8MypQipvhQpoW9tBnCigA8UuJWv5cIxYiShnwLu5gYW6KI?=
+ =?us-ascii?Q?agGLp4GNSMgsJfTgpGSA+SGONjb6FG4tXCoX45JCpczx1e3PDGlgCf4gusvL?=
+ =?us-ascii?Q?x4W8S4PKpzMa8NJdYCFQNgz5GtpzD76TXGsH6Wvx/2HFyqEEPtRBjsZ19Uze?=
+ =?us-ascii?Q?Vssi0z4XhLrd7FosxHsY/2prkbFLmBVPCBFKtnFx3arBcuha7nhR3mSVR/Wh?=
+ =?us-ascii?Q?VfoV2bCf/rhNp7HSPIkwNuPeip9vqGJF+N+DGa/BnATiObi/wrIc9gKDMwev?=
+ =?us-ascii?Q?gRjcIWrqkwIeYAsJ35nZtiGP8QpejJHSLtMxtrj1khswq4/2gdLpilNyIXtt?=
+ =?us-ascii?Q?ILjzLHZ2daSLjbTnXuyZ6sCwfOWv42O6IxdYbcS0Q0ZzNwEXvbnr9S5uOw7y?=
+ =?us-ascii?Q?eYwawoGCpnpdKVnhXOsZKXxzKaHafKO8NhKWFHMip4YEWJhWaFLJhxhNTTc8?=
+ =?us-ascii?Q?4hrl6tEDVT1PqSgZclvAVCqXHfMxoMWvrNoylMd8=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BM1PR0101MB1617;6:yviInJs9eNz6rYIuFZ/M97LXAsfQuhnap30K9pM6BF0UMNXVGxH4g19A6PNFDba3eoaFCz3zekdTtKxTVlsQpfYoZsNhcvx14IedL1jFXDCQxDWkrGv4OG56ecINVVGJ5hJC14TAO+yVRgQNpbpgLTbGuEuQdVrEP8oHvwcGTYtRjqNmze0LLkjN5tO+e1mmhNygcmtwpLd0pAgudnKsg+2M5VTtcJjyOu6xaUVFyAwvWPsoZuX98578DNrFgZjK20rcfZzvP3QImU2KXzL7xjM6HRBtFhX+XEenHTHFE90fCr4OS+pj/utmxdurACYrd5Q1HU4Xyrq4gIp3AtjJIlm/qY5nrEE5RNKU3efpBrY=;5:PA6ruKAG4HEcFIr1rh+SzX1T0gyEcqay6WgT22PXZKjC06CYYum+2A9nlr28kKoL0nWiW2CLhhKMcq3AyXK8LNBx12rKmxjihS5289yJBSBhQHwEJqlMyJXlxasDzNplyOMknzCRb24JgwMcJd2t1EdNoHbNWR5hbJeUkB5iPIU=;24:tAdaEMmQcT06CnZhIFpN+Lxwj+LPui6tBE/W2e1/Yed7gFLRIYLIdjXSTh/yEmmOkGue8mkNUhDvtMbAQe7Myg==;7:WT8+d5hk960WI4jo5eWmfCWRRd3mz0q9KS0ILcYGqIu/6CQpdFQPo43/d6PsDzAu7yVCJ5fA9MzLczUaV2+4UnBFIYuahrOsm+UnO5xwD8If7mAPFjLWJUX/NyQaNwFJZC82QTt8y12yXQQUncloOA9LVMaDplAEvXJSB0ZOBeLX2+ZK86K4XGT7QJ9F6Jv9q8ePHeHw1OSz7EgslF87NxoLqdrbeJ3Hae4+5cNcDXCYsc7hyX/ydzLFZCKNaIHd
+SpamDiagnosticOutput: 1:22
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BM1PR0101MB1617
+X-IncomingHeaderCount: 39
+X-MS-Exchange-Organization-Network-Message-Id: d15434cd-225d-4ff8-64d5-08d5624484c6
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: VE1EUR02FT045.eop-EUR02.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR02FT045;1:w2f4CJfVToXRoKkAH4Y3vXbn5CGPu9kF4MxIgAgZXfd8SZMieT5WUYIyts8g01+pha/d6fKtntpLN8nx82Uzz6gwmJF3TNPkZwNFnQmlZsOHcL35XUF/5n0SnnyEAmYr
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:VE1EUR02HT084;H:IND01-MA1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: VE1EUR02FT045.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:VE1EUR02HT084;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR02HT084;3:aqD4CWsaFNqLHknj9bPtIs7berKcKtrnjJNmNlfy9P+VpKOT7bVA2iXh6S8jN4Jcys21m5MQyZe0HjtUz6e0sA3bZQHZ1Hke5De3lYCQAjhSAPu2cvOJGZTxv4sn8EFBjJkQP5eM8y4t3cmiEBDykw8h/tX7rgsFNZhWPmhO9DRIlzlZwboZGmhrE6Y6SB83i7xs+mWUB5Ckngw7d3LUU3Ee4DdWAt9eV7VaR5z/eZK+p3tr+OGw67gqPbGSyPuyW0tuJP+SnisLET6EiUo1ojh0fJhzw2kR4neMgClLP0LPI/GKUWXhDImB9iETWfHj;25:CK/KWLBZTOC5j6VKIuD3xteP7yRRPXQeaW/I2WKgHT3lYJTlY1R6qP4jUrq1W3IkbyxWL9gX2e1tV0s0fFQAjgXKuPMMVv76gvFCB5mnkDxd708nrgQCtANrDdXt05j4Yzt0JxcdAIzfi5l8jKqohdfPm9HfYYSfbHVl0pOsNYPwTD1rvWong33+VILqkiBcwfnlzxlsk3/OrAgtWJ+y0xK0TJjjopzGJFlxQ8V/EOGq1ZCEGcd9cqt5rFJXEQDZke6Pfm5swM2NDgD4jXgoqd7zL4h55zNbBf2szQtuuUveblxK9J55ac0raic1gya1ZPn0EsQYBGsIl4Nhlrv2/g==;31:s5+jBs/w4c1Z/C5OSEmFmk78sbpE0nr34Grmu71hvBEkTpTl0/RYyPtMFCvrwFikAQtZafgAbRepPvprSHCbkMELle2RJ47Lwnd/jW3x6152B0OynHcq1LicGgunkkH5nYd61BZ1QLQP+rRV7RSIWznlzcuI5L02TGzZxDqZ3/t+z1Ek9DS0S+nNUtuEIsEzDBnPH0mXTFwBtWIbrB+k5pSfGjG74tcZ8ziCi2KaK/0=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.100.235
+X-SID-PRA: NEUROSCIENCE@SCIENTIFICRES.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR02HT084;4:lml6UKK0Pas0l6sMrpqtzdztAE/PP7d1Z9TrKQg6o/jJAzZ55km5IGcJUjr7yPtOGLKcmzn93lOOQ6Q4e7dORA8vIemhIBQx14AiyU3Oh4bIg3EKugqhwc6VMHGQWIuTo0uIJ0bgDDRFxTzjRpUEElRLZe0SbdYeoOON7HZ6PjTyfbUHasi8QWN07zhxKduz3G/S2DsXZS05hEbHo+enYNf6q4y2AymiwaAYWFClWLqE09Lb6O5wsK32Fe/4BcIvalyXXvokGMQChuGNJXwWx344bEOh3uo45Ja0amqqLNSrGnD+l7TNaIFYzZgK4OdwIm5Vdk5spYfjUS3viPFCufovdPzZherpKpVQ0rAw9omolfDa+a1ggLzHOlJXoS+akhTT5Abw9W1ZQRfIEsfnY50RlzDfnjW7dQkQ6Hu/ufM=;23:qLlPZ/mhEiDOszcCYiiBOV/A6Ms1yjgKk90oeFrWycowaY2jw7RYaRoGxoMCeqL5SX+w2+sv0QsqROb+rIw/EzORNx5QwBBUfschDoQg2jHeAOpupeO4MzZp9OAQgo8NOouMUF7RSmqd0kjyP59vst0ai2V+9kt1QT/Ib3QkqgI=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 40XckGYvNyOC+f+ozA4urGJTTXgiYqGIFyFFay1m8wrwUwxVMScVEx0MA5eKY2MTYTdZaC/GJbZVgI4hfwqRKKwbmjehwUbe6PYUDVDlrQ0=
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR02HT084;6:7B2RJqdoJztm93BUioeBGbR87gb0OCHlWzdmUry1e/LWYrzPoPgxxH2hdoUxoEexRXt/iB8Y6CqhamcD5U0iHImcu1Ar45iOy24glTCBdyo7WM2eV2uDrkKwdCf+feVYN63J2BDjfDV2Cwp+e3A7tpCLcnozzld0Vl75lSL6jyKXBsBuc8J8uorLL5GvQrA27a0cxK3WHa+Fv9O+chug051Q5v2PqINHI1sLHqar9bA/FFEdwVfD1/TwKk1X6XlABbyzj9qqQWVyNdVTLZMuI1Ekk2HJ8tuZIKsKNawHZoT6GMdeErlH0jXfqLyHsfvYAH0tITH0Zu+B+56csqXISEFiHdiTfRWMsoUx5Q0Jpuk=;5:Os1mbAtc1ipEAnzGaefPkv0/rnphpFlLZtGTJqMk/Cc7+8ru5BTvEDuoe6ed3zZ2Y2Y/bHLflOIQSUdBoEBxDSi+aw3RrPPSnSlaatTPZvCVis8RfQi4MHEF604MCCRKyrDYnhNp9mSg4Ci1r7KmzSGrlPWNe3GuKlg3v4ifiGM=;24:KgWBtHutkXZ/uF05WowNPZi4Xeo1lnSXSTomba9fACEZ9Snm/K1P5cfX8bXf/OptxB1w+QDfeikkz1uVnlsg/HidZ5pfN28KtnXBbVsGYEE=;7:pWYau4PbDY98AM0dV4Hi4yR3OPHSZi8RkblontCFOSeqDn/QOczW9f8ZVURflVPuCSjBe1OFzKY4+RrewFWO+PfbeOxe44BQV1EshwDhl/jhobQ0HsO7KFACnnaXU+VWBgP0cofF47jLIL/o93Ef7OykiRMK0FQqSqnj/IcJisxhEP7eNUUHQjeesKXPlLaYom4VTsT7qZoOvuyEyCcfD2rYr8L2dk563aVRGxnvGn/0pvsEsm8JAMLxJ3drxvnO
+SpamDiagnosticMetadata: Default
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Jan 2018 09:34:36.4248
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d15434cd-225d-4ff8-64d5-08d5624484c6
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR02HT084
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.4524934
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0428.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:GAyl0UFbOUeVWlTXmsZEhC9Kl1ahANG0iUGgX7U1NB6Pxfi7UR+qElpUqPqFh7hfFwIFOW6BUHGC2Ytn96v4FgqLRh4fapiVpVw2fss33Kpgh3TIMxVPpEi0tbm356uC
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqk6qBMFRWTv1oVCn2GJyIat2e55a1uQ+ThxXwi2ktWQwwLoOBkeoAnjreHiSAe67D8W3TyLNCDTYXAjMI03wKfZ2Tv5Zz6T3bE4GejYN8UbXikGVhLlqMVsNmLgF2jLc5klU94TqYGNOXMWLAqwpuJoDT1U3OdkfGzcx7CThIzHbK3rPr7enLdcEzxx+iRw+huoF1tF1a1Mg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	Y5/KBrXHXqt9rIBwkM6fcdxLOVe3/FeFat7UwxqQ2M4PV3DjdcmbDdy7Hzhymql5N7PoddpSbEzc8V6gpwfnwX2l2o/KrzuSAKf06OT0aAvpyhZ7jgVBzUChUkwnY+V+hIExCzxnuYuNJBaOCBiiWCJKYdCbvt9Idpxf38uB5uqEy92Irbr6euwOx2OnOD2KY9nTYyy81dPvjHZWH0NgRxsrMNV2VBHYc0CFy78NkerTNdmELA3Cf1aorDv3SU3P86DccacVXyGP0c9rB4c93Q==
+MIME-Version: 1.0
+
+------=_NextPart_000_0BF6_01D3945A.CC96AAB0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:GAyl0UFbOUeVWlTXmsZEhC9Kl1ahANG0iUGgX7U1NB6Pxfi7UR+qElpUqPqFh7hfFwIFOW6BUHGC2Ytn96v4FgqLRh4fapiVpVw2fss33Kpgh3TIMxVPpEi0tbm356uC
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqk6qBMFRWTv1oVCn2GJyIat2e55a1uQ+ThxXwi2ktWQwwLoOBkeoAnjreHiSAe67D8W3TyLNCDTYXAjMI03wKfZ2Tv5Zz6T3bE4GejYN8UbXikGVhLlqMVsNmLgF2jLc5klU94TqYGNOXMWLAqwpuJoDT1U3OdkfGzcx7CThIzHbK3rPr7enLdcEzxx+iRw+huoF1tF1a1Mg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	Y5/KBrXHXqt9rIBwkM6fcdxLOVe3/FeFat7UwxqQ2M4PV3DjdcmbDdy7Hzhymql5N7PoddpSbEzc8V6gpwfnwX2l2o/KrzuSAKf06OT0aAvpyhZ7jgVBzUChUkwnY+V+hIExCzxnuYuNJBaOCBiiWCJKYdCbvt9Idpxf38uB5uqEy92Irbr6euwOx2OnOD2KY9nTYyy81dPvjHZWH0NgRxsrMNV2VBHYc0CFy78NkerTNdmELA3Cf1aorDv3SU3P86DccacVXyGP0c9rB4c93Q==
+
+Neuroscience and Psychiatry: Open Access
+<https://www.omicsonline.org/neuroscience-psychiatry.php> 
+
+Dear Xiang-Zhen Kong,
+
+Greeting for the day!!!
+
+We have contacted you earlier through email. Since we have not received any
+response from you regarding your valuable manuscript submission, we are
+taking the liberty of resending the invitation as we are aware that you may
+be engaged in other activities or my message may not have successfully
+reached you.
+
+Our open access journal strives to release all its issues with quality
+articles and is committed to publish new findings in the field of
+Neuroscience and Psychiatry
+<https://www.omicsonline.org/neuroscience-psychiatry.php> . We would
+appreciate your interest towards Submission with our journal. 
+
+You may contribute write-ups like research, review, perspective, opinion or
+short commentaries, case reports, etc. based on your topics which relates to
+scope of our journal.
+
+Articles submitted on or before February 20th 2018 will receive 40% discount
+based on the assessment of the quality of the article and other criteria.
+Papers can be submitted through Online at Neuroscience and Psychiatry
+Submission <http://www.editorialmanager.com/medicaljournals/default.aspx>
+or send as attachment through E-mail neuroscience@scientificres.com.
+
+Kindly acknowledge the receipt of this email and give us your opinion and
+feel free to communicate with us in case of any query or assistance.
+
+Looking forward to hear from you soon and hoping for a long term
+association.
+
+ 
+
+Kind Regards,
+
+BK Singh
+
+Managing Editor
+
+On behalf of Editorial Board
+
+Neuroscience and Psychiatry: Open Access
+
+ 
+
+ 
+
+ 
+
+
+------=_NextPart_000_0BF6_01D3945A.CC96AAB0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:GAyl0UFbOUeVWlTXmsZEhC9Kl1ahANG0iUGgX7U1NB6Pxfi7UR+qElpUqPqFh7hfFwIFOW6BUHGC2Ytn96v4FgqLRh4fapiVpVw2fss33Kpgh3TIMxVPpEi0tbm356uC
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqk6qBMFRWTv1oVCn2GJyIat2e55a1uQ+ThxXwi2ktWQwwLoOBkeoAnjreHiSAe67D8W3TyLNCDTYXAjMI03wKfZ2Tv5Zz6T3bE4GejYN8UbXikGVhLlqMVsNmLgF2jLc5klU94TqYGNOXMWLAqwpuJoDT1U3OdkfGzcx7CThIzHbK3rPr7enLdcEzxx+iRw+huoF1tF1a1Mg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	Y5/KBrXHXqt9rIBwkM6fcdxLOVe3/FeFat7UwxqQ2M4PV3DjdcmbDdy7Hzhymql5N7PoddpSbEzc8V6gpwfnwX2l2o/KrzuSAKf06OT0aAvpyhZ7jgVBzUChUkwnY+V+hIExCzxnuYuNJBaOCBiiWCJKYdCbvt9Idpxf38uB5uqEy92Irbr6euwOx2OnOD2KY9nTYyy81dPvjHZWH0NgRxsrMNV2VBHYc0CFy78NkerTNdmELA3Cf1aorDv3SU3P86DccacVXyGP0c9rB4c93Q==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-IN" link=3D"blue"=
+ vlink=3D"purple"><div class=3D"WordSection1"><p class=3D"MsoNormal" align=
+=3D"center" style=3D"text-align:center"><span class=3D"MsoHyperlink"><b><a =
+href=3D"https://www.omicsonline.org/neuroscience-psychiatry.php">Neuroscien=
+ce and Psychiatry: Open Access</a><o:p></o:p></b></span></p><p class=3D"Mso=
+Normal" style=3D"text-align:justify"><b>Dear Xiang-Zhen Kong,</b><o:p></o:p=
+></p><p class=3D"MsoNormal" style=3D"text-align:justify">Greeting for the d=
+ay!!!<o:p></o:p></p><p class=3D"MsoNormal" style=3D"text-align:justify">We =
+have contacted you earlier through email. Since we have not received any re=
+sponse from you regarding your valuable manuscript submission, we are takin=
+g the liberty of resending the invitation as we are aware that you <span st=
+yle=3D"text-transform:uppercase">may</span> be engaged in other activities =
+or my message may not have successfully reached you.<o:p></o:p></p><p class=
+=3D"MsoNormal" style=3D"text-align:justify">Our open access journal strives=
+ to release all its issues with quality articles and is committed to publis=
+h new findings in the field of <a href=3D"https://www.omicsonline.org/neuro=
+science-psychiatry.php">Neuroscience and Psychiatry</a>. We would appreciat=
+e your interest towards Submission with our journal. <o:p></o:p></p><p clas=
+s=3D"MsoNormal" style=3D"text-align:justify">You may contribute write-ups l=
+ike research, review, perspective, opinion or short commentaries, case repo=
+rts, etc. based on your topics which relates to scope of our journal.<o:p><=
+/o:p></p><p class=3D"MsoNormal" style=3D"text-align:justify">Articles submi=
+tted on or before <b>February 20<sup>th</sup> 2018 </b>will receive 40% dis=
+count based on the assessment of the quality of the article and other crite=
+ria. Papers can be submitted through Online at <a href=3D"http://www.editor=
+ialmanager.com/medicaljournals/default.aspx">Neuroscience and Psychiatry Su=
+bmission</a> or send as attachment through E-mail <a href=3D"mailto:neurosc=
+ience@scientificres.com">neuroscience@scientificres.com</a>.<o:p></o:p></p>=
+<p class=3D"MsoNormal" style=3D"text-align:justify">Kindly acknowledge the =
+receipt of this email and give us your opinion and feel free to communicate=
+ with us in case of any query or assistance.<o:p></o:p></p><p class=3D"MsoN=
+ormal" style=3D"text-align:justify">Looking forward to hear from you soon a=
+nd hoping for a long term association.<o:p></o:p></p><p class=3D"MsoNormal"=
+ style=3D"text-align:justify"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal" s=
+tyle=3D"text-align:justify"><i>Kind Regards,<o:p></o:p></i></p><p class=3D"=
+MsoNormal" style=3D"text-align:justify"><i>BK Singh<o:p></o:p></i></p><p cl=
+ass=3D"MsoNormal" style=3D"text-align:justify"><i>Managing Editor<o:p></o:p=
+></i></p><p class=3D"MsoNormal" style=3D"text-align:justify"><i>On behalf o=
+f Editorial Board<o:p></o:p></i></p><p class=3D"MsoNormal" style=3D"text-al=
+ign:justify"><i>Neuroscience and Psychiatry: Open Access<o:p></o:p></i></p>=
+<p class=3D"MsoNormal" style=3D"text-align:justify"><o:p>&nbsp;</o:p></p><p=
+ class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p>&nbsp=
+;</o:p></p></div></body></html>=
+
+------=_NextPart_000_0BF6_01D3945A.CC96AAB0--
+
