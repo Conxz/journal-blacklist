@@ -34,6 +34,7 @@ Journal | Link | Email | Press
 ------- |------|-------|------
 Mathews Journal of Pharmaceutical Science | [Website](http://mathewsopenaccess.com/pharmaceutical-science.html) | pharmaceutical@mathewsopenaccess.net | [Mathews Open Access](http://mathewsopenaccess.com/)
 Magnetic Materials and Its Applications | [Website](http://www.scirp.org/journal/htmlOfSpecialIssue.aspx?ID=4639&JournalID=174) | msa@eopfen.com | [Scientific Research](http://www.scirp.org/)
+Medical Research Archives | [Website](http://journals.ke-i.org/index.php/mra/issue/view/71) | editorialboard@mrajournal.org | [KEI Journals](http://journals.ke-i.org/)
 
 ## N
 Journal | Link | Email | Press

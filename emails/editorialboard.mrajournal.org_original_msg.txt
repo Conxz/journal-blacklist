@@ -1,0 +1,212 @@
+Received: from VE1EUR01HT040.eop-EUR01.prod.protection.outlook.com
+ (10.174.220.143) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS via
+ BM1PR0101CA0053.INDPRD01.PROD.OUTLOOK.COM; Wed, 24 Jan 2018 12:03:55 +0000
+Received: from VE1EUR01FT045.eop-EUR01.prod.protection.outlook.com
+ (10.152.2.53) by VE1EUR01HT040.eop-EUR01.prod.protection.outlook.com
+ (10.152.3.71) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.428.12; Wed, 24
+ Jan 2018 12:03:53 +0000
+Authentication-Results: spf=pass (sender IP is 213.189.52.237)
+ smtp.mailfrom=mrajournal.org; outlook.com; dkim=pass (signature was verified)
+ header.d=mrajournal.org;outlook.com; dmarc=pass action=none
+ header.from=mrajournal.org;
+Received-SPF: Pass (protection.outlook.com: domain of mrajournal.org
+ designates 213.189.52.237 as permitted sender)
+ receiver=protection.outlook.com; client-ip=213.189.52.237;
+ helo=server1.mrajournal.org;
+Received: from server1.mrajournal.org (213.189.52.237) by
+ VE1EUR01FT045.mail.protection.outlook.com (10.152.3.125) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.20.428.12 via Frontend Transport; Wed, 24 Jan 2018 12:03:52 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:EE6CBC2C71C7FB53369DAB5E3867A81E73406F8C2B728206BC6FD7B4E485D644;UpperCasedChecksum:39004294EF2A6604ADBF4CA7D0EB1CA23DBD8E9D7F3C83A9FCF9740B7817F858;SizeAsReceived:1326;Count:12
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=mrajournal.org;
+ h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=editorialboard@mrajournal.org;
+ bh=Cz6vcUjamaHICngO8djtiJUpX6k=;
+ b=lCqKg7iTWqIPANBJsN9C8c2IAHJrVKuJqq/n/fZQiWIUUq82YrpO6dgRpWA81mQ+LkMegcRfr2ZV
+   p5XJJALGG+DAxYcvl66UvxMQgstyEbSCAi4Wo3KzIcoraWlQlYTE32Cc2ymWMFXvjNLv5LYLqVVz
+   QHCxtiBi2DjhPPRcCkg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=mrajournal.org;
+ b=cH4qzU8BLfPkjnwN0/rlT+IEEFfRNQ9LkLAf04491BOY69VPugJ8Om+IFp3tHRFRkSMBBPWIhzWK
+   y1AwJW3TBRJYGzCRmkCaw9APYYCyLaJAkMNiBIK0adalnhFbIshcWfDqTY5iQMwmbHGHEWvYKloD
+   uHNzDOJHbexd8zY1DFg=;
+Date: Wed, 24 Jan 2018 13:02:46 +0100
+Return-Path: editorialboard@mrajournal.org
+To: xiangzhen.kong@outlook.com
+From: "Dr. Kateryna Bielka, M.D." <editorialboard@mrajournal.org>
+Reply-To: editorialboard@mraj.org
+Subject: re: Human navigation network: the intrinsic functional organization and behavioral relevance
+Message-ID: <22f52c6917e9604345ce486fd2d6ed99@mumara.ke-i.org>
+List-Unsubscribe: <http://mumara.ke-i.org/Mumara/unsubscribe.php?id=PDIyZjUyYzY5MTdlOTYwNDM0NWNlNDg2ZmQyZDZlZDk5QG11bWFyYS5rZS1pLm9yZz4%3D>
+Content-Type: multipart/alternative;
+	boundary="b1_b7cd7bbe1aaddbb2c3956b5635789070"
+X-IncomingHeaderCount: 12
+X-MS-Exchange-Organization-Network-Message-Id: f9b23b92-3e2f-4215-1c87-08d5632289ae
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01FT045;1:93phlvLpdAt9XCsVaojzUCXk9l2e1PFhRvCBnVUrVzwFu0bqmL1VgZEmZICQBfg2IF8hlSKJtA1ZGfHd3K7fs9m2jBPXMoCv/F+bUtC4HK/tr+4laSH/et9bn3EvGWmm
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:VE1EUR01HT040;H:server1.mrajournal.org;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: VE1EUR01FT045.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: f9b23b92-3e2f-4215-1c87-08d5632289ae
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(651021)(8291501071);SRVR:VE1EUR01HT040;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT040;3:gQ87cN/MQBY4LsXH9rEdZydHWX0z/l16iCReWolNhyiKLMvR1668aIirmZiEvoAcDhILBr01RC+hUhJzB/GvE1kzsZsUnigwkv9JkEsKX8/iYcbYaBxzMXUj29BHViTjYgEePker2FnmTUWAywO+wj38nGY/BWQFgQeDRgjJHWTu9JgCKBDJJbUeDkDkBJEkxCElzuKENU3Kbn8Dohk0UVpV6KC+Dex8ceSrzp4SM9HHO/nBHP1iB/x6aICybbQHjulRdrnbgpv5EkeZZwZuAlwa/ZJ9e5s8e8YmBOQ2ITYmhALKfXJCafw+ZZT3EbEC;25:tpCTZ8Y7SxNC44EX6dJe+E3pCm7g96JouU0y5Y5uhFVbj65s9uyw4F0SU2hKywbjvNBu+u0HAIJKTD1bcb9KViVG2myvamDLzb9zj4QSNX/mR44ob2egie7xLcmBb6vCmTsJ63NufSX9BR6kvanz0GCM3szGRLI5NfhptwlO/4Fa9h6A+v4FCxk+DyNh7F+FZ7WCkxr83CZ9SqRruAfEzPN3pdBkv2kUtLC03jV/KoRqU8X3JLHqY68JRj+l6mto2Xd8V2dxyyc2N2Dx5I941y1u2x8ifPKRyzoCkmDo4WFhTcIAERM8hYmse1uDozqy9iz6/EB8N0z9fQwWIhqdkA==;31:4EwY2360o90Yx+z2Z4njwUvhgd9FqWjz7BSGVQZLE+2KlbBbWQLrcgO6hSzw5KqTWXuLJ8CrhLhJ0Ytuz0QXgdBmEXS+KDx6kLB9ZjDasj6aNKhxuxjQBV3fwETq2xIuDOK80y+8Ikly0y7pkBLeV+3NMRGgsVirYl0h/ifj03EK+8XgdOYKSEfSHCTRLhoe8Q5xlWFjxXE5ofZ7msZ59+HnOn4SvYhq7Jb5FLNcm9E=
+X-MS-TrafficTypeDiagnostic: VE1EUR01HT040:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 213.189.52.237
+X-SID-PRA: EDITORIALBOARD@MRAJOURNAL.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111551)(2400081)(82015058);SRVR:VE1EUR01HT040;BCL:0;PCL:0;RULEID:;SRVR:VE1EUR01HT040;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT040;4:Mhq6B+shVWv/i6/D9/rvfzdeciT+dfzVUxnsCFyx6YkiI551ot0K0iFhvZAxhdkPUSmv1CGrYC74iDGsxVdvjBLKnYw3WKraLWT1qiMvTDocXj8Qfuyi0M5tZf8wPRfnLACioeHZEi+P6MUjZJkFGtXRg71tV0Jc5+ImCsxWcKcY2QCtQQA8EWZHT5rcKr+JSkkIB8D+XFdqPaPUCM+jpEhotz7VsXe6avlpzCBAe4el30VFxc5sgPgqwRAHg+RovHfe1U0hx0dpqIcFD5mGjg==;23:keTNaEzWyILlMGSsTnkf6ydMVhcNtBEorIcaElO6OGQXzkF0dZsPadZuhi/mdGcUgQzdslBvvQal1Wuk62HKU9Dmwtwho4v84mHVeKMssEq42t7/8nCFkkn9EMCKeDrJC/5ZdY0SwGIue1HmQH6I2jGAcBtGoYQ1MNJnJVZaY+8=;6:XMS4cG9R1MG2Mx3UKDC6AeJPo+Exyq9uAIw40GnsWou0Lgc/heQw5wkTa0b2iPH6laxDfwDE2Z4/Hl6lswznso5PT8+ooeNpdLY/c3LIwOf8IHFLY4h2BsP7dhHrTvVFdVcZsaR5kKZUuX6fon5RDl8DY/QKpykd6PXu9xFu4OzJQAmg1TFkQ2WP9ADAIg7ZPviRw1rpcLZbImwPelaNEcqTJmqph62WNHWtzvdf/zxfvQOuXYUmGByzotsbH/L1ZpS12Xy/NKQnRG/YQT3AUyxfjQ+YKLWgssFC+V8qN2irJmGW0E3AQL2wKn3Uq2fZ7cRD76OkCWqlXyu5K10uhziq8bAvamQdQW20s/3I7Uc=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: AjYg+9ksMnTf3tQ+EH2YyFt7oBbnuLPvwG+/UtfsG4S3pMms1BjrHLYSebmtBOdC5GHJFfHRgYmcho0oKJGhAp6qnxvrOiggolTMRnzQun0=
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT040;5:W3gdK8GdbUtfR1dp8KRC94EMnOXeHOIUTF//t5kaDG2ZiK4CD1yUJvlbvSj3d5XrTVQCk+mUE9f52kjAYITkW31WzmzHqJ6HsK+0n94rkoSHXyKd2w7BkYpbnyoLpAALse43qIGpOLbYd5vNeOJz/vwLMwDxgE1Uf103azgVsac=;24:cEYPR67GNpL0Mm5dTYFu9LKlytzd0ypBSlUWW85PpDKqQd8RTgcN4KUZ6UgqtCZcWw56ndQvHl7RtfOSPt3aOxgDPgSrZ0nnUTd4TLrLQxI=;7:cvMVxrs73/FAPMCNh8ddNPZUm1gDbFqMLS/n84DOWAMcU54Ijsx1dtab/DbmMJwRLiHzI4etldlqhKYXG7fhVd8ehT1MBnAUCD3M4Gi2lxlVeOyktMuueibcDi9ZznARBIKQr9qktmy49KtI0cychpiP+dffuq+1SY+Aps10A9AT7mFNmukHPyuy7vqTRc7cwQ29RW8wx/UzIHCOKncpsu/4tiqXOvKfOnONz9RtGwDWTAnu+378Ui4CmZGf2rKz
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jan 2018 12:03:52.9907
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f9b23b92-3e2f-4215-1c87-08d5632289ae
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR01HT040
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.7749289
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0428.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:jShfy2YecZEXXRT/s4gXKTYTeVZ3QSDjG0TS7+HSlTpEBsDw1DmhMx8ngxe+b6sB5XTwiE8t+wLOwhmqoSbsRvfhFOADKDfEa6NEQ6BinLAfu7W9UQSVA2BXeN80585a
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddcn07e7BIWAVyLMOy643KJJzgofqVxSVjgCt3bWMRHdodLTm0a6gjX+rtn5sKYJWqfk8FkDsy54+0u1tC9frE9M92hNtwr3KDl+E5LTDxYW9PLgYF2rXwleE0rhx7FrzoMuwR6wHQ4Wnvf5v4bfx5g5bgQFqdVsPDKt0Ft27hoxuXz0Si46Eev4olY+e+XCA28SSgl9GtGuw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	powYooP1PTlzvc3KMLzgXs1wo43Qo135uuh+i2CBrHvxV8XyM/oikQf/ge3hf275HyV/wT+1qdfoDYfClLZaUC5G0EglOJN4MVzGWg1ezNAAgPSavKYQs3JF78OLbF/EleLBzMm2aAwG5me0fh4H4HlSanYtRDnqhQWlv2ak+OQFtIxozJNbUtsbNNEgWFU+5BXiuqbq21WQ5KdUBRpW8jfnfDjdvaKDh41b1It92viM2XA9jDbHWOdHXpKq25p2r4lTfuXVzOe5jX9SyyJrdQ==
+MIME-Version: 1.0
+
+--b1_b7cd7bbe1aaddbb2c3956b5635789070
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:jShfy2YecZEXXRT/s4gXKTYTeVZ3QSDjG0TS7+HSlTpEBsDw1DmhMx8ngxe+b6sB5XTwiE8t+wLOwhmqoSbsRvfhFOADKDfEa6NEQ6BinLAfu7W9UQSVA2BXeN80585a
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddcn07e7BIWAVyLMOy643KJJzgofqVxSVjgCt3bWMRHdodLTm0a6gjX+rtn5sKYJWqfk8FkDsy54+0u1tC9frE9M92hNtwr3KDl+E5LTDxYW9PLgYF2rXwleE0rhx7FrzoMuwR6wHQ4Wnvf5v4bfx5g5bgQFqdVsPDKt0Ft27hoxuXz0Si46Eev4olY+e+XCA28SSgl9GtGuw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	powYooP1PTlzvc3KMLzgXs1wo43Qo135uuh+i2CBrHvxV8XyM/oikQf/ge3hf275HyV/wT+1qdfoDYfClLZaUC5G0EglOJN4MVzGWg1ezNAAgPSavKYQs3JF78OLbF/EleLBzMm2aAwG5me0fh4H4HlSanYtRDnqhQWlv2ak+OQFtIxozJNbUtsbNNEgWFU+5BXiuqbq21WQ5KdUBRpW8jfnfDjdvaKDh41b1It92viM2XA9jDbHWOdHXpKq25p2r4lTfuXVzOe5jX9SyyJrdQ==
+
+Dear Dr. Kong,
+
+An article you authored a while ago entitled "Human navigation network: the=
+ intrinsic functional organization and behavioral relevance" caught my inte=
+rest and I wanted to contact you about it. I am wondering if you or any of =
+your co-authors have continued working in this line of research because I t=
+hink it would fit nicely into an issue of the Medical Research Archives. I =
+am editing the next several issues of the journal and would be very pleased=
+ if we could include an article from you.
+
+The parameters of the article would be up to you but I was thinking an upda=
+ted review article might be good. I am happy to look at any text you have t=
+o let you know if it fits our editorial line. I am including a link to the =
+journal&#039;s previous issue below so you may get a sense of the kinds of =
+articles we publish.
+
+Could you consider contributing an article on this?
+
+=20
+
+http://journals.ke-i.org/index.php/mra/issue/view/71
+
+
+
+
+
+Sincerely,
+
+Kateryna Bielka, M.D.
+
+Editorial Board
+
+Medical Research Archives
+
+
+
+
+
+This email and attachments sent along with it are confidential and only for=
+ use by the person or business to whom they are addressed. This message is =
+a solicitation. If you have received this email in error please notify the =
+sender. If you are not the named addressee you should not read, forward, or=
+ copy this e-mail. Please notify the sender immediately by e-mail or at 340=
+ S Lemon Ave Walnut CA 91789. If you have received this email by mistake an=
+d delete this email from your system. Unless you are the intended recipient=
+ you are notified that disclosing, copying, distributing or taking any acti=
+on in reliance on the contents of this information is strictly prohibited. =
+If you no longer wish to receive emails from this address please reply with=
+ "unsubscribe" in the subject line.
+
+--b1_b7cd7bbe1aaddbb2c3956b5635789070
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:jShfy2YecZEXXRT/s4gXKTYTeVZ3QSDjG0TS7+HSlTpEBsDw1DmhMx8ngxe+b6sB5XTwiE8t+wLOwhmqoSbsRvfhFOADKDfEa6NEQ6BinLAfu7W9UQSVA2BXeN80585a
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkddcn07e7BIWAVyLMOy643KJJzgofqVxSVjgCt3bWMRHdodLTm0a6gjX+rtn5sKYJWqfk8FkDsy54+0u1tC9frE9M92hNtwr3KDl+E5LTDxYW9PLgYF2rXwleE0rhx7FrzoMuwR6wHQ4Wnvf5v4bfx5g5bgQFqdVsPDKt0Ft27hoxuXz0Si46Eev4olY+e+XCA28SSgl9GtGuw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	powYooP1PTlzvc3KMLzgXs1wo43Qo135uuh+i2CBrHvxV8XyM/oikQf/ge3hf275HyV/wT+1qdfoDYfClLZaUC5G0EglOJN4MVzGWg1ezNAAgPSavKYQs3JF78OLbF/EleLBzMm2aAwG5me0fh4H4HlSanYtRDnqhQWlv2ak+OQFtIxozJNbUtsbNNEgWFU+5BXiuqbq21WQ5KdUBRpW8jfnfDjdvaKDh41b1It92viM2XA9jDbHWOdHXpKq25p2r4lTfuXVzOe5jX9SyyJrdQ==
+
+<!DOCTYPE html><?xml encoding=3D"UTF-8"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>
+<p>Dear Dr. Kong,</p>
+<p>An article you authored a while ago entitled &quot;Human navigation netw=
+ork: the intrinsic functional organization and behavioral relevance&quot; c=
+aught my interest and I&nbsp;wanted to contact you about it. I am wondering=
+ if you or any of your co-authors have continued working in this line of re=
+search because I think it would fit nicely into an issue of the Medical Res=
+earch Archives. I&nbsp;am editing the next&nbsp;several issues of the journ=
+al and would be&nbsp;very pleased if we could include an article from you.<=
+br><br>The parameters of the article would be up to you but I was thinking =
+an updated review article might be good. I am happy to look at any&nbsp;tex=
+t you have to let you know if it fits our editorial line. I am including a =
+link to the journal's previous issue below so you may get a sense of the ki=
+nds of articles we publish.</p>
+<p>Could you consider contributing an article on this?</p>
+<p>&nbsp;</p>
+<p>http://journals.ke-i.org/index.php/mra/issue/view/71</p>
+<p></p>
+<p></p>
+<p>Sincerely,<br><br>Kateryna Bielka, M.D.</p>
+<p>Editorial Board</p>
+<p>Medical Research Archives</p>
+<p></p>
+<p></p>
+<p>This email and attachments sent along with it are confidential and&nbsp;=
+only for use by the&nbsp;person or&nbsp;business to whom they are addressed=
+. This message is a solicitation. If you have received this email in error =
+please notify the sender. If you are not the named addressee you should not=
+ read,&nbsp;forward, or copy this e-mail. Please notify the sender immediat=
+ely by e-mail or at 340 S Lemon Ave Walnut CA 91789. If you have received t=
+his email by mistake and delete this email from your system.&nbsp;Unless yo=
+u are the intended recipient you are notified that disclosing, copying, dis=
+tributing or taking any action in reliance on the contents of this informat=
+ion is strictly prohibited. If you no longer wish to receive emails&nbsp;fr=
+om this address please reply with &quot;unsubscribe&quot; in the subject li=
+ne.</p>
+</body></html>
+<div style=3D"float:left; clear:both; font-family:Arial; margin:40px auto; =
+width:100%; line-height:175%; font-size:11px; color:#434343">
+											<img border=3D"0" src=3D"http://mumara.ke-i.org/Mumara/logo_imag=
+e.php?id=3DPDIyZjUyYzY5MTdlOTYwNDM0NWNlNDg2ZmQyZDZlZDk5QG11bWFyYS5rZS1pLm9y=
+Zz4%3D" width=3D"1" height=3D"1" alt=3D""></div>
+
+
+--b1_b7cd7bbe1aaddbb2c3956b5635789070--
+
