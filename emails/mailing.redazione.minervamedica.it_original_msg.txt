@@ -1,0 +1,886 @@
+Received: from SN1NAM02HT226.eop-nam02.prod.protection.outlook.com
+ (2603:1096:a00:1::17) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0101.INDPRD01.PROD.OUTLOOK.COM; Sun, 4 Feb 2018 00:14:28 +0000
+Received: from SN1NAM02FT025.eop-nam02.prod.protection.outlook.com
+ (10.152.72.56) by SN1NAM02HT226.eop-nam02.prod.protection.outlook.com
+ (10.152.72.224) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.444.20; Sun, 4
+ Feb 2018 00:14:26 +0000
+Authentication-Results: spf=pass (sender IP is 94.125.232.82)
+ smtp.mailfrom=minervamedica.it; outlook.com; dkim=none (message not signed)
+ header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=minervamedica.it;
+Received-SPF: Pass (protection.outlook.com: domain of minervamedica.it
+ designates 94.125.232.82 as permitted sender)
+ receiver=protection.outlook.com; client-ip=94.125.232.82;
+ helo=smtpminerva.minervamedica.eu;
+Received: from smtpminerva.minervamedica.eu (94.125.232.82) by
+ SN1NAM02FT025.mail.protection.outlook.com (10.152.72.87) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.444.20 via Frontend Transport; Sun, 4 Feb 2018 00:14:25 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:DEBE475A71CD6977023873A767FA9B9886078D616A30B2D9D7BFC4C3C1B5A1BA;UpperCasedChecksum:3FC0C42D7068AA859FC0CBB870E2F465295441CE0E287DF73824219C29896D1E;SizeAsReceived:1560;Count:21
+Received: from mailserver.minervamedica.it ([94.125.232.144] helo=minervamedica.it)
+	by smtpminerva.minervamedica.eu with esmtp (Exim 4.86_2)
+	(envelope-from <mailing.redazione@minervamedica.it>)
+	id 1ei7wu-0007io-DG
+	for xiangzhen.kong@outlook.com; Sun, 04 Feb 2018 01:14:24 +0100
+Date: Sun, 4 Feb 2018 01:11:12 +0100
+From: Call for papers <mailing.redazione@minervamedica.it>
+To: Call for papers Subscriber <xiangzhen.kong@outlook.com>
+Precedence: list
+List: callforpapers
+List-Archive: <http://volmail.minervamedica.eu/massmail/dada/mail.cgi/archive/callforpapers/>
+List-ID: <callforpapers.dadapro.avanzati.it>
+List-Owner: <mailing.redazione@minervamedica.it>
+List-Post: NO
+List-Subscribe: <http://volmail.minervamedica.eu/massmail/dada/mail.cgi/s/callforpapers/xiangzhen.kong/outlook.com/>
+List-Unsubscribe: <mailto:mailing.redazione@minervamedica.it?Subject=Unsubscribe%20from%20Call%20for%20papers>, <http://volmail.minervamedica.eu/massmail/dada/mail.cgi/t/KpWayWpExCxOKB9XysfpidYwtX4hQuUoGzarY4ey/>
+List-URL: <http://volmail.minervamedica.eu/massmail/dada/mail.cgi/list/callforpapers/>
+X-BeenThere: http://volmail.minervamedica.eu/massmail/dada/mail.cgi
+Message-ID: <20180126100610.68691268@minervamedica.it>
+X-Mailer: Pro Dada 10.7.0 Stable 07/06/17 
+Content-Type: multipart/alternative;
+	boundary="_----------=_151695757055840"; charset="UTF-8"
+Content-Transfer-Encoding: binary
+Subject: Call for papers - Scientific journals "Chirurgia" and =?UTF-8?Q?=E2=80=9CGazzetta?= Medica Italiana"
+X-IncomingHeaderCount: 21
+Return-Path: mailing.redazione@minervamedica.it
+X-MS-Exchange-Organization-Network-Message-Id: 69a88837-1d5e-4fbc-be78-08d56b644024
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02FT025;1:xBAklV1ZC8ZUs1RukwiFe5gBBd/NYVf1mqBN1XTvqRvvKG8tykGw4LQwGAx2FA485nRvdqmEoG3oOisSnEKJC5olhsz6m98TGTEdWCHu9L+Cb1z2+1Yz14WV0ZmUn3Co
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM02HT226;H:smtpminerva.minervamedica.eu;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM02FT025.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 69a88837-1d5e-4fbc-be78-08d56b644024
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:SN1NAM02HT226;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT226;3:GEYl/vdhJ2oBQd61zpe0ZIQcyH0bWSSDsVObXVQpulxiydAnQA0k44GeuDTaYLkyECPN5wYZyv1rZPMqH3o9IAFlaOJmNYnCKFABWRpJkQr5zT+GJ9edOj63PfFjjft+ZaqjwBIgvStq/gEQ7niSdCl6ZOkVvRdqZUx3TKD+3jDKoAmo1eLIpX4W0MyM9NfXPu59Cuxz7/iNXfFMUeLyHXR9YOitFvb+T/KC7VDUz1Z8/ayNiRHxWQdWfeic+syREt4JQb9hsmHg8C8zMvzHpBpJN6A7lxI0fNxdgAJsJa5p+XUs9K9Uch60Fb1cqcYU;25:RYKytSZB9Zd9kppN4GhXvipD2beDVQHnPim0/8P9v0wtwlLj4lukYbi5BWY1d81hdKezV2OBXDtYXFDKgbPgKnKlpYrKeLUbJFO6Io70NagEnszjjQttxxmlpnGkR4a6gN1IuzBw5CD/8iJHeWVEyMb7HVUE3P5R4W3bxbcA8TVNzL6yghxK+C9XTTMzVgyZBptwbLImYUwuTrYqraf3C3BtcMo8RfPJLzDcGLAXINZ6MaaGszyj9bWTLxA7ONvpITp0dvHnkOr4IkN8yoGazDHJUqhjc+CrpluSj0ev462pA5w6t7tzeErok5epZmdolu2QtPMqkktAJbEU5b2dEA==;31:lwAR2pjNE95Pp5xxWEbeIr02upcgfF8gr6TSgBTV2t8M2vz76MaDx+ha7kKBUGxcG+h66EcFWACgEuKcg2xwS07jTUL/UXwgLxTeL8mhZrNzRPbrv9DZ3lJrxItChBdjJsRFKYQ1hpJJoHZNKCUoeu7i544wAQqAK/AvxUVp+DHP1V0fVDCH6ZHyFlv7tpAi//I4QVsIbpORXnnxqfZYG4/aH4lo7s0Emkx4WocNDmw=
+X-MS-TrafficTypeDiagnostic: SN1NAM02HT226:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 94.125.232.82
+X-SID-PRA: MAILING.REDAZIONE@MINERVAMEDICA.IT
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(20558992708506)(209352067349851)(189930954265078);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:SN1NAM02HT226;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM02HT226;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT226;4:Dmtyu5ALTsdXGjTLhrNdiv53o/YwnZ7JVURhKSxE0LFPcAep+Exb5sGoU47yLMOfkErZ2Rv1GpzofvDTWpvl+sCy6f14R5bn6HoR7evvOjTVEJRDHw424P7otCWNh0g3XbL4+tXmqea1axXGGQm20QkE9pJaXhjWD6NC0HXJdJM5t7qkKWfnmYRMRIjKITrS/zEmEVEZzRqTsSVCkw+CEnwOo8lpPwRopyCA/vtxYy9cnKKdoyTCknGnZT6XxeheA4IuIjvGmfbCNYRECKGYgyehaXcg8uRbRZ1F22z6w5b39sr73WYON4r5Cbi4Uv8W+JQnZpCLWHiLDZXJOfELttqecu7uZJwBNg1exSoT1z2sqfU47r1EsumDaVxqoT4c;23:+uW11W6mxPOI24u40n1CiLNDejwl1cPSjs5/NvYSz/9mH3vmoYYyPPWKUluz4/Rz4rMPsjzzxNG7JMKm0A6CQ4W4B68mYgYEy6fPXJgtQpM2ToqgN24QWyKNWP8TryyAmaidwF8MHvMJC2JbPC7oUhi/ug7Z5ExdiwB9/+g6LS8=;6:ubBm3N0GRXGejdaJ+xrmw75Yc9ImmVmPJpAsea8nNrqrwsfit0KQnGRfbbrB9WscO4hI2nnpyRhI7fW7rb8u/apx6Sv/H7tZdxMEOYtpfamj77J5Qtrbbhdr0VFh4A3WjNJoVoPixSwAN34bJ8MAdq/zWPGTqrug1VPG3PR9Z0pJKZboFUBAPmls5ziM8Zobm7PHJ40tLIl9Je9TtlnPJPAFVjgmWFa9WazZqzZmHpvidwZd/r51cu8Nw+2Ib5LR2xs87STPO+Flm6btjCTdfdj/B1iCW91QIMDVNsQKKxR/wBW/8LLHfcqlXTo2HcafoiPl1khLReh5AjdXb4rsEuymPCvHkFdVrXGO/TZ185s=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: o+nrnpEHPNjgDf07k2R4YaWpex2qufzL0Vr6koU7tdm8ey8bzDIL8UKdds0pYDYmf6qFHBGIMVHvJCUaKPuDWkRZt+ipaNX4GacZEMsjIU0=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM02HT226;5:Go//vMf6TXbQGKaLGhSIDGJ5G4vA8Yv3Cqx8Wz5IK/n98a9SRx4NgUFAHxMCzRFU1Jrlp+vRuKWoRlgL2NV3cY4XRuVZu4fZrM9mKP2+opMdUXxheBeUpz9/Y5rewKDZbHRFGetlKZ7QP5Nf1TGEO1n0j6cWguLnAQwza2GVL9o=;24:rFeDo+m8N4x9026jRW+WhJIl0HVH8PSz/o5AJBv5xkROuyktDJT+XHqbhmsuycT+ZHrltIm9tng77qfIAcJh0/8+/4657i1o31mvbCBJXeA=;7:axCBGZcl5XWQh+uNKIPapaaRVB7+rMXrn0p7VL1Bzeee42J+ai5OkYgOd6PuvMdUgusAOMDtEWXFjaYd5XVor+IxmUMYN/RHZPjgpDMBlx7f3LUuFPtKAM3i0QVYVncVcpsBodhiDp546lpksFC/xQ83I9bhkv4KEQ2tAJWEiB/N+GPHxk4pK33o1zd8ml3CBkwOscZcPb1jxgtMlmm82EMEqDNEgyP+R4vaw811eKcWsCbIc8RDl/BhikBlk+FF
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Feb 2018 00:14:25.6875
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 69a88837-1d5e-4fbc-be78-08d56b644024
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM02HT226
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.7577563
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0464.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:cBtGiWuAa6nsztrf3P8ytWp013i8W/vKkCuLA5C5txtV8V/Ta8vBPQLsn56pO7aLeNwjjTz3hTiC/lM7CRq4l62jLLm1RjfGVjftydlosmO/SopIj4KfTLAlT+BeCLKb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqMz4KmHlUxx/Q448S4zbmy1tx8CsKl9OGA6B1e0VPik9wKIDMBLwNsdplQa0xH28gSAnKfhj0Et1pX/hZM+icI+AdpIr5kRrE86/U4he+aYGIrvJEvrOFqMVUZqK8Lf6ssMKmsr5XxItr5knT7WgCdjsv9OboDyk4jHnWcMivCC/J0Qb+Gzb3QfGHjju5sZlnDPPr0ZsEpng==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	eufLCjGa79LGMWdJpRUcyEQde7Nc65Uv4d854DrsU0WUZlyD0eghN+l5OsCJ79hI4UDV2htv5VshSWAJb9dz2o4kyOaUJToM20yGZvxdc9CkXRvMmfXX2h0R+ZdAgGvp/fuQcqm0Ulq1nFepInU7mH/MYtEHWLlXr9jeBRpfOOxfp1ycmpmNExaxpkqdymnZ0Q2ZfsAWsVLStXdbJhmzn9QSdFRlxymWjgE345jzDrDTjWWmHdjL1hioDm752O0U+6d6V0R1S/7O8aKedMA5VQ==
+MIME-Version: 1.0
+
+--_----------=_151695757055840
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+Date: Fri, 26 Jan 2018 10:06:10 +0100
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:cBtGiWuAa6nsztrf3P8ytWp013i8W/vKkCuLA5C5txtV8V/Ta8vBPQLsn56pO7aLeNwjjTz3hTiC/lM7CRq4l62jLLm1RjfGVjftydlosmO/SopIj4KfTLAlT+BeCLKb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqMz4KmHlUxx/Q448S4zbmy1tx8CsKl9OGA6B1e0VPik9wKIDMBLwNsdplQa0xH28gSAnKfhj0Et1pX/hZM+icI+AdpIr5kRrE86/U4he+aYGIrvJEvrOFqMVUZqK8Lf6ssMKmsr5XxItr5knT7WgCdjsv9OboDyk4jHnWcMivCC/J0Qb+Gzb3QfGHjju5sZlnDPPr0ZsEpng==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	eufLCjGa79LGMWdJpRUcyEQde7Nc65Uv4d854DrsU0WUZlyD0eghN+l5OsCJ79hI4UDV2htv5VshSWAJb9dz2o4kyOaUJToM20yGZvxdc9CkXRvMmfXX2h0R+ZdAgGvp/fuQcqm0Ulq1nFepInU7mH/MYtEHWLlXr9jeBRpfOOxfp1ycmpmNExaxpkqdymnZ0Q2ZfsAWsVLStXdbJhmzn9QSdFRlxymWjgE345jzDrDTjWWmHdjL1hioDm752O0U+6d6V0R1S/7O8aKedMA5VQ==
+
+
+
+
+__=20
+
+   Chirurgia Gazzetta Medica Italiana
+   A Journal on Surgery A Journal on Internal Medicine
+   and Pharmacology Dear Author, Minerva Medica Publishing would like to
+   invite you to submit a paper to the journals =E2=80=9C[1]Chirurgia=E2=80=
+=9D
+   and =E2=80=9C[2]Gazzetta
+   Medica Italiana=E2=80=9D. Manuscripts may be submitted in the form of
+   editorials, original articles, review articles, case reports,
+   therapeutical notes, special articles and letters to the Editor. The
+   journal =E2=80=9CChirurgia=E2=80=9D is a bi-monthly journal indexed in E=
+MBASE, Scopus,
+   Emerging Sources Citation Index. The journal =E2=80=9CGazzetta Medica
+   Italiana=E2=80=9D is a monthly journal indexed in BIOSIS Previews, EMBAS=
+E,
+   Scopus, Emerging Sources Citation Index. All manuscripts are expected
+   to comply with the instructions to authors which conform to the
+   Uniform Requirements for Manuscripts Submitted to Biomedical Editors
+   by the International Committee of Medical Journal Editors ([3]www.icmje.=
+org).
+   The submission must be done directly to the online Editorial Office at
+   the Edizioni Minerva Medica website ([4]www.minervamedicaonlinesubmissio=
+n.it).
+   Papers are peer-reviewed under editorial control. When a paper is
+   accepted for publication the author is issued with a quotation for
+   payment of a publication processing fee. For further information on
+   Chirurgia, please go to
+   [5]http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpaper=
+s/498145603262/xiangzhen.kong/outlook.com/
+   or contact
+   [6]journals2.dept@minervamedica.it.
+   For further information on Gazzetta Medica Italiana, please go to
+   [7]http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpaper=
+s/619576685744/xiangzhen.kong/outlook.com/
+   or contact
+   [8]journals6.dept@minervamedica.it.
+   We look forward to receiving your papers. Kind regards,Editorial
+   Office
+   Edizioni Minerva Medica NOTE: Please do not reply to this email. Any
+   replies will be automatically disregarded.
+
+=20=20=20
+
+   [1] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/600312167096/xiangzhen.kong/outlook.com/
+   [2] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/017923784407/xiangzhen.kong/outlook.com/
+   [3] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/972992332025/xiangzhen.kong/outlook.com/
+   [4] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/020608762332/xiangzhen.kong/outlook.com/
+   [5] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/498145603262/xiangzhen.kong/outlook.com/
+   [6] mailto:journals2.dept@minervamedica.it
+   [7] http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpape=
+rs/619576685744/xiangzhen.kong/outlook.com/
+   [8] mailto:journals6.dept@minervamedica.it
+
+
+
+
+--=20
+
+Subscription Reminder: You're Subscribed to, Call for papers=20
+Using the address: xiangzhen.kong@outlook.com
+
+From: mailing.redazione@minervamedica.it
+mailing.redazione@minervamedica.it
+
+Unsubscribe Automatically:
+http://volmail.minervamedica.eu/massmail/dada/mail.cgi/t/KpWayWpExCxOKB9Xys=
+fpidYwtX4hQuUoGzarY4ey/
+
+--_----------=_151695757055840
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+Date: Fri, 26 Jan 2018 10:06:10 +0100
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:cBtGiWuAa6nsztrf3P8ytWp013i8W/vKkCuLA5C5txtV8V/Ta8vBPQLsn56pO7aLeNwjjTz3hTiC/lM7CRq4l62jLLm1RjfGVjftydlosmO/SopIj4KfTLAlT+BeCLKb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqMz4KmHlUxx/Q448S4zbmy1tx8CsKl9OGA6B1e0VPik9wKIDMBLwNsdplQa0xH28gSAnKfhj0Et1pX/hZM+icI+AdpIr5kRrE86/U4he+aYGIrvJEvrOFqMVUZqK8Lf6ssMKmsr5XxItr5knT7WgCdjsv9OboDyk4jHnWcMivCC/J0Qb+Gzb3QfGHjju5sZlnDPPr0ZsEpng==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	eufLCjGa79LGMWdJpRUcyEQde7Nc65Uv4d854DrsU0WUZlyD0eghN+l5OsCJ79hI4UDV2htv5VshSWAJb9dz2o4kyOaUJToM20yGZvxdc9CkXRvMmfXX2h0R+ZdAgGvp/fuQcqm0Ulq1nFepInU7mH/MYtEHWLlXr9jeBRpfOOxfp1ycmpmNExaxpkqdymnZ0Q2ZfsAWsVLStXdbJhmzn9QSdFRlxymWjgE345jzDrDTjWWmHdjL1hioDm752O0U+6d6V0R1S/7O8aKedMA5VQ==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" lang=3D"en" xml:lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+    <title></title>
+  </head>
+  <body style=3D"-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webk=
+it-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:=
+border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:1=
+6px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;text-=
+align:left;width:100%!important">
+    <style>@media only screen{html{min-height:100%;background:#f3f3f3}}@med=
+ia only screen and (max-width:596px){.small-float-center{margin:0 auto!impo=
+rtant;float:none!important;text-align:center!important}.small-text-center{t=
+ext-align:center!important}.small-text-left{text-align:left!important}.smal=
+l-text-right{text-align:right!important}}@media only screen and (max-width:=
+596px){.hide-for-large{display:block!important;width:auto!important;overflo=
+w:visible!important;max-height:none!important;font-size:inherit!important;l=
+ine-height:inherit!important}}@media only screen and (max-width:596px){tabl=
+e.body table.container .hide-for-large,table.body table.container .row.hide=
+-for-large{display:table!important;width:100%!important}}@media only screen=
+ and (max-width:596px){table.body table.container .callout-inner.hide-for-l=
+arge{display:table-cell!important;width:100%!important}}@media only screen =
+and (max-width:596px){table.body table.container .show-for-large{display:no=
+ne!important;width:0;mso-hide:all;overflow:hidden}}@media only screen and (=
+max-width:596px){table.body img{width:auto;height:auto}table.body center{mi=
+n-width:0!important}table.body .container{width:95%!important}table.body .c=
+olumn,table.body .columns{height:auto!important;-moz-box-sizing:border-box;=
+-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:16px!impor=
+tant;padding-right:16px!important}table.body .column .column,table.body .co=
+lumn .columns,table.body .columns .column,table.body .columns .columns{padd=
+ing-left:0!important;padding-right:0!important}table.body .collapse .column=
+,table.body .collapse .columns{padding-left:0!important;padding-right:0!imp=
+ortant}td.small-1,th.small-1{display:inline-block!important;width:8.33333%!=
+important}td.small-2,th.small-2{display:inline-block!important;width:16.666=
+67%!important}td.small-3,th.small-3{display:inline-block!important;width:25=
+%!important}td.small-4,th.small-4{display:inline-block!important;width:33.3=
+3333%!important}td.small-5,th.small-5{display:inline-block!important;width:=
+41.66667%!important}td.small-6,th.small-6{display:inline-block!important;wi=
+dth:50%!important}td.small-7,th.small-7{display:inline-block!important;widt=
+h:58.33333%!important}td.small-8,th.small-8{display:inline-block!important;=
+width:66.66667%!important}td.small-9,th.small-9{display:inline-block!import=
+ant;width:75%!important}td.small-10,th.small-10{display:inline-block!import=
+ant;width:83.33333%!important}td.small-11,th.small-11{display:inline-block!=
+important;width:91.66667%!important}td.small-12,th.small-12{display:inline-=
+block!important;width:100%!important}.column td.small-12,.column th.small-1=
+2,.columns td.small-12,.columns th.small-12{display:block!important;width:1=
+00%!important}table.body td.small-offset-1,table.body th.small-offset-1{mar=
+gin-left:8.33333%!important;Margin-left:8.33333%!important}table.body td.sm=
+all-offset-2,table.body th.small-offset-2{margin-left:16.66667%!important;M=
+argin-left:16.66667%!important}table.body td.small-offset-3,table.body th.s=
+mall-offset-3{margin-left:25%!important;Margin-left:25%!important}table.bod=
+y td.small-offset-4,table.body th.small-offset-4{margin-left:33.33333%!impo=
+rtant;Margin-left:33.33333%!important}table.body td.small-offset-5,table.bo=
+dy th.small-offset-5{margin-left:41.66667%!important;Margin-left:41.66667%!=
+important}table.body td.small-offset-6,table.body th.small-offset-6{margin-=
+left:50%!important;Margin-left:50%!important}table.body td.small-offset-7,t=
+able.body th.small-offset-7{margin-left:58.33333%!important;Margin-left:58.=
+33333%!important}table.body td.small-offset-8,table.body th.small-offset-8{=
+margin-left:66.66667%!important;Margin-left:66.66667%!important}table.body =
+td.small-offset-9,table.body th.small-offset-9{margin-left:75%!important;Ma=
+rgin-left:75%!important}table.body td.small-offset-10,table.body th.small-o=
+ffset-10{margin-left:83.33333%!important;Margin-left:83.33333%!important}ta=
+ble.body td.small-offset-11,table.body th.small-offset-11{margin-left:91.66=
+667%!important;Margin-left:91.66667%!important}table.body table.columns td.=
+expander,table.body table.columns th.expander{display:none!important}table.=
+body .right-text-pad,table.body .text-pad-right{padding-left:10px!important=
+}table.body .left-text-pad,table.body .text-pad-left{padding-right:10px!imp=
+ortant}table.menu{width:100%!important}table.menu td,table.menu th{width:au=
+to!important;display:inline-block!important}table.menu.small-vertical td,ta=
+ble.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th{di=
+splay:block!important}table.menu[align=3Dcenter]{width:auto!important}table=
+.button.small-expand,table.button.small-expanded{width:100%!important}table=
+.button.small-expand table,table.button.small-expanded table{width:100%}tab=
+le.button.small-expand table a,table.button.small-expanded table a{text-ali=
+gn:center!important;width:100%!important;padding-left:0!important;padding-r=
+ight:0!important}table.button.small-expand center,table.button.small-expand=
+ed center{min-width:0}}</style>
+    <span class=3D"preheader" style=3D"color:#f3f3f3;display:none!important=
+;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!import=
+ant;opacity:0;overflow:hidden;visibility:hidden"></span>
+=09
+    <table class=3D"body" style=3D"Margin:0;background:#f3f3f3;border-colla=
+pse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,san=
+s-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0=
+;padding:0;text-align:left;vertical-align:top;width:100%">
+      <tr style=3D"padding:0;text-align:left;vertical-align:top">
+        <td class=3D"center" align=3D"center" valign=3D"top" style=3D"-moz-=
+hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!importa=
+nt;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font=
+-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left=
+;vertical-align:top;word-wrap:break-word">
+          <center data-parsed=3D"" style=3D"min-width:580px;width:100%">
+            <table align=3D"center" class=3D"wrapper banner float-center" s=
+tyle=3D"Margin:0 auto;background:#e9ebee;border-collapse:collapse;border-sp=
+acing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align=
+:top;width:100%"><tr style=3D"padding:0;text-align:left;vertical-align:top"=
+><td class=3D"wrapper-inner" style=3D"-moz-hyphens:auto;-webkit-hyphens:aut=
+o;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Hel=
+vetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-he=
+ight:1.3;margin:0;padding:20px;text-align:left;vertical-align:top;word-wrap=
+:break-word">
+            	<!-- <container> -->
+            		<table class=3D"row collapse" style=3D"border-collapse:collap=
+se;border-spacing:0;padding:0;position:relative;text-align:left;vertical-al=
+ign:top;width:100%"><tbody><tr style=3D"padding:0;text-align:left;vertical-=
+align:top">
+            			    <th class=3D"small-6 large-6 columns first" valign=3D"mi=
+ddle" style=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding=
+:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:29=
+8px">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            			=09
+            			</th>
+        </tr>
+      </table>
+    </th>
+            			    <th class=3D"small-6 large-6 columns last" valign=3D"mid=
+dle" style=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-=
+serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:=
+0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:298=
+px">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            			<p class=3D"text-right" style=3D"Margin:0;Margin-bottom:10px=
+;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-w=
+eight:400;line-height:1.3;margin:0;margin-bottom:0;padding:0;text-align:rig=
+ht">
+            			=09
+            				=09
+            						Call for papers - Scientific journals &quot;Chirurgia&quo=
+t; and =E2=80=9CGazzetta Medica Italiana&quot;
+            				=09
+            				=20
+            			</p>
+            		</th>
+        </tr>
+      </table>
+    </th>
+            		</tr></tbody></table>
+            	<!-- </container> -->
+            </td></tr></table>
+            <table class=3D"spacer float-center" style=3D"Margin:0 auto;bor=
+der-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;t=
+ext-align:center;vertical-align:top;width:100%"><tbody><tr style=3D"padding=
+:0;text-align:left;vertical-align:top"><td height=3D"25px" style=3D"-moz-hy=
+phens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important=
+;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-w=
+eight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exact=
+ly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp=
+;</td></tr></tbody></table>=20
+           =20
+           =20
+            =09
+            		<table align=3D"center" class=3D"container float-center" styl=
+e=3D"Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spaci=
+ng:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:to=
+p;width:580px"><tbody><tr style=3D"padding:0;text-align:left;vertical-align=
+:top"><td style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-c=
+ollapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-s=
+erif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;p=
+adding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+            			<small style=3D"color:#cacaca;font-size:80%">
+            				having trouble viewing this message?=20
+            				<a href=3D"http://volmail.minervamedica.eu/massmail/dada/ma=
+il.cgi/archive/callforpapers/20180126100610/" style=3D"Margin:0;color:#2199=
+e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;m=
+argin:0;padding:0;text-align:left;text-decoration:none">
+            					read it online
+            				</a>
+            			</small>
+            		</td></tr></tbody></table>
+            =09
+           =20
+           =20
+           =20
+            <table align=3D"center" class=3D"container float-center" style=
+=3D"Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacin=
+g:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top=
+;width:580px"><tbody><tr style=3D"padding:0;text-align:left;vertical-align:=
+top"><td style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-co=
+llapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-se=
+rif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;pa=
+dding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+            	<table class=3D"row" style=3D"border-collapse:collapse;border-=
+spacing:0;display:table;padding:0;position:relative;text-align:left;vertica=
+l-align:top;width:100%"><tbody><tr style=3D"padding:0;text-align:left;verti=
+cal-align:top">
+            		    <th class=3D"small-12 large-12 columns first last" style=
+=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-=
+bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564p=
+x">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            			<table class=3D"spacer" style=3D"border-collapse:collapse;bo=
+rder-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"><tb=
+ody><tr style=3D"padding:0;text-align:left;vertical-align:top"><td height=
+=3D"25px" style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-c=
+ollapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-s=
+erif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;=
+mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;w=
+ord-wrap:break-word">&nbsp;</td></tr></tbody></table>=20
+            				<!-- start message content -->
+            			=09
+            			=09
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;"><b><i>Chirurgia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; Gazzetta Medica Italiana</i></b><br>
+<b>A Journal on Surgery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Journal on Internal Medicine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; and Pharmacology&nbsp;&nbsp;&nbsp; </b></span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Dear Author,</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Minerva Medica Publishing would like to invite you to su=
+bmit a paper to the journals =E2=80=9C<a href=3D"http://volmail.minervamedi=
+ca.eu/massmail/dada/mail.cgi/r/callforpapers/600312167096/xiangzhen.kong/ou=
+tlook.com/">Chirurgia</a>=E2=80=9D and =E2=80=9C<a href=3D"http://volmail.m=
+inervamedica.eu/massmail/dada/mail.cgi/r/callforpapers/017923784407/xiangzh=
+en.kong/outlook.com/">Gazzetta Medica Italiana</a>=E2=80=9D.</span></span><=
+/div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Manuscripts may be submitted in the form of editorials, =
+original articles, review articles, case reports, therapeutical notes, spec=
+ial articles and letters to the Editor.</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">The journal =E2=80=9CChirurgia=E2=80=9D is a bi-monthly =
+journal indexed in EMBASE, Scopus, Emerging Sources Citation Index.&nbsp;</=
+span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">The journal =E2=80=9CGazzetta Medica Italiana=E2=80=9D i=
+s a monthly journal indexed in BIOSIS Previews, EMBASE, Scopus, Emerging So=
+urces Citation Index.</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">All manuscripts are expected to comply with the instruct=
+ions to authors which conform to the Uniform Requirements for Manuscripts S=
+ubmitted to Biomedical Editors by the International Committee of Medical Jo=
+urnal Editors (<a href=3D"http://volmail.minervamedica.eu/massmail/dada/mai=
+l.cgi/r/callforpapers/972992332025/xiangzhen.kong/outlook.com/">www.icmje.o=
+rg</a>). The submission must be done directly to the online Editorial Offic=
+e at the Edizioni Minerva Medica website (<a href=3D"http://volmail.minerva=
+medica.eu/massmail/dada/mail.cgi/r/callforpapers/020608762332/xiangzhen.kon=
+g/outlook.com/">www.minervamedicaonlinesubmission.it</a>).</span></span></d=
+iv>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Papers are peer-reviewed under editorial control. When a=
+ paper is accepted for publication the author is issued with a quotation fo=
+r payment of a publication processing fee.</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">For further information on Chirurgia, please go to <a hr=
+ef=3D"http://volmail.minervamedica.eu/massmail/dada/mail.cgi/r/callforpaper=
+s/498145603262/xiangzhen.kong/outlook.com/">https://www.minervamedica.it/en=
+/journals/chirurgia/index.php</a> or contact <a href=3D"mailto:journals2.de=
+pt@minervamedica.it">journals2.dept@minervamedica.it</a>.&nbsp;</span></spa=
+n></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">For further information on Gazzetta Medica Italiana, ple=
+ase go to <a href=3D"http://volmail.minervamedica.eu/massmail/dada/mail.cgi=
+/r/callforpapers/619576685744/xiangzhen.kong/outlook.com/">https://www.mine=
+rvamedica.it/en/journals/gazzetta-medica-italiana/index.php</a> or contact =
+<a href=3D"mailto:journals6.dept@minervamedica.it">journals6.dept@minervame=
+dica.it</a>.&nbsp;</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">We look forward to receiving your papers.</span></span><=
+/div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Kind regards,</span></span></div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;">Editorial Office<br>
+Edizioni Minerva Medica</span></span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-size:16px;"><span style=3D"font-family:Times New R=
+oman,Times,serif;"><b><u>NOTE: Please do not reply to this email. Any repli=
+es will be automatically disregarded.&nbsp;</u></b></span></span></div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+            			=09
+            				<!-- end message content -->
+            			=09
+            		</th>
+<th class=3D"expander" style=3D"Margin:0;color:#0a0a0a;font-family:Helvetic=
+a,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;=
+padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+        </tr>
+      </table>
+    </th>
+            	</tr></tbody></table>
+            </td></tr></tbody></table>
+           =20
+            <table class=3D"spacer float-center" style=3D"Margin:0 auto;bor=
+der-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;t=
+ext-align:center;vertical-align:top;width:100%"><tbody><tr style=3D"padding=
+:0;text-align:left;vertical-align:top"><td height=3D"25px" style=3D"-moz-hy=
+phens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important=
+;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-w=
+eight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exact=
+ly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp=
+;</td></tr></tbody></table>=20
+           =20
+            <table align=3D"center" class=3D"wrapper float-center" style=3D=
+"Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:=
+0 auto;padding:0;text-align:center;vertical-align:top;width:100%"><tr style=
+=3D"padding:0;text-align:left;vertical-align:top"><td class=3D"wrapper-inne=
+r" style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse=
+:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;fo=
+nt-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:=
+0;text-align:left;vertical-align:top;word-wrap:break-word">=20
+            	<table align=3D"center" class=3D"container" style=3D"Margin:0 =
+auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 =
+auto;padding:0;text-align:inherit;vertical-align:top;width:580px"><tbody><t=
+r style=3D"padding:0;text-align:left;vertical-align:top"><td style=3D"-moz-=
+hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!importa=
+nt;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font=
+-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left=
+;vertical-align:top;word-wrap:break-word">
+            		<table class=3D"row" style=3D"border-collapse:collapse;border=
+-spacing:0;display:table;padding:0;position:relative;text-align:left;vertic=
+al-align:top;width:100%"><tbody><tr style=3D"padding:0;text-align:left;vert=
+ical-align:top">
+            			    <th class=3D"small-12 large-12 columns first last" style=
+=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-=
+bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564p=
+x">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            			=09
+            				<table class=3D"spacer" style=3D"border-collapse:collapse;b=
+order-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"><t=
+body><tr style=3D"padding:0;text-align:left;vertical-align:top"><td height=
+=3D"25px" style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-c=
+ollapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-s=
+erif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;=
+mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;w=
+ord-wrap:break-word">&nbsp;</td></tr></tbody></table>=20
+            			=09
+            				=20
+            					=20
+            				=20
+           =20
+           =20
+            						<h4 style=3D"Margin:0;Margin-bottom:10px;color:inherit;fo=
+nt-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-he=
+ight:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:no=
+rmal">
+            							<small style=3D"color:#cacaca;font-size:80%">
+            								Subscription Reminder
+            							</small>
+            						</h4>
+            					=20
+            						<p style=3D"Margin:0;Margin-bottom:10px;color:#0a0a0a;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-hei=
+ght:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left">You're Subsc=
+ribed to:
+            						<strong>
+            							<a href=3D"http://volmail.minervamedica.eu/massmail/dada=
+/mail.cgi/list/callforpapers" style=3D"Margin:0;color:#2199e8;font-family:H=
+elvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:=
+0;text-align:left;text-decoration:none">=20
+            								Call for papers
+            							</a>
+            						</strong>=20
+            						using the address:=20
+            						<strong>
+            							xiangzhen.kong@outlook.com
+            						</strong>
+            					</p>
+            					<table align=3D"center" class=3D"container" style=3D"Margi=
+n:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margi=
+n:0 auto;padding:0;text-align:inherit;vertical-align:top;width:100%"><tbody=
+><tr style=3D"padding:0;text-align:left;vertical-align:top"><td style=3D"-m=
+oz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!impo=
+rtant;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;f=
+ont-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:l=
+eft;vertical-align:top;word-wrap:break-word">
+            						<table class=3D"row" style=3D"border-collapse:collapse;bo=
+rder-spacing:0;display:table;padding:0;position:relative;text-align:left;ve=
+rtical-align:top;width:100%"><tbody><tr style=3D"padding:0;text-align:left;=
+vertical-align:top">
+            							    <th class=3D"small-12 large-5 columns first" style=
+=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-=
+bottom:16px;padding-left:0!important;padding-right:0!important;text-align:l=
+eft;width:41.66667%">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            								=09
+            				=09
+            								=20
+            									<table class=3D"button tiny radius expanded" style=3D"=
+Margin:0 0 16px 0;border-collapse:collapse;border-spacing:0;margin:0 0 16px=
+ 0;padding:0;text-align:left;vertical-align:top;width:100%!important"><tr s=
+tyle=3D"padding:0;text-align:left;vertical-align:top"><td style=3D"-moz-hyp=
+hens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;=
+color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-we=
+ight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;ve=
+rtical-align:top;word-wrap:break-word"><table style=3D"border-collapse:coll=
+apse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:10=
+0%"><tr style=3D"padding:0;text-align:left;vertical-align:top"><td style=3D=
+"-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;background:#2199e8;border:=
+none;border-collapse:collapse!important;border-radius:3px;color:#fefefe;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:=
+auto;line-height:1.3;margin:0;padding:4px 8px 4px 8px;text-align:left;verti=
+cal-align:top;word-wrap:break-word"><center data-parsed=3D"" style=3D"min-w=
+idth:none!important;width:100%"><a href=3D"http://volmail.minervamedica.eu/=
+massmail/dada/mail.cgi/profile_login/xiangzhen.kong/outlook.com/" align=3D"=
+center" class=3D"float-center" style=3D"Margin:0;border:0 solid #2199e8;bor=
+der-radius:3px;color:#fefefe;display:inline-block;font-family:Helvetica,Ari=
+al,sans-serif;font-size:10px;font-weight:400;line-height:1.3;margin:0;paddi=
+ng:4px 8px 4px 8px;padding-left:0;padding-right:0;text-align:center;text-de=
+coration:none;width:100%">			=09
+            										Manage Your Subscription
+            									</a></center></td></tr></table></td>
+<td class=3D"expander" style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Marg=
+in:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica=
+,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1=
+.3;margin:0;padding:0!important;text-align:left;vertical-align:top;visibili=
+ty:hidden;width:0;word-wrap:break-word"></td></tr></table>
+            								=20
+            								</th>
+        </tr>
+      </table>
+    </th>
+            								    <th class=3D"small-12 large-2 columns" style=3D"Mar=
+gin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:1=
+6px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:=
+16px;padding-left:0!important;padding-right:0!important;text-align:left;wid=
+th:16.66667%">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            								</th>
+        </tr>
+      </table>
+    </th>
+            								    <th class=3D"small-12 large-5 columns last" style=
+=3D"Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-=
+bottom:16px;padding-left:0!important;padding-right:0!important;text-align:l=
+eft;width:41.66667%">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            						=09
+            								<table class=3D"button tiny radius expanded" style=3D"M=
+argin:0 0 16px 0;border-collapse:collapse;border-spacing:0;margin:0 0 16px =
+0;padding:0;text-align:left;vertical-align:top;width:100%!important"><tr st=
+yle=3D"padding:0;text-align:left;vertical-align:top"><td style=3D"-moz-hyph=
+ens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;c=
+olor:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-wei=
+ght:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;ver=
+tical-align:top;word-wrap:break-word"><table style=3D"border-collapse:colla=
+pse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100=
+%"><tr style=3D"padding:0;text-align:left;vertical-align:top"><td style=3D"=
+-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;background:#2199e8;border:n=
+one;border-collapse:collapse!important;border-radius:3px;color:#fefefe;font=
+-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:a=
+uto;line-height:1.3;margin:0;padding:4px 8px 4px 8px;text-align:left;vertic=
+al-align:top;word-wrap:break-word"><center data-parsed=3D"" style=3D"min-wi=
+dth:none!important;width:100%"><a href=3D"http://volmail.minervamedica.eu/m=
+assmail/dada/mail.cgi/t/KpWayWpExCxOKB9XysfpidYwtX4hQuUoGzarY4ey/" align=3D=
+"center" class=3D"float-center" style=3D"Margin:0;border:0 solid #2199e8;bo=
+rder-radius:3px;color:#fefefe;display:inline-block;font-family:Helvetica,Ar=
+ial,sans-serif;font-size:10px;font-weight:400;line-height:1.3;margin:0;padd=
+ing:4px 8px 4px 8px;padding-left:0;padding-right:0;text-align:center;text-d=
+ecoration:none;width:100%">			=09
+            								=09
+            										Unsubscribe Automatically
+            								=09
+            								</a></center></td></tr></table></td>
+<td class=3D"expander" style=3D"-moz-hyphens:auto;-webkit-hyphens:auto;Marg=
+in:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica=
+,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1=
+.3;margin:0;padding:0!important;text-align:left;vertical-align:top;visibili=
+ty:hidden;width:0;word-wrap:break-word"></td></tr></table>
+            							</th>
+        </tr>
+      </table>
+    </th>
+            						</tr></tbody></table>
+            					</td></tr></tbody></table>
+            			</th>
+        </tr>
+      </table>
+    </th>
+            		</tr></tbody></table>
+            	</td></tr></tbody></table>
+            </td></tr></table>
+           =20
+           =20
+           =20
+           =20
+            <table class=3D"spacer float-center" style=3D"Margin:0 auto;bor=
+der-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;t=
+ext-align:center;vertical-align:top;width:100%"><tbody><tr style=3D"padding=
+:0;text-align:left;vertical-align:top"><td height=3D"25px" style=3D"-moz-hy=
+phens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important=
+;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-w=
+eight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exact=
+ly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp=
+;</td></tr></tbody></table>=20
+           =20
+            <table align=3D"center" class=3D"wrapper footer float-center" s=
+tyle=3D"Margin:0 auto;background:#e9ebee;border-collapse:collapse;border-sp=
+acing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align=
+:top;width:100%"><tr style=3D"padding:0;text-align:left;vertical-align:top"=
+><td class=3D"wrapper-inner" style=3D"-moz-hyphens:auto;-webkit-hyphens:aut=
+o;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Hel=
+vetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-he=
+ight:1.3;margin:0;padding:20px;text-align:left;vertical-align:top;word-wrap=
+:break-word">
+            		<table class=3D"row collapse" style=3D"border-collapse:collap=
+se;border-spacing:0;padding:0;position:relative;text-align:left;vertical-al=
+ign:top;width:100%"><tbody><tr style=3D"padding:0;text-align:left;vertical-=
+align:top">
+            			    <th class=3D"small-12 large-6 columns first" style=3D"Ma=
+rgin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:=
+16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom=
+:0;padding-left:0;padding-right:0;text-align:left;width:298px">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            				<h4 style=3D"Margin:0;Margin-bottom:10px;color:inherit;font=
+-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-heig=
+ht:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:norm=
+al">
+            					<small style=3D"color:#cacaca;font-size:80%">
+            						Contact
+            					</small>
+            				</h4>
+            			=09
+            			=09
+            			=09
+            				<p style=3D"Margin:0;Margin-bottom:10px;color:#0a0a0a;font-=
+family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-heigh=
+t:1.3;margin:0;margin-bottom:0;padding:0;text-align:left">
+            					<a href=3D"mailto:mailing.redazione@minervamedica.it" styl=
+e=3D"Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-wei=
+ght:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:=
+none">
+            						mailing.redazione@minervamedica.it
+            					</a>
+            				</p>
+            			=09
+            				<p style=3D"Margin:0;Margin-bottom:10px;color:#0a0a0a;font-=
+family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-heigh=
+t:1.3;margin:0;margin-bottom:0;padding:0;text-align:left">
+            					<tt><a href=3D"mailto:mailing.redazione@minervamedica.it">=
+mailing.redazione@minervamedica.it</a></tt>
+            				</p>
+            			=09
+            			=09
+            			=09
+            			</th>
+        </tr>
+      </table>
+    </th>
+            			    <th class=3D"small-12 large-6 columns last" style=3D"Mar=
+gin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:1=
+6px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:=
+0;padding-left:0;padding-right:0;text-align:left;width:298px">
+      <table style=3D"border-collapse:collapse;border-spacing:0;padding:0;t=
+ext-align:left;vertical-align:top;width:100%">
+        <tr style=3D"padding:0;text-align:left;vertical-align:top">
+          <th style=3D"Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left">
+            			=09
+                        	=20
+            		=09
+            			</th>
+        </tr>
+      </table>
+    </th>
+            		</tr></tbody></table>
+            </td></tr></table>=20
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style=3D"display:none;white-space:nowrap;font:15px courier;line-hei=
+ght:0"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  <!--open_img--><img src=3D"http://volmail.minervamedica.eu/massmail/dada/=
+mail.cgi/spacer_image/callforpapers/20180126100610/xiangzhen.kong/outlook.c=
+om/spacer.png" width=3D"1" height=3D"1" alt=3D""><!--/open_img-->
+</body>
+</html>
+
+
+--_----------=_151695757055840--
+

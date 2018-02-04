@@ -1,0 +1,268 @@
+Received: from SN1NAM04HT187.eop-NAM04.prod.protection.outlook.com
+ (2603:1096:a00:1::21) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0105.INDPRD01.PROD.OUTLOOK.COM; Wed, 31 Jan 2018 11:28:57 +0000
+Received: from SN1NAM04FT008.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.53) by SN1NAM04HT187.eop-NAM04.prod.protection.outlook.com
+ (10.152.89.14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13; Wed, 31
+ Jan 2018 11:28:55 +0000
+Authentication-Results: spf=none (sender IP is 209.85.128.196)
+ smtp.mailfrom=ascie.org; outlook.com; dkim=pass (signature was verified)
+ header.d=ascie-org.20150623.gappssmtp.com;outlook.com; dmarc=none action=none
+ header.from=ascie.org;
+Received-SPF: None (protection.outlook.com: ascie.org does not designate
+ permitted sender hosts)
+Received: from mail-wr0-f196.google.com (209.85.128.196) by
+ SN1NAM04FT008.mail.protection.outlook.com (10.152.88.143) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.20.444.13 via Frontend Transport; Wed, 31 Jan 2018 11:28:55 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:446D0E04FA0E84DEC072CFAAF0CE36DE611B4358A2C497D8D0AF6AE57B435FBB;UpperCasedChecksum:CD7C104B0DE5640C7BE8E9AC70C76F30B1A6EB4657C9EC9F4269AC72B5E8E61F;SizeAsReceived:2249;Count:14
+Received: by mail-wr0-f196.google.com with SMTP id s5so14588466wra.0
+        for <xiangzhen.kong@outlook.com>; Wed, 31 Jan 2018 03:28:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=ascie-org.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=i12RxxKYkNI+C73EdhcCaqSivnCm5V2TMiWbI1TCTwo=;
+        b=DFIIOdUHnJ0yrGmT1938NuC7f+cO2pGqBGBR/NMR5tv6ukjPVCPc8EBqMoaMZ84K45
+         z/YN1jcPdAghbPKgN4f2byqdkqLzSmFcraC3KY/MeNNn9q9b4Rtq6ZikzPAVmGglq6X+
+         J2DyCRNN8VHqo+cZcpKJo6jKdY3mTnmAYvIhrlUinhR64kUHnIkr8UpGt/3/y19u31Kf
+         NkYE8q5Ob2HGXivo8SfTwngtAvDWYCW2ZJ5++zYkG9HktaybGOk+cZW7y1Z5Nc+JzNZo
+         twnJF2snHJsLpL7mUPYEt5xRfVuQMeAzcosoR9XOj2domtUSlwNlLvyggSrshtlmwd6Q
+         uYjA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=i12RxxKYkNI+C73EdhcCaqSivnCm5V2TMiWbI1TCTwo=;
+        b=dJjPbn1c7y5mzTWIhc9fIDSoUapIQKiIak9KHwAb85FtACFxur6IWfAozT69nLcuQA
+         3q0dm/BZPc3G8C7wJgQ0Z8PhRIxNhFA95TRpfdG9HgDamz90CxtB9NMs76VtugjictWr
+         9HhUNFeYf3Y7nWTR0KkgflXaseqEDKmcpULzL5XBmqLobUfJhhp4Grei2Si5JCs9uUZQ
+         k37sLg6gzebOZNmmN+MXk1X/7AKGHaAIo/UmIUR/ByvrCNlQAbJ2i+3GGLcN6y2pUU7d
+         5llzQ6fJp47CbJlYdGrzgVe9VtwYrf5vrsglNlGCWY41g7HmUDFsjaU9vvhcUj5roT6N
+         v9HQ==
+X-Gm-Message-State: AKwxytdB16zguYCQABMW10vZZYfRiXip8I3fYkK3Od4j1vyQUikB5I3y
+	hfX1t1Vy7ykL1/eL8C5sVxliGEGiMqnK+ZY20m3uABIv
+X-Google-Smtp-Source: AH8x224YoNw6J2m2y2A0qSB6fcb7dRz6UsNYte4VKD1420n0iQuRAbl9w6m+MwAsCL/XbtRv2GgNS0sohthdBD8q4oA=
+X-Received: by 10.223.157.1 with SMTP id k1mr14913826wre.275.1517398134224;
+ Wed, 31 Jan 2018 03:28:54 -0800 (PST)
+Received: by 10.28.197.196 with HTTP; Wed, 31 Jan 2018 03:28:53 -0800 (PST)
+From: AASCIT Journal <editor@ascie.org>
+Date: Wed, 31 Jan 2018 19:28:53 +0800
+Message-ID: <CAAhceTVrfL3X_w65ft8YShOcyZJGzdfoS_9-6nnJ3n_fbseXFw@mail.gmail.com>
+Subject: Submit Manuscript and Join Our Journal as Editorial Board Members or Reviewers
+To: xiangzhen.kong@outlook.com
+Content-Type: multipart/alternative; boundary="f4030438910cc606b5056410c864"
+X-IncomingHeaderCount: 14
+Return-Path: editor@ascie.org
+X-MS-Exchange-Organization-Network-Message-Id: bb60aa16-6b99-47b6-ed75-08d5689dd050
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04FT008;1:ATu+Txw+xPZzqiPqlfp2Z4un7DJ8/nJKBfZbDMQONfyZafPparI5dvVbG0jf4lP0gkwG/XtiOUcycQux18mOMPTaj9IKx0c59sZzrkuAX4xHW9IVRElF/hOySGEMFT6H
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM04HT187;H:mail-wr0-f196.google.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM04FT008.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: bb60aa16-6b99-47b6-ed75-08d5689dd050
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(8291501071);SRVR:SN1NAM04HT187;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT187;3:BUFxSrCJv36IOsRktAX1OWXHU4HM3QkNqn+8wNxJE50z02M9S2KDri3QVOfWM+R9mJ41u0Z0W+c/iH+v07EzL7YJj9IibIKrVZE17jxgAhgWD8ayUvzaCvCg/2+nLjJl9yGEUMHONRpGRVyI//9DPKvRoZnld7WZPSekImsQ+87qNfMCBeQRoqM0aeNHpwwmLq5ROy2VMsmjBnSPZtyUJobhhU54Uh/FsXIfwtQoB8WeHMisHEPK1EdVwQdsXURYCKdIbVFnck4JtrNjeoh5/afvlYn/I0s2GFIqeSmdM9KA/6mp9BKH2d0bCPVqvLwZ;25:4aVJSy5mKteY8ZSL9pfeyjaxoM6TFhZTXHpTrXoMaSoqkhJCH8wXrBCsvhGoPOzTUdB3wTjFHDMhHT3sBgW97lyUKeEhsbUnvjsypVYcxSePz1izr7S+IQ7zZrkDv1StbuiKCQac8Yhd9bHy3XE151qrIpCTzFQnp/pYpgcEH+PO66QN8TRGm7H0xQpNA5VtXaTsMPgY+v4deJviUffb+Wa/cqNZHcVBxmnu8qxSWtu+K1SJj9qQ43RSeC3HX1sk389fXYJa7HcbK94p9sQ5pazM0bSTacNwEP/Xju00kt6BudKg6DiLiQ9/0HPuv3zXbex5MyF5/sPVMa6U/phw1g==;31:Wpxlc2lTCKzavEDaZKxBm0+E7VuxU8qsAVo8CHF12Auu1aFVqioz8xI6raZ1XOkA3TOlt+objn0O+kYegH/yFdZX8fuY/Uc2OJGhjRkX10QJ8v5iRjAee3r6XvZQaDutdh7bbSh9Q+kqP9T3TVEQ+fgRLZzXHBX2WSTgA3A+WzVY9y+BGI8m0tfEaX2JmgOk5HqUQz7oYWOGcsQ8vGb7Wa3kwJoYIKt+DqREpQIkipE=
+X-MS-TrafficTypeDiagnostic: SN1NAM04HT187:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.128.196
+X-SID-PRA: EDITOR@ASCIE.ORG
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:SN1NAM04HT187;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM04HT187;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT187;4:tPiTmwNRLMVq018hjE6IbHBsBkT94mu+HZXLFSts9lmEcz7c5H6dG6RPscWVI0NMw67OCVzzSEm/zr6kmQw3Xd5eGgDmwlRYOYzQtG2/n1/Mc8eSu//xb+vjsdk4ob+b8QG3zr8y7kECy7gXDv59hDgG0G7De449NqkhSeltlQRQYRy8Ftfozbu4TCgvfRcIhLMJbrLNRefmOq8XN9GJifueEnR6Z/TL4pHtnDRxQfgnThzo72xvC4X+jfRdshM9JiHU6OSSwv7ezoELw0F5eQ==;23:oTvApr8v5UNXDFBY/bdJSBLoGw3Qhqd29yqD4rKNJOARozhCfjZarnoM7A2bxg4GNh1NDMoHrPHFeN9rB4CdNrVybi1mVTPb2p+2+DeaTy1VOTLHeTVnrzlBj/BD/PyrETPzE523GEh8pHDigTFCnBFrD6ljlb0ILuhMXB6G82A=;6:Fd00Jk49v/jWunk4d/oc5WbaPeoDrmhwYBoBUEH1w+GZaOb7Q4v/8iP2EzT8gn3OzMOmozZqdYOibmCgcuXgUGKbskGdbuHgY5bgy9DzUUYUPRAdC2T9pY3eNKA9c1E8EdXPdp4J5RtMBQHaE+MVm7+s0i0TOAT63DRduJWt33QtRrEFeTQjpFDwH7e0jL/9/LoiNPZZxLaAb9JR4Ib4HZrXQLnZ7jRygWix6desQ7bbREIjZ/gbGBxucekHw3b0KiktwJzL2Bv4/ngNnWDs7pt39B6uORxR/NPzXT9bDZ3OXRE+uwGyBwEk5RszF+zB5UDSsK5qD3n1/uhAWzcA5J2CCweR/VSbVvkIolNTqsU=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: nfYyb4RfG2xuSuJQf/gt6UrHusvZbvpaOi+1ln9Tdxq0Vk92vknk5I6UT9sqs7Q0VezBy/mn6bmaDSnTVprxiysRo9sKMMk3hNceOwoGaPE=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT187;5:X+ySt4er7vsxvNH41AoyDXzKZUjJhE/k4p+16dITUl8yNFsgeD9+2/l0ZQBAWIbdcwsimUcEke0acwjRrYxvwSxBMUPpmKysiMSOWqH6+h0Yb8Oze0btqTGbT4dzLYyg3VgeoabC0w3OuDt4B+Voj07hj2FL/z2dtKUeRcsusLU=;24:FOrhuNZ7hpdxfD+CTIHCPo3hXPrW/57jbDgtxCATNbYb6TpgLbwsC43OTpJZkoCfSolTiAUhI3K8yCHt1oXVGM3huRlTgXpEx/S33qO48YE=;7:neRhC0d9ekMq1i9frm01DPNV9AVFaq2p+EwI+rWiJSf7MsQ72WfP/e8j53Yon+mrnxJHk0BWd71XwGFMAoDjD1dcfKfa9HCqY3FGJuS9wHKCCuxCJLYRVBQd4S1vb5rmCWUeopA10tVN57J/FJISsQyCOdIwy71z1YyTeujyk8ojzfaJy18z8Mv85M/gWNPYl+rJe3JQsDUtzs7m1NYRgo7pdN0wsUAwOIry9oV0pTrtPtELUYBXM5GkF9MfusLV
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 31 Jan 2018 11:28:55.6443
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: bb60aa16-6b99-47b6-ed75-08d5689dd050
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM04HT187
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0860839
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:bVnhXjyBGI0hQF2u26ugWuuhKg1z11wwYb5LbCLO23ZUVr9qhme/Rd1ZqgZlLY3irUF36RrcimSNjNZqwmF2OkfReCm9RA3+NTuPcN0KUdM1rGAUP8v70hMcl7NE37TZ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvxzlDHjKHkagjIMVwviTiWIq6MelvK8ffBP4FIKhe6iv4KBDymAQv00EYHe3K9tVMOEfyqErQHqzUfWoJ8dfqMdfz9ttm/MLiGpwthI3UE5Ox2/fJDYE/5Rr/FiGTZBsShoMVL98xugdpy2hno/N0GTd+mF45p3QRudQ8T8ZmK0yy6yv+GDGyPl5/13x5cI5CW3E3mqHrDA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	EhwOxXPN2hXB2nscIbGwJNLoNHKQEvclCGCF6DpJs2x5C9wLpJIDadFfN+Hn9t6DgjXoC7GqkPbg5WpeoE60HEdqSuaLFxzZJAaRRYAuI5Vimvh4B0jPaTCxcWF2Wbe/Hsik85cbP8h125gf0OtJ7WJSduEOaxVEpfHCLo6kqMK6DSWXG7asIb+SwRdSp3fLPPwpLvaRbXrEQkJa2MApMdJiDvbWsf8kDkrv4VNZM419ss9kZjV1pvJ9yTYj9l3LXcGWldljMySx9YrEceN7xQ==
+MIME-Version: 1.0
+
+--f4030438910cc606b5056410c864
+Content-Type: text/plain; charset="UTF-8"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:bVnhXjyBGI0hQF2u26ugWuuhKg1z11wwYb5LbCLO23ZUVr9qhme/Rd1ZqgZlLY3irUF36RrcimSNjNZqwmF2OkfReCm9RA3+NTuPcN0KUdM1rGAUP8v70hMcl7NE37TZ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvxzlDHjKHkagjIMVwviTiWIq6MelvK8ffBP4FIKhe6iv4KBDymAQv00EYHe3K9tVMOEfyqErQHqzUfWoJ8dfqMdfz9ttm/MLiGpwthI3UE5Ox2/fJDYE/5Rr/FiGTZBsShoMVL98xugdpy2hno/N0GTd+mF45p3QRudQ8T8ZmK0yy6yv+GDGyPl5/13x5cI5CW3E3mqHrDA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	EhwOxXPN2hXB2nscIbGwJNLoNHKQEvclCGCF6DpJs2x5C9wLpJIDadFfN+Hn9t6DgjXoC7GqkPbg5WpeoE60HEdqSuaLFxzZJAaRRYAuI5Vimvh4B0jPaTCxcWF2Wbe/Hsik85cbP8h125gf0OtJ7WJSduEOaxVEpfHCLo6kqMK6DSWXG7asIb+SwRdSp3fLPPwpLvaRbXrEQkJa2MApMdJiDvbWsf8kDkrv4VNZM419ss9kZjV1pvJ9yTYj9l3LXcGWldljMySx9YrEceN7xQ==
+
+<http://www.ijcmr.org/home>
+International Journal of Clinical Medicine Research
+Dear Xiang-Zhen Kong; Xu Wang; Yi Pu; Lijie Huang; Xin Hao; ...,
+Here we would like to show the greetings.
+We have learnt about your published article with the title of *Human
+navigation network: the intrinsic functional organization and behavioral
+relevance* in *Brain Structure and Function* and the topic is of great
+interest.
+Submitting Your Paper
+We would like to invite you to submit unpublished research papers of high
+quality to International Journal of Clinical Medicine Research (*ISSN*:
+2375-3838; http://www.ijcmr.org).
+The journal has been started with an aim for publishing the latest research
+results in the form of original research articles and review articles. It
+can make experts in various domains closer to the cutting-edge researches
+around the world. Papers which meet the general standards of significance
+and academic excellence are welcomed.
+Scopes of the Journal:
+
+   1. Translational Medicine
+   2. The Art of Medicine
+   3. Rural Health
+   4. Epidemiology
+   5. Clinical Research
+   6. Evidence-Based Medicine
+   7. Basic Science
+   8. Preventive Medicine
+
+
+   1. Oncology
+   2. Dermatology
+   3. Geriatrics
+   4. Endocrinology
+   5. Obstetrics
+   6. Gastroenterology
+   7. Gynecology
+
+Invitation of Being the Member of the Editorial Board or Reviewer Team
+For the purpose of expanding the editorial board and reviewer team, we are
+calling for professionals to join the editorial board or reviewer team of
+this journal. If you are willing to join us, please click the following
+link to learn more information: http://www.ijcmr.org/joinus
+Any questions are welcome, please feel free to contact us.
+Yours,
+Elena
+Editorial assistant
+International Journal of Clinical Medicine Research
+
+--f4030438910cc606b5056410c864
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:bVnhXjyBGI0hQF2u26ugWuuhKg1z11wwYb5LbCLO23ZUVr9qhme/Rd1ZqgZlLY3irUF36RrcimSNjNZqwmF2OkfReCm9RA3+NTuPcN0KUdM1rGAUP8v70hMcl7NE37TZ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfvxzlDHjKHkagjIMVwviTiWIq6MelvK8ffBP4FIKhe6iv4KBDymAQv00EYHe3K9tVMOEfyqErQHqzUfWoJ8dfqMdfz9ttm/MLiGpwthI3UE5Ox2/fJDYE/5Rr/FiGTZBsShoMVL98xugdpy2hno/N0GTd+mF45p3QRudQ8T8ZmK0yy6yv+GDGyPl5/13x5cI5CW3E3mqHrDA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	EhwOxXPN2hXB2nscIbGwJNLoNHKQEvclCGCF6DpJs2x5C9wLpJIDadFfN+Hn9t6DgjXoC7GqkPbg5WpeoE60HEdqSuaLFxzZJAaRRYAuI5Vimvh4B0jPaTCxcWF2Wbe/Hsik85cbP8h125gf0OtJ7WJSduEOaxVEpfHCLo6kqMK6DSWXG7asIb+SwRdSp3fLPPwpLvaRbXrEQkJa2MApMdJiDvbWsf8kDkrv4VNZM419ss9kZjV1pvJ9yTYj9l3LXcGWldljMySx9YrEceN7xQ==
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr"><br><br>&nbsp; <div style=3D"font:normal normal normal norma=
+l 12px Arial,helvetica,sans-serif;padding:20px 0px;width:100%;color:rgb(31,=
+31,31);background-color:rgb(208,208,208)"><div style=3D"width:720px;margin-=
+left:20px"><div style=3D"padding:0px 20px;background-color:rgb(48,143,65)">=
+<div style=3D"height:60px;text-align:right"><div style=3D"height:100%;color=
+:rgb(255,255,255);display:inline-block"><div style=3D"padding-right:0px;ver=
+tical-align:middle;display:table-cell"><div style=3D"font-style:normal;vert=
+ical-align:top;white-space:nowrap"><a href=3D"http://www.ijcmr.org/home" ta=
+rget=3D"_blank"><img style=3D"border-color: currentcolor; border-style: non=
+e; border-width: medium; border-image: none 100% / 1 / 0 stretch; width: 23=
+4px; height: 60px; vertical-align: top;" src=3D"http://img.ijcmr.org/logo/0=
+514459028813.jpg"></a></div></div></div> 			</div><div style=3D"height:40px=
+;text-align:center;color:rgb(255,255,255);line-height:40px;font-size:20px;f=
+ont-weight:bold">International Journal of Clinical Medicine Research </div>=
+</div><div style=3D"padding:20px 10px;background-color:rgb(255,255,255)"><d=
+iv style=3D"display:table"><div style=3D"padding:15px;width:310px;vertical-=
+align:top;display:table-cell"><div style=3D"padding:0px 0px 15px;margin-bot=
+tom:15px;border-bottom:1px solid rgb(204,204,204)"><div style=3D"line-heigh=
+t:22px;margin-bottom:5px">Dear Xiang-Zhen Kong; Xu Wang; Yi Pu; Lijie Huang=
+; Xin Hao; ...,</div><div style=3D"line-height:22px;margin-bottom:5px">Here=
+ we would like to show the greetings.</div><div style=3D"line-height:22px">=
+We have learnt about your published article with the title of <i>Human navi=
+gation network: the intrinsic functional organization and behavioral releva=
+nce</i> in <i>Brain Structure and Function</i> and the topic is of great in=
+terest.</div></div><div style=3D"padding:0px 0px 15px"><div style=3D"font:n=
+ormal normal bold normal 20px/22px &quot;Times New Roman&quot;;color:rgb(48=
+,140,63);margin-bottom:10px">Submitting Your Paper</div><div style=3D"line-=
+height:22px">We would like to invite you to submit unpublished research pap=
+ers of high quality to <span style=3D"font-style:italic;font-weight:bold">I=
+nternational Journal of Clinical Medicine Research</span>&nbsp;(<b>ISSN</b>=
+: 2375-3838; <a style=3D"color:rgb(0,0,255);text-decoration:none;white-spac=
+e:nowrap" href=3D"http://www.ijcmr.org/" target=3D"_blank">http://www.ijcmr=
+.org</a>).</div></div><div style=3D"padding:0px 0px 15px;line-height:22px">=
+ 					The journal has been started with an aim for publishing the latest re=
+search results in the form of original research articles and review article=
+s.&nbsp;It can make experts in various domains closer to the cutting-edge r=
+esearches around the world. Papers which meet the general standards of sign=
+ificance and academic excellence are welcomed. 					</div></div><div style=
+=3D"padding:0px 20px;width:320px;vertical-align:top;display:table-cell"><di=
+v style=3D"padding:0px 0px 15px"><div style=3D"font:normal normal bold norm=
+al 18px/22px &quot;Times New Roman&quot;;color:rgb(48,140,63);margin-bottom=
+:10px">Scopes of the Journal:</div><div><div style=3D"width:146px;padding-r=
+ight:8px;display:table-cell"><ol style=3D"margin:0px;padding:0px 0px 0px 10=
+px;list-style-type:disc"><li style=3D"color:rgb(48,143,65);line-height:22px=
+;font-size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">Transla=
+tional Medicine </span></li><li style=3D"color:rgb(48,143,65);line-height:2=
+2px;font-size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">The =
+Art of Medicine</span></li><li style=3D"color:rgb(48,143,65);line-height:22=
+px;font-size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">Rural=
+ Health</span></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-=
+size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">Epidemiology =
+</span></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:15=
+px"><span style=3D"color:rgb(32,32,32);font-size:13px">Clinical Research</s=
+pan></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:15px"=
+><span style=3D"color:rgb(32,32,32);font-size:13px">Evidence-Based Medicine=
+ </span></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:1=
+5px"><span style=3D"color:rgb(32,32,32);font-size:13px">Basic Science</span=
+></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:15px"><s=
+pan style=3D"color:rgb(32,32,32);font-size:13px">Preventive Medicine</span>=
+</li></ol></div><div style=3D"width:146px;display:table-cell"><ol style=3D"=
+margin:0px;padding:0px 0px 0px 10px;list-style-type:disc"><li style=3D"colo=
+r:rgb(48,143,65);line-height:22px;font-size:15px"><span style=3D"color:rgb(=
+32,32,32);font-size:13px">Oncology </span></li><li style=3D"color:rgb(48,14=
+3,65);line-height:22px;font-size:15px"><span style=3D"color:rgb(32,32,32);f=
+ont-size:13px">Dermatology</span></li><li style=3D"color:rgb(48,143,65);lin=
+e-height:22px;font-size:15px"><span style=3D"color:rgb(32,32,32);font-size:=
+13px">Geriatrics</span></li><li style=3D"color:rgb(48,143,65);line-height:2=
+2px;font-size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">Endo=
+crinology </span></li><li style=3D"color:rgb(48,143,65);line-height:22px;fo=
+nt-size:15px"><span style=3D"color:rgb(32,32,32);font-size:13px">Obstetrics=
+ </span></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:1=
+5px"><span style=3D"color:rgb(32,32,32);font-size:13px">Gastroenterology </=
+span></li><li style=3D"color:rgb(48,143,65);line-height:22px;font-size:15px=
+"><span style=3D"color:rgb(32,32,32);font-size:13px">Gynecology</span></li>=
+</ol></div></div></div><div style=3D"padding:0px 0px 25px"><div style=3D"fo=
+nt:normal normal bold normal 20px/22px &quot;Times New Roman&quot;;color:rg=
+b(48,140,63);margin-bottom:10px">Invitation of Being the Member of the Edit=
+orial Board or Reviewer Team</div><div style=3D"line-height:22px">For the p=
+urpose of expanding the editorial board and reviewer team, we are calling f=
+or professionals to join the editorial board or reviewer team of this journ=
+al. If you are willing to join us, please click the following link to learn=
+ more information:&nbsp;<a style=3D"color:rgb(0,0,255);text-decoration:none=
+;display:inline-block" href=3D"http://www.ijcmr.org/joinus" target=3D"_blan=
+k">http://www.ijcmr.org/joinus</a></div></div><div style=3D"padding:0px 0px=
+ 15px"><div style=3D"line-height:200%"><div style=3D"margin-bottom:10px">An=
+y questions are welcome, please feel free to contact us.</div><div>Yours,</=
+div><div>Elena</div><div>Editorial assistant</div><div style=3D"font-style:=
+italic">International Journal of Clinical Medicine Research </div></div></d=
+iv></div></div></div><div style=3D"height:25px;line-height:25px;background-=
+color:rgb(48,143,65)">&nbsp;</div></div></div></div>
+
+--f4030438910cc606b5056410c864--
+

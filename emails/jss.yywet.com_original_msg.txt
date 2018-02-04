@@ -1,0 +1,171 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.137.93 with SMTP id f29csp6984441edf;
+        Wed, 31 Jan 2018 11:29:29 -0800 (PST)
+X-Google-Smtp-Source: AH8x226+W8WH02atyVKHqDg+M0T6aH8bfO0k0EStENfAXJZbsfaxOBmgGkQCQo4JdoPM4kMK1KiM
+X-Received: by 10.202.102.34 with SMTP id a34mr11569516oic.35.1517426969056;
+        Wed, 31 Jan 2018 11:29:29 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1517426969; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Jnuua62mwzb3a/x1c6TB8RmlkYYyRX+7NlBuWyCvCS6dsXJ5pHXrgcKJCAp7bzYsKw
+         akMYbo6BhfjcAl/f+owwaxEIPv0Gq9tXd/aMDVh5rVKHCuiFCEvodE77vW31kkQFTJp5
+         JHt89dTlFqR7i+H70oMsnums51wzmFGCvVb9L7uF/zcYx6ebMfYOezp3wN8olHLiH49Y
+         Fa+8IGAtcLmlf3CsK/PFgqkzF+omB5SJV9+1yYpDa/A2qlejHonEzu5Nf/YXvtzvo26J
+         wz201Ca93T/FkPhAUa++THF/cP3kQbTjgc4T04S1VXDSmrN7RSMC5/6cq3a0Ab44peFk
+         pUsw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:message-id:to:reply-to:from:date
+         :arc-authentication-results;
+        bh=/Kh5PmoB3NXKMNqjBMe6e7riMv3NLI8RmZ538ia+a3A=;
+        b=fDta25W36s9byoRl4nCUGpsvzh8dTbcZDXJAeS9AdUwntrRh41JXJW3M4nXxlTjA3K
+         aBGx68ko0NxZG4qf41eOWlh4nsy1z2Q6YMT+SRtCiZsvddhKwhxQzpweKqZ/84sOIcRx
+         1Rg+3JHKAuP3hSoQ22MvYrm0RjRgYJ/Cw8tK+ZJSpfBP6aP4z1KUsEcJnUhoPgs7ldl8
+         hLwkL5StpJaqtDyFKkZesFV48lW/9H4K3BDPFPfnw6wUya7Jb+l9nWMWcM+27ZOk0+EO
+         yIG/ReZcien6thnUSPtorKoT1WbbjR3AzfDN2ivQbgGSqgXYkTcVJVhRmtXHhuN6eLcr
+         7PPQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of jss@yywet.com designates 101.200.82.185 as permitted sender) smtp.mailfrom=jss@yywet.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=yywet.com
+Return-Path: <jss@yywet.com>
+Received: from yywet.com ([101.200.82.185])
+        by mx.google.com with ESMTPS id 61si62525otp.441.2018.01.31.11.29.27
+        for <kongxiangzheng@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 31 Jan 2018 11:29:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of jss@yywet.com designates 101.200.82.185 as permitted sender) client-ip=101.200.82.185;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jss@yywet.com designates 101.200.82.185 as permitted sender) smtp.mailfrom=jss@yywet.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=yywet.com
+Received: (qmail 16310 invoked from network); 31 Jan 2018 19:28:24 -0000
+Received: from unknown (HELO WIN-A9S0SUBJN6U) (emailservice@yywet.com@222.73.31.225)
+  by iZ2ze66g3c7508hmdwzfy0Z with ESMTPA; 31 Jan 2018 19:28:24 -0000
+Date: Thu, 1 Feb 2018 03:28:17 +0800 (CST)
+From: Open Journal of Social Sciences <jss@yywet.com>
+Reply-To: jss@scirp.org
+To: kongxiangzheng@gmail.com
+Message-Id: <E2A084817E1D80EB1899CA2BA3AC0A6B.20180201032817@yywet.com>
+Subject: "Human Rights and Social Justice" - Themed Issue for Xiang-zhen
+ Kong
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_123422649_1279810915.1517426897515"
+
+------=_Part_123422649_1279810915.1517426897515
+Content-Type: multipart/related; 
+	boundary="----=_Part_123422650_585840053.1517426897515"
+
+------=_Part_123422650_585840053.1517426897515
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>=20
+  <style type=3D"text/css">
+<!--
+.STYLE1 {color: #3366FF}
+-->
+</style>=20
+ </head>
+ <body>
+  <table width=3D"700" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"font-family:Georgia, Times New Roman, Times, serif;font-size:16px;lin=
+e-height:1.5em;background-color:#ece9e0;overflow:hidden;" class=3D"ke-zerob=
+order">
+   <tbody>
+    <tr>
+     <td width=3D"50%" style=3D"background-color:#a49f8c;transform:rotate(-=
+30deg);">&nbsp;</td>
+     <td width=3D"50%" align=3D"right" style=3D"font-size:16px;line-height:=
+1.5em;padding:0 10px;">Submission Deadline: March 22nd, 2018</td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" align=3D"center" style=3D"font-size:30px;padding:0px=
+ 10px 10px 100px;line-height:1.3em;transform:rotate(0deg);"><span style=3D"=
+padding-left:150px;">Special Issue on</span><br />&quot;Human Rights and So=
+cial Justice&quot;</td>
+    </tr>
+    <tr>
+     <td width=3D"50%" style=3D"font-size:16px;padding:5px 10px;line-height=
+:1.5em;"><span style=3D"font-size:20px;">Dear Xiang-zhen Kong,</span><br />=
+<br /> To keep a record of the state-of-the-art research and promoting rese=
+arch in social sciences, Open Journal of Social Sciences (JSS) now lauches =
+a special issue on &quot; <a href=3D"http://www.scirp.org/journal/htmlOfSpe=
+cialIssue.aspx?ID=3D4636&amp;JournalID=3D2430&amp;utm_campaign=3DSpecialIss=
+ue&amp;utm_source=3De_si&amp;utm_medium=3Djss_hr_20180123_zhangting_132728&=
+amp;utm_content=3D3528_yywet.com" target=3D"_blank" style=3D"color:#3366FF;=
+font-size:18px;"><u>Human Rights and Social Justice</u></a>&quot;.<br /> Mo=
+re information about submission can be found at: <a href=3D"http://papersub=
+mission.scirp.org/paper/showAddPaper?journalID=3D476&amp;utm_campaign=3Dpap=
+ersubmission&amp;utm_source=3De_si&amp;utm_medium=3Djss_hr_20180123_zhangti=
+ng_132728&amp;utm_content=3D3528_yywet.com" target=3D"_blank" style=3D"colo=
+r:#3366FF;font-size:18px;"><u>Manuscript Tracking Webpage</u></a>.<br /><br=
+ />Or please send the papers directly to this e-mail: <span class=3D"STYLE1=
+">papersubmission.zt@Gmail.com</span>, and inform me which journal you want=
+ to choose.</td>
+     <td width=3D"50%" style=3D"font-size:16px;padding:5px 10px;line-height=
+:1.5em;background-color:#a49f8c;transform:rotate(2deg);box-shadow:5px 5px 5=
+px #ffffff;border-radius:20px;color:#ffffff;"><span style=3D"font-size:20px=
+;">Aims &amp; Scope (not limited to the following fields) </span><br /><br =
+/> <span style=3D"color:#ffffff;">=E2=87=94 </span>Fundamental rights of ci=
+tizens<br /> <span style=3D"color:#ffffff;">=E2=87=94 </span>Sound legal sy=
+stem<br /> <span style=3D"color:#ffffff;">=E2=87=94 </span>The principles o=
+f social justice<br /> <span style=3D"color:#ffffff;">=E2=87=94 </span>The =
+significance of social justice<br /> <span style=3D"color:#ffffff;">=E2=87=
+=94 Social work and environment</span><br /> <span style=3D"color:#ffffff;"=
+>=E2=87=94 </span>Justice and efficiency<br /> <span style=3D"color:#ffffff=
+;">=E2=87=94 </span>War and conflict</td>
+    </tr>
+    <tr>
+     <td width=3D"45%">
+      <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"ke-zeroborder">
+       <tbody>
+        <tr>
+         <td colspan=3D"3" align=3D"center" style=3D"font-size:20px;padding=
+:5px;background-color:#a49f8c;box-shadow:5px 5px 5px #ffffff;transform:rota=
+te(-2deg);border-radius:10px;color:#ffffff;">About the Journal</td>
+        </tr>
+        <tr>
+         <td width=3D"4%">&nbsp;</td>
+         <td align=3D"center" style=3D"font-size:16px;line-height:1.5em;pad=
+ding:5pz 10px;background-color:#a49f8c;box-shadow:5px 5px 5px #ffffff;trans=
+form:rotate(-2deg);border-radius:30px;color:#ffffff;">1159 papers published=
+ in JSS<br /> Articles downloads exceed 2,526,290<br /> Visits of the journ=
+al exceed 3,215,830<br /> Indexed by 32 databases</td>
+         <td width=3D"4%">&nbsp;</td>
+        </tr>
+       </tbody>
+      </table></td>
+     <td width=3D"55%" align=3D"center" style=3D"font-size:16px;padding:5px=
+ 10px;line-height:1.5em;"><span style=3D"font-size:20px;line-height:1.8em;"=
+>Other Themes in JSS</span><br /><br /> * Consumerism Culture <span style=
+=3D"color:#666666;">(Submission Deadline: April 26th, 2018)</span><br /> * =
+Quality Management Study <span style=3D"color:#666666;">(May 10th, 2018)</s=
+pan><br /> * Urbanization and Poverty Reduction <span style=3D"color:#66666=
+6;">(May 24th, 2018)</span> </td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" style=3D"padding:5px 15px 0px;font-size:16px;line-he=
+ight:1.5em;">Yours truly,<br /> Ms. Qian LI (Managing Editor)<br /> JSS Edi=
+torial Office</td>
+    </tr>
+    <tr>
+     <td width=3D"50%">&nbsp;</td>
+     <td width=3D"50%" style=3D"background-color:#a49f8c;transform:rotate(-=
+30deg);">&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  <span id=3D"unSub" style=3D"font-size:10pt;font-family:verdana,arial,helv=
+etica,sans-serif;line-height:20px;">This message was sent to [kongxiangzhen=
+g@gmail.com]. <a href=3D"http://www.member.scirp.org/member/transferParamet=
+erAction.action?personID=3D9115028&amp;identifier=3D612C70ABF8DCFE1314E8A4E=
+92378133D1AEB3F5C105B4208B7502F8EC0C5FE72&amp;blackListTypeId=3D1" target=
+=3D"_blank">Unsubscribe</a></span>
+  <br />
+ </body>
+</html>
+------=_Part_123422650_585840053.1517426897515--
+
+------=_Part_123422649_1279810915.1517426897515--

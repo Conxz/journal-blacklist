@@ -1,0 +1,309 @@
+Received: from SN1NAM04HT200.eop-NAM04.prod.protection.outlook.com
+ (2603:1096:a00:1::20) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0104.INDPRD01.PROD.OUTLOOK.COM; Mon, 29 Jan 2018 04:44:29 +0000
+Received: from SN1NAM04FT019.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.59) by SN1NAM04HT200.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.253) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13; Mon, 29
+ Jan 2018 04:44:26 +0000
+Authentication-Results: spf=softfail (sender IP is 182.50.145.4)
+ smtp.mailfrom=opastpublishinggroup.com; outlook.com; dkim=none (message not
+ signed) header.d=none;outlook.com; dmarc=none action=none
+ header.from=opastpublishinggroup.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ opastpublishinggroup.com discourages use of 182.50.145.4 as permitted sender)
+Received: from sg2plout10-01.prod.sin2.secureserver.net (182.50.145.4) by
+ SN1NAM04FT019.mail.protection.outlook.com (10.152.88.152) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.444.13 via Frontend Transport; Mon, 29 Jan 2018 04:44:25 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:56DC931519E6895A11A6CED8A30C557168CC05B5BCEAE60AD2A1C81CA59634C6;UpperCasedChecksum:902E43DDC0372045EFE48E184E29A517E958C113D09BBDCD74EE691E464CE9A4;SizeAsReceived:1002;Count:13
+Received: from userPC ([183.83.234.255])
+	by :SMTPAUTH: with SMTP
+	id g1EgeoPffIXo8g1IteUg7c; Sun, 28 Jan 2018 21:44:24 -0700
+From: Journal of Addiction Research <editor.jar@opastpublishinggroup.com>
+To: <xiangzhen.kong@outlook.com>
+Subject: Message from Editorial Office- JAR
+Date: Mon, 29 Jan 2018 10:14:23 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAGvT4Ru1SFNEmmxMAL5MKCnCgAAAEAAAAAy00uKxRi5KiWLIKq1RkjUBAAAAAA==@opastpublishinggroup.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_02C1_01D398E9.EFB82120"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdOYu9XhPwKLn5wkSFyMeF5ewuuLsA==
+Content-Language: en-us
+Disposition-Notification-To: Journal of Addiction Research
+	<editor.jar@opastpublishinggroup.com>
+X-CMAE-Envelope: MS4wfMMOOwEruUBaSftNulifGCU5UvSYBB/jfZELxzn2ameWaC9jVHMoXu+N2PMGkaDqqrY9+rKZeT7ILTQhYTFoACazRBmS8lNhI3Z2n9Jn+2Mq36IhmD8x
+ VZr/x3PDMy1cRltQqGKNlFXsULi503KaKpRVu4yD2pTJssdDQArrF9KE73pOJzsClG3IE7cxgJdibw==
+X-IncomingHeaderCount: 13
+Return-Path: editor.jar@opastpublishinggroup.com
+X-MS-Exchange-Organization-Network-Message-Id: a7a7c00f-f0a0-4593-a9ca-08d566d2fa0b
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04FT019;1:Hdmn2LF/L8R3TA1C8gd0wcrL5B4rjANoYbdTAfkuWVLsGx/nR2FXvdFU6p6igl0zZc42Kij0VpLVrXxgWMROhLvkbK/4vInBQgDwASErM9uHLkDTapoPorklkjrlTkXu
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM04HT200;H:sg2plout10-01.prod.sin2.secureserver.net;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM04FT019.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: a7a7c00f-f0a0-4593-a9ca-08d566d2fa0b
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(630170)(8291501071);SRVR:SN1NAM04HT200;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT200;3:tq5PUorIQKBWCf5w+vzi3zmxSmeQBnDdkt0i32hduhAH0FbBIi/UtoJenMd44KQ7hlYkYa6FWb3F1zCbhHsn6CTaaUSHwGbSA9P0oyoQHDC5Ouc1YUbJ5dvdFAqoR1rv7t6ga6PFBpOgL+w4HQdTIglzFwf3HP/NlRmBQOaRwjiOOsZkRf9zwG4E8jfI/BSGRPEt8EcvB8tCVALz+uGXVxedooRbz9goemOGC5c7jHZEKUDmtjl3efKGDlRLhZIEMH8e6O7fGtviYLQxvWr4Quf0NiSKrmoR7VXBFwIdl9ezCpaFEa9Z5mBoyTXrvt9u;25:WcMYnCrtbGrDjj6/5u/tGRS29t5+Woh5a6yB224LJ3JrzM9jmIs6kpgHMRDsvBBpQF56emnZMg+vhC4ttMmDEhIwsNfReVlxaibt/naw34Ni21cVfLD8gK3ygINx/oc+ISbhx1lJWk/AVG0slMR165c4BSus95sQ8JTG3gqtyusWVCb2iQ0qf2grTOOk3Wupa1zrJ2OPeq8uGF7Ed9m53qGWgmcBediGq3g+vaYBCpTvnQszxwHpyViLCOyB87x7b5kD8dGhcjix+hqONhfmo/0Okbm09oc2s0s/PDXNF58dOW1tfwyE+I36MsQBrhqC+qj/ugpXMZDdJs+IPbtjVg==;31:O+P23yfHsprV7YO1t6VZX/xaveDwcZ6tOczPynV0ANwXJ2tXRHMwmnqT834OQo5wCpWz+IXdKY9U94mJwWS7ClnRu7TlSPzxrHTnVqqTtIK+1kBA+IFdxLAoWAOZefBOnI6uiy7WLcQodIPwCc57rL7AceaQW74450ac/0FQNIg2HpmROrcmX2IDVFTW1/47pkAaQmF4DUnWiEJYBvhtZn5IcPUtC/GtW5XldRWbGfg=
+X-MS-TrafficTypeDiagnostic: SN1NAM04HT200:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 182.50.145.4
+X-SID-PRA: EDITOR.JAR@OPASTPUBLISHINGGROUP.COM
+X-SID-Result: FAIL
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(20558992708506)(148717330147763);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(82015058);SRVR:SN1NAM04HT200;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM04HT200;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT200;4:BpmiEyjWaflxpkb3R6bszg1O3eSajK/KBxfoGJ0TcUsmqE2RojpDJkrlfOB545dSex1RHVe6W1BOAEKbuqR1bkzcToUgwcvZq5KrJDafn1tXWXAj4nmEOIkrgHtoywkxz6Lc8Yvcv9B6y1TrMl+zlHPmXYRE0Otn+rrMMIBa6OzSrde1ZEaCr8RPDAfYHQ/PsXU7bEckKY4frSvgCWiOLnr07n8nXoooxtpfg2Exj18k+yaKefy9U0Z1j7lylxOyhyPDWWV0rxQ11hbpWz55f2vsjEr2+R8Br58wG8RK/+jjLD79LW4y9RQy6ePHZeSmTiTOwKAXCw03JI1BQ/b0ppEO0PsWD7g0fv2D/clhezc=;23:Izh2j87TUziBDQYqtGzNJCI+o/1D7zywd7/7b57UEKghgaG4xohksq0shComOVnlhhIrlPL29zgSIhNvF0b2xasqSpdK8ddcqrTpQ0d3dFWcy2hSZ2sd8uIikF/lTm4SPTxSAHHpJcPr9lBb9V6NiP58bcEKz+J3AfytloR/4r8=;6:JMLWBDjjXqdBtqbwonYR/KFuV0M4QzMWQHyWR+VzeBsgOgBAlhpbt2nv3B+FhfanFtWenpc0VD3NXTMByoKBXTbHctAJ57V0DcjHg44wJOEB5A6L4Z3JsHFRDMKHQrVda+AtjYVvy7wGsGi75pBGdXvpXYVtfyptcmsvgzU6o5MRKgkb2h6EYLtkxVd02UCioEPupeW6QEsFjorRL1VjfPTKC284NYd1ijZ4Xzn9F6coI+JrhPRH/JfvYWrz81qYeu5sfxwNTLyai8jIEaDYp77Vuynb7g3dP/dOEc8JzKhIPcqRNi08N+GL+atiNHajNlsv1eVtljzjxYKF6GHQLkKK8Nfr961SeBZ5tl3Zemc=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: y+7eXA6ZhQAmu7qEv9mP2vLjwfpSCSaIQqQpF0v7oCXa85dzMJkHmlPsnRXNJVGYKhmG3ALbSZ+9B/txjckwaLTuYCXwthu3yjhylBA7JMw=
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT200;5:KozqClQ8FyKne5rtnImKGpqZnixG76C5kym621tnmxrdTla5UamoIdmk3XE8SCBfFR3EMOhEYlbqxXx3WMjxvsjWKGaa+x6rScaAuDxihhaR/Gyn17yDW4pEjvBbVwKkGIV/h5DOMLOiLBBaybzrPMyc9AHADI8k0JxOHoOxngM=;24:vGN2aw1k//X6N9hIvqwUPKpAiSUeRM60WFCfRLFimvCOSUJnxU4+3NPIjwzQUb7H6WfUdURp/0CbGxN1DCryYeLHmwT396szouMITTba76k=;7:9t6artKwn0/IiHvrl52SU8H2UgQqVycxAvsjsbJVJh+LfVT99SMKX/oU3+FzxHYY6ilEDbgWrrucXzaYvXgZlMt4QpJkcVXN4oAXPnHfJq2E1l+9VKGMSlYzkyb77JFGabhNGnAHgYdAmzlzct7Byn2xne61aiA04WMMWks4FNZpeNky4Cneo3Ve+spve2fY0WfIRmvhbP7/g36/cmKhtt5qSJbUdtSTRGCiN0e7sKHGU0NtCt8k4ksD+xGya2HE
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Jan 2018 04:44:25.9058
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a7a7c00f-f0a0-4593-a9ca-08d566d2fa0b
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM04HT200
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1843623
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qSneLR7QwidqlQ3ihzVe4zUS/oT40o9cZPjvvQNJ7WSIj/Re0I2jUc+zMLsCwG0IplyGbh7eqWu7I84bwfJbDuqEc78BaJ7Pp1IpH84pEAf/rP7bwNBOopxJK6AOc32u
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeNR3EW7tIL5DoLMG5tLkM11WTVAxW01cQHToIopfJsZ2LbEqZRv595BAdDK+fN/0e62DLWdBfcMsANRsd9S9YOsEOZhqzeaKYVuVHUGbPlBZ2c+zWE6D1kbukPytLA7kinuxssi2miK/Q1No9DCCfwVHmcF7mc/7gPnS7bCoI8ctNN+86Wb4hSeJFXIQg48xtNT+yjgPO2aQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	JbwcXdzwETwunFtgvr0iKyvM/YvUow+1GK44ftGbPMiSwVYmTluSkynxK9OSXbuvlpywrS9pvwnkNfaBKg/LqsRWVKl1vFTvEUfcLRrunhyvYZbBtifwiS9nnqzWgt2AWA5vv1Ulws7OHV2lJjMb0HTQopQN+cyYJ2mkSKymYc6FI/B8jPPGgiXBRwwTQksuAFlIgNRvEavlOCJsDZMbYrisy68fW4TKfxLB6eNc9DV4n2kXknyDZZELIsp4xUVqHTcGGNWsRHg4RRiI0wkvxw==
+MIME-Version: 1.0
+
+------=_NextPart_000_02C1_01D398E9.EFB82120
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qSneLR7QwidqlQ3ihzVe4zUS/oT40o9cZPjvvQNJ7WSIj/Re0I2jUc+zMLsCwG0IplyGbh7eqWu7I84bwfJbDuqEc78BaJ7Pp1IpH84pEAf/rP7bwNBOopxJK6AOc32u
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeNR3EW7tIL5DoLMG5tLkM11WTVAxW01cQHToIopfJsZ2LbEqZRv595BAdDK+fN/0e62DLWdBfcMsANRsd9S9YOsEOZhqzeaKYVuVHUGbPlBZ2c+zWE6D1kbukPytLA7kinuxssi2miK/Q1No9DCCfwVHmcF7mc/7gPnS7bCoI8ctNN+86Wb4hSeJFXIQg48xtNT+yjgPO2aQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	JbwcXdzwETwunFtgvr0iKyvM/YvUow+1GK44ftGbPMiSwVYmTluSkynxK9OSXbuvlpywrS9pvwnkNfaBKg/LqsRWVKl1vFTvEUfcLRrunhyvYZbBtifwiS9nnqzWgt2AWA5vv1Ulws7OHV2lJjMb0HTQopQN+cyYJ2mkSKymYc6FI/B8jPPGgiXBRwwTQksuAFlIgNRvEavlOCJsDZMbYrisy68fW4TKfxLB6eNc9DV4n2kXknyDZZELIsp4xUVqHTcGGNWsRHg4RRiI0wkvxw==
+
+Dear Dr. Xiang-Zhen Kong,
+
+Greetings!!
+
+ 
+
+The purpose of this letter is to welcome you to write a Research Articles,
+Review Articles, Case Reports, Short review, Short Commentary based on your
+research interests, which would be publishing in the upcoming issue in our
+Journal <http://www.opastonline.com/journal-of-addiction-research/>  of
+Addiction Research.
+
+ 
+
+TOPICS:
+
+Journal of Addiction Research invites papers for providing insights on the
+following themes.
+
+ 
+
+Abuse of alcohol, drugs, nicotine, behavioural addictions such as compulsive
+gambling and internet excesses.
+
+ 
+
+DEADLINE:
+
+You are requested to submit your manuscripts by 14 February, 2018.
+Manuscripts received after shall be considered for the next issue.
+
+ 
+
+SUBMISSION PROCEDURE:
+
+Submissions should be emailed to us at editor.jar@openaccess.org  
+
+ 
+
+CONTACT:
+
+For further information or clarifications, you may also write to 
+
+at editor.jar@openaccess.org 
+
+ 
+
+For more details visit our site: Journal
+<http://www.opastonline.com/journal-of-addiction-research/>  of Addiction
+Research.
+
+We are very confident that we will definitely offer you an unforgettable
+experience in exploring new opportunities.
+
+ 
+
+Regards,
+Sabrina P
+
+Journal <http://www.opastonline.com/journal-of-addiction-research/>  of
+Addiction Research.
+
+ISSN: 2573-9514
+
+OVERLAND PARK, KS
+
+US
+
+
+------=_NextPart_000_02C1_01D398E9.EFB82120
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:qSneLR7QwidqlQ3ihzVe4zUS/oT40o9cZPjvvQNJ7WSIj/Re0I2jUc+zMLsCwG0IplyGbh7eqWu7I84bwfJbDuqEc78BaJ7Pp1IpH84pEAf/rP7bwNBOopxJK6AOc32u
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeNR3EW7tIL5DoLMG5tLkM11WTVAxW01cQHToIopfJsZ2LbEqZRv595BAdDK+fN/0e62DLWdBfcMsANRsd9S9YOsEOZhqzeaKYVuVHUGbPlBZ2c+zWE6D1kbukPytLA7kinuxssi2miK/Q1No9DCCfwVHmcF7mc/7gPnS7bCoI8ctNN+86Wb4hSeJFXIQg48xtNT+yjgPO2aQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	JbwcXdzwETwunFtgvr0iKyvM/YvUow+1GK44ftGbPMiSwVYmTluSkynxK9OSXbuvlpywrS9pvwnkNfaBKg/LqsRWVKl1vFTvEUfcLRrunhyvYZbBtifwiS9nnqzWgt2AWA5vv1Ulws7OHV2lJjMb0HTQopQN+cyYJ2mkSKymYc6FI/B8jPPGgiXBRwwTQksuAFlIgNRvEavlOCJsDZMbYrisy68fW4TKfxLB6eNc9DV4n2kXknyDZZELIsp4xUVqHTcGGNWsRHg4RRiI0wkvxw==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><title></title>
+</head>
+<body>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Dear Dr. Xiang-Z=
+hen Kong,<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Greetings!!<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">The purpose of this=
+ letter is to welcome you to
+write
+a Research Articles, Review Articles, Case Reports, Short review, Short
+Commentary based on your research interests, which would be publishing
+in the
+upcoming issue in our&nbsp;<a href=3D"http://www.opastonline.com/journal-of=
+-addiction-research/">Journal
+of
+Addiction Research</a>.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p=
+></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">TOPICS:</span></=
+b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;,=
+&quot;serif&quot;;" lang=3D"EN-IN"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Journal of Addictio=
+n Research invites papers
+for
+providing insights on the following themes.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Abuse of alcohol, d=
+rugs, nicotine, behavioural
+addictions
+such as compulsive gambling and internet excesses.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">DEADLINE:</span>=
+</b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot=
+;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">You are requested t=
+o submit your manuscripts by
+<b>14 February, 2018</b>. Manuscripts received after shall be considered
+for
+the next issue.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">SUBMISSION PROCE=
+DURE:</span></b><span style=3D"font-size: 12pt; font-family: &quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Submissions should =
+be emailed to us at&nbsp;<a href=3D"mailto:editor.jar@openaccess.org">edito=
+r.jar@openaccess.org</a>&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">CONTACT:</span><=
+/b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;=
+,&quot;serif&quot;;" lang=3D"EN-IN"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">For further informa=
+tion or clarifications, you
+may
+also write to <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">at&nbsp;<a href=3D"=
+mailto:editor.jar@openaccess.org">editor.jar@openaccess.org</a>
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;">For
+more details visit our site: </span><span style=3D"font-size: 12pt; font-fa=
+mily: &quot;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><a hre=
+f=3D"http://www.opastonline.com/journal-of-addiction-research/">Journal
+of
+Addiction Research</a>.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">We are very confide=
+nt that we will definitely
+offer
+you an unforgettable experience in exploring new opportunities.<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><o:p>&nbsp;</o:p=
+></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 12pt; font-family: &quo=
+t;Times New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">Regards,</span><=
+/b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;=
+,&quot;serif&quot;;" lang=3D"EN-IN"><br>
+Sabrina P<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN"><a href=3D"http://w=
+ww.opastonline.com/journal-of-addiction-research/">Journal
+of
+Addiction Research</a>.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">ISSN: 2573-9514<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">OVERLAND PARK, KS<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;;" lang=3D"EN-IN">US<o:p></o:p></span=
+></p>
+</body>
+</html>
+
+------=_NextPart_000_02C1_01D398E9.EFB82120--
+

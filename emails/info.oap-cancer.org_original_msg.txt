@@ -1,0 +1,229 @@
+Received: from BY2NAM01HT169.eop-nam01.prod.protection.outlook.com
+ (2603:1096:a00:1::34) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0118.INDPRD01.PROD.OUTLOOK.COM; Sat, 3 Feb 2018 08:01:33 +0000
+Received: from BY2NAM01FT064.eop-nam01.prod.protection.outlook.com
+ (10.152.68.59) by BY2NAM01HT169.eop-nam01.prod.protection.outlook.com
+ (10.152.68.81) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13; Sat, 3
+ Feb 2018 08:01:30 +0000
+Authentication-Results: spf=pass (sender IP is 144.217.109.84)
+ smtp.mailfrom=oap-cancer.org; outlook.com; dkim=pass (signature was verified)
+ header.d=oap-cancer.org;outlook.com; dmarc=bestguesspass action=none
+ header.from=oap-cancer.org;
+Received-SPF: Pass (protection.outlook.com: domain of oap-cancer.org
+ designates 144.217.109.84 as permitted sender)
+ receiver=protection.outlook.com; client-ip=144.217.109.84;
+ helo=oh4.oap-cancer.org;
+Received: from oh4.oap-cancer.org (144.217.109.84) by
+ BY2NAM01FT064.mail.protection.outlook.com (10.152.69.129) with Microsoft SMTP
+ Server id 15.20.444.13 via Frontend Transport; Sat, 3 Feb 2018 08:01:30 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:A686B04A53D0A23A8EECC7984EA0A5459799067A1630FCB9F448CEB3AC3CB54D;UpperCasedChecksum:3EF7CD94013913C99E78CDC525834567DBA47F4B76010F5FB5C92673AD9B4F5E;SizeAsReceived:1441;Count:17
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=oap-cancer.org;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:List-Unsubscribe:Content-Type:Content-Transfer-Encoding; i=info@oap-cancer.org;
+ bh=G3OVJ8edSEwT3YvkhFHYCMbwAac=;
+ b=GrC0YRhdZVJYjsIlerjdIfv2RmHrtnh/uybjRRqz/N+dXPKPeOWKDKV+GQQys4xbCyAgC43gVIw4
+   U+RcKM5k0U4BcLQQs7xfIs+Ed45lRi9Y1AHdKV4JC5gHA8X9OHsBGb0jvdp46i49fhX3ggo8ZzY8
+   AxG/X7NtYN5hTcWlazU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=oap-cancer.org;
+ b=WT3S8WmuoRrfoOZEmkAOicy/93eZodYjIeE+M7xOGGVw/NwXMDr7GpjI1ztknEBUxNtOK1UhzQgA
+   M4ao0Y6aQm8fm3+tJtikXKcsoLrWtHJAK3DREJH7xkhLHeOZTe97WujBOsZ9m9nz4bAL5smZpADh
+   0MCAAZ0/GVnYfA0qnPw=;
+To: xiangzhen.kong@outlook.com
+Subject: Make your research spread world wide by submitting your articles at International Journal of Negative Results with extravagant benefits. Last date: February 15, 2018
+Message-ID: <60c2c64237ce78678b079646f4d9b1af@oap-cancer.org>
+Return-Path: bounce@oap-cancer.org
+Date: Fri, 02 Feb 2018 03:24:30 +0000
+From: "IJNR" <info@oap-cancer.org>
+Reply-To: info@oap-cancer.org
+X-Mailer-LID: 80
+List-Unsubscribe: <http://oap-cancer.org/cfp2/unsubscribe.php?M=3643070&C=&L=80&N=483>
+X-Mailer-RecptId: 3643070
+X-Mailer-SID: 483
+X-Mailer-Sent-By: 3
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_1148759d27530eb33e9fd06fdfffa2ff"
+Content-Transfer-Encoding: 8bit
+X-IncomingHeaderCount: 17
+X-MS-Exchange-Organization-Network-Message-Id: 7095f993-0f73-421e-4d28-08d56adc55cc
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01FT064;1:gnd/CnqwCz8aTSJq2wQX53Lqt8gbz1hdT2WrgTm2gOHunbuMhg2UvM5gQpzyZ+mqep+h68o09khGrXvRbGa1/RgoOreb0m5XUhmwX5fSLOyitGTCkBFy9M6bVwtLURWM
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:BY2NAM01HT169;H:oh4.oap-cancer.org;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: BY2NAM01FT064.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 7095f993-0f73-421e-4d28-08d56adc55cc
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(651021)(8291501071);SRVR:BY2NAM01HT169;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT169;3:W7lpGN6vh0CQgKYeBuIPdxUXA/mZ79C7fTiUTIJH4RsAVs54SdOQFSe2pt/YuyWx/wRlTHLzroNN2EssKQLHbk1egHEuT6i8vdRPcg0Lsvf1r3DLJ+ji3x5kVu3IevRlQt4cR3Vo4H1/36i474qyfSNsOIQuYdWxuB7z6SNzDkGJGSvdgXDdVZIkMJzvKQSN17276jJ0dzts/ye0oesqNl01m7+DGCBRGX98rAAn7wtI5gwN8vBcrHbQKOaL7tqNf9yKN9KlTgLhngZqXqhnGtnCntWNAgJXL3r6kyIexx0rHH+kWvIlM6E5A0rcwMXW;25:RQuBnTa75V0+QA35C+HpB7CXirJfJbi1asH3VJ1s37DG+sB91bC+M1HTCuuE3QC6cn2VlAjKWk0owUJiTO3dKLbOoWidHrklrQ23gx+UW/XUrtNpp4ZXaVhjtaMwexaDYkQjA7cqZQwRmDOptLRCLyHD1eEoZ7JGQ+6hlcBa/SkjMmKXxlflWNlOMpiBM7xM+NJ1Zeo/KRw5+OeAZkNhJ1wFyhvxcy4UBOlSwL+Mjr+4Avs6YiOiGWeVKuZ2SawRLUYZDVcBSUy/QI8J3/RIUAul6oO6G2c8VN/76D2QSXhGn6FGx2ew2uMBzWwZefSb4xKM3WanG9FNpgR4WoawiQ==;31:mo7CKL+7ujJvF5pFWTlO9s1EgsBaEyEMptMzHgGOkubTJpRtoKmyHUyoeV+fne4frQPKsYf2Y9zojTyxb9lpmmmYN3HrsiIUrNkFVJ2Rt0C6+M2CJgVGg/p78zvhRIXkp9EZljJ6RlP7syY9lWNwZNwqg4LikjedqYT1MTsGXXVDeSvRZZw+/dR642P4Rd5qXtf3N75tksktAaXro/Qzx58790Td9L29I8IVkgEKTVE=
+X-MS-TrafficTypeDiagnostic: BY2NAM01HT169:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 144.217.109.84
+X-SID-PRA: INFO@OAP-CANCER.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:BY2NAM01HT169;BCL:0;PCL:0;RULEID:;SRVR:BY2NAM01HT169;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT169;4:efF6fj5nRVuKz2tPhzY6yD7056a65VL4NRvx3Zqhe5m7pb0VGeVk7gnkquf2x4N4iyE3lOkdMnuBtjmUwJizmNQt8ksr3HCGm/GKWOiSGroyQ/Lsl3fSc9QkbgoZxducH5Br+aAuGwAhxI5nYdJIFVKNB5pLIMvCzIp9HD2DOSFsn8unMoj5PBc1D4U6l0ubvmciKK0cNcZb65UsNG82ISjTWM48weNvIgSdi4fzICUwJatc/5GQxCW+LifRjs3mTqr5nwR1tAWgoFKQ0VpH2Z2K2Jj5fLW57R6xMhV0/9NMnIiiGYiasTPGT1V+6eCa;23:bRMLyEECM7XXFBOauK2Pn3nEUQolYYdw0Gmo1xjCK0nMFQjZLrvsllMxmdLZDF+ycIr9VzaZu/wF2PiIpmEwoK6SJrgtM/cnqYS/rKYdBHBa6x0PMoudXHFvSPZ8+wF9Z21Qt1XYEigm6oWLsnNcF9zR4KMf+GRoNqIxgoevJ9o=;6:kTEU+IcNJYfcKGZ95VOQE5l4upMAZGHEZ7HqqzwsjglnufV8wO/0HkVUf/GXsbFVUiwM8mvm+r9IXfZaZHDSsE98zXUqL0HHPmwkl1xqi8hk15a91XXWVTAjFyfcokHfIwz8gDgvT/EIAtoiwOLYoqEsVUlmBSCog6IR0PclS5CnQe0o3hBMIWlk+7M1X48WzDD+uq8REPkqMMF5uDmpBHN0AWI51+PcvdZ4nd+knSfYL6sV5RQvycMu9n+wWlv+k8PY81Z9Kc/9GRQa32vJsXwVy12eal6wpxaYnDNR8tGOLWUh9ZuPNjLbVb93+x1yKpzKCDKzbaHOuaZz0H4cGWrYHck2sIViIMyTwEANczs=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: bOiKxHJuG4yac/opcCvKJBajUntsdK4sbl66HuWOrSVwl3r7y+CbIfWwuzCHkcRBcEF5qSH1UeyjTaAuDhpuNbaNkhWGCc6jKhsEZtepswo=
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT169;5:KOuF5aenhm8MoXtpLDNI00mcAosRq/haFZ82bs0eHYqmFC53gquvnHBQnTUOogt0thTC1qsFVY6q0d86IK7fn9pwEv9DAt2V9+vcF6VyDR+agIyjz5xIAfOXX7v98MHrmv+1x6MR3AixcDbPmg7ypC6PBXa1aTv0makcx8Vuyzs=;24:GNF+9ybfS3RueCUAdBtWrS9rTAvFlNcSOM6pGo7Ac3F+lOv5VQki+m+pVx/hDCLShnY99iV6Ua2wqOlRorOkoXPbqVwrh5A867CdZg3ue6Q=;7:fEQrYx/Y/a6hf/zrZSjQIfCZuiq6Bqkp7S/wlMW1KHrk2zuuEeUYpQD6lh5v/Qq+n7zeQdSameSoulcrMgx480yc9wM7xcLd8/lHp5Cm7GZvdaFG8Tk8Bt+ORww5EU3wpf+0BgMAkQOGLTRSE1Rx5Z39guC43YclbfQb6m4NxW+hYAnYtcwwhHPtkN4c2qRq1b8t4Nwnp1NAIJYZcZ8jjpQZ9NpNTLvCaQMrLINgfw7hGLPJnhNhdvdTwDVKJ1kA
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Feb 2018 08:01:30.5876
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7095f993-0f73-421e-4d28-08d56adc55cc
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2NAM01HT169
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.2911845
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:l4HdicTMorxMZZtz3RgaenxZRwEBXkziNmrcqToWYnbpUKNtQgnNBFuoDCWFWdvhK1TCppQjakTVfwYHKwk2mWyioQlK11W2BgACRbsW7rPoPkYvBCw35p7XyyrT6Nw9
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4ypJwnJu3iy0cITO4m4TF4G1iEJr/GiYirqQOvAOk0UD0WVgw5dQBZRVjO6+G/rLYenrurvYZN/4LKS0uJVQC6yiS6vrZ7TJ81ygDlgNeQGSYe03cXUbF6hs3V8hc5f1KPuMhiymubJxIB2Rf2KrCYQt7riTYUKykydZX3+3TbkvIu57rdWFBf156ug28TbMLYpvgME6ldPoew==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	SFGZnED32XPIgPtBMdFbeUfgtANq/DLxzJcssKqhL2ql4NnZnrvI0Tl64W8jYfD+RT9W8Ysw1yS9eIHt82/YLlfjoIz7vvjUm13ZAeu5HAjULDt5nU9Qg90U5P6cCuM0BK3oF7549IXyQgw7xk407UFHEASP2gTFeFV8Z+rZemqDnDgv9NI2hxMt+vLbIbSJUWDhV5ECVf1ZS4O/8WSzN30R9XmacM7+Wnw4rVC5OPztcgjYC3CjVs2mp9e36VwD6LTH0fuwXtdgpm5yxM7zDA==
+MIME-Version: 1.0
+
+--b1_1148759d27530eb33e9fd06fdfffa2ff
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:l4HdicTMorxMZZtz3RgaenxZRwEBXkziNmrcqToWYnbpUKNtQgnNBFuoDCWFWdvhK1TCppQjakTVfwYHKwk2mWyioQlK11W2BgACRbsW7rPoPkYvBCw35p7XyyrT6Nw9
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4ypJwnJu3iy0cITO4m4TF4G1iEJr/GiYirqQOvAOk0UD0WVgw5dQBZRVjO6+G/rLYenrurvYZN/4LKS0uJVQC6yiS6vrZ7TJ81ygDlgNeQGSYe03cXUbF6hs3V8hc5f1KPuMhiymubJxIB2Rf2KrCYQt7riTYUKykydZX3+3TbkvIu57rdWFBf156ug28TbMLYpvgME6ldPoew==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	SFGZnED32XPIgPtBMdFbeUfgtANq/DLxzJcssKqhL2ql4NnZnrvI0Tl64W8jYfD+RT9W8Ysw1yS9eIHt82/YLlfjoIz7vvjUm13ZAeu5HAjULDt5nU9Qg90U5P6cCuM0BK3oF7549IXyQgw7xk407UFHEASP2gTFeFV8Z+rZemqDnDgv9NI2hxMt+vLbIbSJUWDhV5ECVf1ZS4O/8WSzN30R9XmacM7+Wnw4rVC5OPztcgjYC3CjVs2mp9e36VwD6LTH0fuwXtdgpm5yxM7zDA==
+
+Your email client cannot read this email.
+To view it online, please go here:
+http://oap-cancer.org/cfp2/display.php?M=3643070&C=&S=483&L=80&N=318
+
+
+
+Dear Dr. Xiang-Zhen Kong,
+
+The International Journal of Negative Results welcomes all types of
+articles such as original research, review, case-report, editorial,
+short-communication, Letter to the Editor, etc.
+Author can submit the manuscript to info@oap-cancer.org or upload
+here http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=380&F=T
+
+Original research articles of the type - review, case-report,
+editorial, short-communication, Letter to the Editor, etc., will
+be provided 30% waiver on APC
+
+To avail, this waiver, send the below token with your submission.
+
+IIJNR3FEB15OAP
+
+Please find our APC listed here, according to World Bank
+classification
+
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=510&F=T
+
+Call for papers 2018
+
+Paper Submission Deadline: February 15, 2018
+
+Complete information regarding IJNR be found below:
+
+[1]Journal page:
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=511&F=T
+
+[2]Instructions for Author:
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=512&F=T
+
+[3]Scope: http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=513&F=T
+
+[4]Editorial Board:
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=514&F=T
+
+[5]Membership link:
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=515&F=T
+
+Thank you for reading. We await your submission.
+
+With warm regards
+
+John Abraham
+Editorial Office
+OAP 616 Corporate Way,
+Suite 2-6158 Valley Cottage, NY 10989
+United States
+http://oap-cancer.org/cfp2/link.php?M=3643070&N=483&L=394&F=T
+info@oap-cancer.org
+
+
+
+
+
+
+To stop receiving these
+emails:http://oap-cancer.org/cfp2/unsubscribe.php?M=3643070&C=&L=80&N=483
+http://oap-cancer.org/cfp2/unsubscribe.php?M=3643070&C=&L=80&N=483
+Unsubscribe me from this list
+
+--b1_1148759d27530eb33e9fd06fdfffa2ff
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:l4HdicTMorxMZZtz3RgaenxZRwEBXkziNmrcqToWYnbpUKNtQgnNBFuoDCWFWdvhK1TCppQjakTVfwYHKwk2mWyioQlK11W2BgACRbsW7rPoPkYvBCw35p7XyyrT6Nw9
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4ypJwnJu3iy0cITO4m4TF4G1iEJr/GiYirqQOvAOk0UD0WVgw5dQBZRVjO6+G/rLYenrurvYZN/4LKS0uJVQC6yiS6vrZ7TJ81ygDlgNeQGSYe03cXUbF6hs3V8hc5f1KPuMhiymubJxIB2Rf2KrCYQt7riTYUKykydZX3+3TbkvIu57rdWFBf156ug28TbMLYpvgME6ldPoew==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	SFGZnED32XPIgPtBMdFbeUfgtANq/DLxzJcssKqhL2ql4NnZnrvI0Tl64W8jYfD+RT9W8Ysw1yS9eIHt82/YLlfjoIz7vvjUm13ZAeu5HAjULDt5nU9Qg90U5P6cCuM0BK3oF7549IXyQgw7xk407UFHEASP2gTFeFV8Z+rZemqDnDgv9NI2hxMt+vLbIbSJUWDhV5ECVf1ZS4O/8WSzN30R9XmacM7+Wnw4rVC5OPztcgjYC3CjVs2mp9e36VwD6LTH0fuwXtdgpm5yxM7zDA==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>IJNR</title>
+</head>
+<body>
+<table border="0" align="center" style="width: 600px;">
+<tbody>
+<tr>
+<td>
+<p>Dear Dr. Xiang-Zhen Kong,</p>
+The International Journal of Negative Results welcomes all types of
+articles such as original research, review, case-report, editorial,
+short-communication, Letter to the Editor, etc.
+<p>Author can submit the manuscript to <a href="mailto:info@oap-cancer.org" target="_blank">info@oap-cancer.org</a> or upload here <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=380&amp;F=H" target="_blank">http://oap-cancer.org/manuscriptzone/</a></p>
+<p>Original research articles of the type - review, case-report, editorial,
+short-communication, Letter to the Editor, etc., will be provided 30%
+waiver on APC</p>
+<p>To avail, this waiver, send the below token with your submission.</p>
+<p>IIJNR3FEB15OAP</p>
+<p>Please find our APC listed here, according to World Bank
+classification</p>
+<p><a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=510&amp;F=H" target="_blank">http://oap-cancer.org/journal/ijnr/article-processing-charges</a></p>
+<p>Call for papers 2018</p>
+<p>Paper Submission Deadline: February 15, 2018</p>
+<p>Complete information regarding IJNR be found below:</p>
+<p>[1]Journal page: <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=511&amp;F=H" target="_blank">http://oap-cancer.org/journal/ijnr</a></p>
+<p>[2]Instructions for Author: <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=512&amp;F=H" target="_blank">http://oap-cancer.org/journal/ijnr/instructions-for-Author</a></p>
+<p>[3]Scope: <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=513&amp;F=H" target="_blank"> http://oap-cancer.org/journal/ijnr/aim-and-scope</a></p>
+<p>[4]Editorial Board: <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=514&amp;F=H" target="_blank">http://oap-cancer.org/journal/ijnr/editorial-board</a></p>
+<p>[5]Membership link: <a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=515&amp;F=H" target="_blank">http://oap-cancer.org/journal/ijnr/membership</a></p>
+<p>Thank you for reading. We await your submission.</p>
+<p>With warm regards<br> <br>John Abraham<br>Editorial Office<br>OAP 616 Corporate Way,<br>Suite 2-6158 Valley Cottage, NY 10989<br>United States<br><a href="http://oap-cancer.org/cfp2/link.php?M=3643070&amp;N=483&amp;L=387&amp;F=H" target="_blank">http://www.oap-cancer.org</a><br><a href="mailto:info@oap-cancer.org" target="_blank">info@oap-cancer.org</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br><a href="http://oap-cancer.org/cfp2/unsubscribe.php?M=3643070&amp;C=&amp;L=80&amp;N=483">Unsubscribe
+me from this list</a><img src="http://oap-cancer.org/cfp2/open.php?M=3643070&amp;L=80&amp;N=483&amp;F=H&amp;image=.jpg" height="1" width="10"></body>
+</html>
+
+--b1_1148759d27530eb33e9fd06fdfffa2ff--
+

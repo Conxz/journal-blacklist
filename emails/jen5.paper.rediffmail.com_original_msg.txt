@@ -1,0 +1,491 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.137.93 with SMTP id f29csp426968edf;
+        Sat, 3 Feb 2018 01:37:48 -0800 (PST)
+X-Google-Smtp-Source: AH8x226221WGlBxxHNlBt9DXhwKVe4KOSA/hcDilyXyTYPMtkIxyU2M8+M9k2uSfvXvsCqerDnqF
+X-Received: by 10.99.96.22 with SMTP id u22mr709289pgb.120.1517650668006;
+        Sat, 03 Feb 2018 01:37:48 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1517650667; cv=none;
+        d=google.com; s=arc-20160816;
+        b=WvafVS1AQolb+MJVZYBpwpg4oYWgRn/lyYpG8lFmuTeusvOLQe/poaMuUoy9Wcql40
+         ujyMOAlEbXoNlYBjj3LPj1hiTfjDhb9LXF47oqQxlAK/ATFZFWc9lpgsfJ6ml8YsBMYF
+         dg10kIhWi5M3lkJTjWOjkSYTcPnCQTHt3iJeQFmdrQfnCQNudP+10Wfd3SiuRxFc+Sbt
+         35yNS4DL78xRTbgn1zy8TNvD/OCav/mmPrkveMNIDU223redluBaveXI0X2tIL96Q8km
+         vqBe0kDlR6qsmOUiGbKOldBbTti3DnQrNajlfhCvkHNRdlxyQ/9eXdpHatNBleziUwGQ
+         gCUA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=from:subject:sender:to:mime-version:message-id:date:dkim-signature
+         :arc-authentication-results;
+        bh=gfT5Fq/jTzauH5gCkT7Dx9iqH3rQrSfPMQqb9+MWwhM=;
+        b=JBHX8N4TELB7PBrvMGtCwTl4Ccml7o2mgY9P6FQcAyH6gmRrt7yfYed6rDjVq8quE5
+         uMp/0DTWzk9773M7zFOLodJWtscpK6uWpZMJp1P2wZ4mfIu/1xuE6GnMh1TtxnVowab8
+         kXq2qwfoyzbUjHZbt+C+YaxP5LeUiM3y7JYdzkAFaFSKPgebhhcZB5FMLM/7W0usoLqI
+         lUOxFg405EUzyUF1l6aOwaBAKcbnAEeI/uenIK/5l8cP8VsxeHh4MNDVOPrPYfV/hxg1
+         e7WzodZR9jSgLNklDh9pBPKIcJZ+ED5UGDGmMK8jcRfFqVSqWaBcL9uBE3BjB6mIUTV3
+         Dtng==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass (test mode) header.i=@rediffmail.com header.s=mail header.b=MV+TZOPN;
+       spf=pass (google.com: domain of jen5.paper@rediffmail.com designates 114.31.224.130 as permitted sender) smtp.mailfrom=jen5.paper@rediffmail.com
+Return-Path: <jen5.paper@rediffmail.com>
+Received: from rediffmail.com (f5mail-224-130.rediffmail.com. [114.31.224.130])
+        by mx.google.com with ESMTPS id a35-v6si1355490pli.173.2018.02.03.01.37.46
+        for <kongxiangzheng@gmail.com>
+        (version=TLS1_2 cipher=AES128-GCM-SHA256 bits=128/128);
+        Sat, 03 Feb 2018 01:37:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of jen5.paper@rediffmail.com designates 114.31.224.130 as permitted sender) client-ip=114.31.224.130;
+Authentication-Results: mx.google.com;
+       dkim=pass (test mode) header.i=@rediffmail.com header.s=mail header.b=MV+TZOPN;
+       spf=pass (google.com: domain of jen5.paper@rediffmail.com designates 114.31.224.130 as permitted sender) smtp.mailfrom=jen5.paper@rediffmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=rediffmail.com;
+	s=mail; t=1517650665;
+	bh=gfT5Fq/jTzauH5gCkT7Dx9iqH3rQrSfPMQqb9+MWwhM=;
+	h=MIME-Version:From:Date:Message-ID:Subject:To:Content-Type;
+	b=MV+TZOPN310JCo7x0ZkkzgcMkFQpGyMesiFaXk5oiqhXBZG4YGhO5zfsVzXIZxtxv
+	 C1Gbf0qjGKHGSsIo97jAbMrnlU2Ze7rKaHq3Oj+qLeW+gYETiInAHxID4wbx999zVA
+	 wcqJ5enh5bNq7YRuOU0UX0qx1l5clb7Ew7liE6WA=
+Received: (qmail 22496 invoked by uid 510); 3 Feb 2018 09:37:45 -0000
+x-m-msg: asd54ad564ad7aa6sd5as6d5; a6da7d6asas6dasd77; 5dad65ad5sd;
+X-OUT-VDRT-SpamState: 0\LEGIT
+X-OUT-VDRT-SpamScore: 0
+X-OUT-VDRT-SpamCause: gggruggvucftvghtrhhoucdtuddrgedtfedrtdekgddtkecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgfffkffhhfdpqfgfvfenuceurghilhhouhhtmecufedttdenucenucfjughrpeffkfggvfhsuffhtgesrgdtvdertddtjeenucfhrhhomhepfdhjvghnfdcuoehjvghnhedrphgrphgvrhesrhgvughifhhfmhgrihhlrdgtohhmqeenucffohhmrghinhepihhoshhrjhgvnhdrohhrghenucfkphepuddtfedrgeejrdduiedruddvieenucfrrghrrghmpehmohguvgepshhmthhpohhuthenucevlhhushhtvghrufhiiigvpedt
+X-Remote-IP: 103.47.16.126
+X-REDF-OSEN: jen5.paper@rediffmail.com
+Date: 3 Feb 2018 09:37:45 -0000
+Message-ID: <20180203093745.22480.qmail@f5mail-224-130.rediffmail.com>
+MIME-Version: 1.0
+To: <a.seal@ucl.ac.uk>, <monicamedina@psu.edu>, <lagerc@hawaii.edu>,
+  <lucie.collinson@otago.ac.nz>, <ab782@cornell.edu>,
+  <xavier.pochon@cawthron.org.nz>, <matsui@yamaguchi-u.ac.jp>,
+  <rkimball@ufl.edu>, <mproulxbath@gmail.com>, <bpeterson@montana.edu>,
+  <dsolomon@msu.edu>, <mcregger@utk.edu>, <kongxiangzheng@gmail.com>,
+  <carl.fossdal@skogoglandskap.no>, <nina.nagy@skogoglandskap.no>,
+  <quayle.michelle@gmail.com>, <oliver.pescott@ceh.ac.uk>,
+  <bbiswal@yahoo.com>, <rokamoto.gast@tmd.ac.jp>, <vminin@uw.edu>,
+  <dave.lunt@gmail.com>, <lemoine.nathan@gmail.com>
+Received: from unknown 103.47.16.126 by rediffmail.com via HTTP; 03 Feb 2018 09:37:45 -0000
+X-Senderscore: D=0&S=2
+Sender: jen5.paper@rediffmail.com
+Subject: =?utf-8?B?QmVzdCBJbnRlcm5hdGlvbmFsIEpvdXJuYWwg?=
+From: "jen" <jen5.paper@rediffmail.com>
+Content-Type: multipart/alternative;
+	boundary="=_76e193f5fe9398b9e5e6ff7d7a730b3a"
+
+--=_76e193f5fe9398b9e5e6ff7d7a730b3a
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="UTF-8"
+
+IOSRJEN Journal is UGC Approved Journal.&nbsp;SI. No.&nbsp;4814IOSR Journal of Engineering(Unit of&nbsp;International Organization of Scientific Research)&nbsp;ISSN (Online) 2250-3021, ISSN (Print) 2278-8719Impact Factor 1.645We are pleased to inform you that IOSR-JEN&nbsp;is going to launch its next issue&nbsp;(Volume 8, Issue 02,February 2018).&nbsp;We&nbsp;would like to invite you to contribute your Research Paper for publication in IOSR-JEN. Papers published in IOSR-JEN&nbsp;will receive very high publicity and acquire very high reputation.&nbsp;The journal covers all areas of computer&nbsp;science, Mechanical Engineering, Civil Engineering, Electronics engineering, Information technology, and many&nbsp;more&nbsp;(IOSRJEN.ORG). &nbsp;IOSR&nbsp;JEN&nbsp;provides&nbsp;DOI (Digital Object Identifier)&nbsp;to each published article..&nbsp;&nbsp;IOSR&nbsp;JEN&nbsp;registers all published paper in ANED&nbsp;&nbsp;(American National Engineering Database)..&nbsp;&nbsp;IOSR&nbsp;JEN&nbsp;&nbsp;provides hard copy of certificates to all authors free of cost.&nbsp;&nbsp;For all published paper, go through following link:&nbsp;IOSRJEN.ORG/pages/archive.html  &nbsp;
+						Important Dates							Last date of Paper Submission:			14th&nbsp;&nbsp;February&nbsp;2018							Acknowledgement:			within 24 hrs							Review Report:			Within one or two weeks							Publication date:			24th&nbsp;&nbsp;February&nbsp;2018			â€‹Indexing:Crossref, NASA ads, DOAJ, Index Copernicus, Open-J Gate etc.Regards Editorial Board,IOSR Journal of EngineeringUrl:&nbsp;www.IOSRJEN.ORGMail id:&nbsp;jen@iosrmail.org&nbsp;&nbsp;
+--=_76e193f5fe9398b9e5e6ff7d7a730b3a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, ari=
+al; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px; font-weig=
+ht: 700;"><span style=3D"text-size-adjust: 100%; background-image: initial;=
+ background-size: initial; background-origin: initial; background-clip: ini=
+tial; background-position: initial; background-repeat: initial;"><span styl=
+e=3D"text-size-adjust: 100%; color: red;"><span style=3D"text-size-adjust: =
+100%; font-family: helvetica, sans-serif;"><span style=3D"text-size-adjust:=
+ 100%; font-size: 13.5pt;">IOSRJEN Journal is UGC Approved Journal</span></=
+span></span></span></span><span style=3D"color: rgb(0, 0, 0); font-family: =
+Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line=
+-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adjust: 100%; =
+background-image: initial; background-size: initial; background-origin: ini=
+tial; background-clip: initial; background-position: initial; background-re=
+peat: initial;"><span style=3D"text-size-adjust: 100%; color: red;"><span s=
+tyle=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span =
+style=3D"text-size-adjust: 100%; font-size: 10pt;">.&nbsp;</span></span></s=
+pan></span></span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetic=
+a, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height:=
+ 20.8px; font-weight: 700;"><span style=3D"text-size-adjust: 100%; backgrou=
+nd-image: initial; background-size: initial; background-origin: initial; ba=
+ckground-clip: initial; background-position: initial; background-repeat: in=
+itial;"><span style=3D"text-size-adjust: 100%; font-family: arial, sans-ser=
+if;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">SI. No.&nbsp;=
+<span style=3D"text-size-adjust: 100%; background-color: rgb(255, 255, 0);"=
+>4814</span></span></span></span></span><br style=3D"color: rgb(0, 0, 0); f=
+ont-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust=
+: 100%; line-height: 20.8px;" /><span style=3D"color: rgb(0, 0, 0); font-fa=
+mily: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%=
+; line-height: 20.8px; font-weight: 700;"><u style=3D"text-size-adjust: 100=
+%;"><span style=3D"text-size-adjust: 100%; background-image: initial; backg=
+round-size: initial; background-origin: initial; background-clip: initial; =
+background-position: initial; background-repeat: initial;"><span style=3D"t=
+ext-size-adjust: 100%; color: rgb(118, 146, 60);"><span style=3D"text-size-=
+adjust: 100%; font-family: arial, sans-serif;"><span style=3D"text-size-adj=
+ust: 100%; font-size: 10pt;">IOSR Journal of Engineering</span></span></spa=
+n></span></u></span><br style=3D"color: rgb(0, 0, 0); font-family: Helvetic=
+a, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height:=
+ 20.8px;" /><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, san=
+s-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8p=
+x; font-weight: 700;"><span style=3D"text-size-adjust: 100%; background-ima=
+ge: initial; background-size: initial; background-origin: initial; backgrou=
+nd-clip: initial; background-position: initial; background-repeat: initial;=
+"><span style=3D"text-size-adjust: 100%; font-family: arial, sans-serif;"><=
+span style=3D"text-size-adjust: 100%; font-size: 10pt;">(Unit of&nbsp;Inter=
+national Organization of Scientific Research)</span></span></span></span><b=
+r style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; =
+font-size: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span styl=
+e=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-s=
+ize: 12px; text-size-adjust: 100%; line-height: 20.8px;">&nbsp;</span><span=
+ style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; f=
+ont-size: 12px; text-size-adjust: 100%; line-height: 20.8px; font-weight: 7=
+00;"><span style=3D"text-size-adjust: 100%; background-image: initial; back=
+ground-size: initial; background-origin: initial; background-clip: initial;=
+ background-position: initial; background-repeat: initial;"><span style=3D"=
+text-size-adjust: 100%; font-family: arial, sans-serif;"><span style=3D"tex=
+t-size-adjust: 100%; font-size: 10pt;">ISSN (Online) 2250-3021, ISSN (Print=
+) 2278-8719</span></span></span></span><br style=3D"color: rgb(0, 0, 0); fo=
+nt-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust:=
+ 100%; line-height: 20.8px;" /><br style=3D"color: rgb(0, 0, 0); font-famil=
+y: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%;" =
+/><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, a=
+rial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px; backgro=
+und-image: initial; background-size: initial; background-origin: initial; b=
+ackground-clip: initial; background-position: initial; background-repeat: i=
+nitial;"><span style=3D"text-size-adjust: 100%; font-family: sans-serif, ar=
+ial, verdana, &quot;trebuchet ms&quot;;"><span style=3D"text-size-adjust: 1=
+00%; font-family: helvetica, sans-serif;"><span style=3D"text-size-adjust: =
+100%; font-size: 10pt;">Impact Factor 1.645</span></span></span></span><br =
+style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; fo=
+nt-size: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><br style=3D=
+"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size:=
+ 12px; text-size-adjust: 100%;" /><span style=3D"color: rgb(0, 0, 0); font-=
+family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 10=
+0%; line-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adjust=
+: 100%; background-image: initial; background-size: initial; background-ori=
+gin: initial; background-clip: initial; background-position: initial; backg=
+round-repeat: initial;"><span style=3D"text-size-adjust: 100%; font-family:=
+ helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: =
+10pt;">We are pleased to inform you that IOSR-JEN</span></span></span></spa=
+n><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, a=
+rial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px; font-we=
+ight: 700;"><span style=3D"text-size-adjust: 100%; background-image: initia=
+l; background-size: initial; background-origin: initial; background-clip: i=
+nitial; background-position: initial; background-repeat: initial;"><span st=
+yle=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span s=
+tyle=3D"text-size-adjust: 100%; font-size: 8pt;">&nbsp;is going to launch i=
+ts next issue&nbsp;(</span></span></span></span><span style=3D"color: rgb(0=
+, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12px; text-s=
+ize-adjust: 100%; line-height: 20.8px; font-weight: 700;"><span style=3D"te=
+xt-size-adjust: 100%; background-image: initial; background-size: initial; =
+background-origin: initial; background-clip: initial; background-position: =
+initial; background-repeat: initial;"><span style=3D"text-size-adjust: 100%=
+; color: red;"><span style=3D"text-size-adjust: 100%; font-family: arial, s=
+ans-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">Volume=
+ 8, Issue 02,February 2018</span></span></span></span></span><span style=3D=
+"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size:=
+ 12px; text-size-adjust: 100%; line-height: 20.8px; font-weight: 700;"><spa=
+n style=3D"text-size-adjust: 100%; background-image: initial; background-si=
+ze: initial; background-origin: initial; background-clip: initial; backgrou=
+nd-position: initial; background-repeat: initial;"><span style=3D"text-size=
+-adjust: 100%; font-family: arial, sans-serif;"><span style=3D"text-size-ad=
+just: 100%; font-size: 10pt;">).&nbsp;We&nbsp;would like to invite you to c=
+ontribute your Research Paper for publication in IOSR-JEN</span></span></sp=
+an></span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-=
+serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px;=
+ font-weight: 700;"><span style=3D"text-size-adjust: 100%; background-image=
+: initial; background-size: initial; background-origin: initial; background=
+-clip: initial; background-position: initial; background-repeat: initial;">=
+<span style=3D"text-size-adjust: 100%; font-family: arial, sans-serif;"><sp=
+an style=3D"text-size-adjust: 100%; font-size: 8pt;">. Papers published in =
+IOSR-JEN</span></span></span></span><span style=3D"color: rgb(0, 0, 0); fon=
+t-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: =
+100%; line-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adju=
+st: 100%; background-image: initial; background-size: initial; background-o=
+rigin: initial; background-clip: initial; background-position: initial; bac=
+kground-repeat: initial;"><span style=3D"text-size-adjust: 100%; font-famil=
+y: helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size=
+: 8pt;">&nbsp;will receive very high publicity and acquire very high reputa=
+tion.&nbsp;The journal covers all areas of computer&nbsp;science, Mechanica=
+l Engineering, Civil Engineering, Electronics engineering, Information tech=
+nology, and many&nbsp;more</span></span></span></span><span style=3D"color:=
+ rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12px; =
+text-size-adjust: 100%; line-height: 20.8px; background-image: initial; bac=
+kground-size: initial; background-origin: initial; background-clip: initial=
+; background-position: initial; background-repeat: initial;"><span style=3D=
+"text-size-adjust: 100%; font-family: sans-serif, arial, verdana, &quot;tre=
+buchet ms&quot;;"><span style=3D"text-size-adjust: 100%; font-family: helve=
+tica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: 8pt;">=
+&nbsp;</span></span></span></span><span style=3D"color: rgb(0, 0, 0); font-=
+family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 10=
+0%; line-height: 20.8px;">(</span><a href=3D"http://IOSRJEN.ORG=3D" rel=3D"=
+external" style=3D"color: rgb(69, 80, 219); font-family: Helvetica, sans-se=
+rif, arial; font-size: 12px; text-size-adjust: 100%; text-decoration-line: =
+none;" target=3D"_blank">IOSRJEN.ORG</a><span style=3D"color: rgb(0, 0, 0);=
+ font-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adju=
+st: 100%; line-height: 20.8px;">)</span><br style=3D"color: rgb(0, 0, 0); f=
+ont-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust=
+: 100%; line-height: 20.8px;" /><br style=3D"color: rgb(0, 0, 0); font-fami=
+ly: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%;"=
+ /><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, =
+arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px; font-w=
+eight: 700;"><span style=3D"text-size-adjust: 100%; background-image: initi=
+al; background-size: initial; background-origin: initial; background-clip: =
+initial; background-position: initial; background-repeat: initial;"><span s=
+tyle=3D"text-size-adjust: 100%; font-family: arial, sans-serif;"><span styl=
+e=3D"text-size-adjust: 100%; font-size: 10pt;">. &nbsp;</span></span></span=
+></span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-se=
+rif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px; f=
+ont-weight: 700;"><span style=3D"text-size-adjust: 100%; background-image: =
+initial; background-size: initial; background-origin: initial; background-c=
+lip: initial; background-position: initial; background-repeat: initial;"><s=
+pan style=3D"text-size-adjust: 100%; color: rgb(84, 141, 212);"><span style=
+=3D"text-size-adjust: 100%; font-family: arial, sans-serif;"><span style=3D=
+"text-size-adjust: 100%; font-size: 10pt;">IOSR&nbsp;JEN</span></span></spa=
+n></span></span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica,=
+ sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 2=
+0.8px; font-weight: 700;"><span style=3D"text-size-adjust: 100%; background=
+-image: initial; background-size: initial; background-origin: initial; back=
+ground-clip: initial; background-position: initial; background-repeat: init=
+ial;"><span style=3D"text-size-adjust: 100%; font-family: arial, sans-serif=
+;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">&nbsp;provides&=
+nbsp;</span></span></span></span><span style=3D"color: rgb(0, 0, 0); font-f=
+amily: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100=
+%; line-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adjust:=
+ 100%; background-image: initial; background-size: initial; background-orig=
+in: initial; background-clip: initial; background-position: initial; backgr=
+ound-repeat: initial;"><span style=3D"text-size-adjust: 100%; color: rgb(22=
+7, 108, 10);"><span style=3D"text-size-adjust: 100%; font-family: arial, sa=
+ns-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">DOI (Di=
+gital Object Identifier)</span></span></span></span></span><span style=3D"c=
+olor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 1=
+2px; text-size-adjust: 100%; line-height: 20.8px;">&nbsp;</span><span style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-si=
+ze: 12px; text-size-adjust: 100%; line-height: 20.8px; background-image: in=
+itial; background-size: initial; background-origin: initial; background-cli=
+p: initial; background-position: initial; background-repeat: initial;"><spa=
+n style=3D"text-size-adjust: 100%; font-family: sans-serif, arial, verdana,=
+ &quot;trebuchet ms&quot;;"><span style=3D"text-size-adjust: 100%; font-fam=
+ily: helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-si=
+ze: 10pt;">to each published article.</span></span></span></span><br style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-si=
+ze: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"co=
+lor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12=
+px; text-size-adjust: 100%; line-height: 20.8px; font-weight: 700;"><span s=
+tyle=3D"text-size-adjust: 100%; background-image: initial; background-size:=
+ initial; background-origin: initial; background-clip: initial; background-=
+position: initial; background-repeat: initial;"><span style=3D"text-size-ad=
+just: 100%; font-family: arial, sans-serif;"><span style=3D"text-size-adjus=
+t: 100%; font-size: 10pt;">.&nbsp;&nbsp;IOSR&nbsp;JEN</span></span></span><=
+/span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-seri=
+f, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px;">&n=
+bsp;</span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans=
+-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px=
+; background-image: initial; background-size: initial; background-origin: i=
+nitial; background-clip: initial; background-position: initial; background-=
+repeat: initial;"><span style=3D"text-size-adjust: 100%; font-family: sans-=
+serif, arial, verdana, &quot;trebuchet ms&quot;;"><span style=3D"text-size-=
+adjust: 100%; font-family: arial, sans-serif;"><span style=3D"text-size-adj=
+ust: 100%; font-size: 10pt;">registers all published paper in ANED&nbsp;&nb=
+sp;</span></span></span></span><span style=3D"color: rgb(0, 0, 0); font-fam=
+ily: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%;=
+ line-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adjust: 1=
+00%; background-image: initial; background-size: initial; background-origin=
+: initial; background-clip: initial; background-position: initial; backgrou=
+nd-repeat: initial;"><span style=3D"text-size-adjust: 100%; color: rgb(227,=
+ 108, 10);"><span style=3D"text-size-adjust: 100%; font-family: arial, sans=
+-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">(American=
+ National Engineering Database).</span></span></span></span></span><br styl=
+e=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-s=
+ize: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"c=
+olor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 1=
+2px; text-size-adjust: 100%; line-height: 20.8px; font-weight: 700;"><span =
+style=3D"text-size-adjust: 100%; background-image: initial; background-size=
+: initial; background-origin: initial; background-clip: initial; background=
+-position: initial; background-repeat: initial;"><span style=3D"text-size-a=
+djust: 100%; font-family: arial, sans-serif;"><span style=3D"text-size-adju=
+st: 100%; font-size: 10pt;">.&nbsp;&nbsp;IOSR&nbsp;JEN</span></span></span>=
+</span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-ser=
+if, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8px;">&=
+nbsp;</span><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, san=
+s-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.8p=
+x; background-image: initial; background-size: initial; background-origin: =
+initial; background-clip: initial; background-position: initial; background=
+-repeat: initial;"><span style=3D"text-size-adjust: 100%; font-family: sans=
+-serif, arial, verdana, &quot;trebuchet ms&quot;;"><span style=3D"text-size=
+-adjust: 100%; font-family: helvetica, sans-serif;"><span style=3D"text-siz=
+e-adjust: 100%; font-size: 10pt;">&nbsp;provides hard copy of certificates =
+to all authors free of cost.&nbsp;&nbsp;</span></span></span></span><br sty=
+le=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-=
+size: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"=
+color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: =
+12px; text-size-adjust: 100%; line-height: 20.8px; background-image: initia=
+l; background-size: initial; background-origin: initial; background-clip: i=
+nitial; background-position: initial; background-repeat: initial;"><span st=
+yle=3D"text-size-adjust: 100%; font-family: sans-serif, arial, verdana, &qu=
+ot;trebuchet ms&quot;;"><span style=3D"text-size-adjust: 100%; font-family:=
+ helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: =
+10pt;">For all published paper, go through following link</span></span><spa=
+n style=3D"text-size-adjust: 100%; font-family: arial, sans-serif;"><span s=
+tyle=3D"text-size-adjust: 100%; font-size: 9.5pt;">:&nbsp;</span></span></s=
+pan></span><a href=3D"http://IOSRJEN.ORG/pages/archive.html&nbsp;&nbsp;=3D"=
+ rel=3D"external" style=3D"color: rgb(69, 80, 219); font-family: Helvetica,=
+ sans-serif, arial; font-size: 12px; text-size-adjust: 100%; text-decoratio=
+n-line: none;" target=3D"_blank">IOSRJEN.ORG/pages/archive.html=A0=A0</a><b=
+r style=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; =
+font-size: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><br style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-si=
+ze: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"co=
+lor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12=
+px; text-size-adjust: 100%; line-height: normal;">&nbsp;</span>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"gmail- gma=
+il-" style=3D"border: 1px dotted rgb(211, 211, 211); font-size: small; text=
+-size-adjust: 100%; border-collapse: collapse; color: rgb(34, 34, 34); font=
+-family: arial, sans-serif; line-height: normal; background-image: initial;=
+ background-size: initial; background-origin: initial; background-clip: ini=
+tial; background-position: initial; background-repeat: initial;">	<tbody st=
+yle=3D"text-size-adjust: 100%;">		<tr style=3D"text-size-adjust: 100%; heig=
+ht: 23px;">			<td colspan=3D"2" style=3D"margin: 0px; border: 1pt solid bla=
+ck; text-size-adjust: 100%; padding: 0in 5.4pt; width: 571px; height: 23px;=
+ vertical-align: top;"><span style=3D"text-size-adjust: 100%; font-weight: =
+700; font-family: Helvetica, sans-serif, arial;"><span style=3D"text-size-a=
+djust: 100%; color: black;"><span style=3D"text-size-adjust: 100%; font-fam=
+ily: helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-si=
+ze: 10pt;">Important Dates</span></span></span></span></td>		</tr>		<tr sty=
+le=3D"text-size-adjust: 100%; height: 35px;">			<td style=3D"margin: 0px; b=
+order-width: 1px 1pt 1pt; border-style: none solid solid; border-color: rgb=
+(211, 211, 211); border-image: initial; text-size-adjust: 100%; padding: 0i=
+n 5.4pt; width: 264px; height: 35px; vertical-align: top;"><span style=3D"t=
+ext-size-adjust: 100%; font-weight: 700; font-family: Helvetica, sans-serif=
+, arial;"><span style=3D"text-size-adjust: 100%; color: black;"><span style=
+=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span styl=
+e=3D"text-size-adjust: 100%; font-size: 10pt;">Last date of Paper Submissio=
+n:</span></span></span></span></td>			<td style=3D"margin: 0px; border-widt=
+h: 1px 1pt 1pt 1px; border-style: none solid solid none; border-color: rgb(=
+211, 211, 211); border-image: initial; text-size-adjust: 100%; padding: 0in=
+ 5.4pt; width: 307px; height: 35px; vertical-align: top;"><span style=3D"te=
+xt-size-adjust: 100%; font-weight: 700; font-family: Helvetica, sans-serif,=
+ arial;"><span style=3D"text-size-adjust: 100%; color: black;"><span style=
+=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span styl=
+e=3D"text-size-adjust: 100%; font-size: 10pt;">14<sup style=3D"text-size-ad=
+just: 100%;">th</sup></span></span></span></span>&nbsp;&nbsp;<span style=3D=
+"text-size-adjust: 100%; font-weight: 700; font-family: Helvetica, sans-ser=
+if, arial;"><span style=3D"text-size-adjust: 100%; color: black;"><span sty=
+le=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span st=
+yle=3D"text-size-adjust: 100%; font-size: 10pt;">February</span></span></sp=
+an></span><span style=3D"text-size-adjust: 100%; font-weight: 700; font-fam=
+ily: Helvetica, sans-serif, arial;"><span style=3D"text-size-adjust: 100%; =
+color: black;"><span style=3D"text-size-adjust: 100%; font-family: helvetic=
+a, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">&n=
+bsp;2018</span></span></span></span></td>		</tr>		<tr style=3D"text-size-ad=
+just: 100%; height: 23px;">			<td style=3D"margin: 0px; border-width: 1px 1=
+pt 1pt; border-style: none solid solid; border-color: rgb(211, 211, 211); b=
+order-image: initial; text-size-adjust: 100%; padding: 0in 5.4pt; width: 26=
+4px; height: 23px; vertical-align: top;"><span style=3D"text-size-adjust: 1=
+00%; font-weight: 700; font-family: Helvetica, sans-serif, arial;"><span st=
+yle=3D"text-size-adjust: 100%; color: black;"><span style=3D"text-size-adju=
+st: 100%; font-family: helvetica, sans-serif;"><span style=3D"text-size-adj=
+ust: 100%; font-size: 10pt;">Acknowledgement:</span></span></span></span></=
+td>			<td style=3D"margin: 0px; border-width: 1px 1pt 1pt 1px; border-style=
+: none solid solid none; border-color: rgb(211, 211, 211); border-image: in=
+itial; text-size-adjust: 100%; padding: 0in 5.4pt; width: 307px; height: 23=
+px; vertical-align: top;"><span style=3D"text-size-adjust: 100%; font-weigh=
+t: 700; font-family: Helvetica, sans-serif, arial;"><span style=3D"text-siz=
+e-adjust: 100%; color: black;"><span style=3D"text-size-adjust: 100%; font-=
+family: helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font=
+-size: 10pt;">within 24 hrs</span></span></span></span></td>		</tr>		<tr st=
+yle=3D"text-size-adjust: 100%; height: 35px;">			<td style=3D"margin: 0px; =
+border-width: 1px 1pt 1pt; border-style: none solid solid; border-color: rg=
+b(211, 211, 211); border-image: initial; text-size-adjust: 100%; padding: 0=
+in 5.4pt; width: 264px; height: 35px; vertical-align: top;"><span style=3D"=
+text-size-adjust: 100%; font-weight: 700; font-family: Helvetica, sans-seri=
+f, arial;"><span style=3D"text-size-adjust: 100%; color: black;"><span styl=
+e=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span sty=
+le=3D"text-size-adjust: 100%; font-size: 10pt;">Review Report:</span></span=
+></span></span></td>			<td style=3D"margin: 0px; border-width: 1px 1pt 1pt =
+1px; border-style: none solid solid none; border-color: rgb(211, 211, 211);=
+ border-image: initial; text-size-adjust: 100%; padding: 0in 5.4pt; width: =
+307px; height: 35px; vertical-align: top;"><span style=3D"text-size-adjust:=
+ 100%; font-weight: 700; font-family: Helvetica, sans-serif, arial;"><span =
+style=3D"text-size-adjust: 100%; color: black;"><span style=3D"text-size-ad=
+just: 100%; font-family: helvetica, sans-serif;"><span style=3D"text-size-a=
+djust: 100%; font-size: 10pt;">Within one or two weeks</span></span></span>=
+</span></td>		</tr>		<tr style=3D"text-size-adjust: 100%; height: 24px;">		=
+	<td style=3D"margin: 0px; border-width: 1px 1pt 1pt; border-style: none so=
+lid solid; border-color: rgb(211, 211, 211); border-image: initial; text-si=
+ze-adjust: 100%; padding: 0in 5.4pt; width: 264px; height: 24px; vertical-a=
+lign: top;"><span style=3D"text-size-adjust: 100%; font-weight: 700; font-f=
+amily: Helvetica, sans-serif, arial;"><span style=3D"text-size-adjust: 100%=
+; color: black;"><span style=3D"text-size-adjust: 100%; font-family: helvet=
+ica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">=
+Publication date:</span></span></span></span></td>			<td style=3D"margin: 0=
+px; border-width: 1px 1pt 1pt 1px; border-style: none solid solid none; bor=
+der-color: rgb(211, 211, 211); border-image: initial; text-size-adjust: 100=
+%; padding: 0in 5.4pt; width: 307px; height: 24px; vertical-align: top;"><s=
+pan style=3D"text-size-adjust: 100%; font-weight: 700; font-family: Helveti=
+ca, sans-serif, arial;"><span style=3D"text-size-adjust: 100%; color: black=
+;"><span style=3D"text-size-adjust: 100%; font-family: helvetica, sans-seri=
+f;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">24<sup style=
+=3D"text-size-adjust: 100%;">th</sup></span></span></span></span>&nbsp;&nbs=
+p;<span style=3D"text-size-adjust: 100%; font-weight: 700; font-family: Hel=
+vetica, sans-serif, arial;"><span style=3D"text-size-adjust: 100%; color: b=
+lack;"><span style=3D"text-size-adjust: 100%; font-family: helvetica, sans-=
+serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">February&n=
+bsp;2018</span></span></span></span></td>		</tr>	</tbody></table><br style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-si=
+ze: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"co=
+lor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; text-size-adj=
+ust: 100%; font-size: 14px;"><span style=3D"text-size-adjust: 100%; font-we=
+ight: 700;"><span style=3D"text-size-adjust: 100%; line-height: 20.8px;"><s=
+pan style=3D"text-size-adjust: 100%; font-family: sans-serif, arial, verdan=
+a, &quot;trebuchet ms&quot;;"><span style=3D"text-size-adjust: 100%; font-f=
+amily: helvetica, sans-serif;"><span style=3D"text-size-adjust: 100%;">=E2=
+=80=8BIndexing:Crossref, NASA ads, DOAJ, Index Copernicus, Open-J Gate etc.=
+</span></span></span></span></span></span><br style=3D"color: rgb(0, 0, 0);=
+ font-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adju=
+st: 100%; line-height: 20.8px;" /><br style=3D"color: rgb(0, 0, 0); font-fa=
+mily: Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%=
+; line-height: 20.8px;" /><span style=3D"color: rgb(0, 0, 0); font-family: =
+Helvetica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line=
+-height: 20.8px; font-weight: 700;"><span style=3D"text-size-adjust: 100%; =
+background-image: initial; background-size: initial; background-origin: ini=
+tial; background-clip: initial; background-position: initial; background-re=
+peat: initial;"><span style=3D"text-size-adjust: 100%; color: rgb(0, 112, 1=
+92);"><span style=3D"text-size-adjust: 100%; font-family: helvetica, sans-s=
+erif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt;">Regards Edi=
+torial Board,</span></span></span></span></span><br style=3D"color: rgb(0, =
+0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12px; text-siz=
+e-adjust: 100%; line-height: 20.8px;" /><span style=3D"color: rgb(0, 0, 0);=
+ font-family: Helvetica, sans-serif, arial; font-size: 12px; text-size-adju=
+st: 100%; line-height: 20.8px; font-weight: 700;"><span style=3D"text-size-=
+adjust: 100%; background-image: initial; background-size: initial; backgrou=
+nd-origin: initial; background-clip: initial; background-position: initial;=
+ background-repeat: initial;"><span style=3D"text-size-adjust: 100%; color:=
+ rgb(0, 112, 192);"><span style=3D"text-size-adjust: 100%; font-family: hel=
+vetica, sans-serif;"><span style=3D"text-size-adjust: 100%; font-size: 10pt=
+;">IOSR Journal of Engineering</span></span></span></span></span><br style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-si=
+ze: 12px; text-size-adjust: 100%; line-height: 20.8px;" /><span style=3D"co=
+lor: rgb(0, 0, 0); font-family: Helvetica, sans-serif, arial; font-size: 12=
+px; text-size-adjust: 100%; line-height: 20.8px; font-weight: 700;"><span s=
+tyle=3D"text-size-adjust: 100%; background-image: initial; background-size:=
+ initial; background-origin: initial; background-clip: initial; background-=
+position: initial; background-repeat: initial;"><span style=3D"text-size-ad=
+just: 100%; color: rgb(0, 112, 192);"><span style=3D"text-size-adjust: 100%=
+; font-size: 10pt;"><font face=3D"helvetica, sans-serif" style=3D"text-size=
+-adjust: 100%;">Url:</font><font face=3D"sans-serif, arial, verdana, trebuc=
+het ms" style=3D"text-size-adjust: 100%;">&nbsp;</font></span></span></span=
+></span><a href=3D"http://www.IOSRJEN.ORG=3D" rel=3D"external" style=3D"col=
+or: rgb(69, 80, 219); font-family: Helvetica, sans-serif, arial; font-size:=
+ 12px; text-size-adjust: 100%; text-decoration-line: none;" target=3D"_blan=
+k">www.IOSRJEN.ORG</a><br style=3D"color: rgb(0, 0, 0); font-family: Helvet=
+ica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-heigh=
+t: 20.8px;" /><span style=3D"color: rgb(0, 0, 0); font-family: Helvetica, s=
+ans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-height: 20.=
+8px; font-weight: 700;"><span style=3D"text-size-adjust: 100%; background-i=
+mage: initial; background-size: initial; background-origin: initial; backgr=
+ound-clip: initial; background-position: initial; background-repeat: initia=
+l;"><span style=3D"text-size-adjust: 100%; color: rgb(0, 112, 192);"><span =
+style=3D"text-size-adjust: 100%; font-family: helvetica, sans-serif;"><span=
+ style=3D"text-size-adjust: 100%; font-size: 10pt;">Mail id:</span></span><=
+/span></span></span><span style=3D"color: rgb(0, 0, 0); font-family: Helvet=
+ica, sans-serif, arial; font-size: 12px; text-size-adjust: 100%; line-heigh=
+t: 20.8px;">&nbsp;</span><a style=3D"font-family: Helvetica, sans-serif, ar=
+ial; font-size: 12px; color: rgb(69, 80, 219); text-size-adjust: 100%; curs=
+or: pointer;">jen@iosrmail.org</a><span style=3D"font-size: small; text-siz=
+e-adjust: 100%; color: rgb(34, 34, 34); font-family: arial, sans-serif; tex=
+t-align: -webkit-center;">&nbsp;</span><span style=3D"color: rgb(0, 0, 0); =
+font-family: Helvetica, sans-serif, arial; font-size: 12px;">&nbsp;</span><=
+br>
+--=_76e193f5fe9398b9e5e6ff7d7a730b3a--

@@ -1,0 +1,169 @@
+Received: from HE1EUR02HT126.eop-EUR02.prod.protection.outlook.com
+ (2603:1096:a00:1::11) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0095.INDPRD01.PROD.OUTLOOK.COM; Tue, 30 Jan 2018 11:09:53 +0000
+Received: from HE1EUR02FT031.eop-EUR02.prod.protection.outlook.com
+ (10.152.10.60) by HE1EUR02HT126.eop-EUR02.prod.protection.outlook.com
+ (10.152.10.187) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13; Tue, 30
+ Jan 2018 11:09:51 +0000
+Authentication-Results: spf=pass (sender IP is 69.59.189.252)
+ smtp.mailfrom=email.questedge.co.in; outlook.com; dkim=none (message not
+ signed) header.d=none;outlook.com; dmarc=none action=none
+ header.from=rowjournals.com;
+Received-SPF: Pass (protection.outlook.com: domain of email.questedge.co.in
+ designates 69.59.189.252 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.59.189.252;
+ helo=rlb2.maildirectbeta.com;
+Received: from rlb2.maildirectbeta.com (69.59.189.252) by
+ HE1EUR02FT031.mail.protection.outlook.com (10.152.10.141) with Microsoft SMTP
+ Server id 15.20.444.13 via Frontend Transport; Tue, 30 Jan 2018 11:09:51
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:5817A138A71A2C49EA3FA8FEBC234D5DC3D876E5C9BC924043DC3240678975DB;UpperCasedChecksum:A9B87B2D53884831F40C0DD65EEBB505FE1EA913A96CBE32CD068B9B5E37066B;SizeAsReceived:2011;Count:22
+Received: from mst117.mdreg-mstnew.qlc.co.in (mdreg-mstnew.qlc.co.in [172.16.0.101])
+	by rlb2.maildirectbeta.com (Postfix) with ESMTP id 87E1377139D
+	for <xiangzhen.kong@outlook.com>; Tue, 30 Jan 2018 16:39:50 +0530 (IST)
+Received: from mst135.mdreg-mstnew.qlc.co.in (unknown [172.16.0.135])
+	by mst117.mdreg-mstnew.qlc.co.in (Postfix) with ESMTP id 402B07A8056
+	for <xiangzhen.kong@outlook.com>; Tue, 30 Jan 2018 16:39:50 +0530 (IST)
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1])
+	by mst135.mdreg-mstnew.qlc.co.in (Postfix) with ESMTP id 1684D412057
+	for <xiangzhen.kong@outlook.com>; Tue, 30 Jan 2018 16:39:50 +0530 (IST)
+Reply-To: "editor.jcrm@rowjournals.com" <editor.jcrm@rowjournals.com>
+From: Sandra Kennedy Managing Editor <editor.jcrm@rowjournals.com>
+To: <xiangzhen.kong@outlook.com>
+Subject: Clinical Studies on brain and neurology: JCRM
+X-Abuse-Reports-To: abuse@email.questedge.co.in
+X-campaignid: 1517219682
+List-Id: <34487_45411_0_1517219682_442358>
+ListMember: <xiangzhen.kong@outlook.com>
+List-Subscribe: <http://email.questedge.co.in/misc/pages/subscribe/MzQ0ODdfNDU0MTF+eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21+MF9DfjE1MTcyMTk2ODI=>, <mailto:subscribe@email.questedge.co.in?subject=Subscribe+34487_45411_0_1517219682_442358>
+List-Unsubscribe: <http://email.questedge.co.in/misc/pages/subscribe/MzQ0ODdfNDU0MTF+eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21+MF9DfjE1MTcyMTk2ODI=>, <mailto:unsubscribe@email.questedge.co.in?subject=Unsubscribe+34487_45411_0_1517219682_442358_>
+List-Archive: <http://email.questedge.co.in/misc/pages/archive/34487_45411_0_1517219682_442358_0>
+List-Owner: <mailto:listowner@email.questedge.co.in>
+List-Post: NO
+Errors-To: errors@email.questedge.co.in
+X-Mailer: MailDirect v2.03 for [Research Open World]
+Content-Type: multipart/alternative;
+	boundary="b1_530e94cdd7da28c6043e25d2abc2ea25"
+Message-ID: <20180130110950.402B07A8056@mst117.mdreg-mstnew.qlc.co.in>
+Date: Tue, 30 Jan 2018 16:39:50 +0530
+X-IncomingHeaderCount: 22
+Return-Path: xiangzhen.kong=outlook.com+1517219682+34487_45411+201801@email.questedge.co.in
+X-MS-Exchange-Organization-Network-Message-Id: f9d4894e-6111-4f7d-af54-08d567d1fc05
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR02FT031;1:I8Uxw0bogZXaV3R8R0bdtNP/UY07KoV1TyXUb0Er7kkNASQlWR5Y1F7u/N8Uxw9x7vaYa1hL1hxLn7ccRvm97bP7hoU7xBXaZH0f/wAwjEGoxZDT1A25zmgimCnhJJah
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:HE1EUR02HT126;H:rlb2.maildirectbeta.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: HE1EUR02FT031.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: f9d4894e-6111-4f7d-af54-08d567d1fc05
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(8291501071);SRVR:HE1EUR02HT126;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR02HT126;3:DFD7wzHH3qTFXnq9ID7/LtDix0g1M27QNDrnUoROrN09Mlz+3dBq/LJIt6SG3QRdVQ0ppekk+ygmZgfcQXtRChNaCAdXi4aAcMQbzg2rLODOPoOMhfz24Xkfx9R8JMLoOUSyfOCeWGTD4acesoShv/Y3C2SaiRXi/DU7nc/vIlp3C41evQWcg9FyH0ZVZi/Gajmj+ni5rWQsaBfSz0d1ZW4H2GZ4SinD57Dn/jyhRfuVAE3D5nhmw9K6mS4dPv5cFqVqcxjnGTGCHJxHopulwV7QZNkgl+JaXc7rnLPk3SPqLvIEWsKYqgrAu5yxavgP;25:X9LWONjH4xRPvovDvGUwTLmQfLmIXupoSXKmMx8q7tqKAX3lEdZ57YtKSIx6UUhCbK5dbtKgh12CO+i3svpSVVelZM9Ej1a6R6KC+plG7imTzATE9+8w/Z8+KaYBE8KaKW16/BHcPswVoCaNPCCYaWXnu0ybuw0DvzD70mkvnSfQQ1wmELDOeIkfmN221D3jSWMsrlIPYo9+kQIAxiZeS3Cm2JL9Z+k7rP4FhLsQthF8DujeyiVcW5KDHSldsE/OyFUoJgqqdz1M/ZBtBCNuOzEjJfR+J/2nxu5BgmH2pnl4SYpcDbu7SnUznlDNaNOHbckXoancwRzVMXHlauYP0Q==;31:2zC+AM05luPZ79FU7nKqnyYK/Fh5TdpWxVZT+KeV279sV1R9C1dCi6CY6+JkARj+LdpZr6Xl4AlfnfUFykDndfyItZEQABpwpyjXwjOploYEbmW4Bxh8kMvxkZjol1VLJSEYy4gHplUOMm33bZyiCMljyym3G1fyfqmC+xCdaFpoiuyvpGF8d/Xg1j82/CMofMjEa8hJSbMLkC5ym8CwmLHXoPD/PNaczTHKXVMFSuo=
+X-MS-TrafficTypeDiagnostic: HE1EUR02HT126:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 69.59.189.252
+X-SID-PRA: EDITOR.JCRM@ROWJOURNALS.COM
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(82015058);SRVR:HE1EUR02HT126;BCL:0;PCL:0;RULEID:;SRVR:HE1EUR02HT126;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR02HT126;4:iJal4RrrfX1HR+QG4JPlLfvAt4zhhU+TyBuHGrEd3in7S+D4l/8KVgLP9FSQGEICTp1LJH+EesxWYAvi3Q3PJsh5Qwa+Op/0IIPKGz7N6OXQ1vKGm2QDK51E2YK+UkszMAcbSzGvAbBZWC0k0PO6uz/qOy5k0gPM3SImngp58RCjOZs3z3uqcF5uE2MI4BWvcu7ebdxbxjJDqF9I1kfFvOo0glZoDrojU96vufsPV8z4M0g+Ew959ZLIWCHnbzgDLnzS6x9sqenjb1BwISHcfg==;23:ares3hIOur9+VkdeB5EhuyfqREcH5fxBM0mXH7S1KtoUH0I94izwGrQJMEwYlmlSbCpEew9AXdlJXQ/UXgaw9dEQEhd5H1+KRkFl7NGxE290ymyUoieSdlPQpkGeQKrNJDJb0qeqN4tTijc+dVXHi8RQPMrEd3VPmo67MkDqG/E=;6:yf6qhFMRp+aWLZ6+G4WSv545uKPghAbuNpZ/q3gEXUpO+3z2paJ6pW6KK3JPVEE/v/quXbb3ibCQbnNvagTNL8sYMfWjiT8yREVA7Qm+cHDbA7guxZGFH0Q05XkE03p4C90mHfIQwGEYE7Xk/GPI/Tfr0o06plY3lIPGuYJ/g/Ev+3Po/Us38PlAB5412Lk6NOaNU08S3oSXnadYzAZMkYNF42ZErjT25DhkNbifjAzAUAuErLEov9VQtNmuz23ytXwqmzClKNzGvEmEPU5+/0iCD2g9EdW9oleLjEpIcZMgXWucg4UP6DXBN7ESMeoePXIoHiP7zYm56xbJu2eEreT78u/DNCt9TSg6UTWWylU=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 7DjcyiyIQA2ksVLyPk4vFwYwChSN0HBjwTMnL2yKGn576BZE68mNXwpVv+CnHqM1RolfZwCyMlcAeckI1gIySjcYHYeWzOfaDqxr/oZ5aXA=
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR02HT126;5:4cWBRjw9jiFqVrWetMiocZFIOl3qle4hyWk+O068qJaatSwt3lk6mG41jp+oaCdfPVBpXaOB/cEmrPJqU2nxPvp0daz6RfcmVPYa8GU08oEHpHeDx/I9xeWhSgZvyBOa6Pfe5zvc6GJeKRjK9v2TrFchw1Xy4UHOPieGH7nR0A4=;24:q7jvL+UQQ+n2Lz4JpeF2n4iHlJyFMsU4+k5cSfYbg3vwvnYt8BF2UpUFFFjgc5qv0JPnL7THUzW4LVdHIsHgwwartiQuBOld4TCx2fJG9JM=;7:HtHZ0zHIpE5Z+R269V3Xnrrc6vP0RJ81cfqqcxeDNWElXoGwXoMwjLBvVxqeFJTvCT1sXhvWL7uhg7D9bpRFOkd7YODTMcaOB2PGeQp3nU25bCZaYcxs99osubPANg0SjSC8s7zhHCyTBg4iLIAaqcpo6dh+nKeC+KPKw7D3W9I1uEUCtDl9lAGGGcCHYEro0c2ZQjRfulAY65q2c/PT7Tfyq5lhiYGhNGchDXk4pbPX5Uhwp5bwnfk3vKjES4og
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Jan 2018 11:09:51.4506
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f9d4894e-6111-4f7d-af54-08d567d1fc05
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR02HT126
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6979686
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:QZOQtsvH0Kpf019wlE4YgX9LMccowxoYvVLZOY4OVs6GfaGR3XGgTYkO6+LdCa4V1peyHg2X37L1wRn+SOGmDAx4pX2L2UPeWBCGlGpitW4Ti77nilkw9YklEf9cyL3X
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3BSAxPxRYS8GbVYgDghIQNF0jPpc85e7BlsOhxo6bNZST8OhJbRu0M/ggqKqfccgx8DbXwHbCuBYBnUD30ykuZ61NyeOgDLgc3fKAn0J+LNSqWgQ1b3yipeQ04v9Qm4ju/UcGFbwLmMNmAxVdcIwvVvM7RbvDis0VVBk0J7hUaT/6ROkV2IKI7Yf6juCNw23Txuy4bGFCuQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	lTGzZzzo/Lkott4ItuTPAR31Y6SyfgL37X4u5Jd1bqoqWLwOxkO18OhCWnkREhB2+FXvDqKwa47BKl+H+eoUlXkE7z1Fg3cXb0Us34k3klN21CJpzhRWehv3QINGVT011ceKvBjWl2YVAkUjkViejq++hqGd4GySij/nL2pDB68BAseAQqHuCTV7df9inQDbrNYcdT0jhaM/gnVldfc9Tnu+70owe87dOaw/nDUzmRRM0d/eefez3RtRzp545wyJ+IWxwqo5qx+JTjZQCtxzWA==
+MIME-Version: 1.0
+
+--b1_530e94cdd7da28c6043e25d2abc2ea25
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:QZOQtsvH0Kpf019wlE4YgX9LMccowxoYvVLZOY4OVs6GfaGR3XGgTYkO6+LdCa4V1peyHg2X37L1wRn+SOGmDAx4pX2L2UPeWBCGlGpitW4Ti77nilkw9YklEf9cyL3X
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3BSAxPxRYS8GbVYgDghIQNF0jPpc85e7BlsOhxo6bNZST8OhJbRu0M/ggqKqfccgx8DbXwHbCuBYBnUD30ykuZ61NyeOgDLgc3fKAn0J+LNSqWgQ1b3yipeQ04v9Qm4ju/UcGFbwLmMNmAxVdcIwvVvM7RbvDis0VVBk0J7hUaT/6ROkV2IKI7Yf6juCNw23Txuy4bGFCuQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	lTGzZzzo/Lkott4ItuTPAR31Y6SyfgL37X4u5Jd1bqoqWLwOxkO18OhCWnkREhB2+FXvDqKwa47BKl+H+eoUlXkE7z1Fg3cXb0Us34k3klN21CJpzhRWehv3QINGVT011ceKvBjWl2YVAkUjkViejq++hqGd4GySij/nL2pDB68BAseAQqHuCTV7df9inQDbrNYcdT0jhaM/gnVldfc9Tnu+70owe87dOaw/nDUzmRRM0d/eefez3RtRzp545wyJ+IWxwqo5qx+JTjZQCtxzWA==
+
+
+
+
+
+
+DearÂ Xiang-Zhen Kong,
+Hope this mail finds in your best health. We would like to inform you that we are currently accepting submissions for JCRM inaugural issue which is set to be released in March 2018 for -
+Journal of Clinical Research and Medicine (JCRM)
+. So, we are contacting you regarding your coming best article submission to us.
+It would be glad to receive your article submission via replying this email or to submissions@researchopenworld.com
+We are looking forward to receive your prompt reply and kindly send your article on or before 15th
+February 2018 to join inaugural issue via replying this
+email.
+Best Regards
+Sandra Kennedy
+Managing Editor
+JCRM
+
+
+
+
+--b1_530e94cdd7da28c6043e25d2abc2ea25
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:QZOQtsvH0Kpf019wlE4YgX9LMccowxoYvVLZOY4OVs6GfaGR3XGgTYkO6+LdCa4V1peyHg2X37L1wRn+SOGmDAx4pX2L2UPeWBCGlGpitW4Ti77nilkw9YklEf9cyL3X
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yo3BSAxPxRYS8GbVYgDghIQNF0jPpc85e7BlsOhxo6bNZST8OhJbRu0M/ggqKqfccgx8DbXwHbCuBYBnUD30ykuZ61NyeOgDLgc3fKAn0J+LNSqWgQ1b3yipeQ04v9Qm4ju/UcGFbwLmMNmAxVdcIwvVvM7RbvDis0VVBk0J7hUaT/6ROkV2IKI7Yf6juCNw23Txuy4bGFCuQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	lTGzZzzo/Lkott4ItuTPAR31Y6SyfgL37X4u5Jd1bqoqWLwOxkO18OhCWnkREhB2+FXvDqKwa47BKl+H+eoUlXkE7z1Fg3cXb0Us34k3klN21CJpzhRWehv3QINGVT011ceKvBjWl2YVAkUjkViejq++hqGd4GySij/nL2pDB68BAseAQqHuCTV7df9inQDbrNYcdT0jhaM/gnVldfc9Tnu+70owe87dOaw/nDUzmRRM0d/eefez3RtRzp545wyJ+IWxwqo5qx+JTjZQCtxzWA==
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+</head>
+<body data-gramm="true" data-gramm_editor="true" data-gramm_id="b69ccf5a-561e-4e85-d5c8-3b98784a8754">
+<p>Dear&nbsp;Xiang-Zhen Kong,</p>
+<p><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;">Hope this mail finds in your best health. We would like to inform you that we are currently accepting submissions for JCRM inaugural issue which is set to be released in March 2018 for -</span></span>
+<a href="http://email.questedge.co.in/misc/pages/link/url:~eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MTUxNzIxOTY4Mn4zNDQ4N180NTQxMX4yMDE4MDF&#43;VA@@~http://researchopenworld.com/category/journal-of-clinical-research-and-medicine/"><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;">Journal of Clinical Research and Medicine (JCRM)</span></span></a><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;">
+. So, we are contacting you regarding your coming best article submission to us.</span></span></p>
+<p><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;">It would be glad to receive your article submission via replying this email or to </span></span><a href="mailto:submissions@researchopenworld.com"><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;">submissions@researchopenworld.com</span></span></a></p>
+<p>We are looking forward to receive your prompt reply and kindly send your article on or before 15<sup>th</sup>
+February 2018 to join inaugural issue via replying this
+email.</p>
+<p>Best Regards<br>
+Sandra Kennedy<br>
+Managing Editor<br>
+JCRM</p>
+<img src="http://email.questedge.co.in/misc/pages/email_view_count/~eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MTUxNzIxOTY4Mn4zNDQ4N180NTQxMX4yMDE4MDF&#43;VA@@~" width="1" height="1" border="0"></body>
+</html><div style="font-size:11px; color:#666666; font-family:Arial, Helvetica, sans-serif; width:100%; padding-bottom:5px;" align="center"><p style="text-align: center;"><span style="font-family:times new roman,serif;"><span style="font-size:12.0pt;"><a href="http://email.questedge.co.in/misc/pages/subscribe/MzQ0ODdfNDU0MTF&#43;eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MF9DfjE1MTcyMTk2ODI=
+" style="">To safely unsubscribe or modify your subscription settings please click here</a></span></span></p></div>
+
+
+
+
+--b1_530e94cdd7da28c6043e25d2abc2ea25--
+

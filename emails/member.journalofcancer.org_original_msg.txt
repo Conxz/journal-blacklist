@@ -1,0 +1,264 @@
+Received: from BY2NAM03HT196.eop-NAM03.prod.protection.outlook.com
+ (2603:1096:a00:1::30) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0114.INDPRD01.PROD.OUTLOOK.COM; Mon, 29 Jan 2018 12:11:00 +0000
+Received: from BY2NAM03FT003.eop-NAM03.prod.protection.outlook.com
+ (10.152.84.51) by BY2NAM03HT196.eop-NAM03.prod.protection.outlook.com
+ (10.152.85.239) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.444.13; Mon, 29
+ Jan 2018 12:10:58 +0000
+Authentication-Results: spf=none (sender IP is 209.85.217.173)
+ smtp.mailfrom=journalofcancer.org; outlook.com; dkim=pass (signature was
+ verified) header.d=journalofcancer-org.20150623.gappssmtp.com;outlook.com;
+ dmarc=none action=none header.from=journalofcancer.org;
+Received-SPF: None (protection.outlook.com: journalofcancer.org does not
+ designate permitted sender hosts)
+Received: from mail-ua0-f173.google.com (209.85.217.173) by
+ BY2NAM03FT003.mail.protection.outlook.com (10.152.84.105) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P256) id
+ 15.20.444.13 via Frontend Transport; Mon, 29 Jan 2018 12:10:58 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:4AD4CC4C512AD66F9FDE63B1365D7CDBD4697BE4871183F1124B16895BD01FA5;UpperCasedChecksum:82AF58433F63238894F4E913E0B8268C988736149AE15414C74296E04B36ACE7;SizeAsReceived:2273;Count:14
+Received: by mail-ua0-f173.google.com with SMTP id i5so4469511uai.10
+        for <xiangzhen.kong@outlook.com>; Mon, 29 Jan 2018 04:10:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=journalofcancer-org.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=LV3SZt+qItUKSkk1mRZkEXpFw6MoujhaCiJWJqFiN00=;
+        b=L1uJIXr4UQdkyXEq+1a7d9tp8b6/oEsBQpBqG8Esg8Ns6+wz5ih25W4e23ve4+7eSV
+         jDY1xvfYiKx+5CtNLNqvEEtM70a+Nr1aRBuEneRznjCodwMyWmONwVl1GBLrALIGSxXE
+         V5bqUM0DMAPy+EczeZyZwvSBCKlVHYj4Aiss/HEvl3iwf6sBG/A2dvj8EiV+4A5sJ6fl
+         /iWKwZ00aFFHeeOIVSCMGTcgzDX8qgiptZ2e9UQbCAcd3qYT0MtUo+nHBqz9SM6RvXZs
+         9p3+8VPFWnAD6HxvHMQUcfHEIy7o7nmQh6lzboX+u9T7nz3shCo5p7lRILFBdps4//8L
+         s0Sg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=LV3SZt+qItUKSkk1mRZkEXpFw6MoujhaCiJWJqFiN00=;
+        b=UpQrh2qv4RAxhcdfShYmpXRCYCqtZQCATC4favOJ0AEEKidGUzupU2SmUMuVvFvkzu
+         rpZt+VwjFhhtbYQ7O6L4x4Nj33WDmmsMkv50X+C02+4F2sFKRHJgNPLLX3fgU7LO9/Wg
+         tw9/832+QVf1WITiNST7rkAOdafbHuFsxuWWrXuE8NhDnnva0HS+gwh3ZG6cujuLFjH8
+         bihB+ZU7wx8ApsGKeB+K4j9qllPgE5rVbopoeVwb6J5QtQMgS9HeS8L12cLwnj7CwJAB
+         Sb6BdwIdboP6fzvwkh64v29XrN2ZYJzJrujJvfWNMrzi2pu63Qbf83d8Mzt/bS5EPNmO
+         ymug==
+X-Gm-Message-State: AKwxytf1h2yxA6L6S97Hk/w6Uuvw43WwYTigPBRttGP2g2vgO0Hcvoe2
+	BzvdsE6kCxF/W36RJA+a01F1Mhh6CMdY9ZqQwbVSnh7214Q=
+X-Google-Smtp-Source: AH8x227f6ZnhEfBjMtp5+t9nk1dNmhWxXkynwUPloyqLo5FbEWM1AB4emdqVboWXyR5IGlSUKQk4Vi3IX+v2I3yPMyY=
+X-Received: by 10.176.81.177 with SMTP id g46mr18256497uaa.139.1517227857733;
+ Mon, 29 Jan 2018 04:10:57 -0800 (PST)
+Received: by 10.31.3.81 with HTTP; Mon, 29 Jan 2018 04:10:57 -0800 (PST)
+From: Journal JCTR <member@journalofcancer.org>
+Date: Mon, 29 Jan 2018 20:10:57 +0800
+Message-ID: <CAPHd3wqhS2R9Sn=FHgrnLAak6h25sQp1ojgUUX21Wk_4rHr=Eg@mail.gmail.com>
+Subject: Establishing Your Own Special Issue and Becoming the Lead Guest
+ Editor (to {3})
+To: xiangzhen.kong@outlook.com
+Content-Type: multipart/alternative; boundary="94eb2c18f0d080f3270563e923f8"
+X-IncomingHeaderCount: 14
+Return-Path: member@journalofcancer.org
+X-MS-Exchange-Organization-Network-Message-Id: fd890c08-3a8e-4fc7-cd05-08d567115b20
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03FT003;1:NwJK+aG1Of5yDwkwVkckR+MtMWg3u+BT4/p+9Rf7hkioZBhrbqcP806tfiocj08M72rJCGfPaLCcm/uHJT8ShXm/gXAF+H9gkvtZv+rLjVN7ECT3KSGjWQ/QvS8H53ez
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:BY2NAM03HT196;H:mail-ua0-f173.google.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: BY2NAM03FT003.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: fd890c08-3a8e-4fc7-cd05-08d567115b20
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(8291501071);SRVR:BY2NAM03HT196;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT196;3:phOts1ZAPQVm0gmIztMn31st2ur2gwBSqxARmlr68K4M0tJUDHAOEeUQNUKQWGHMGUB13Avz2ct49reenQ+zIrb10fYLAmcbgWQ4mfyhWOCbciNsAI152n11dyr8rscUglZdP3JE50K5eJQ8RR6DF2mXL3gJ7Od2u/dvWagi26euThL6FXLTcpzP2BHD+y/jI1Ylh1pGqRqgspa7B93AfEpmMy38whFILiZZ3ZD7kw8V7o9mbXYWOJ5SnXomDvCxUrrEfG7kJeDfJsVqSgPRUSD1hYhcRmw9aHPMPi/2WamTcUY/ieaW3VBkPlNzV3KD;25:6eocGqUd2KjWgckPHioTX4yxs8co+RNGMlEDc7Gk9Ppg4d/pbEh1Pj4KsnTLYEKrfG8LtJj5drvg9uus6iNykv9KS1zxFOO23YQuM23c+S0Zxj0ws0Ugar94XFMhp0Fuo0gcxhekXL8rg0SgHojgC3mKtF9x/EmLAsblZh0REFvekFVCkNrQyUYj2w2pbt3rCUzJR7UbJRvNaOnPfO9y//4o6mNV5u8RvAd2/inp7L+4WcfUHnmYalAkgC9+9wVlMvUTWhG6ge/VZoF/vdiNMNurIA+ZovwQB4jNIVRRZnigTBL4ECxX+8n8OW4xNIBUeBfzMpF7AZORoVFs6mK/Qg==;31:A6B7DP7fwnRDyc4RbHwYfmnxEStXXjJ8sPr4gzSgCJHsi5xEYa1CmbNTQ8Wn2f/W9KvsvJYBXtyfaTnYqKg2Kh+MKDN62QUfygUMNk4M5eA9QbKALZyb625kPMkiPJe516QJ19aXqhYtSxZRIJXJxb4/1A5IRbQHyqyCbk9OkS9tod/zIrBS3Y8e5uB6s9TlCCHwLwLMrkdwDj4rxyzmvk9hyJBQEpoz/z5pw96v5J8=
+X-MS-TrafficTypeDiagnostic: BY2NAM03HT196:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.217.173
+X-SID-PRA: MEMBER@JOURNALOFCANCER.ORG
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(82015058);SRVR:BY2NAM03HT196;BCL:0;PCL:0;RULEID:;SRVR:BY2NAM03HT196;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT196;4:8z1psbwTASlyRmA3kuIBnPW2A89m/fOB6Q2Od0/aKEsWSlQCARvw3tIgxfzFmsd9oXrn6Yyabcuz3Ku42PYuBOyzRiZ8LKW8RoWxJoavuJkZru/H+lghQidDAB7fD/LKAEQcrWg5EYYjCkrBjFMr0DRA8VLB/5k2wwXqUiPtT5zev5ZQfx72sGS5+sMVbPBYMHFq7RowuZ53fC5/jwO13DPu4k1gvconRnohti+LKE+G/L3hKHwAKCqE7GmlcPmh0uN0ZHLYKyzR0GbecQB6yMRcABMR55nHA/I81RelI1ydJfIBYs7oteC05pmxaWdf;23:u2PZ+ZgQgJylq/0bVUjXVL9t7PYremT9PBNGZfNxLuom2Rn/CJbzmRv6RnxWoa2bNWAiJ1A6NwZnQy9yXuOGcHHc6USleHSbsi4edxQKD+d/GY1u8oF7kS21XZXZxJxkHUzJcoTeoSsRvD/mAoX8gB6yRvVN/tuAYY6/lcGPF3U=;6:StviBMXVmxF4LHljmUhMVDhlCw3iw10fXCyMbWfz4BsnsV7Xs4yIOUH+f37iZkENgOzOYWmHGlGSlnxiHbmPPd9zimSdXkSwk1wqMb7jwyj68S0lTtT1uYR+NAl7krIMYoFM6UZcGsRatX2bK8b3KYZS97SpQUk54pcIvNL63e3u3XTpPo5rijtpHhYnkaoj4BvmacMUeFtzUOxMiRVy/ML7HRUAvJiwwZjYXBXfshDKei2uDEZBXNxCb66200iTsCeU48oVEIdvHorJbbjucYs8EzddGWLzRcGxxXdqz4cA8LrvpaF9IIyAxW9NbibW9RH+kx2U13orKAaCtkz/gstPOy3dZBMe+McpamiMqDE=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: LCdiZY5Aw6o6qzwoN8ZFxKgDu6Ite/qCPnJ0EIp2Bxl3xQiItEr3IYIWkKUBw3i1EPc3nRrIQ6vXAO/kD66E1hkVID+avmsS0f14a8Oqmbg=
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT196;5:B2gwmZP4sF3PwgYda/2X/RZvJ2o2GFVHFheGPdJzMkFu41VTL+CKb+1uXJ16Hqq7eY6mOuFmtidAG3M64u5jkx52ViaKBL/QAxZJIlEB/l3SJjuaHeJj82g1k+6IlTIwPTQq0fPkB4eIhAarHSyVd+cnDSFJfMYl8jESEaluUow=;24:KDE/1EgVRUUaNg2ZhE3Qoxobsj3liofY3taTlwre6O8tnPi8xwgCrHS/UCCpQGn5DgI5k2sflFS1tRkyTABu5Mbhq/e7ZxBZLYKLYHEbfsA=;7:EhFXxMErT9Tc22Rssp1UXNqAxcPYwXKMneGIcWXr4Lhhkw37XwPyA2G0e5tQ2cPrl50gZJevGU98zN8vOv6PBOJsmXb9quckzkFBTTFVl1abreOyDRLWoYyoKsrjp0M9IRIRl4CdJWOx46W9S2NsVYEA/IMu/vIuhBLRGHclDlkmGhce7bixXOGVjmh93anjxiZnw5VgJJ9qFtyndQBiFJegAobilgFCWngWG0/CkaMjvAYIQf/zWaBvNu9USBJE
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Jan 2018 12:10:58.3305
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: fd890c08-3a8e-4fc7-cd05-08d567115b20
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2NAM03HT196
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0836956
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:8gHw4uV1nft3Ktu6FxyKOx7abqdy2nT07XhByiXBPdrTpQW0zNib70GdWQwhYStEsVnw5R6UcSe2iKOzMDmXEDHDJH84ZJ3yOcC43X+Vtkd+HsYrBPzn+jgthjt/nQeb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfspAqvx+Q/fauoWRRgUkCY/Lk0/xjup77GNpDfGDeik2Gzkio+HHAQDkt5HIQIStoGqKOrkKs1aJ2chX9OpcHxNUNfnSHrxYdYFIO6x46PMHbb4xGdwALSYtm8GqxyCL4ICHikLH7hwT7mamAbBShd/KMoXIFbQjMplrCLdqvTVbeWfcDvAhiVFtS5E93hlvLKNSstLvgYhg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	6xCp5tKrhwkJdqCWLth7psKZEyoruEsCCte5ufxYNLtEitNqnBxbMAbDZE8DfGHD/fftvaWDI5uE/UW8Ej86HU6JxdWZoPTyZevMs7+tegECWbF44T3Swh4LtsMBgyYWex2AmgDYVOoToLL9LQHSckZt5uLjXA31rtE8Eh8iE3/ORt9pOGlvH70jDjntzAZsEG5iVxNOyr6rx6+/bOgIt2jAZ25Pr99JrcBdmThiHrw3Hhvyj0aPPXyekL2l9pWIlu0UetscvrsYA4dWX4m+0A==
+MIME-Version: 1.0
+
+--94eb2c18f0d080f3270563e923f8
+Content-Type: text/plain; charset="UTF-8"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:8gHw4uV1nft3Ktu6FxyKOx7abqdy2nT07XhByiXBPdrTpQW0zNib70GdWQwhYStEsVnw5R6UcSe2iKOzMDmXEDHDJH84ZJ3yOcC43X+Vtkd+HsYrBPzn+jgthjt/nQeb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfspAqvx+Q/fauoWRRgUkCY/Lk0/xjup77GNpDfGDeik2Gzkio+HHAQDkt5HIQIStoGqKOrkKs1aJ2chX9OpcHxNUNfnSHrxYdYFIO6x46PMHbb4xGdwALSYtm8GqxyCL4ICHikLH7hwT7mamAbBShd/KMoXIFbQjMplrCLdqvTVbeWfcDvAhiVFtS5E93hlvLKNSstLvgYhg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	6xCp5tKrhwkJdqCWLth7psKZEyoruEsCCte5ufxYNLtEitNqnBxbMAbDZE8DfGHD/fftvaWDI5uE/UW8Ej86HU6JxdWZoPTyZevMs7+tegECWbF44T3Swh4LtsMBgyYWex2AmgDYVOoToLL9LQHSckZt5uLjXA31rtE8Eh8iE3/ORt9pOGlvH70jDjntzAZsEG5iVxNOyr6rx6+/bOgIt2jAZ25Pr99JrcBdmThiHrw3Hhvyj0aPPXyekL2l9pWIlu0UetscvrsYA4dWX4m+0A==
+
+American Journal of Psychiatry and Neuroscience
+(ISSN Print: 2330-4243, Online: 2330-426X)
+http://www.psychiatneurosci.org
+Dear Xiang-Zhen Kong; Xu Wang; Yi Pu; Lijie Huang; Xin Hao; ...,
+Here is the greeting from the editorial office of *American Journal of
+Psychiatry and Neuroscience * (http://www.psychiatneurosci.org), an open
+access, peer-reviewed journal which is devoted to publishing original
+research papers.
+We have learnt about your paper titled *Human navigation network: the
+intrinsic functional organization and behavioral relevance* in *Brain
+Structure and Function*, and we are attracted by your topic.
+Psychiatry and Neuroscience have always been a hotspot which appeals to
+many people. All scholars and experts have the chance to propose a special
+issue on the related fields. You will be the Lead Guest Editor in the case
+that your proposal is passed.
+Propose a Special Issue and Be the Lead Guest Editor:
+A special issue is a gather of papers focus on a certain theme within the
+range of the journal. You can spread your new findings and researches
+through this platform.
+It's a good way for you to cooperate with your colleagues or friends to
+propose a special issue and be the Lead Guest Editor.
+Privileges of Being the Lead Guest Editor:
+As the Lead Guest Editor, you will enjoy the benefits below:
+
+   1. Publish one paper for free in your special issue.
+   2. Have the chance to be appointed as the Editor-in-Chief of the journal.
+   3. Get one hard copy free of charge when the special issue is ended
+   smoothly.
+   4. Build your own editorial team and exchange ideas with them in your
+   research area.
+   5. Gain a Certificate (soft copy) and own a Personal Column on the
+   website.
+
+Aims and Scopes
+Epidemiology
+Nervous system
+Molecular genetics
+Electrophysiology
+Neuroendocrinology
+Biophysics and pharmacology
+Neuropsychopharmacology
+Cognitive and behavioral research
+Experimental psychology
+Computational modeling
+Basic and clinical research methodology
+Molecular biology and computer sciences
+Developmental and animal model studies
+Imagery and spectroscopy of the brain
+Psychological and epidemiological factors
+How to Propose a Special Issue:
+The proposal form is available in the following link if you have the
+intention to propose a special issue and be the Lead Guest Editor:
+http://www.psychiatneurosci.org/specialissues
+The filled proposal form should be send back via this email directly..
+More information about the special issue, please feel free to contact us.
+Regards,
+Editorial Office of *American Journal of Psychiatry and Neuroscience *
+
+--94eb2c18f0d080f3270563e923f8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:8gHw4uV1nft3Ktu6FxyKOx7abqdy2nT07XhByiXBPdrTpQW0zNib70GdWQwhYStEsVnw5R6UcSe2iKOzMDmXEDHDJH84ZJ3yOcC43X+Vtkd+HsYrBPzn+jgthjt/nQeb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfspAqvx+Q/fauoWRRgUkCY/Lk0/xjup77GNpDfGDeik2Gzkio+HHAQDkt5HIQIStoGqKOrkKs1aJ2chX9OpcHxNUNfnSHrxYdYFIO6x46PMHbb4xGdwALSYtm8GqxyCL4ICHikLH7hwT7mamAbBShd/KMoXIFbQjMplrCLdqvTVbeWfcDvAhiVFtS5E93hlvLKNSstLvgYhg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	6xCp5tKrhwkJdqCWLth7psKZEyoruEsCCte5ufxYNLtEitNqnBxbMAbDZE8DfGHD/fftvaWDI5uE/UW8Ej86HU6JxdWZoPTyZevMs7+tegECWbF44T3Swh4LtsMBgyYWex2AmgDYVOoToLL9LQHSckZt5uLjXA31rtE8Eh8iE3/ORt9pOGlvH70jDjntzAZsEG5iVxNOyr6rx6+/bOgIt2jAZ25Pr99JrcBdmThiHrw3Hhvyj0aPPXyekL2l9pWIlu0UetscvrsYA4dWX4m+0A==
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr"><br><br><div style=3D"background:rgb(204,204,204) none repea=
+t scroll 0% 0%;padding:60px 0px 90px 20px"> 	<div style=3D"border-color:rgb=
+(46,160,173);border-style:solid;border-width:1px;width:714px;color:rgb(51,5=
+1,51);padding-bottom:20px;font-family:Arial;font-size:13px;background-color=
+:rgb(255,255,255)"><div style=3D"background:rgb(46,160,173) none repeat scr=
+oll 0% 0%;margin:1px 1px 0px;width:712px;color:rgb(255,255,255);line-height=
+:22px"><div style=3D"padding:20px 0px 15px 20px"><div style=3D"font-size:16=
+px;font-style:italic;font-weight:bold">American Journal of Psychiatry and N=
+euroscience </div><div>(ISSN Print: 2330-4243, Online: 2330-426X)</div><div=
+><a style=3D"color:rgb(255,255,255);font-size:13px;text-decoration:none" hr=
+ef=3D"http://www.psychiatneurosci.org/" target=3D"_blank">http://www.psychi=
+atneurosci.org</a></div></div></div><div style=3D"background:rgb(255,255,25=
+5) none repeat scroll 0% 0%;margin:0px auto;width:680px"><div style=3D"padd=
+ing:20px 0px 0px"><div style=3D"padding-bottom:15px;border-bottom:1px solid=
+ rgb(46,160,173)"><div style=3D"line-height:22px;padding-bottom:5px">Dear X=
+iang-Zhen Kong; Xu Wang; Yi Pu; Lijie Huang; Xin Hao; ...,</div><div style=
+=3D"line-height:22px;padding-bottom:5px">Here is the greeting from the edit=
+orial office of&nbsp;<b style=3D"font-style:italic">American Journal of Psy=
+chiatry and Neuroscience </b> 				(<a style=3D"color:rgb(0,0,255);font-size=
+:13px;text-decoration:none" href=3D"http://www.psychiatneurosci.org/" targe=
+t=3D"_blank">http://www.psychiatneurosci.org</a>), an open access, peer-rev=
+iewed journal which is devoted to publishing original research papers.</div=
+><div style=3D"line-height:22px;padding-bottom:5px">We have learnt about yo=
+ur paper titled <i>Human navigation network: the intrinsic functional organ=
+ization and behavioral relevance</i> in <i>Brain Structure and Function</i>=
+, and we are attracted by your topic.</div><div style=3D"line-height:22px">=
+Psychiatry and Neuroscience have always been a hotspot which appeals to man=
+y people. All scholars and experts have the chance to propose a special iss=
+ue on the related fields. You will be the Lead Guest Editor in the case tha=
+t your proposal is passed.</div><div style=3D"line-height:169%;margin-top:1=
+5px"><div style=3D"color:rgb(30,102,110);padding-bottom:5px;font-size:18px;=
+font-weight:bold">Propose a Special Issue and Be the Lead Guest Editor: </d=
+iv><div>A special issue is a gather of papers focus on a certain theme with=
+in the range of the journal. You can spread your new findings and researche=
+s through this platform.<br>It's a good way for you to cooperate with your =
+colleagues or friends to propose a special issue and be the Lead Guest Edit=
+or.</div></div><div style=3D"line-height:169%;margin-top:15px"><div style=
+=3D"color:rgb(30,102,110);padding-bottom:5px;font-size:18px;font-weight:bol=
+d">Privileges of Being the Lead Guest Editor:  </div><div>As the Lead Guest=
+ Editor, you will enjoy the benefits below:</div><ol style=3D"margin:0px 0p=
+x 0px 15px;padding:0px;list-style-type:decimal"><li>Publish one paper for f=
+ree in your special issue.</li><li>Have the chance to be appointed as the E=
+ditor-in-Chief of the journal.</li><li>Get one hard copy free of charge whe=
+n the special issue is ended smoothly.</li><li>Build your own editorial tea=
+m and exchange ideas with them in your research area.</li><li>Gain a Certif=
+icate (soft copy) and own a Personal Column on the website.</li></ol></div>=
+</div><div style=3D"margin-top:15px"><div style=3D"color:rgb(30,102,110);li=
+ne-height:171%;text-indent:10px;padding-bottom:5px;font-size:18px;font-weig=
+ht:bold">Aims and Scopes</div><div style=3D"background:rgb(219,241,251) non=
+e repeat scroll 0% 0%;line-height:22px"><div style=3D"padding:10px"><div st=
+yle=3D"width:170px;display:table-cell"><div>Epidemiology</div><div>Nervous =
+system</div><div>Molecular genetics</div><div>Electrophysiology</div><div>N=
+euroendocrinology</div></div><div style=3D"width:210px;display:table-cell">=
+<div>Biophysics and pharmacology</div><div>Neuropsychopharmacology</div><di=
+v>Cognitive and behavioral research</div><div>Experimental psychology</div>=
+<div>Computational modeling</div></div><div style=3D"width:260px;display:ta=
+ble-cell"><div>Basic and clinical research methodology</div><div>Molecular =
+biology and computer sciences</div><div>Developmental and animal model stud=
+ies</div><div>Imagery and spectroscopy of the brain</div><div>Psychological=
+ and epidemiological factors</div></div></div></div><div style=3D"padding:1=
+5px 0px 5px;color:rgb(30,102,110);line-height:171%;text-indent:10px;font-si=
+ze:18px;font-weight:bold">How to Propose a Special Issue:</div><div style=
+=3D"background:rgb(219,241,251) none repeat scroll 0% 0%"><div style=3D"pad=
+ding:10px"><div style=3D"line-height:22px;display:inline-block"><div style=
+=3D"line-height:22px">The proposal form is available in the following link =
+if you have the intention to propose a special issue and be the Lead Guest =
+Editor:  									<a style=3D"color:rgb(0,51,204);text-decoration:none;disp=
+lay:inline-block" href=3D"http://www.psychiatneurosci.org/specialissues" ta=
+rget=3D"_blank">	http://www.psychiatneurosci.org/specialissues</a> <br>The =
+filled proposal form should be send back via this email directly..</div></d=
+iv> 							</div></div></div><div style=3D"line-height:169%;margin-top:20px=
+">More information about the special issue, please feel free to contact us.=
+</div><div style=3D"line-height:200%;margin-top:15px"><div>Regards,</div><d=
+iv>Editorial Office of <i>American Journal of Psychiatry and Neuroscience <=
+/i></div></div></div></div></div></div></div>
+
+--94eb2c18f0d080f3270563e923f8--
+

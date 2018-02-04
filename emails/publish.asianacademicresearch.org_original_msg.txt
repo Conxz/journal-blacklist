@@ -1,0 +1,498 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.137.93 with SMTP id f29csp853697edf;
+        Sat, 3 Feb 2018 10:50:57 -0800 (PST)
+X-Google-Smtp-Source: AH8x227XRC8yZfaobMy9tUSZb48v634wpOtVNEq0QDcZV9iU+Z8FxOIcvH7nIcesurfxYw0jdBge
+X-Received: by 10.223.148.37 with SMTP id 34mr20758162wrq.136.1517683857065;
+        Sat, 03 Feb 2018 10:50:57 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1517683857; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ex+2osWNdgTLh/uettDophH6nzsn2cnT113ROBMySp69jLP0AZ1vyIG0XY7eCaX5QZ
+         qgrnbPfyL802MoLH4sLdOBKAn0kBIag2zgGHhy3mlSNQgjOk/ZVIaZM3UYX7RkjMJ7xb
+         OA9jqQzzcUK/gh43fRS1Lu/0a644t79+vmUAXfNcX4AVk7Y/eK8hDhHGJY5HUnLmAPy8
+         w/YjgmTUcHizl/nkjqbxCKKKqzU05XRSiMlxVzZK9ISjQa1iOZQmr5zOvh2WMNnThXyG
+         /6UPCg3nxVZOnvmxFRjalvhvvlRPOJsAzOrjT74NG9b/5u4+/REin9E94ADOj4Cmayhu
+         i2ZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-unsubscribe:mime-version:reply-to
+         :from:date:message-id:subject:dkim-signature:to
+         :arc-authentication-results;
+        bh=fpvYD0YWcmAa4atOBd+PKlZTXXv+FBJpQyJDz/lLlRQ=;
+        b=C0tYdNGJNhSTMlSZpefm05xUU6xRrJwVyLDBzEBv3B1pEZSY9Qr/qgM1vhgmfKotHR
+         FrmusfOKnmLgPnsq0oL9o4Hj6PpF5/mCxSC0okSMfKYjLNKiWppcHaxkL/gwbSNPGhdI
+         X1dpLvkBMTwDD+wOzrLnZ0gnGVZOIRcJSLCnn6pxF4o/5cYogDA0+fZmQRflX76K4NQp
+         +Yqcw4GL5I1U8sEozbHcCyZ07VoxbK0zhE9E6ROrLCGsCY3TKfPoEvJo82eAP45XJ8eL
+         kwg8ofhy5RZglPWX6fTCDBPRBjSDybw3P+bHP3w6uL1XKwKXTK7B4OnEUK+e7OVLx9TC
+         2coA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@linxsrv.com header.s=10687 header.b=PwsOmqL+;
+       spf=neutral (google.com: 185.17.26.162 is neither permitted nor denied by best guess record for domain of qsdet@terwr.imgllinks.co.in) smtp.mailfrom=qsdet@terwr.imgllinks.co.in
+Return-Path: <qsdet@terwr.imgllinks.co.in>
+Received: from cpcam.linxsrv.com (cpcam.linxsrv.com. [185.17.26.162])
+        by mx.google.com with ESMTPS id 91si675885wrn.294.2018.02.03.10.50.56
+        for <kongxiangzheng@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 03 Feb 2018 10:50:57 -0800 (PST)
+Received-SPF: neutral (google.com: 185.17.26.162 is neither permitted nor denied by best guess record for domain of qsdet@terwr.imgllinks.co.in) client-ip=185.17.26.162;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@linxsrv.com header.s=10687 header.b=PwsOmqL+;
+       spf=neutral (google.com: 185.17.26.162 is neither permitted nor denied by best guess record for domain of qsdet@terwr.imgllinks.co.in) smtp.mailfrom=qsdet@terwr.imgllinks.co.in
+To: kongxiangzheng@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=linxsrv.com; s=10687;
+	t=1517691052; bh=fpvYD0YWcmAa4atOBd+PKlZTXXv+FBJpQyJDz/lLlRQ=;
+	h=Subject:Message-ID:Date:From:Reply-To:MIME-Version:
+	 List-Unsubscribe:Content-Type:Content-Transfer-Encoding;
+	b=PwsOmqL+0BStpkcy35UTUuw0iEIukhn4vo2qAqE2Ib865D1XYrcCUZ21u2Cuyhp7X
+	 7czxCDt/iHXKybckcojcTYJvlPzqB/6sFa77BWjZJ5Icq2ecXJh6TVpAZYRs8G83sP
+	 FlskjnB8RzSRqN3hWsGp89ehnKsTgFRZL9HTdvuY=
+Subject: International Journal February 2018 Issue Invite Your Paper
+Message-ID: <a106470cfde947c9893b88aded857eea@terwr.imgllinks.co.in>
+Date: Sat, 03 Feb 2018 18:12:08 +0000
+From: "Asian Academic Research Journal" <publish@asianacademicresearch.org>
+Reply-To: editor@asianacademicresearch.org
+MIME-Version: 1.0
+X-Mailer-LID: 1242
+List-Unsubscribe: <http://terwr.imgllinks.co.in//unsubscribe.php?mute=410&M=10682616&C=8698e490f77662616f4d6decb8812eac&L=1242&N=1403>
+X-Mailer-RecptId: 10682616
+X-Mailer-SID: 1403
+X-Mailer-Sent-By: 8
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_d06ad6dee3f9b420045b44aecc49b821"
+Content-Transfer-Encoding: 8bit
+
+--b1_d06ad6dee3f9b420045b44aecc49b821
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Your email client cannot read this email.
+To view it online, please go here:
+http://terwr.imgllinks.co.in//display.php?mute=410&M=10682616&C=8698e490f77662616f4d6decb8812eac&S=1403&L=1242&N=1261
+
+
+To stop receiving these
+emails:http://terwr.imgllinks.co.in//unsubscribe.php?mute=410&M=10682616&C=8698e490f77662616f4d6decb8812eac&L=1242&N=1403
+
+--b1_d06ad6dee3f9b420045b44aecc49b821
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<table bgcolor="#215362" description="darkBgcolor" name="tid"
+style="margin: 0px; padding: 0px; width: 100%;">
+<tbody>
+<tr>
+<td>
+<div style="padding: 30px; margin: 0px;">
+<table align="center" bgcolor="#0f3c49" cellpadding="0" cellspacing="0"
+description="darkestBgcolor" name="tid" style="font-family: Verdana;
+border: 1px dashed #356c7c; width: 674px;">
+<tbody>
+<tr>
+<td style="padding: 15px 15px 0px 15px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" style="padding: 0px 20px 15px 20px; color: #ff0066;"
+valign="top">
+<h1 align="center" style="font-family: 'Trebuchet MS'; font-weight: normal;
+letter-spacing: -1px; color: #ffffff; font-size: 28px; line-height: 28px;
+padding: 5px 0px; margin: 0px;"><strong><u><span style="font-size: 21.0pt;
+font-family: Arial,sans-serif; color: yellow;">Asian Academic Research
+Associates </span></u><br /> <span style="font-size: 13.5pt; font-family:
+Arial,sans-serif; color: aqua;">Asian Academic Research Journal of Social
+Sciences &amp;&nbsp;&nbsp; Humanities<br /> &nbsp;(AARJSH)</span><span
+style="font-size: 13.5pt; font-family: Arial,sans-serif; color:
+white;">&nbsp;&nbsp;&nbsp; ISSN 2278 &ndash; 859X</span><br /> <span
+style="font-size: 13.5pt; font-family: Arial,sans-serif; color:
+yellow;">Asian Academic Research Journal of Multidisciplinary </span> <span
+style="font-size: 13.5pt; font-family: Arial,sans-serif; color: aqua;">
+&nbsp;</span><span style="font-size: 13.5pt; font-family: Arial,sans-serif;
+color: yellow;">(AARJMD)</span><br /> <span style="font-size: 13.5pt;
+font-family: Arial,sans-serif; color: white; text-transform:
+uppercase;">ISSN: 2319 - 2801&nbsp;</span><br /> <span style="font-size:
+13.5pt; font-family: Arial,sans-serif; color: blue; background:
+yellow;">Website:&nbsp; </span></strong> <a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=61&F=H"
+style="color: blue; text-decoration: underline; text-underline: single;"
+target="_blank"> <strong> <span style="font-size: 13.5pt; font-family:
+Arial,sans-serif; background: yellow;">
+www.asianacademicresearch.org</span></strong></a><br /> <a
+href="mailto:editor@asianacademicresearch.org" style="color: blue;
+text-decoration: underline; text-underline: single;"
+target="_blank"><strong><span style="font-size: 10.0pt; font-family:
+Arial,sans-serif; color:
+lime;">editor@asianacademicresearch.org</span></strong></a><br /> <a
+href="mailto:editoraarj@gmail.com" style="color: blue; text-decoration:
+underline; text-underline: single;" target="_blank"><strong><span
+style="font-size: 10.0pt; font-family: Arial,sans-serif; color:
+lime;">editoraarj@gmail.com</span></strong></a><br /> <strong><span
+style="font-size: 13.5pt; font-family: Arial,sans-serif; color:
+#ffccff;">From India</span></strong><br /> <a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=109&F=H"
+style="text-decoration: none; color: #000000; font-family: Arial Black;
+font-style: normal; font-variant: normal; font-weight: normal;
+letter-spacing: normal; line-height: normal; orphans: auto; text-align:
+-webkit-center; text-indent: 0px; text-transform: none; white-space:
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;
+background-color: #ffff00;" target="_blank"><font color="#800000"
+size="4">IMPACT FACTOR&nbsp; 2.015</font></a></h1>
+</td>
+</tr>
+<tr>
+<td align="left"
+background="http://lan1.lmongk.biz//admin/resources/email_templates/General/Tranquil/EmailBkg.gif"
+bgcolor="#62c2de" description="mediumBgcolor" name="tid" style="padding:
+15px 20px;" valign="top">
+<table border="0" style="width: 54%;">
+<tbody>
+<tr>
+<td width="142">
+<table border="6" bordercolor="#0099FF" cellpadding="5" cellspacing="8"
+style="text-align: center; width: 167px; height: 56px;">
+<tbody>
+<tr>
+<td align="center" bgcolor="#000080" dir="ltr" height="28"
+width="127"><strong><font color="#FFFFFF" face="Arial" size="2"><a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=233&F=H"
+target="_blank"><font color="#FFFFFF">Home</font></a></font></strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="257">
+<table border="6" bordercolor="#0099FF" cellpadding="5" cellspacing="8"
+style="text-align: center; width: 247px; height: 55px;">
+<tbody>
+<tr>
+<td align="center" bgcolor="#000080" height="27" width="207"><strong><a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=232&F=H"
+target="_blank"><font color="#FFFFFF" face="Arial" size="2">Submit Your
+Paper</font></a></strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="179">
+<table border="6" bordercolor="#0099FF" cellpadding="5" cellspacing="8"
+style="text-align: center; width: 147px; height: 55px;">
+<tbody>
+<tr>
+<td align="center" bgcolor="#000080" height="27" width="107"><strong><font
+color="#FFFFFF" size="2"><a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=234&F=H"
+target="_blank"><font color="#FFFFFF"
+face="Arial">Archive</font></a></font></strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 0px 15px;">
+<table bgcolor="#c9edf7" border="0" cellpadding="0" cellspacing="20"
+description="lightBgcolor" name="tid" style="width: 100%;">
+<tbody>
+<tr>
+<td style="padding: 0px 20px 0px 0px;" valign="top" width="62%">
+<p style="font-size: 10px; font-weight: bold; line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif; color: #696e72;">You
+are subscribed as kongxiangzheng@gmail.com</p>
+<h1 align="center" style="font-family: 'Trebuchet MS'; border-bottom:
+dashed 1px #88bfce; padding: 5px 0px 5px 0px; margin: 0px; color: #24292b;
+font-size: 16px; font-weight: bold; letter-spacing: -1px;"><strong><span
+style="font-size: 13.5pt; font-family: Arial,sans-serif; color: red;
+background: yellow;">CALL FOR PAPERS </span></strong></h1>
+<div align="center"><strong><span style="font-size: 13.5pt; font-family:
+Arial,sans-serif; color: red; background: yellow;"><span><font size="2">UGC
+Approved International Journal&nbsp;</font><font size="3">&nbsp;&nbsp;<br
+/> UGC Serial Nos.: 44051, 46610 &nbsp;&amp;
+49212&nbsp;</font></span></span></strong></div>
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+style="width: 394px; border-collapse: collapse;">
+<tbody>
+<tr style="min-height: .5in;">
+<td style="width: 394px; min-height: .5in; padding: 0cm;">
+<p align="center" class="MsoNormal"><br /> <strong><span style="font-size:
+medium;"><font face="Arial"><span style="background-position: 0% 0%;
+background-image: none; background-repeat: repeat; background-attachment:
+scroll;"><font size="3" style="font-size: medium;">CALL FOR PAPERS
+(1st</font><font><font size="3">&nbsp;Slot of FEBRUARY&nbsp;-
+2018&nbsp;ISSUE)</font></font></span></font></span><br /> <span
+style="background-position: 0% 0%; background-image: none;
+background-repeat: repeat; background-attachment: scroll;"><span
+style="font-size: medium;"><font size="3" color="#FF0000">LAST
+DATE</font></span></span><span style="font-size: medium;"><font
+size="3"><font color="#FF0000"> </font> <span style="font-family:
+Arial,sans-serif;"> OF SUBMISSION</span> &ndash;13th&nbsp;<font
+face="Arial" color="#ff0000">&nbsp;<span style="color: #ff0000;
+font-family: Arial; font-size: small; font-weight: 700; text-align:
+-webkit-center; background-color: #c9edf7;">FEBRUARY</span><span
+style="color: #ff0000; font-family: Arial; font-size: small; font-weight:
+700; text-align: -webkit-center; background-color:
+#c9edf7;">&nbsp;2018</span><span style="color: #ff0000; font-family: Arial;
+font-size: small; font-weight: 700; text-align: -webkit-center;
+background-color: #c9edf7;">&nbsp;</span></font></font><br /> <br /> <span
+style="font-family: Arial,sans-serif;">DATE OF PUBLICATION
+&ndash;</span><font size="3">&nbsp;15</font><sup><span
+style="background-position: 0% 0%;"><font color="#FF0000"
+face="Arial">th</font></span></sup><font style="font-size: medium;"
+color="#FF0000" face="Arial"><span style="background-position: 0% 0%;
+background-image: none; background-repeat: repeat; background-attachment:
+scroll;">&nbsp;FEBRUARY&nbsp; 2018</span></font></span></strong></p>
+<p align="center" class="MsoNormal">&nbsp;</p>
+</td>
+</tr>
+<tr style="min-height: 26.25pt;">
+<td style="width: 394px; min-height: 26.25pt; padding: 0cm;">
+<p align="center"><strong><span style="font-family: Arial,sans-serif;
+color: #c00000; background: lime;"><span style="font-size: x-small;">A PEER
+REVIEWED REFEREED MONTHLY INTERNATIONAL&nbsp;
+E-JOURNAL</span></span></strong><br /> <br /> <a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=109&F=H"
+style="text-decoration: none; color: #000000; font-family: Arial Black;
+font-style: normal; font-variant: normal; font-weight: normal;
+letter-spacing: normal; line-height: normal; orphans: auto; text-align:
+-webkit-center; text-indent: 0px; text-transform: none; white-space:
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;
+background-color: #ffff00;" target="_blank"><font color="#800000"
+size="3">IMPACT FACTOR&nbsp; 2.015</font></a><br /> <br /> <strong><font
+face="Arial"
+size="2"><span>&nbsp;&nbsp;</span></font></strong><strong><span
+style="background-color: #ffff00; font-family: arial, helvetica,
+sans-serif;"><font size="2">All Published papers will be indexed on Google
+Scholar</font></span></strong></p>
+<p align="justify"><br /> <strong><i><span style="font-family: Times New
+Roman;"><font size="4">Asian Academic Research Journals are an
+international monthly Online, Open access and Peer viewed journal. AARJ
+welcomes original manuscripts, research paper, review paper and case
+studies from the researchers, academicians and business people all around
+the globe. Especially we are interested in publishing new and emerging
+areas. Your contribution in research is an honor for
+us.</font></span></i></strong></p>
+<p align="justify">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h1 style="font-family: 'Trebuchet MS'; border-bottom: 1px dashed #88bfce;
+margin: 0px; color: #ffccff; font-weight: bold; letter-spacing: -1px;
+padding-left: 0px; padding-right: 0px; padding-top: 5px; padding-bottom:
+5px;"><span style="background-color: #800000;"><font size="4">Manuscript
+Submission</font></span></h1>
+<p align="justify" style="line-height: 1.3em; font-family: 'Times New
+Roman'; color: #2b3538;"><span style="font-size: small;"><i>Research paper
+should be prepared in MS word with Single - column in single spaced typed
+pages can be submitted electronically as attachment on Email id of the
+Journal mentioned below. The manuscripts must be in the subject areas which
+are mentioned above. Moreover, submitted manuscript must not be previously
+accepted for publication elsewhere.</i></span></p>
+<p align="center" class="MsoNormal"><span style="font-size:
+small;"><strong><span style="color: white; background:
+red;">NOTE:</span><span style="background: #FFCC00;"> ALL THE MANUSCRIPTS
+SHOULD BE SENT BY E-MAIL TO THE EDITOR&nbsp;&nbsp;</span>WITH YOUR MOBILE
+NUMBER <span style="background: #FFCC00;"> &nbsp;</span></strong><a
+href="mailto:editor@asianacademicresearch.org" style="color: blue;
+text-decoration: underline; text-underline: single;"
+target="_blank"><strong><span style="font-family: Arial, sans-serif;
+background:
+#ffcc00;">editor@asianacademicresearch.org</span></strong></a></span><strong><span
+style="font-size: small;"><span style="font-family: Arial, sans-serif;
+background: #ffcc00;"> or </span> <span style="font-family: Arial,
+sans-serif; background: aqua;"> &nbsp;&nbsp;&nbsp;&nbsp; <a
+href="mailto:editoraarj@gmail.com" style="color: blue; text-decoration:
+underline; text-underline: single;" target="_blank">
+editoraarj@gmail.com</a>&nbsp;&nbsp;&nbsp; only</span><br /> <br />
+&nbsp;FURTHER QUERIES VISIT OUR WEBSITE&nbsp;&nbsp;&nbsp;</span> <span
+style="color: yellow;">&nbsp;&nbsp;</span> </strong> <a
+href="http://terwr.imgllinks.co.in//link.php?mute=410&M=10682616&N=1403&L=61&F=H"
+style="color: blue; text-decoration: underline; text-underline: single;"
+target="_blank"> <strong><span style="font-size: 13.5pt; background:
+aqua;">
+www.asianacademicresearch.org</span></strong></a><strong>&nbsp;&nbsp;
+</strong></p>
+<p align="center" class="MsoNormal"><strong>OR&nbsp;<br /> &nbsp;<span
+style="font-family: Arial,sans-serif; background:
+aqua;">&nbsp;</span></strong><a
+href="mailto:editor@asianacademicresearch.org" style="color: blue;
+text-decoration: underline; text-underline: single;"
+target="_blank"><strong><span style="font-size: 10.0pt; font-family:
+Arial,sans-serif; background:
+aqua;">editor@asianacademicresearch.org</span></strong></a><strong><span
+style="font-size: 10.0pt; font-family: Arial,sans-serif; background:
+aqua;">&nbsp; or&nbsp; <a href="mailto:editoraarj@gmail.com" style="color:
+blue; text-decoration: underline; text-underline: single;" target="_blank">
+editoraarj@gmail.com</a></span></strong></p>
+<p align="center" class="MsoNormal"><span style="font-size:
+small;"><strong><span style="font-family: Arial,sans-serif; color: navy;
+background-color: #ffccff;">Manuscripts that is suitable for AARJ is
+following as<br /> and it is not restricted within this
+subjects</span></strong></span></p>
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td width="194"><span style="font-size: 10.0pt; font-family:
+Arial,sans-serif;">Advertising<br /> Accounting &amp; Finance<br />
+Business Research<br /> Consumer Behaviour &amp; Relationship Management<br
+/> Corporate Governance<br /> E-commerce<br /> Economics<br />
+Entrepreneurship<br /> Financial Management<br /> Human Resources
+Management<br /> International Business<br /> Logistics and Supply chain
+Management<br /> Psychology<br /> Management<br /> Marketing
+communication<br /> Marketing Management<br /> Organizational Behaviour
+&amp; Behavioural studies<br /> Organizational Development<br /> Production
+Management</span></td>
+<td><span style="font-size: 10.0pt; font-family:
+Arial,sans-serif;">Performance Management<br /> Risk Management<br />
+Selling and Marketing techniques<br /> Strategic Management<br /> Total
+Quality Management<br /> Training and Development<br /> Sociology<br />
+Engineering &amp; Technology<br /> Agriculture / Fisheries/ Veterinary
+Sciences<br /> Computer Application/ Information Technology<br /> Law /
+Criminology<br /> Nursing / Pharmacy<br /> Education<br /> Physical
+Education<br /> Architecture/ Planning<br /> Life Science/<br />
+Philosophy<br /> E-commerce<br /> Corporate Governance</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td bgcolor="#FFFFFF" valign="top" width="26%">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 104%;">
+<tbody>
+<tr>
+<td style="padding: 10px;">
+<h1 style="font-family: 'Trebuchet MS'; border-bottom: dashed 1px #b2a99d;
+padding: 5px 0px 5px 0px; margin: 0px; color: #24292b; font-size: 16px;
+font-weight: bold; letter-spacing: -1px;"><strong><span style="font-size:
+13.5pt; font-family: Arial,sans-serif;">&nbsp;AARJMD</span></strong></h1>
+<p style="font-family: 'Trebuchet MS'; border-bottom: dashed 1px #b2a99d;
+padding: 5px 0px 5px 0px; margin: 0px; color: #24292b; font-size: 16px;
+font-weight: bold; letter-spacing: -1px;"><strong><span style="font-size:
+13.5pt; font-family: Arial,sans-serif;">&nbsp;AARJSH</span></strong></p>
+<p style="font-size: 7pt; line-height: 13px; color: #576164; margin: 0px;
+font-family: 'Verdana'; padding-left: 0px; padding-right: 0px; padding-top:
+5px; padding-bottom: 5px;">International Indexed Journal<br />
+Indexed/Listed at: International ISSN Directory, Paris<br /> An Open Access
+Scholarly, Peer-Reviewed and Fully Referred Online Journal.</p>
+<p align="center" class="MsoNormal"><strong><span style="background:
+#FFCC00; font-size: 10.5pt; font-family: Arial,sans-serif;">Listed at
+:</span></strong></p>
+<p align="center" class="MsoNormal"><br /> <span style="font-family:
+Arial,sans-serif; font-weight: bold; background-color: #00ffff;"><font
+style="font-size: 9pt;">All Published<br /> papers will be indexed on
+Thomson Reuter ReseacherID with above reseacherID</font></span><br /> <span
+style="font-size: 10.0pt; font-family:
+Arial,sans-serif;">&nbsp;</span></p>
+<p align="center" class="MsoNormal"><span style="font-size: 9pt;
+font-family: Arial,sans-serif;">Google Scholar<br /> &nbsp;Index Copernicus
+International Ltd, Poland</span><br /> <span style="font-family:
+Arial,sans-serif;"><font size="2">&nbsp; </font> </span></p>
+<p align="center"><strong><span style="font-size: 9pt; font-family:
+Arial,sans-serif; color: #10253f; background: lime;">AARJ are a monthly
+journal. Authors can submit paper anytime during month for
+publication.</span></strong></p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">We take this favorable time to
+request you to kindly circulate the journal<br /> amongst the members of
+your faculty and students<br /> of yours esteemed institute for their
+reference and valuable contribution for<br /> the forthcoming issues.</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<h1 style="font-family: 'Trebuchet MS'; border-bottom: dashed 1px #b2a99d;
+padding: 5px 0px 5px 0px; margin: 0px; color: #24292b; font-size: 16px;
+font-weight: bold; letter-spacing: -1px;"><strong><span style="font-size:
+13.5pt; font-family: Arial,sans-serif;">AARJMD</span></strong></h1>
+<p style="font-family: 'Trebuchet MS'; border-bottom: dashed 1px #b2a99d;
+padding: 5px 0px 5px 0px; margin: 0px; color: #24292b; font-size: 16px;
+font-weight: bold; letter-spacing: -1px;"><strong><span style="font-size:
+13.5pt; font-family: Arial,sans-serif;">&nbsp;AARJSH</span></strong></p>
+<p style="font-size: 7pt; line-height: 13px; color: #576164; margin: 0px;
+font-family: 'Verdana'; padding-left: 0px; padding-right: 0px; padding-top:
+5px; padding-bottom: 5px;">International Indexed Journal<br />
+Indexed/Listed at: International ISSN Directory, Paris<br /> An Open Access
+Scholarly, Peer-Reviewed and Fully Referred Online Journal.</p>
+<p style="font-size: 7pt; line-height: 13px; color: #576164; margin: 0px;
+font-family: 'Verdana'; padding-left: 0px; padding-right: 0px; padding-top:
+5px; padding-bottom: 5px;">&nbsp;</p>
+<p align="center" class="MsoNormal"><strong><span style="background:
+#FFCC00; font-size: 10.5pt; font-family: Arial,sans-serif;">Listed at
+:</span></strong></p>
+<p align="center" class="MsoNormal"><br /> <span style="font-family:
+Arial,sans-serif; font-weight: bold; background-color: #00ffff;"><font
+style="font-size: 9pt;">All Published<br /> papers will be indexed on
+Thomson Reuter ReseacherID with above reseacherID</font></span><br /> <span
+style="font-size: 10.0pt; font-family:
+Arial,sans-serif;">&nbsp;</span></p>
+<p align="center" class="MsoNormal">&nbsp;</p>
+<p align="center" class="MsoNormal"><span style="font-size: 9pt;
+font-family: Arial,sans-serif;">Google Scholar<br /> &nbsp;Index Copernicus
+International Ltd, Poland</span><br /> <span style="font-family:
+Arial,sans-serif;"><font size="2">&nbsp; </font> </span></p>
+<p align="center" class="MsoNormal">&nbsp;</p>
+<p align="center"><strong><span style="font-size: 9pt; font-family:
+Arial,sans-serif; color: #10253f; background: lime;">AARJ are a monthly
+journal. Authors can submit paper anytime during month for
+publication.</span></strong></p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">We take this favorable time to
+request you to kindly circulate the journal<br /> amongst the members of
+your faculty and students<br /> of yours esteemed institute for their
+reference and valuable contribution for<br /> the forthcoming issues.</p>
+<p style="font-size: 10px; line-height: 13px; color: #576164; padding: 5px
+0px; margin: 0px; font-family: 'Verdana';">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="padding: 5px 30px;
+color: #61858f; font-size: 10px; width: 100%;">
+<tbody>
+<tr>
+<td width="100%">
+<p style="font-size: 10px; line-height: 1.5em; font-family: 'Verdana';
+color: #61858f;"><a
+href="http://terwr.imgllinks.co.in//unsubscribe.php?mute=410&M=10682616&C=8698e490f77662616f4d6decb8812eac&L=1242&N=1403">Unsubscribe
+me from this list</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table><img
+src="http://terwr.imgllinks.co.in//open.php?mute=410&M=10682616&L=1242&N=1403&F=H&image=.jpg"
+height="1" width="10"></body></html>
+
+--b1_d06ad6dee3f9b420045b44aecc49b821--
+
+

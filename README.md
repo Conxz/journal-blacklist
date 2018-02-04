@@ -11,23 +11,38 @@ Journal | Link | Email | Press
 ------- |------|-------|------
 Austin Journal of Pharmacology and Therapeutics | [Website](http://austinpublishinggroup.com/pharmacology-therapeutics/) | jayne-radke@austinpublishers.com | [Austin Publishing Group](http://austinpublishinggroup.com/)
 American Research Journal of Neurology | [Website](https://www.arjonline.org/american-research-journal-of-neurology) | arjneu_editor@arjonline.org | [American Research Journals](https://www.arjonline.org/)
+Asian Academic Research Journal of Social Sciences & Humanities | [Website](www.asianacademicresearch.org) | editor@asianacademicresearch.org | [Asian Academic Research Associates](www.asianacademicresearch.org)
+Asian Academic Research Journal of Multidisciplinary | [Website](www.asianacademicresearch.org) | editor@asianacademicresearch.org | [Asian Academic Research Associates](www.asianacademicresearch.org)
+American Journal of Psychiatry and Neuroscience  | [Website](http://www.psychiatneurosci.org) | member@journalofcancer.org | [Science Publishing Group](http://www.sciencepublishinggroup.com/)
 
 ## B
+
 ## C
+Chirurgia | [Website](https://www.minervamedica.it/en/journals/chirurgia/index.php) | mailing.redazione@minervamedica.it | [Minerva Medica Publishing](https://www.minervamedica.it/en/about-us.php)
+
 ## D
+
+## G
+Gazzetta Medica Italiana | [Website](https://www.minervamedica.it/en/journals/gazzetta-medica-italiana/index.php) | mailing.redazione@minervamedica.it | [Minerva Medica Publishing](https://www.minervamedica.it/en/about-us.php)
 
 ## I
 Journal | Link | Email | Press
 ------- |------|-------|------
 International Journal of Psychiatry | [Website](http://www.opastonline.com/international-journal-of-psychiatry/) | editor.ijp@opastopenaccess.net | [OPAST Group](http://www.opastonline.com/)
 International Journal of Anatomical Variations | [Website](https://www.pulsus.com/international-journal-anatomical-variations.html) | editor.ves@surgeryinsights.com | [Pulsus Group](https://www.pulsus.com/)
-International journal of Current Advanced Research | [Website](www.journalijcar.org) | journalijcar4@info-journalijcar.com | 
-Journal of Neuropsychiatry Disorders & Therapy | [Website](http://www.annexpublishers.org/journals/journal-of-neuropsychiatry-disorders-and-therapy/jhome.php) | jndt@journalmail.online | [Annex Publishers](http://www.annexpublishers.org/)
+International Journal of Current Advanced Research | [Website](www.journalijcar.org) | journalijcar4@info-journalijcar.com | 
+IOSR Journal of Engineering | [Website](http://www.iosrjen.org/) | jen5.paper@rediffmail.com | [International organization of Scientific Research](http://www.iosrjournals.org/)
+International Journal of Negative Results | [Website](https://oap-cancer.org/journal/ijnr) | info@oap-cancer.org | [Open Access Pub](https://oap-cancer.org/)
+International Journal of Clinical Medicine Research | [Website](http://www.ijcmr.org) | editor@ascie.org | [American Association for Science and Technology(AASCIT)](http://www.aascit.org/home/index)
 
 ## J
 Journal | Link | Email | Press
 ------- |------|-------|------
 Journal of Alzheimers Disease & Parkinsonism | [Website](https://www.omicsonline.org/alzheimers-disease-parkinsonism.php) | alzheiparkinson@neurologyinsights.org | [OMICS International](https://www.omicsonline.org/about.php)
+Journal of Neuropsychiatry Disorders & Therapy | [Website](http://www.annexpublishers.org/journals/journal-of-neuropsychiatry-disorders-and-therapy/jhome.php) | jndt@journalmail.online | [Annex Publishers](http://www.annexpublishers.org/)
+Journal of Clinical Research and Medicine | [Website](http://researchopenworld.com/category/journal-of-clinical-research-and-medicine/) | editor.jcrm@rowjournals.com | [Research Open](http://researchopenworld.com/)
+Journal of Addictive Behaviors, Therapy & Rehabilitation | [Website](https://www.scitechnol.com/addictive-behaviors-therapy-rehabilitation.php) | editor.jabtr@scitechnol.com | [SciTechnol](https://www.scitechnol.com/)
+Journal of Addiction Research | [Website](http://www.opastonline.com/journal-of-addiction-research/) | editor.jar@opastpublishinggroup.com | [OPAST Group](http://www.opastonline.com/)
 
 ## M
 Journal | Link | Email | Press
@@ -35,12 +50,18 @@ Journal | Link | Email | Press
 Mathews Journal of Pharmaceutical Science | [Website](http://mathewsopenaccess.com/pharmaceutical-science.html) | pharmaceutical@mathewsopenaccess.net | [Mathews Open Access](http://mathewsopenaccess.com/)
 Magnetic Materials and Its Applications | [Website](http://www.scirp.org/journal/htmlOfSpecialIssue.aspx?ID=4639&JournalID=174) | msa@eopfen.com | [Scientific Research](http://www.scirp.org/)
 Medical Research Archives | [Website](http://journals.ke-i.org/index.php/mra/issue/view/71) | editorialboard@mrajournal.org | [KEI Journals](http://journals.ke-i.org/)
+Mental Health and Addiction Research | [Website](http://www.oatext.com/Mental-Health-and-Addiction-Research-MHAR.php) | mentalhealth@oatextjournals.com | [OA Text](http://www.oatext.com/index.php)
 
 ## N
 Journal | Link | Email | Press
 ------- |------|-------|------
 Neuropsychiatry (London) | [Website](http://www.jneuropsychiatry.org/) | neuropsychiatry@neurologyjournals.org | [OMICS International](https://www.omicsonline.org/about.php)
 Neuroscience and Psychiatry | [Website](https://www.omicsonline.org/neuroscience-psychiatry.php) | neuroscience@scientificres.com | [OMICS International](https://www.omicsonline.org/about.php)
+
+## O
+Journal | Link | Email | Press
+------- |------|-------|------
+Open Journal of Social Sciences | [Website](http://www.scirp.org/journal/htmlOfSpecialIssue.aspx?ID=4636&JournalID=2430&utm_campaign=SpecialIssue&utm_source=e_si&utm_medium=jss_hr_20180123_zhangting_132728&utm_content=3528_yywet.com) | jss@yywet.com | [Scientific Research](http://www.scirp.org/)
 
 ## P
 Journal | Link | Email | Press

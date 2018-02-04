@@ -1,0 +1,413 @@
+Received: from BN3NAM01HT175.eop-nam01.prod.protection.outlook.com
+ (2603:1096:a00:1::11) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0095.INDPRD01.PROD.OUTLOOK.COM; Fri, 2 Feb 2018 13:08:22 +0000
+Received: from BN3NAM01FT017.eop-nam01.prod.protection.outlook.com
+ (10.152.66.56) by BN3NAM01HT175.eop-nam01.prod.protection.outlook.com
+ (10.152.66.132) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13; Fri, 2
+ Feb 2018 13:08:19 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.100.76)
+ smtp.mailfrom=scitechnol.com; outlook.com; dkim=pass (signature was verified)
+ header.d=chemistryinsights.onmicrosoft.com;outlook.com; dmarc=bestguesspass
+ action=none header.from=scitechnol.com;
+Received-SPF: Pass (protection.outlook.com: domain of scitechnol.com
+ designates 104.47.100.76 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.47.100.76;
+ helo=IND01-MA1-obe.outbound.protection.outlook.com;
+Received: from IND01-MA1-obe.outbound.protection.outlook.com (104.47.100.76)
+ by BN3NAM01FT017.mail.protection.outlook.com (10.152.67.232) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.444.13 via
+ Frontend Transport; Fri, 2 Feb 2018 13:08:19 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:68A83AA2B363EB27BDF42D58C8CD17A986109254B2CD3349A59930C3B894307F;UpperCasedChecksum:2F93ECBFD854A4C521051C13FF3CCD2355E894E30C06CD2F39712C8165056210;SizeAsReceived:8962;Count:44
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=chemistryinsights.onmicrosoft.com;
+ s=selector1-chemistryinsights-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=0u5fI32gHiIMms1qdlG/6a5olS7a9/kBwP8bFofpVw0=;
+ b=Hlp4fbJu/rluVcTZipdX88FB5NOJhHC0fsxq85DHFnAL9GEcwOhn9wY+fiTldY9Kt/t/fI3HzCIyaRcpat69++1TIc23drAlI0mLU21P4tqWb48GO1qdaDpytPDgHhkhigcvzCqbBizePp02lWI/+DRUJaQ3TuVV1oxpfWhWFcE=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=editor.jabtr@scitechnol.com; 
+Received: from 802VFD2 (182.76.66.162) by
+ PN1PR0101MB1743.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c00:18::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.464.11; Fri, 2
+ Feb 2018 13:08:16 +0000
+From: "Journal of Addictive Behaviors,Therapy & Rehabilitation" <editor.jabtr@scitechnol.com>
+To: <xiangzhen.kong@outlook.com>
+References:
+In-Reply-To:
+Subject: Recent Research Updates: J Addict Behav Ther Rehabil
+Date: Fri, 2 Feb 2018 18:33:08 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAK41fnbabgFKrNBeeVn913DCgAAAEAAAAIK9RxYsgSpOmKqcSHR2KpQBAAAAAA==@scitechnol.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_051B_01D39C54.45B126E0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdODiKOWZdTLHIPLSSKq43ewwYmwuwIEu2bQAAAAFZAAAAAE8AAAAAMwAAABdmAAAAATgAAAAAQQAAAABEAA+m6rAAAAABPAAAAABBAAAAAEUAAAAASwAAAABOAAAAAEQAAAAASgAAAABRAAAAAEoAAAAAQQAAAABaAAAAAFQAAAAATQAAAABTAAAAAFAAAAAAbAAAAABWAAAAAFMAAAAAXw
+Content-Language: en-in
+Disposition-Notification-To: "Journal of Addictive Behaviors,Therapy &
+ Rehabilitation" <editor.jabtr@scitechnol.com>
+X-Originating-IP: [182.76.66.162]
+X-ClientProxiedBy: MAXPR0101CA0033.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:a00:d::19) To PN1PR0101MB1743.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:c00:18::16)
+Return-Path: editor.jabtr@scitechnol.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9b3e7852-ee4d-4018-6a42-08d56a3e0815
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(4534165)(4627221)(201703031133081)(201702281549075)(5600026)(4604075)(2017052603307)(7153060)(7193020);SRVR:PN1PR0101MB1743;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1743;3:naAER9yPBGx6G35wBx/+5T9jSk/3sKb9V6ykkXH5Zr74yQ55H1YZ0G9PoCPz0SgnwgnNbv7wgljc5hV1cm1tPX2qD4fOxzWveWfHLu9qe8QhB9fwWb25DM5NBzPnV9xawdlb+XCWR1cpavu0S4CNC65z+lKsUqSFFLmdKz9G2usRL7aqdOAlDnPsVgv6UybBk201dqrWBHO/0ev0KV5Pf3ElPSmBwKxqT2fG7+FqGQ80HaqMeBAhhRXyS6Qlf428;25:dmvaRrASAjWEg99tszXpe+FolxnkazWU7leYHRH+l2jehqmAptLrFJhGFcp4K31S/8grsRooWmICmP2seNPiWhwlC4dY/Kztrp/NzlN4fU4SXuYPAXyuCp7eqON28QZ6nSFyfKEd7LDzz8qOJrsp6XpmMehmGTV2LJkOs4ThaW8ZmeISp3LB5MUqPvC2khvGBkDko/0q16JICFU0BsPa5YuvGsP4asqVd8fHnqXdOIqR1KO2LX4XV2OTVhvLrBKQD660F6HE9Nl+V5qocTclBGOKQYMzoyU6OsP1kfN8Gzz6WSDNCY0Kwwlh6jJfAq1ZGFxp8j6aq9kTZndYx0v7yQ==;31:lZKRWVv9NI+43ihEsDMoNK2e9vpjGJ09MKV8qg0apn7I4UfB2j2Wx5dNgE78RAQWyXBoj7NphrTyEObeMYcB2ARlsnQmLJbpxA7Q66VHFKpEhWN9SbD5E7l8r2/NriCF+PTvt/sZ4mmrovnhH4u8asovfzDY5EL8RuaXIvB59Q7S5M8W8RbFD2mH/aqt97v/4VuWF8RtBKow2qDC3gNPu0V3l3WQvLHyUfSQs/+uw+I=
+X-MS-TrafficTypeDiagnostic: PN1PR0101MB1743:|BN3NAM01HT175:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1743;20:a2M8Ksc+XtXb1aew4qE9m4UGOdXNDC+i6Xor0WEYevvKkzI5geDu7cbtVXdpN9bBgAYKvVRnvDlcgAY/QkyxnokOHZcAhnG1DeTgkADmGVJa67dtSm5n9vs3WYShcyQkW0udxeJLg6pwBE72fieTItTS3ipQ2oATjwxmWljJEm8=;4:FRv8mSfk4itX6jm9/EYrtimFmnQDvV8zxYscPfU1PP7+BkDj9yuL03Bg2ytvPKR0rDD4YyGjZCreNTHZHfuCwDSYuMAmjiVTLmyk8laFnLrLmvYgeJculBBtaTAOfCwxJcRWlmCBResl9WFqBEWzDJvHe0sLgcm6Qqce1mnsVksDGubUSJGWha0/dQYINm6zfIPiDRb1huYR8dRGFIdVqRyzeNONqWmWeugRMUqFujJjdG3dbI9Sa0m7IP3osGPTHzewLQm6ROJBVKw35OUNhKFUiBVYUml3LaNxRmuc4xlglfqzyi3avw1mqx9Yxkfym8gAcax+BtHwcSGV99cuEKTo7ZINQea6oFYp2sj3Kfo=
+X-Microsoft-Antispam-PRVS: <PN1PR0101MB1743D5D8FD2C6FC5897199E1FBF90@PN1PR0101MB1743.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(21748063052155);UriScan:(28532068793085)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040501)(2401047)(5005006)(8121501046)(93006095)(93001095)(3231101)(2400082)(944501161)(3002001)(10201501046)(6041288)(20161123562045)(20161123558120)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123564045)(6072148)(201708071742011);SRVR:PN1PR0101MB1743;BCL:0;PCL:0;RULEID:;SRVR:PN1PR0101MB1743;BCL:0;PCL:0;RULEID:(444111557)(1160499008)(2400082)(82015058);SRVR:BN3NAM01HT175;BCL:0;PCL:0;RULEID:;SRVR:BN3NAM01HT175;
+X-Forefront-PRVS: 05715BE7FD
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(366004)(376002)(346002)(396003)(39380400002)(39860400002)(31014005)(252514010)(189003)(199004)(53936002)(413944005)(75216001)(25786009)(102836004)(5890100001)(316002)(86362001)(26005)(626008)(2420400007)(16526019)(76176011)(478600001)(81686011)(81156014)(16586007)(105586002)(81166006)(59450400001)(8936002)(50226002)(606006)(386003)(8676002)(15650500001)(186003)(16799955002)(66066001)(61296003)(7736002)(88246002)(260700001)(2906002)(270700001)(6116002)(3846002)(790700001)(36756003)(2351001)(106356001)(39060400002)(7826002)(6306002)(54896002)(68736007)(7110500001)(71636004)(6486002)(84326002)(97736004)(5660300001)(52116002)(6496006)(6916009)(236005)(6666003)(3234002)(120606002);DIR:OUT;SFP:1101;SCL:1;SRVR:PN1PR0101MB1743;H:802VFD2;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Received-SPF: None (protection.outlook.com: scitechnol.com does not designate
+ permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;PN1PR0101MB1743;23:eg1rs8S5nCTJughdSJA/9jaHQRNA0AOcbOmgnrY?=
+ =?us-ascii?Q?qPKU2CRQTxvPW62HKK3CCUbujAjTueEYWLeW2o0FHu38nxZLQDWluUcTTQSv?=
+ =?us-ascii?Q?LgsS2/Pnkqovk6iFUaS49d0sGMXtDJEOoTxZcgVm/35rvfg3fdTeUW2cwqCH?=
+ =?us-ascii?Q?w7YD7efL+Qetwz9avGeETDYN4RWMQRd7plNmiaFzI0jrtymoVwLUmjgcx2Vr?=
+ =?us-ascii?Q?yLh26VSAto8VkcuV6KvZtJ+JDiqK8P2v2M33vpDYWAAWJZNRhto6Vt7e/e8Z?=
+ =?us-ascii?Q?djvjCwY5p6wN/Hg6AMwu9+ia5zRu1ZBWZ7c8SYpUw2CWkEEX1AXot/Ch5KPU?=
+ =?us-ascii?Q?H2jGL+gFf/yZXJd+c+xb1Yk8j7xV3qg+D674ntQqSJ86SX0ftBJ8L33pZGat?=
+ =?us-ascii?Q?W4BrA61W+ivLQJgpEe53hzqErzyNvpSvTiCcD7HpHwevEeALxUmcDUlxvfxb?=
+ =?us-ascii?Q?SSUwtr9zVJusi/EbZF5qAoFnW+fFj9mhKHrqbHifBkGtdPfziHiVsVA1kb3s?=
+ =?us-ascii?Q?5YQSttIRMOB/G8YAO+awi75ramgmwTJKESkAe91rjBgSGc3jLsYaYjzitb3k?=
+ =?us-ascii?Q?I7ZmvXiAmVcV7rWOLVketBHiz9E0MUjTCAwIoBRoUY4SfKY6Hwk96FceeWZX?=
+ =?us-ascii?Q?amC4vRNfLhxMnp2jVLUgzxZLqLxuHRKbWDXEcq5DPOYGdL4A6SqLuw7w61iK?=
+ =?us-ascii?Q?MBBI6NMt6wFAKT7lBt/zNyLWutYVQh3hDQP2oPPe033lr6q1Ohsfmu3jeai0?=
+ =?us-ascii?Q?O0uqtTNTzAc1dKcDjX2L+cqvEoUQH+LF6SCdivmtSH50GrriRnC53sDFWNia?=
+ =?us-ascii?Q?2+LHY2T/W9o2UFRB09CV/wK0+4EvmUGiIksPru10JBSM0ahQikrmOmWlZabo?=
+ =?us-ascii?Q?BzuEzlTuSpfML/h229iQKEsnVQxaYiFR0PKwIn3XRqEniHTRrmWcerxQfv62?=
+ =?us-ascii?Q?3+7LzoROynWkYNIICLPwk3f0wHp8ZVMy2PCMWqY4hnzYG2FCJKgor2pgKZcD?=
+ =?us-ascii?Q?xbC1DZEzq6g21ygGfhhWE+qXvL9IUru3mfxgYDOcv6JO9QFZl87JHVv5qJ8K?=
+ =?us-ascii?Q?+7nac+K4Jp7EVk5Mueq+IGrdQeAMy6YzXU+vJvvrrCHhenxSATvmuKNbyO8O?=
+ =?us-ascii?Q?FnFsKIPbhj2xqu2Gfo4O8K4SK6+fEzegoWUnQZo6ICvwlxnZnN5niaPXtGfP?=
+ =?us-ascii?Q?HIDFBR4yWG+Sdeky08GfgZ343lIJP8slFKUgJJxdSiARyBKAWnBDp/cAncoC?=
+ =?us-ascii?Q?HdtM01ZCaZS1Tmh2NmizEJiFgwMapOlrNnYmG2QCFmn6a3+GDfTkrlrpoSZG?=
+ =?us-ascii?Q?P4yTCfL1hSXOZhsJy05kcjHEhi7g2/FdoE+tg6iyuWjR0gBedvfR9/dqITW4?=
+ =?us-ascii?Q?/0lRp7z5FgGEJ2rAqacfRcIB1ltVyeJHjxzAINlH3oIHia4uZvI7fGiLkJC7?=
+ =?us-ascii?Q?Y5KAPMit8Ks1cLtJ44YXK96+k8dTO+i/yXyZaHadmopEkXxGeSF4sjdlSBcL?=
+ =?us-ascii?Q?dUpK9yho1AtgyLLECJkydwweO0nRNyBL1F4KYJDgBRmEA2XxEIZ5vHQT+vZy?=
+ =?us-ascii?Q?JGMxG42gFbov021Dc2d/zfL3xmd4cdYJBZcNZaOU=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;PN1PR0101MB1743;6:xjMe987aAByKa3MKnNU/H2CebUtNY5kDeeiUU3eIz5VZoQFmd/ZcKOfMz7OATiLPyqAvnk2wd4O4EDZ32itsUnbOFou7MIsxRaqd73WOcIonQA5NfjKoZvenb6JCsYRuRwgMT+UJUDyBGR3pDwvNPLSBzNDQFt8TMCs6Jj5yE5zdkUBNJVtGLn0CL+cQYeXTxhg8VAbexrbbYv3ct0Hs6CvDXrqvsKncoUsmIyCvCgHlhExG81eakM2LbYC9yBoXVTi5mSa6uS0LEbTaNU2Au1bDwVMplWsKu2NPhqKM/rvEC4xwXPoBVhNATwIoxuZF0Z8ZdhgUTD43BUwo//7j2cLUBI2J4k4ztqarMswNZPw=;5:haILFpZUd9pVcn1osnXqRLkdHxl9ptTJrz52sEbYlMjk+kGFd72FmrCf5IuXYkK6zSDgii384KgGgCF7uxBqdfkKMEr2u9ooUvROn5DmEikEbh86XWHoceyFcxCT4z86JVcWNS0RpDkCxXFnMrsQboNg7M4nkx8Qpq/xqh6Pn+k=;24:c1gz99iH/4cZdAZYIKkGVZ+4QMLGvazY2TyF+vlMK4RpYlgr55yt6/0LDmJgoBjDBAN0TLgeVHr6Xmjo+KBb6EnINOMAu9Rg1AZj4iPIjcA=;7:PM8MfKIdvVX58qh9MIwEJpv7Zy4xtSjnHHbHcKCUl3lgGKn5UEIQwA0zjSs5XXW55/GfbKocNZhYXAIHsbXljy8Q0indjya2bGrvsbz7IdYDcLL4eEh+GqUJdkq7ENLukU5VQ0ShnGSr4AXM2zyRaXh9Si6MscY68vHL6dj9CMD6Tk/qDkAg1NvQfO9Dp5Ju0BJPIz/qRPLjk2UD/rncCUzzWEjy0Y9Ldh10db2bR0RlqIHfcMw6tl/++fJbmrsk
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN1PR0101MB1743
+X-IncomingHeaderCount: 44
+X-MS-Exchange-Organization-Network-Message-Id: 9b3e7852-ee4d-4018-6a42-08d56a3e0815
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT017.eop-nam01.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;BN3NAM01FT017;1:12stQLnKyME5m4jLaaCtyg6YgUWvglwxqZgCEHdAoKdNnENQbVgCaeXBXWLwI/xIiCWiZhSV6nRgUWYpH3y9+lAaJNq+OuyGS0tfzfdz3rErEfaSpBdl5POrq43asaDO
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:BN3NAM01HT175;H:IND01-MA1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: BN3NAM01FT017.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:BN3NAM01HT175;
+X-Microsoft-Exchange-Diagnostics: 1;BN3NAM01HT175;3:9tSn0z1smYwffWCwBTBvpdu2MUkpeRrM97oWmi2l12w6XpRBhIfzC8N9vItw+MRJhg46e5ljqx8jzaXP46mXkZu6zaMg24BEAhCIMbSGHews3j5EuVfRBotD6mCKvEwkjTXy+4Dr+IiiIIYW6WxBmmlV6Un6d7/ceSP+Y73lG2+RKBGtsiTAZLVqMSILYRzuzCqyKtMUGzGJgAH546ZzMtMb57o/RIZTXMjex6RL+BK25UsdhYaKNAipv2pKrSVNY9Fhe++1osiKyDnor7XzvPUFky5szY+IdC6+ATKlem/qQCiRS3ZqavJxCChoX9+T;25:LHav/Tzbl1ux/nDZobVxNS1+ZPq/Ojm1VWxpdMUcirjD3wRdGaRlTmNoO4fLGrXNVR8qzdb/bugY/W3tEpT51RHAG2nSeRVIfhJqfWc4whNO2BnyhHaDMFXwfGxqxsUMe4PvhSRXRF6CJa10rUxXcSI85CyW5KN5qMpNzSwdH3Syeizu93Zi9qSPRXWicyPZJby52NOmxPGth9oXUtBdgYG3X0PscquR2zbSTuz6WE1ExlWU2JxN92hg7t1h+Z1vGZ6F9ZVqmPP3RIv6+61YVCsxJoNKKJqs2xrYjzuoUQFeEIN79PlXBuGaXgSF/ngyCuJboVYu85lsYTesnvDAUQ==;31:0j+CdpFg0cBj3lmE5JAFpXqSkOX96AVeZSqwzB+IeAfWOpa0ITssLm+gGY8JM4kHMB0NPeDL0v5QFCoMJiOjpuBA4BURQYzySdeneqnWkQcl7PZQBm551LFfQ/yEKRZuyFCOJRE2wgY1HAmoBEKd7Hu7EGTmIlyK3SJakZL6LXFc59eCcRBWYsTN0V4djlmmC5dPTm+pGTS5nO5TRdYBtlTyzfQc0tmchaYR0Lbrh9U=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.100.76
+X-SID-PRA: EDITOR.JABTR@SCITECHNOL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;BN3NAM01HT175;4:q7KhhCsr10vS7TgdZ4G5ghSlDrD3FkqGmJNbnYWPwijlE96V8zss1w1uMtbIqeR/IuBSbaW7yANoM32Eca7GxlFXK12NqSF4t2J2h+GLlRmIjItyBsett2XN2W5EO7mVrl5pmhYcgkY6ZyWELKjq9F8TQniZNrga8LkwleebEMRYqfX7HB0hDt/PlsJPZ3IvAYGxItKrYG5n9U/BqlelsbK7zx+Ve6iudQyVYRoWXjmE96pIJxuV90+2shRSnYER15BBhr2Sy5mSNTJ7Re5Odfh7/EPxzA6Xbbd2EgRm56+MwUBbLlMNFRHYfIL6kaESD8v1mZmmyXKzOX80u6ar/V5nvX9Uz4mNXoEGwIWDUmM=;23:D4TDRxH+9poEoF+1dJHrPAQvBhxLRzKKA5w2cMp3scKxm6bsQAa0UJQ2BxSPOIXEpTGnyibqJg335EZWbHJJki+aQXCDbDhTrhn6Gxxm3r+Nqqp1jv14B21pbsRsXkHrbGAoijOtjKGYaWGDgkrkivZcIwE0sh5bE/1357R2hj8=;6:cJkDFEiQnRzuq4MIZovibw0zO6Cc4jjvxwZB2+FjyAXwIDeM2UvpFmNoBHilkiqrBVIpkIqHBW+ehtlBpEgiVpjrNAMZC33IReUiG2KDnRwjjpk9mJVCd97I4wvYL4Q5Bs7mOZXi45fwP9LWkwBd91zdEbm7E/Y+kW3N6IwegK3svvgAs/MRpHNe/aqVdhJi5M0m61hqBOc/5ElVKnBX6X1X9zorPVWHtdXOvnGPWn3OGILJlV+JIC70QU2mhYTVm6Yzxm2+vDXewBfmv0R+RYUI+pp/Hx9i+Nhdv8Gg5fooh/tXy6DrZYTwEle3rZ5LWvuv1O7gAxcvJNp0YugAqn5GYwD9ai/PdmFqJoZLqhw=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: dAC66L3gfTbi6Emz23k40jKDlvnWC5XtNaMfEVplas6JVUkIzB0QoUU+0dJn6nxdb3ViUn8S6DbY6PrgKyBPvrZom8q5k1W26kq931M2rs+r41qYOsnCOaWTEujRrFFj1IdkLfZ0RitsQEvv4Jug6A==
+X-Microsoft-Exchange-Diagnostics: 1;BN3NAM01HT175;5:OTukfBM1JPoyG9McpCWT4E1kb8kX5aK7i5wQG0wa26yfeDCbhWmyFiuKYt3DCpbbLEbMXqqUARlWzljPkQ6SqE1TqedZ+4LAvWkU4hDJY5ygBWNwOYAx0xvwfPkgcoOHKME4v6NUZ9xUY+zrZHQKFkOV4kFlJUsByWnEZNmJsY8=;24:Eu2pT+RzeJMQJiAZNrOr2Tpvv8rz89USKy6lBIucOD8o7h8VT4LolfvnXAQlXv2+GoT+oV428PbCjHUFoSUkkLhVQtfcFAksPYudxYh4QfU=;7:B/uCL2QqD2GGyTvbeS8GJkWjDeDbN/GKQno5xicaieOLk3VgXWbBnPklPqy153cuzLiQzHfuQnuJK3ekIXacNH/avc+F7JPTvujT7VyPp6fLNozQ2PDqn7FSSYz1w0x5oCmyTFOyiCye4mbnx/mL9Jsi4uMgRtYFwOGFKjqE3fMHEJPim+tqiMHbjMQyB/ddG4LFND1GASW7fXKydrDB5bj/ur7Ewm5efjDDXCVK9rEiwNl9e1Wsfjx+dATLCtyH
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Feb 2018 13:08:19.3462
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9b3e7852-ee4d-4018-6a42-08d56a3e0815
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3NAM01HT175
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.8953807
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0444.008
+Importance: high
+X-Priority: 1
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:rdSMNv3PF3z8dWA9JLnq/hTQs1ETJJO7P1QrJ103c6wcKVGaZq2FZOtNRRv7Mf93y5JEKp6iYRGbnqA3SQjSsFETe5MW77yZ6/nDmpBfTpjkvIt46U9LyZFwycBqHKmb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoXBCkuaWzdKRrSrwv16ImJFMEzVAQ/3cmWJq9YtDdzPl6DHOQqxXVFUeB1+xbab7btIdc99FKEXrP4LUfuk5ykTLcSCIVgxY6av8iD7goJCq4wGjfSTrNaL/cqaGkIXcdiuQEo1pxBPHh2NexFVZwS6AA3erTZ8kgD9KJ0dNP46l9q+vgnA3nL+Uqdo3y2Q/WkEsfiCScQxA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	w7TYTZ3O8VP+YvgY7Mf++rVggA+8rqnl17+6+f6YgJBUNb/fY1U7+fngwz34smBE2xCpVJuiVRslAIvGtT/V0ek5sxEIeQpph06IOxjUhcY51G2DLjoV3wfutrx5+4qQTr8pCZd5hE5mdePXqFTpBISjYVRflRXSy6pVkRyc37WEO0HZy4aOhdn1cZHfYdvFMc9VniobIifD5y1zeZKmn9seZFazaB2fhrZyv7wFfmpGRe/Dn9Bw+4nPenPnvYvzlwdBniaUDZ2AjJ7Oqzz7bTj+rnod73YalEFaO5H1yY0=
+MIME-Version: 1.0
+
+------=_NextPart_000_051B_01D39C54.45B126E0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:rdSMNv3PF3z8dWA9JLnq/hTQs1ETJJO7P1QrJ103c6wcKVGaZq2FZOtNRRv7Mf93y5JEKp6iYRGbnqA3SQjSsFETe5MW77yZ6/nDmpBfTpjkvIt46U9LyZFwycBqHKmb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoXBCkuaWzdKRrSrwv16ImJFMEzVAQ/3cmWJq9YtDdzPl6DHOQqxXVFUeB1+xbab7btIdc99FKEXrP4LUfuk5ykTLcSCIVgxY6av8iD7goJCq4wGjfSTrNaL/cqaGkIXcdiuQEo1pxBPHh2NexFVZwS6AA3erTZ8kgD9KJ0dNP46l9q+vgnA3nL+Uqdo3y2Q/WkEsfiCScQxA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	w7TYTZ3O8VP+YvgY7Mf++rVggA+8rqnl17+6+f6YgJBUNb/fY1U7+fngwz34smBE2xCpVJuiVRslAIvGtT/V0ek5sxEIeQpph06IOxjUhcY51G2DLjoV3wfutrx5+4qQTr8pCZd5hE5mdePXqFTpBISjYVRflRXSy6pVkRyc37WEO0HZy4aOhdn1cZHfYdvFMc9VniobIifD5y1zeZKmn9seZFazaB2fhrZyv7wFfmpGRe/Dn9Bw+4nPenPnvYvzlwdBniaUDZ2AjJ7Oqzz7bTj+rnod73YalEFaO5H1yY0=
+
+
+Journal of Addictive Behaviors, Therapy & Rehabilitation
+
+
+Dear Scholar, 
+
+
+
+Greetings from
+<https://www.scitechnol.com/addictive-behaviors-therapy-rehabilitation.php>
+Journal of Addictive Behaviors, Therapy & Rehabilitation!!!
+
+ 
+
+As an eminent author of the field kindly let us know if you could send us
+any of your research work in any of the above mentioned article formats or
+could write a short review or a short commentary based on your previous
+article for publication in the upcoming issue.
+
+	
+
+We appreciate your research studies for the development of interdisciplinary
+advancements of Addiction across the globe and with an immense pleasure
+inviting you for the submissions which would help the scientific community
+aware of the new approaches.
+
+	
+	
+
+
+We would like to introduce our recently published studies at
+<https://www.scitechnol.com/ArchiveJABTR/currentissue-addictive-behaviors-th
+erapy-rehabilitation.php> Current Issue.
+
+
+
+We would be pleased to have your valuable manuscript as reply to this mail
+with the attachment.
+
+
+
+Kindly extend your support by forwarding this e-mail to your group of
+Friends/Students/Colleagues/Associates/Fellow Researchers, who may be
+benefited out of this.
+
+ 
+
+We would appreciate receiving your submission by 10th February, 2018 or else
+let us know your feasible time to contribute.
+
+
+We will be looking forward to hear a positive response from you soon.
+Please don't hesitate to mail us for further queries.
+
+ 
+
+Narise A,
+
+Journal Coordinator,
+
+Journal of Addictive Behaviors, Therapy & Rehabilitation 
+
+Direct: +1-702-714-70001(9034)
+
+Customer Service: +1-702-508-2676
+
+E-mail:  <mailto:editor.jabtr@scitechnol.org> editor.jabtr@scitechnol.org
+
+ 
+
+Disclaimer: This is not a spam message, and has been sent to you because of
+your eminence in the field. If, however, you do not want to receive any
+email in future, please reply with subject as unsubscribe or remove. We
+concern for your privacy.
+
+ 
+
+ 
+
+
+------=_NextPart_000_051B_01D39C54.45B126E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:rdSMNv3PF3z8dWA9JLnq/hTQs1ETJJO7P1QrJ103c6wcKVGaZq2FZOtNRRv7Mf93y5JEKp6iYRGbnqA3SQjSsFETe5MW77yZ6/nDmpBfTpjkvIt46U9LyZFwycBqHKmb
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yoXBCkuaWzdKRrSrwv16ImJFMEzVAQ/3cmWJq9YtDdzPl6DHOQqxXVFUeB1+xbab7btIdc99FKEXrP4LUfuk5ykTLcSCIVgxY6av8iD7goJCq4wGjfSTrNaL/cqaGkIXcdiuQEo1pxBPHh2NexFVZwS6AA3erTZ8kgD9KJ0dNP46l9q+vgnA3nL+Uqdo3y2Q/WkEsfiCScQxA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	w7TYTZ3O8VP+YvgY7Mf++rVggA+8rqnl17+6+f6YgJBUNb/fY1U7+fngwz34smBE2xCpVJuiVRslAIvGtT/V0ek5sxEIeQpph06IOxjUhcY51G2DLjoV3wfutrx5+4qQTr8pCZd5hE5mdePXqFTpBISjYVRflRXSy6pVkRyc37WEO0HZy4aOhdn1cZHfYdvFMc9VniobIifD5y1zeZKmn9seZFazaB2fhrZyv7wFfmpGRe/Dn9Bw+4nPenPnvYvzlwdBniaUDZ2AjJ7Oqzz7bTj+rnod73YalEFaO5H1yY0=
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-IN" link=3D"blue"=
+ vlink=3D"purple"><div class=3D"WordSection1"><table class=3D"MsoNormalTabl=
+e" border=3D"0" cellpadding=3D"0" width=3D"800" style=3D"width:600.0pt"><tr=
+><td style=3D"padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal" align=3D"cent=
+er" style=3D"text-align:center"><b><span style=3D"font-size:16.0pt;font-fam=
+ily:&quot;Times New Roman&quot;,&quot;serif&quot;">Journal of Addictive Beh=
+aviors, Therapy &amp; Rehabilitation</span></b><b><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&q=
+uot;;mso-fareast-language:EN-US"><o:p></o:p></span></b></p></td></tr><tr><t=
+d style=3D"padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal"><span style=3D"f=
+ont-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Dear Scholar, </s=
+pan><span lang=3D"EN-US" style=3D"font-family:&quot;Times New Roman&quot;,&=
+quot;serif&quot;;mso-fareast-language:EN-US"><o:p></o:p></span></p></td></t=
+r><tr style=3D"height:95.6pt"><td style=3D"padding:0cm 0cm 0cm 0cm;height:9=
+5.6pt"><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Ro=
+man&quot;,&quot;serif&quot;"><br>Greetings from</span><span style=3D"font-f=
+amily:&quot;Times New Roman&quot;,&quot;serif&quot;"> </span><a href=3D"htt=
+ps://www.scitechnol.com/addictive-behaviors-therapy-rehabilitation.php"><sp=
+an style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Jour=
+nal of Addictive Behaviors, Therapy &amp; Rehabilitation</span></a><span st=
+yle=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">!!!<o:p><=
+/o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Tim=
+es New Roman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p><p class=
+=3D"MsoNormal" style=3D"background:white"><span style=3D"font-family:&quot;=
+Times New Roman&quot;,&quot;serif&quot;">As an eminent author of the field =
+kindly let us know if you could send us any of your research work in any of=
+ the above mentioned article formats or could write a short review or a sho=
+rt commentary </span><span style=3D"font-family:&quot;Times New Roman&quot;=
+,&quot;serif&quot;">based on your previous article </span><span style=3D"fo=
+nt-family:&quot;Times New Roman&quot;,&quot;serif&quot;">for publication in=
+ the upcoming issue.<o:p></o:p></span></p></td></tr><tr><td style=3D"paddin=
+g:0cm 0cm 0cm 0cm"></td></tr><tr><td style=3D"padding:0cm 0cm 0cm 0cm"><p c=
+lass=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quot;,&=
+quot;serif&quot;">We appreciate your research studies for the development o=
+f interdisciplinary advancements of Addiction across the globe and with an =
+immense pleasure inviting you for the submissions which would help the scie=
+ntific community aware of the new approaches.</span><span lang=3D"EN-US" st=
+yle=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareas=
+t-language:EN-US"><o:p></o:p></span></p></td></tr><tr><td style=3D"padding:=
+0cm 0cm 0cm 0cm"></td></tr><tr><td style=3D"padding:0cm 0cm 0cm 0cm"></td><=
+/tr><tr><td style=3D"padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal"><span =
+style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><br>We =
+would like to introduce our recently published studies at </span><a href=3D=
+"https://www.scitechnol.com/ArchiveJABTR/currentissue-addictive-behaviors-t=
+herapy-rehabilitation.php"><span style=3D"font-family:&quot;Times New Roman=
+&quot;,&quot;serif&quot;">Current Issue</span></a><span style=3D"font-famil=
+y:&quot;Times New Roman&quot;,&quot;serif&quot;">.</span><span lang=3D"EN-U=
+S" style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-f=
+areast-language:EN-US"><o:p></o:p></span></p></td></tr><tr><td style=3D"pad=
+ding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal"><span style=3D"font-family:&qu=
+ot;Times New Roman&quot;,&quot;serif&quot;"><br>We would be pleased to have=
+ your valuable manuscript as reply to this mail with the attachment.</span>=
+<span lang=3D"EN-US" style=3D"font-family:&quot;Times New Roman&quot;,&quot=
+;serif&quot;;mso-fareast-language:EN-US"><o:p></o:p></span></p></td></tr><t=
+r><td style=3D"padding:0cm 0cm 0cm 0cm"><p class=3D"MsoNormal"><span style=
+=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><br>Kindly e=
+xtend your support by forwarding this e-mail to your group of Friends/Stude=
+nts/Colleagues/Associates/Fellow Researchers, who may be benefited out of t=
+his.</span><span lang=3D"EN-US" style=3D"font-family:&quot;Times New Roman&=
+quot;,&quot;serif&quot;"><o:p></o:p></span></p><p class=3D"MsoNormal"><span=
+ style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-family:&qu=
+ot;Times New Roman&quot;,&quot;serif&quot;">We would appreciate receiving y=
+our submission by <b>10<sup>th</sup> February, 2018</b> or else let us know=
+ your feasible time to contribute.</span><span lang=3D"EN-US" style=3D"font=
+-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-language:=
+EN-US"><o:p></o:p></span></p></td></tr><tr><td style=3D"padding:0cm 0cm 0cm=
+ 0cm"><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Rom=
+an&quot;,&quot;serif&quot;">We will be looking forward to hear a positive r=
+esponse from you soon.<br>Please don&#8217;t hesitate to mail us for furthe=
+r queries.</span><span lang=3D"EN-US" style=3D"font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;"><o:p></o:p></span></p><p class=3D"MsoNormal"=
+><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">=
+<o:p>&nbsp;</o:p></span></p><p class=3D"MsoNoSpacing" style=3D"line-height:=
+115%"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Narise A,<o:p></o:p></span></p><p class=3D"MsoNoSpacing" style=3D"line=
+-height:115%"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;=
+serif&quot;">Journal Coordinator,<o:p></o:p></span></p><p class=3D"MsoNoSpa=
+cing" style=3D"line-height:115%"><span style=3D"font-family:&quot;Times New=
+ Roman&quot;,&quot;serif&quot;">Journal of Addictive Behaviors, Therapy &am=
+p; Rehabilitation <o:p></o:p></span></p><p class=3D"MsoNoSpacing" style=3D"=
+line-height:115%"><span style=3D"font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;">Direct: &#43;1-702-714-70001(9034)<o:p></o:p></span></p><p=
+ class=3D"MsoNoSpacing" style=3D"line-height:115%"><span style=3D"font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;">Customer Service: &#43;1-=
+702-508-2676<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"fon=
+t-family:&quot;Times New Roman&quot;,&quot;serif&quot;">E-mail: </span><a h=
+ref=3D"mailto:editor.jabtr@scitechnol.org"><span style=3D"font-family:&quot=
+;Times New Roman&quot;,&quot;serif&quot;">editor.jabtr@scitechnol.org</span=
+></a><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quo=
+t;"><o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-family=
+:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p=
+><p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:115%"><b>=
+<span style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">D=
+isclaimer: </span></b><span style=3D"font-family:&quot;Times New Roman&quot=
+;,&quot;serif&quot;">This is not a spam message, and has been sent to you b=
+ecause of your eminence in the field. If, however, you do not want to recei=
+ve any email in future, please reply with subject as unsubscribe or remove.=
+ We concern for your privacy.</span><span lang=3D"EN-US" style=3D"font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-language:EN-US=
+"><o:p></o:p></span></p></td></tr></table><p class=3D"MsoNormal"><span lang=
+=3D"EN-US" style=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quo=
+t;;mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoN=
+ormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></span></p></div></bo=
+dy></html>=
+
+------=_NextPart_000_051B_01D39C54.45B126E0--
+
