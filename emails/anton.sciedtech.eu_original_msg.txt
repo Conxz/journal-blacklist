@@ -1,0 +1,396 @@
+Received: from HE1EUR01HT141.eop-EUR01.prod.protection.outlook.com
+ (2603:1096:a00:1::27) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0111.INDPRD01.PROD.OUTLOOK.COM; Mon, 12 Feb 2018 21:04:32 +0000
+Received: from HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com
+ (10.152.0.58) by HE1EUR01HT141.eop-EUR01.prod.protection.outlook.com
+ (10.152.1.154) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.485.12; Mon, 12
+ Feb 2018 21:04:30 +0000
+Authentication-Results: spf=pass (sender IP is 176.223.213.6)
+ smtp.mailfrom=sciedtech.eu; outlook.com; dkim=none (message not signed)
+ header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=sciedtech.eu;
+Received-SPF: Pass (protection.outlook.com: domain of sciedtech.eu designates
+ 176.223.213.6 as permitted sender) receiver=protection.outlook.com;
+ client-ip=176.223.213.6; helo=www2.webrahost.ro;
+Received: from www2.webrahost.ro (176.223.213.6) by
+ HE1EUR01FT062.mail.protection.outlook.com (10.152.1.16) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.485.12 via Frontend Transport; Mon, 12 Feb 2018 21:04:30 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:9387095D55A555D1634E0269AE1C165D65B75A51CB352551EAEC14651AF541FF;UpperCasedChecksum:0073C6FD7C898719993A1B4047588F1CB50EB2EF9ECAAB8EA74DB470D1161A10;SizeAsReceived:835;Count:14
+Received: (qmail 50424 invoked from network); 12 Feb 2018 23:04:29 +0200
+Received: from mail.webrahost.ro (176.223.193.81)
+  by www2.webrahost.ro with SMTP; 12 Feb 2018 23:04:29 +0200
+Received: (qmail 50421 invoked from network); 12 Feb 2018 21:04:29 +0000
+Received: from unknown (HELO DESKTOP3IHPTL1) (anton@sciedtech.eu@62.121.99.218)
+  by mail.webrahost.ro with SMTP; 12 Feb 2018 21:04:29 +0000
+From: Anton FICAI <anton@sciedtech.eu>
+To: <xiangzhen.kong@outlook.com>
+Subject: Call for Paper_SciEdTech
+Date: Mon, 12 Feb 2018 23:04:32 +0200
+Message-ID: <92b001d3a445$149e1740$3dda45c0$@sciedtech.eu>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_92B1_01D3A455.D8281FC0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdOkRRRia7Ofqyj5RNWj4cLirVRB7Q==
+Content-Language: en-gb
+X-IncomingHeaderCount: 14
+Return-Path: anton@sciedtech.eu
+X-MS-Exchange-Organization-Network-Message-Id: ad692e56-bbb5-4dc7-6e0b-08d5725c35c4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01FT062;1:XjOFfT/0Imao4beGjs+Qd3OxX+7+GOvj8AHjx8wf3Ga35AQR8WTcNecsKsGIAPR+gC1qwnk1QtBeg8MonQHwP/w9CAPAsyK5S+D1IQMVWKQFEpRyOrcUKHHh8ulRJzCb
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:HE1EUR01HT141;H:www2.webrahost.ro;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: ad692e56-bbb5-4dc7-6e0b-08d5725c35c4
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:HE1EUR01HT141;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT141;3:ScCBntyOfGPV+poCRC929WifjH3p0TlE6jqtIsvspLR9KcNT8eALkUVAloSpZf2fjds+5KO8G0r9dUxGEipuJH4ig0R5NPpL6dNBw5cNqi9EOMXSxXP7hLTpAri6G1iqRYDPwG8ExGsTqixC1m65g6yUOFeGrSNW1+t7p2vp3T0/hjQA9Xp4fFfLNgaMgtqZp34k/aGZD52MCsupFZGF0LmpY1ENmhpsuxtAoNPWMAKsqaz69D8i3Qepvbw/ki245Gl7WU0HY+VPl87jVvhkjTCTunN+MJmpwuz7/GkP1Z9D9LOYzpcL3UMbi5SaB3vE;25:D+kjubD/aHVKQQLgXYZERIlDebdYZdyyMVnkC29VxmX/3u8wd2Q8qblwfOSFcBV/5EVXOl43SIp/W8aesOqs5ARURy0yecMpM90cJzrzcTJD1xylZLj3MzHbOMew9x9Fx/fFxrDMhHSqbgYDNM8zNrLkcUQ9FC0R/liuGCP14MrthZ1b8vxuDTEiTL7WyDnMcuaxtYfUHKkrU9IF4oe6AiPy3wzREgmjlf3eyDIQ7mVuOWspy0UjOotcGL56ZC5fhIOWAVCx+voI9XACxmxLd50NljK8qYD5RZR1gsWvodKvRZM0H8+7Ztdu8s7y6vouIWjfaQb1LT4dzuK3npXp9A==;31:ZVhleLdjbCs7U9n7St0MY5yJdiFxqEij1L0Ezs98rz9UDhV0h+EJjrWn3fe+oHXJQRyi2dfedph/NuxO779OxVB8RTxmUGdZpZQCXP4DMrvPUnYk7qIku631II6XIMrYzLjtUHnCRljS8xTQXTm8tV7LxBXJbwbJoVxnYqB3cV8b4fmZ4s5n4rRTUALw7tbkm3FjeXFUNEDn5Lo5tui+73Ic4hpN5zLdU10yoxR7gCY=
+X-MS-TrafficTypeDiagnostic: HE1EUR01HT141:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 176.223.213.6
+X-SID-PRA: ANTON@SCIEDTECH.EU
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(278428928389397)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(82015058);SRVR:HE1EUR01HT141;BCL:0;PCL:0;RULEID:;SRVR:HE1EUR01HT141;
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT141;4:O0oDC5wnFbkVsUE7qbjkiqMSEDftRBskRdL5L6QIn9PIG3UjttZNSWeeq4Qbj01htmlnQVLTBTHauF24m93aXui1ngGnsfJZk7dWog1YX3r4Uo1rJaWy2PyhEvQWvk+1jFYWtAZhvCIwb0xKhPc0/IDugM4L43vQjuRK9ibekgMVpUTnP/lOPpJCdt8WrV3qIXkqZ9bZ+pNmk1uML6PhRkX1XidmYVZJPnevC8BThne+oxShs0I9QK1XeBr8vK5/3VzIR+M3J0ZEWWh8dlPK6msOhcS3lZNbCKYKHeyDr+vWLMjpjIMKfaJJtAWZbCrwh8Ke1oKGP89KzQPW/55KdYHW2HK2uUrSHKKLLz5dV9GVTjGnZAKCsoq6kz7A3MN+;23:0IjeY1F/ioO/P0ujse2E1YIkgQtKgtrqbx4G0jmAhBa6prJSPDWj5ARjiLQEzKFrszpKUOEOLukyRgrmt4/NplnHJ0eoQbfhtYvRHR5SCXxp4BplShUGR30UkLHkQf0z1zd5Qu53mHTfAdOHuTG6QKRPF8luqIBQYYkVV5n74Vg=;6:XC3/nsW/V6L6iGbXYT5zTuN0kVCcqy+cgB0SgiVLhXOJuOOr8kbBWNl7M0F8AeeYNURj4GFnVXLlP5uYrhD4BdPnOEFPpZvf8+VRM6fVhAO9HNP/ctY2jE6xtKE0SbEl06y1MtAfpOJHpEbA7rl+wLFIpN0KCmaGYxzAS+cuuIiJqfmFVmCHjvLcVj+PUQKFiv8yKNFmjbMKF3d6FETIHjjGFTU2iSGA/f/l4G5EDknlTdPXMYgJcdWOJiIURRN89TvKOOU9Lrk54Cbe0T08IGp/pakPj2y9PCUk1Y+ewxhER3SrfXq8XaWFazpijjF8KeFY9yhD/Rhr4Aw4x5heD6eKT3/aVVUqZuIkwRhdXXk=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: HIzB9F17Wlbe9taE+RYq0OkidrFQYHzy1HtLCaEYjlB8Bz8yY8bSIWAlMY+bRCCije8mhBSmf0r8lNnz2S7vPR8xX9OSeuSgOZzIMcok5ug=
+X-Microsoft-Exchange-Diagnostics: 1;HE1EUR01HT141;5:jzhXr7nRN8ZHLmkdUE+paPMEIdgTUo3JuAUYIkdJ3UkpEiGR19YDKUi6mDDPQRgIeaXv8LNgj+JwWnkEY/Cmz1mvhniNNk4a3BgKsaeLLR4n7dLqgqoy3i0YHjGgrnKd3c1c4a2MzMxF/pXpIjRQw0/y80Wnv5xRwGwdiVWqzJw=;24:t3MC+AwxmiihuUO3XC+Ij8j9qtIeQLTabm5P5VWDSREfaiOxiqlMn8aoaDaRifcCtCT8tt7tfn/Qhnv5N5/BSTNSoNtqwdT2zFU9Orw6jW4=;7:dShxjKATBuaVFhASUhC2/ArjoRPzFCEjo+UUAm2Klaisz9Ce72mR9KfKnhymvW9DmQyrX94/dUiKQyIG2UhxW2kFUoUIHT5SLJVj5V1hSoIZ1Ewjrg3+wionJEALoYV7HfgiigvVPWjCfgYMITI9X7qMaZblz7Uy/B/EQcuVg8tjRycpjv8jFR0JAgxN7MPRlP+bEjvqvqAH37kZLXAQutmeicOxwWCyPPSRo4SpV77QlenhgNhuyVBTF5aIJEFE
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Feb 2018 21:04:30.5072
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ad692e56-bbb5-4dc7-6e0b-08d5725c35c4
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR01HT141
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8038425
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0485.015
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:0hQi/sNetAdbZt9ykjU7iwbppdpqCV5r+thuwl5s2tIPsPJlh6DHAC4rFmdbYS9sQ/0QWYj3KrsUR0F2mz3RdMyySaGpF/jchHGkHG2yOHujdWxJk4OuCXgeh1bGGz/L
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;26:la6K8/9kVWelSv5rvSsr6wJTNOtyyNKat40tVXqPbygd6YjbBRO2myClGSalTn7DNNOfJ85Z3PwMtnWVDyze5gm8WQee/SzDprX1o4fj+/w+dGPo7kKNRuJBGyI5+X5luvFoOh+j3zEyQ5KhKM3vhjvpMKUP7IzB+cXRgxI4yVoyHHII+6lzxrIITyc+ei9tz/fQ33I6nMiD9Pw8xIPDiA/qhPDbF4fkp0+sUZM0P8Mj1keNZN64cW7Mo8/CC1p9qGF0UquR+0guT+cU+u1DQYvaQHi8NDHjQ9UnrEoJY8t21yiN1Wv+f5o5bpSCf6vn2wodTRTHylPteaNVuyISm0Rp+MmKVmz0a656NHKb21NIKJ990DeeyBZ0XH8gFd+Sez6aUEc3c/q8VBkeMaDhg9erLW/JFScS0m/FrpeIOOnOAihFHA3+mKV+ePGBqLbvMCDUP8IE2YeI1RhygR41dYetwIITZUGAD0fzszHiJpxCZQF2Z2by0GEtJfDru8gcczjA43sHaPp2lqZlKRKwII77fJf8LdraPfx9I+YwMqk=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeiZyLJQMCXw4Mlxga7t0pTf0ECyOYmT2Ccxfjjmm15AJrODAh6f2Adjuxh0WNcSkXLelOhjXa9ggDUDwTKLXMR2jxqh/I+TIIoRGPCCDFSteG9gt39AYFkX2SIkWEYY46SfJBuHff8biw/RtpTuonCaEN6SVUmCF8mrNGOEs6ye4qTd5rMiacFHG/Y+oRHDrDFzb4xZGC9hA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	nzrn/8e26tV4LzdKD2Pix5q5jlbQDMKkXe4ZlttifXxd3hVqFxR8rPwA6c/dKpO0TSnkvbHaosmKP+NyYCXpFf2N0dfofrI76m5nvmMmVhkL+PauEq3Opb4ZX2LcRRFLOFXWG2dtkPpGXY4cY85xt0gsvnIcau4F6a2AAHWeVfyby/zZs1Iiy0c6PMgx/a4+133CPjGtKZQHcRbVdUbu22mj4TRbYFaSy7KhRYE+o30P148dQ8BjphTqquPg+mNRAd6HjM4R997TpICVULJRAQ==
+MIME-Version: 1.0
+
+------=_NextPart_000_92B1_01D3A455.D8281FC0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:0hQi/sNetAdbZt9ykjU7iwbppdpqCV5r+thuwl5s2tIPsPJlh6DHAC4rFmdbYS9sQ/0QWYj3KrsUR0F2mz3RdMyySaGpF/jchHGkHG2yOHujdWxJk4OuCXgeh1bGGz/L
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;26:la6K8/9kVWelSv5rvSsr6wJTNOtyyNKat40tVXqPbygd6YjbBRO2myClGSalTn7DNNOfJ85Z3PwMtnWVDyze5gm8WQee/SzDprX1o4fj+/w+dGPo7kKNRuJBGyI5+X5luvFoOh+j3zEyQ5KhKM3vhjvpMKUP7IzB+cXRgxI4yVoyHHII+6lzxrIITyc+ei9tz/fQ33I6nMiD9Pw8xIPDiA/qhPDbF4fkp0+sUZM0P8Mj1keNZN64cW7Mo8/CC1p9qGF0UquR+0guT+cU+u1DQYvaQHi8NDHjQ9UnrEoJY8t21yiN1Wv+f5o5bpSCf6vn2wodTRTHylPteaNVuyISm0Rp+MmKVmz0a656NHKb21NIKJ990DeeyBZ0XH8gFd+Sez6aUEc3c/q8VBkeMaDhg9erLW/JFScS0m/FrpeIOOnOAihFHA3+mKV+ePGBqLbvMCDUP8IE2YeI1RhygR41dYetwIITZUGAD0fzszHiJpxCZQF2Z2by0GEtJfDru8gcczjA43sHaPp2lqZlKRKwII77fJf8LdraPfx9I+YwMqk=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeiZyLJQMCXw4Mlxga7t0pTf0ECyOYmT2Ccxfjjmm15AJrODAh6f2Adjuxh0WNcSkXLelOhjXa9ggDUDwTKLXMR2jxqh/I+TIIoRGPCCDFSteG9gt39AYFkX2SIkWEYY46SfJBuHff8biw/RtpTuonCaEN6SVUmCF8mrNGOEs6ye4qTd5rMiacFHG/Y+oRHDrDFzb4xZGC9hA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	nzrn/8e26tV4LzdKD2Pix5q5jlbQDMKkXe4ZlttifXxd3hVqFxR8rPwA6c/dKpO0TSnkvbHaosmKP+NyYCXpFf2N0dfofrI76m5nvmMmVhkL+PauEq3Opb4ZX2LcRRFLOFXWG2dtkPpGXY4cY85xt0gsvnIcau4F6a2AAHWeVfyby/zZs1Iiy0c6PMgx/a4+133CPjGtKZQHcRbVdUbu22mj4TRbYFaSy7KhRYE+o30P148dQ8BjphTqquPg+mNRAd6HjM4R997TpICVULJRAQ==
+
+Dear dr. Kong, X.-Z.,
+
+State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern
+Institute for Brain Research, Beijing Normal University, 19 Xinjiekouwai St,
+Haidian District, China
+
+ 
+
+I am Anton FICAI, head of the Department of Science and Engineering of Oxide
+Materials and Nanomaterials, Faculty of Applied Chemistry and Materials
+Science, University POLITEHNICA of Bucharest and Manager of SciEdTech
+platform. Looking on the web, I found that you are working in the field of
+Environmental Science (especially based on the published paper: "Human
+navigation network: the intrinsic functional organization and behavioral
+relevance") and I am wondering if you are interested in publishing either
+research or review paper in our journal "
+<http://sciedtech.eu/journals/advmtenvsci/> Advanced Materials and
+Technologies for Environmental Applications - AdvMatTechEnv" (ISSN: 2559 -
+138X) or in any of the other journals. We are now preparing the forthcoming
+issue (volume 2, issue 1) and so, we launched the Call for Paper (CfP)) for
+all the potential authors but especially for those invited within this CfP.
+Still, some position are open for the forth issue of current issue. All the
+papers will be published free of charge, in Electronic Open Access mode, the
+authors retaining the copyright of the published manuscript. 
+
+Our platform includes three journals, but other journals will be launched in
+the forthcoming years:
+
+ <http://sciedtech.eu/journals/advnanobiomd/> Advanced Nano-Bio-Materials
+and Devices - AdvNanoBioMD
+
+ <http://sciedtech.eu/journals/advmtenvsci/> Advanced Materials and
+Technologies for Environmental Applications - AdvMatTechEnv
+
+ <http://sciedtech.eu/journals/advnanoenergy/> Advanced NanoMaterials and
+Technologies for Energy Sector - AdvNanoEnergy
+
+ 
+
+The published papers can be found following the links: 
+
+AdvNanoBioMD:  <http://sciedtech.eu/journals/advnanobiomd/archive/>
+http://sciedtech.eu/journals/advnanobiomd/archive/
+
+AdvMatTechEnv:  <http://sciedtech.eu/journals/advmtenvsci/archive/>
+http://sciedtech.eu/journals/advmtenvsci/archive/
+
+AdvNanoEnergy:  <http://sciedtech.eu/journals/advnanoenergy/archive/>
+http://sciedtech.eu/journals/advnanoenergy/archive/
+
+ 
+
+If you are interested in contributing in any of our journals, please do not
+hesitate to contact me.
+
+ 
+
+Best regards,
+
+Anton
+
+ 
+
+Prof. Habil. Dr. Anton FICAI
+
+Editor of SciEdTech Platform
+
+Department of Science and Engineering of Oxide Materials and Nanomaterials 
+
+Faculty of Applied Chemistry and Materials Science
+
+Politehnica University of Bucharest
+
+1-7 Gh. Polizu st. Bucharest, Romania 
+
+ <http://anton.ficai.eu> http://anton.ficai.eu
+
+ <http://sciedtech.eu/advnanobiomd/> http://sciedtech.eu/advnanobiomd/
+
+E-mail:  <mailto:anton@SciEdTech.eu> anton@SciEdTech.eu
+
+Phone: +4 021 402 3852 
+Mobile: +4 0766 25 78 52
+
+ 
+
+ 
+
+This email was sent to you to inform about SciEdTech platform. If this email
+is disturbing you, please  <mailto:anton@sciedtech.eu?subject=UNSUBSCRIBE>
+UNSUBSCRIBE and accept our excuses.
+
+
+------=_NextPart_000_92B1_01D3A455.D8281FC0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:0hQi/sNetAdbZt9ykjU7iwbppdpqCV5r+thuwl5s2tIPsPJlh6DHAC4rFmdbYS9sQ/0QWYj3KrsUR0F2mz3RdMyySaGpF/jchHGkHG2yOHujdWxJk4OuCXgeh1bGGz/L
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;26:la6K8/9kVWelSv5rvSsr6wJTNOtyyNKat40tVXqPbygd6YjbBRO2myClGSalTn7DNNOfJ85Z3PwMtnWVDyze5gm8WQee/SzDprX1o4fj+/w+dGPo7kKNRuJBGyI5+X5luvFoOh+j3zEyQ5KhKM3vhjvpMKUP7IzB+cXRgxI4yVoyHHII+6lzxrIITyc+ei9tz/fQ33I6nMiD9Pw8xIPDiA/qhPDbF4fkp0+sUZM0P8Mj1keNZN64cW7Mo8/CC1p9qGF0UquR+0guT+cU+u1DQYvaQHi8NDHjQ9UnrEoJY8t21yiN1Wv+f5o5bpSCf6vn2wodTRTHylPteaNVuyISm0Rp+MmKVmz0a656NHKb21NIKJ990DeeyBZ0XH8gFd+Sez6aUEc3c/q8VBkeMaDhg9erLW/JFScS0m/FrpeIOOnOAihFHA3+mKV+ePGBqLbvMCDUP8IE2YeI1RhygR41dYetwIITZUGAD0fzszHiJpxCZQF2Z2by0GEtJfDru8gcczjA43sHaPp2lqZlKRKwII77fJf8LdraPfx9I+YwMqk=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdeiZyLJQMCXw4Mlxga7t0pTf0ECyOYmT2Ccxfjjmm15AJrODAh6f2Adjuxh0WNcSkXLelOhjXa9ggDUDwTKLXMR2jxqh/I+TIIoRGPCCDFSteG9gt39AYFkX2SIkWEYY46SfJBuHff8biw/RtpTuonCaEN6SVUmCF8mrNGOEs6ye4qTd5rMiacFHG/Y+oRHDrDFzb4xZGC9hA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	nzrn/8e26tV4LzdKD2Pix5q5jlbQDMKkXe4ZlttifXxd3hVqFxR8rPwA6c/dKpO0TSnkvbHaosmKP+NyYCXpFf2N0dfofrI76m5nvmMmVhkL+PauEq3Opb4ZX2LcRRFLOFXWG2dtkPpGXY4cY85xt0gsvnIcau4F6a2AAHWeVfyby/zZs1Iiy0c6PMgx/a4+133CPjGtKZQHcRbVdUbu22mj4TRbYFaSy7KhRYE+o30P148dQ8BjphTqquPg+mNRAd6HjM4R997TpICVULJRAQ==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-language:EN-US;}
+span.UnresolvedMention1
+	{mso-style-name:"Unresolved Mention1";
+	mso-style-priority:99;
+	color:gray;
+	background:#E6E6E6;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:49.65pt 72.0pt 49.65pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"HU" link=3D"#0563C1"=
+ vlink=3D"purple"><div class=3D"WordSection1"><p class=3D"MsoNormal" style=
+=3D"text-indent:21.3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">Dea=
+r <b>dr. Kong, X.-Z.</b>,<o:p></o:p></span></p><p class=3D"MsoNormal" style=
+=3D"text-indent:21.3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">Sta=
+te Key Laboratory of Cognitive Neuroscience and Learning &amp; IDG/McGovern=
+ Institute for Brain Research, Beijing Normal University, 19 Xinjiekouwai S=
+t, Haidian District, China</span><span lang=3D"EN-GB" style=3D"font-size:12=
+.0pt"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-indent:21.=
+3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></spa=
+n></p><p class=3D"MsoNormal" style=3D"text-align:justify;text-indent:21.3pt=
+"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">I am Anton FICAI, head of=
+ the Department of Science and Engineering of Oxide Materials and Nanomater=
+ials, Faculty of Applied Chemistry and Materials Science, University POLITE=
+HNICA of Bucharest and Manager of SciEdTech platform. Looking on the web, I=
+ found that you are working in the field of Environmental Science (especial=
+ly based on the published paper: &#8220;Human navigation network: the intri=
+nsic functional organization and behavioral relevance&#8221;) and I am wond=
+ering if you are interested in publishing either research or review paper i=
+n our journal &#8220;</span><span lang=3D"EN-US"><a href=3D"http://sciedtec=
+h.eu/journals/advmtenvsci/"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;=
+color:#0000CC;text-decoration:none">Advanced Materials and Technologies for=
+ Environmental Applications &#8211; AdvMatTechEnv</span></a></span><span la=
+ng=3D"EN-GB" style=3D"font-size:12.0pt">&#8221; (ISSN: 2559 &#8211; 138X) o=
+r in any of the other journals. We are now preparing the forthcoming issue =
+(volume 2, issue 1) and so, we launched the Call for Paper (CfP)) for all t=
+he potential authors but especially for those invited within this CfP. Stil=
+l, some position are open for the forth issue of current issue. All the pap=
+ers will be published <i>free of charge</i>, in <i>Electronic Open Access</=
+i> mode, the authors retaining the copyright of the published manuscript. <=
+o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:justify;tex=
+t-indent:21.3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">Our platfo=
+rm includes three journals, but other journals will be launched in the fort=
+hcoming years:<o:p></o:p></span></p><p style=3D"mso-margin-top-alt:0cm;marg=
+in-right:0cm;margin-bottom:0cm;margin-left:1.0cm;margin-bottom:.0001pt;text=
+-align:justify"><span lang=3D"EN-US"><a href=3D"http://sciedtech.eu/journal=
+s/advnanobiomd/"><span lang=3D"EN-GB" style=3D"color:#0000CC;text-decoratio=
+n:none">Advanced Nano-Bio-Materials and Devices &#8211; AdvNanoBioMD</span>=
+</a></span><span lang=3D"EN-GB" style=3D"color:#0000CC"><o:p></o:p></span><=
+/p><p style=3D"mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;ma=
+rgin-left:1.0cm;margin-bottom:.0001pt;text-align:justify"><span lang=3D"EN-=
+US"><a href=3D"http://sciedtech.eu/journals/advmtenvsci/"><span lang=3D"EN-=
+GB" style=3D"color:#0000CC;text-decoration:none">Advanced Materials and Tec=
+hnologies for Environmental Applications &#8211; AdvMatTechEnv</span></a></=
+span><span lang=3D"EN-GB" style=3D"color:#0000CC"><o:p></o:p></span></p><p =
+style=3D"mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-l=
+eft:1.0cm;margin-bottom:.0001pt;text-align:justify"><span lang=3D"EN-US"><a=
+ href=3D"http://sciedtech.eu/journals/advnanoenergy/"><span lang=3D"EN-GB" =
+style=3D"color:#0000CC;text-decoration:none">Advanced NanoMaterials and Tec=
+hnologies for Energy Sector &#8211; AdvNanoEnergy</span></a></span><span la=
+ng=3D"EN-GB" style=3D"color:#0000CC"><o:p></o:p></span></p><p class=3D"MsoN=
+ormal" style=3D"text-align:justify;text-indent:14.2pt"><span lang=3D"EN-GB"=
+ style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNorm=
+al" style=3D"text-align:justify;text-indent:21.3pt"><span lang=3D"EN-GB" st=
+yle=3D"font-size:12.0pt">The published papers can be found following the li=
+nks: <o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:justi=
+fy;text-indent:1.0cm"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">AdvNa=
+noBioMD: </span><span lang=3D"EN-US"><a href=3D"http://sciedtech.eu/journal=
+s/advnanobiomd/archive/"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">ht=
+tp://sciedtech.eu/journals/advnanobiomd/archive/</span></a></span><span lan=
+g=3D"EN-GB" style=3D"font-size:12.0pt"><o:p></o:p></span></p><p style=3D"ma=
+rgin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span =
+lang=3D"EN-GB">AdvMatTechEnv: </span><span lang=3D"EN-US"><a href=3D"http:/=
+/sciedtech.eu/journals/advmtenvsci/archive/"><span lang=3D"EN-GB">http://sc=
+iedtech.eu/journals/advmtenvsci/archive/</span></a></span></p><p class=3D"M=
+soNormal" style=3D"text-align:justify;text-indent:1.0cm"><span lang=3D"EN-G=
+B" style=3D"font-size:12.0pt">AdvNanoEnergy: </span><span lang=3D"EN-US"><a=
+ href=3D"http://sciedtech.eu/journals/advnanoenergy/archive/"><span lang=3D=
+"EN-GB" style=3D"font-size:12.0pt">http://sciedtech.eu/journals/advnanoener=
+gy/archive/</span></a></span><b><span lang=3D"EN-GB" style=3D"font-size:12.=
+0pt"><o:p></o:p></span></b></p><p class=3D"MsoNormal" style=3D"text-align:j=
+ustify;text-indent:21.3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">=
+<o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal" style=3D"text-align:just=
+ify;text-indent:21.3pt"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">If =
+you are interested in contributing in any of our journals, please do not he=
+sitate to contact me.<o:p></o:p></span></p><p class=3D"MsoNormal"><span lan=
+g=3D"EN-GB" style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></span></p><p class=
+=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">Best regards=
+,<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D=
+"font-size:12.0pt">Anton<o:p></o:p></span></p><p class=3D"MsoNormal"><span =
+lang=3D"EN-GB" style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></span></p><p cl=
+ass=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:11.0pt;color:navy=
+">Prof. Habil. Dr. Anton FICAI<o:p></o:p></span></p><p class=3D"MsoNormal">=
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;color:navy">Editor of SciEdT=
+ech Platform</span><span class=3D"MsoHyperlink"><span lang=3D"EN-US"><o:p><=
+/o:p></span></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D=
+"font-size:11.0pt;color:navy">Department of Science and Engineering of Oxid=
+e Materials and Nanomaterials </span><span lang=3D"EN-US" style=3D"color:na=
+vy"><o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=
+=3D"font-size:11.0pt;color:navy">Faculty of Applied Chemistry and Materials=
+ Science<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" s=
+tyle=3D"font-size:11.0pt;color:navy">Politehnica University of Bucharest<o:=
+p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"fon=
+t-size:11.0pt;color:navy">1-7 Gh. Polizu st. Bucharest, Romania <o:p></o:p>=
+</span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><a href=3D"http://an=
+ton.ficai.eu"><span lang=3D"EN-GB" style=3D"font-size:11.0pt">http://anton.=
+ficai.eu</span></a></span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;co=
+lor:navy"><o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"=
+><a href=3D"http://sciedtech.eu/advnanobiomd/"><span lang=3D"EN-GB" style=
+=3D"font-size:11.0pt">http://sciedtech.eu/advnanobiomd/</span></a></span><s=
+pan lang=3D"EN-GB" style=3D"font-size:11.0pt;color:navy"><o:p></o:p></span>=
+</p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:11.0pt;c=
+olor:navy">E-mail: </span><span lang=3D"EN-US"><a href=3D"mailto:anton@SciE=
+dTech.eu"><span lang=3D"EN-GB" style=3D"font-size:11.0pt">anton@SciEdTech.e=
+u</span></a></span></p><p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D=
+"font-size:11.0pt;color:navy">Phone: &#43;4 021 402 3852 <br>Mobile: &#43;4=
+ 0766 25 78 52</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt"><o:p><=
+/o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:=
+p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p><=
+/span></p><p class=3D"MsoNormal" align=3D"center" style=3D"text-align:cente=
+r"><span lang=3D"EN-US" style=3D"font-size:9.0pt">This email was sent to yo=
+u to inform about SciEdTech platform. If this email is disturbing you, plea=
+se </span><span lang=3D"EN-US"><a href=3D"mailto:anton@sciedtech.eu?subject=
+=3DUNSUBSCRIBE"><span style=3D"font-size:9.0pt">UNSUBSCRIBE</span></a></spa=
+n><span lang=3D"EN-US" style=3D"font-size:9.0pt"> and accept our excuses.<o=
+:p></o:p></span></p></div></body></html>=
+
+------=_NextPart_000_92B1_01D3A455.D8281FC0--
+

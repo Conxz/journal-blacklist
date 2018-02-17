@@ -1,0 +1,225 @@
+Received: from DM3NAM03HT150.eop-NAM03.prod.protection.outlook.com
+ (2603:1096:a00:1::13) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0097.INDPRD01.PROD.OUTLOOK.COM; Mon, 12 Feb 2018 06:03:19 +0000
+Received: from DM3NAM03FT011.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.54) by DM3NAM03HT150.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.226) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.20.464.13; Mon, 12
+ Feb 2018 06:03:16 +0000
+Authentication-Results: spf=pass (sender IP is 119.23.148.252)
+ smtp.mailfrom=shcoing.com; outlook.com; dkim=none (message not signed)
+ header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=shcoing.com;
+Received-SPF: Pass (protection.outlook.com: domain of shcoing.com designates
+ 119.23.148.252 as permitted sender) receiver=protection.outlook.com;
+ client-ip=119.23.148.252; helo=shcoing.com;
+Received: from shcoing.com (119.23.148.252) by
+ DM3NAM03FT011.mail.protection.outlook.com (10.152.82.88) with Microsoft SMTP
+ Server id 15.20.485.12 via Frontend Transport; Mon, 12 Feb 2018 06:03:16
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:46E2E14EC395E880295CD7E3A8DBECB5E27B3B1CDE69FEA4797BA9BC2E6F955D;UpperCasedChecksum:D52ADCD2C1C4307FECCB9A63CD706AAA2EF36C8BF1B6DDF367EE41A5292A8F8F;SizeAsReceived:667;Count:9
+Received: from WIN-A9S0SUBJN6U (unknown [222.73.31.225])
+	by shcoing.com (Postfix) with ESMTPA id 29CFA180529
+	for <xiangzhen.kong@outlook.com>; Mon, 12 Feb 2018 14:03:15 +0800 (CST)
+Date: Mon, 12 Feb 2018 14:03:13 +0800
+From: Journal of Biomedical Science and Engineering <jbise@shcoing.com>
+Reply-To: <jbise@scirp.org>
+To: <xiangzhen.kong@outlook.com>
+Message-ID: <97E7C64B9FB248E78EA0B6EA35143EAB.20180212140313@shcoing.com>
+Subject: Special Issue - "Magnetic Resonance Imaging in Clinical Diagnosis"
+ - High Visibility & Fast Publication
+Content-Type: multipart/mixed;
+	boundary="----=_Part_145378004_1330283495.1518415393531"
+X-IncomingHeaderCount: 9
+Return-Path: jbise@shcoing.com
+X-MS-Exchange-Organization-Network-Message-Id: ded7de60-62a4-47a1-bdc2-08d571de4f2d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03FT011;1:d5C+v7KOxUZYbB4KsCy6f89HaB25rLs1TdrQvSPiovx5bchy1AOeVCOzMl5zl8+Oqq+scD7YXrMcqfayZpGcMfG7LuI6DbIyPdXamDlsOdwKPquQFwdiuQRge4Ms2/QL
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:DM3NAM03HT150;H:shcoing.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: DM3NAM03FT011.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: ded7de60-62a4-47a1-bdc2-08d571de4f2d
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:DM3NAM03HT150;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT150;3:gr6xrBY/Za0DwjeYV+61fHXlw1+vljQhP4wZ8tQApUn/KLyv1w+KR/0Nsz+k1Qw9Li+wN3sbqxP4x47P1n1hSut0DdyIMGvl0Ag3dYrceyssol+DLWtpV/lgGH73JxSnfM8j3Cj0xghTXtvgqwqZw1d2BuZwpzJWjhtNoVDnnTJdH9vush/HUrpRPSb5161SaF6sBJgae/hikuRIF52NgOKouLBK3LFvTc4GXQhhtwLYExXe6F1iPEmTfpeMzkMTbkiTp5Aic6opciYCznouV9XKsIBMMzznuPvHg2YdET2XHX8VAoDKTx2vVTCpEWng;25:m1Co0PlYNL9+0Ugm1MwxbyUX6TKSarkZOHjxQgoWAuSGEvESZZCou55nrgAG8n459OBxfiGvBYAM1NdufJWajbOdYpbre2PIFQhPLJndtVZOFHxwBcG62wyk55tP02X2oSdG8nmOBhpUnO9WSFnWwiqmh04t2nEWIBQHMACiEMFxRxS+sSEENsVq4VnItIcidZj2Z5+tqh5onNfN9YILoIvt2Ot2vikw1j6V+VRobcZ3IgAccfcSB/Lui3YmeUvjRj2uW0g6eSfD6BsFI5kL8U7N3T2pKJqrXPqvhnlLLwjAwqCAy/OHGDt13LaAv27fWzEP+/eSVgVMYJSX/XMNug==;31:27VfurgL6k8/Gy3R1JvIJitmBxrZDZAjXS3dhbfT864oH6IlJTe6s8lB+mLt71pNw+U+67560qiLc7LENxlofUKQ3rVS7ebnECEHZdElvfYKvQZ078Xp9BVrJH4jeA+1YY3e6gYNhp6nQWiNw+ogcnFI0jq9HNEa3/a/4ENERSfJAr8qi1FFfEGvFXwApdGqkX6DWHHYIWvHPgjuVRXeYym03P2CT/GdlcLNb+zJiqw=
+X-MS-TrafficTypeDiagnostic: DM3NAM03HT150:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 119.23.148.252
+X-SID-PRA: JBISE@SHCOING.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(189930954265078)(85827821059158)(113634229765325)(279946029387781)(280776846648045);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:DM3NAM03HT150;BCL:0;PCL:0;RULEID:;SRVR:DM3NAM03HT150;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT150;4:NW4/cUhu51n2d8i/454CTIepIarEjbnflrdBaKaJQDNFGECJ7aC4CB+H4dDqKp9fjQ5vu5Wzl8MmsPKSpYc9vzI9O5qTeQLRklke/Y2QBEhADfn5Ha8irgcmhHAW8fuTrWxxokhFIJ/+nlUV6ROdTrFCZaP8kC4+mWsaXhgnjK9RYohWdSGWALe37SjlHF7RXx/mpXYCnYLSAovMbYea+iS348FuSoM/5BnlYKs8SpvkrrA1IMTaGFV2TYLBe0UU3nWlgWhMCzrpdhivAoN3vjxd6nz5QaIm7NyhpyROX2bHvyx6ycLoATJSVQTVpvyuaPJQNPNKa7AtqZE4SrErzYUZBsIzhz7KNfio1i5kEOAHnYIvTKZIBhLnmD+vjLXH41kYSn14x5hYOJjSE5+njXMhnhKztn8apzFfpv0fEaEOWyr+tUeuW4kY2CDmaF1j;23:L/qPgHPMOytj1d1cOdGBfNJbd/hONNwGS7SLSWs0ziGvxjFfOQEG7b/s9CLm2tpjhVkAF7ZboHO3vvCv/7823M5ef9CuC8BstSP61agrVPgkB+szFujxrxIcz9lMFeapeyJuV1nYAMRawoUwtJfk/9M1n9oIZjz6pmoIlaNa3PM=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: dj2VVp14jMVYNm0f1K5MHrMuCHoTMhiVAUzxGy4HuxGcJ24rOcIjbTgHm5tHnsFshFDjwXTE8UrT+ljkr9coZtzypg1G1OJWWXeJL2prDzE=
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT150;6:SXf47OKE61q4u/Lf5eC69cSWjjbTCc2NVIQHvxVLtj0LhuT0Sw+nVgPoEtKF6y8HyvpipxC6ZXxu/RtgeiYImjJ0NwaxoF6LtmrrmC3Vhkz0crmNGsfIDLouUS4eLEO4pLZhQCJLZBg5J/um5SxzC0CufSrOjQZ0v0iXxNGIB57lF/IaHmnFxa1N4AZuOpZrBhYM6ttLa3k3kZD7hk9uOrVTL4dIJnW5PXutJJFs3bFipE8pQ0mBWgF1BGOhwZEdYIk33GZxNaUm/FgNbpMUTZpcnAVje9rEhCHqhkTLHeDrAhlirHe8S9wejYdn9cKM7hKFpnkDL4ibdGdyugYt5/hDTVAAjMH6uGgYEzlMAwk=;5:rOnwzL4ENOOrxtqM9UstHm5yeTsB6SHkMBBHxsqjXgpPoXk2k9cCeyOnF1kqCyMSH4mBpBrd84zUrqgmfF+6gJheMWQcrXDck4pqlZgqVK3MSjtLiwyr47Ww3jkYfSot9HjpTljxqJdQs1Eguy9bIXrTyUBPhf6Ubz3HjD4C86c=;24:EH2RRZhN9+pHGtPQO0Z6/Xk3MgTswfaMrpTBVrWXXhK/Vi+2dZW6w/AYdWzFEdxe7QTjNwpJmvZxXy5xUvOy+9BRaZDGD92KObVzo/gNj7A=;7:J7/BdQxd4/TNF0FGhXkkaBnda2uwOg2Ny7Tpxp3jSC/pyovgC75av/Xhf2mYrr2ugc41FVpiRSRgjFVKc5frrHBlCeJsBd8Jmoh0shFhR02XiUdhHHWT2osiefwMAbbdHUb7DlbWw9gyysLbyTorRuNF2PY3C8f9BVah0SbGSSO0mKbgCe7VhrRhbEbGWmMHGpbiuT6lVprfFV2SxrpY6FSn4YgPY5LE41+HlOtEmSGlknqhxecsVxO+m1W6hxjW
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Feb 2018 06:03:16.3806
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ded7de60-62a4-47a1-bdc2-08d571de4f2d
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM03HT150
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.8332993
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0485.015
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:EAYDC8ld5Zb6n6mvQj+koTsbeVFO8DiGrWqEk4T9HKeNLSW5Qqk0Q2bNl7omU2qexLyykxZb6rrrtEZWMogdlB1fSUghmSRevXT0+ecyogXrWPT5DtB6X39TM/bW1Ha4
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfJIOtZrTENytAZgEzKAmdh4BE5UPp50v71llWHa7LZcgA/DuBWHSTxImyrK0ZNjEhgtSedmHcYFIoFcWQQaQhcSE9mVZaIQC1fg4DA9M5T3eXi0rTFRBm4tzXhvt2V7d4Uw6q2svzmkHxCD8fo65ofAtAFNl9JhCAfdh2GtCZCqSaWiIyZxywK7UIkeuUqGJ4FCU++XjL5Hw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	zC8kWc+WnqQ0Y+9I6yr4aU6lEpLYxHbYLSArz1wJpJNcm+D/BzPL5UjbkFPgJDhOW4eJtmp8c7+QE237cWn/monTRQitKBoXUFBy8Qvp5/0hC+VdNuowU8eiJPdrPbSfBd69hrTAuLUHBDhFWogX6Ei94JUi0b4yUSdWOSlGNoFv+RplvGeXaOOF5fDbrlE7RTkl0FtRg4CJWB8vb8iK5SLcbUgXLNr2mcFsmiq76ClAjmGSz6abvO9pUBuQ6h9IME7lTtY2x2iZK2M9XJG0kQ==
+MIME-Version: 1.0
+
+------=_Part_145378004_1330283495.1518415393531
+Content-Type: multipart/related;
+	boundary="----=_Part_145378005_622451548.1518415393531"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:EAYDC8ld5Zb6n6mvQj+koTsbeVFO8DiGrWqEk4T9HKeNLSW5Qqk0Q2bNl7omU2qexLyykxZb6rrrtEZWMogdlB1fSUghmSRevXT0+ecyogXrWPT5DtB6X39TM/bW1Ha4
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfJIOtZrTENytAZgEzKAmdh4BE5UPp50v71llWHa7LZcgA/DuBWHSTxImyrK0ZNjEhgtSedmHcYFIoFcWQQaQhcSE9mVZaIQC1fg4DA9M5T3eXi0rTFRBm4tzXhvt2V7d4Uw6q2svzmkHxCD8fo65ofAtAFNl9JhCAfdh2GtCZCqSaWiIyZxywK7UIkeuUqGJ4FCU++XjL5Hw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	zC8kWc+WnqQ0Y+9I6yr4aU6lEpLYxHbYLSArz1wJpJNcm+D/BzPL5UjbkFPgJDhOW4eJtmp8c7+QE237cWn/monTRQitKBoXUFBy8Qvp5/0hC+VdNuowU8eiJPdrPbSfBd69hrTAuLUHBDhFWogX6Ei94JUi0b4yUSdWOSlGNoFv+RplvGeXaOOF5fDbrlE7RTkl0FtRg4CJWB8vb8iK5SLcbUgXLNr2mcFsmiq76ClAjmGSz6abvO9pUBuQ6h9IME7lTtY2x2iZK2M9XJG0kQ==
+
+------=_Part_145378005_622451548.1518415393531
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:EAYDC8ld5Zb6n6mvQj+koTsbeVFO8DiGrWqEk4T9HKeNLSW5Qqk0Q2bNl7omU2qexLyykxZb6rrrtEZWMogdlB1fSUghmSRevXT0+ecyogXrWPT5DtB6X39TM/bW1Ha4
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001318)(400125100095)(61617190)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfJIOtZrTENytAZgEzKAmdh4BE5UPp50v71llWHa7LZcgA/DuBWHSTxImyrK0ZNjEhgtSedmHcYFIoFcWQQaQhcSE9mVZaIQC1fg4DA9M5T3eXi0rTFRBm4tzXhvt2V7d4Uw6q2svzmkHxCD8fo65ofAtAFNl9JhCAfdh2GtCZCqSaWiIyZxywK7UIkeuUqGJ4FCU++XjL5Hw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	zC8kWc+WnqQ0Y+9I6yr4aU6lEpLYxHbYLSArz1wJpJNcm+D/BzPL5UjbkFPgJDhOW4eJtmp8c7+QE237cWn/monTRQitKBoXUFBy8Qvp5/0hC+VdNuowU8eiJPdrPbSfBd69hrTAuLUHBDhFWogX6Ei94JUi0b4yUSdWOSlGNoFv+RplvGeXaOOF5fDbrlE7RTkl0FtRg4CJWB8vb8iK5SLcbUgXLNr2mcFsmiq76ClAjmGSz6abvO9pUBuQ6h9IME7lTtY2x2iZK2M9XJG0kQ==
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=20
+  <style type=3D"text/css">
+<!--
+.STYLE1 {font-size: 27px}
+.STYLE2 {color: #000000}
+.STYLE3 {color: #0740d8}
+.STYLE4 {font-family: "Times New Roman", Times, serif}
+-->
+</style>=20
+ </head>
+ <body>
+  <table width=3D"700" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"font-family:Georgia, Times New Roman, Times, serif;font-size:16px;lin=
+e-height:1.5em;border:1px solid #cccccc;" class=3D"ke-zeroborder">
+   <tbody>
+    <tr>
+     <td width=3D"10%">&nbsp;</td>
+     <td width=3D"80%" align=3D"center" style=3D"font-size:24px;padding:0 1=
+0px;line-height:1.3em;background-color:#D6D9AA;border-radius:200px;">Specia=
+l Issue on</td>
+     <td width=3D"10%">&nbsp;</td>
+    </tr>
+    <tr>
+     <td width=3D"10%">&nbsp;</td>
+     <td width=3D"80%" align=3D"center" style=3D"font-size:30px;padding:10p=
+x;line-height:1.3em;background-color:#D6D9AA;border-radius:200px;"><span cl=
+ass=3D"STYLE1">&quot;Magnetic Resonance Imaging in Clinical Diagnosis&quot;=
+</span><br> </td>
+     <td width=3D"10%">&nbsp;</td>
+    </tr>
+    <tr>
+     <td colspan=3D"3">
+      <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" class=3D"ke-zeroborder">
+       <tbody>
+        <tr>
+         <td width=3D"50%" style=3D"font-size:16px;padding:5px 10px;line-he=
+ight:1.5em;border-right:3px solid #D6D9AA;"><p><span style=3D"font-size:20p=
+x;">Dear Xiang-Zhen Kong,</span><br> <br> Journal of Biomedical Science and=
+ Engineering (JBiSE), a peer-reviewed journal, is seeking papers for the fo=
+rthcoming special issue on &quot;<a href=3D"http://www.scirp.org/journal/ht=
+mlOfSpecialIssue.aspx?ID=3D4838&amp;JournalID=3D30&amp;utm_source=3De_si&am=
+p;utm_medium=3DJBiSE_mric_20180207_fangyu_133659&amp;utm_content=3D3609_shc=
+oing.com" target=3D"_blank" style=3D"color:#0740d8;font-size:18px;"><em>Mag=
+netic Resonance Imaging in Clinical Diagnosis</em></a>&quot;.</p><p>You can=
+ submit papers via:<br> Log in the <a href=3D"http://papersubmission.scirp.=
+org/paper/showAddPaper?journalID=3D7&amp;utm_campaign=3Dpapersubmission&amp=
+;utm_source=3De_si&amp;utm_medium=3DJBiSE_mric_20180207_fangyu_133659&amp;u=
+tm_content=3D3609_shcoing.com" target=3D"_blank" style=3D"color:#0740d8;fon=
+t-size:18px;"><em><u>Article Submission System</u></em></a> OR <br> Send yo=
+ur paper to E-mail: <span class=3D"STYLE3">papersubmission.fy@gmail.com</sp=
+an>. (Please rename the email subject as &quot;JBiSE_MRIC - <span class=3D"=
+STYLE4">910</span>&nbsp;- your paper title&quot;).</p></td>
+         <td width=3D"50%" align=3D"center" style=3D"font-size:16px;padding=
+:5px 10px;line-height:1.5em;"><span style=3D"font-size:20px;line-height:1.8=
+em;">Special Issue Information </span><br> Manuscript Due: June <span class=
+=3D"STYLE4">19</span>th, <span class=3D"STYLE4">2018</span><br> Publication=
+ Date: August <span class=3D"STYLE4">2018</span><br> <br> <span style=3D"co=
+lor:#000000;">Potential topics:</span><br> Neuroimaging<span class=3D"STYLE=
+2">, Cardiac MRI, Magnetic resonance angiography, Magnetic resonance cholan=
+giopancreatography, Spinal imaging, Molecular imaging by MRI, Accuracy of M=
+RI, etc. </span></td>
+        </tr>
+        <tr>
+         <td colspan=3D"2" align=3D"center" style=3D"font-size:20px;line-he=
+ight:1.5em;padding:0px 10px;border-top:3px solid #D6D9AA;border-bottom:3px =
+solid #D6D9AA;">Journal Information</td>
+        </tr>
+        <tr>
+         <td align=3D"center" style=3D"font-size:16px;line-height:1.5em;pad=
+ding:5px 10px;border-right:3px solid #D6D9AA;">Published Papers: <span clas=
+s=3D"STYLE4">1012</span> <br> Citations: <span class=3D"STYLE4">5593</span>=
+<br> h5-index: <span class=3D"STYLE4">15</span></td>
+         <td align=3D"center" style=3D"font-size:16px;line-height:1.5em;pad=
+ding:5px 10px;">IF: <span class=3D"STYLE4">1.07</span><br> Article Download=
+s: <span class=3D"STYLE4">3,510,506</span><br> Views: <span class=3D"STYLE4=
+">5,483,162</span></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+    <tr>
+     <td width=3D"10%">&nbsp;</td>
+     <td align=3D"center" width=3D"80%" style=3D"padding:5px 10px 0;font-si=
+ze:16px;line-height:1.5em;background-color:#D6D9AA;border-radius:200px;">Be=
+st regards,</td>
+     <td width=3D"10%">&nbsp;</td>
+    </tr>
+    <tr>
+     <td width=3D"10%">&nbsp;</td>
+     <td align=3D"center" width=3D"80%" style=3D"padding:0px 10px;font-size=
+:16px;line-height:1.5em;background-color:#D6D9AA;border-radius:200px;">Ms. =
+Jie ZHANG (Karen)<br> Editorial Assistant</td>
+     <td width=3D"10%">&nbsp;</td>
+    </tr>
+    <tr>
+     <td width=3D"10%">&nbsp;</td>
+     <td align=3D"center" width=3D"80%" style=3D"padding:0px 10px 5px;font-=
+size:16px;line-height:1.5em;background-color:#D6D9AA;border-radius:200px;">=
+JBiSE Editorial Office</td>
+     <td width=3D"10%">&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  <span id=3D"unSub" style=3D"font-size:10pt;font-family:verdana,arial,helv=
+etica,sans-serif;line-height:20px;">This message was sent to [xiangzhen.kon=
+g@outlook.com]. <a href=3D"http://www.member.scirp.org/member/transferParam=
+eterAction.action?personID=3D19802239&amp;identifier=3D99508ED20EEDE13993D0=
+7D4C5D8DC064D9715EAAF646445D9E2FA05825D852D9&amp;blackListTypeId=3D1" targe=
+t=3D"_blank">Unsubscribe</a></span>
+  <br>
+ </body>
+</html>=
+
+------=_Part_145378005_622451548.1518415393531--
+
+------=_Part_145378004_1330283495.1518415393531--
+

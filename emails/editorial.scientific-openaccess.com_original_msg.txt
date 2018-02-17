@@ -1,0 +1,618 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.217.72 with SMTP id u8csp369620edj;
+        Tue, 13 Feb 2018 02:22:38 -0800 (PST)
+X-Google-Smtp-Source: AH8x224k2ItjMMdLSUGLHoPnV5UvkJXk5V+avSrS9HcwqFOXebYbzJgjS/+sYYrblXdvkRkY31RS
+X-Received: by 10.28.160.20 with SMTP id j20mr832369wme.148.1518517358765;
+        Tue, 13 Feb 2018 02:22:38 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1518517358; cv=none;
+        d=google.com; s=arc-20160816;
+        b=CuZUIwho4SRCTg+T35bnMaRZ44+ekdECwc948YB1wnHDDAsqVwIgDARBFibNAPDZWb
+         VHnu/FBGiQ//5NtMTc0d/Oo/x6LaFAGlk2Si8lGeQ+lVQTtci+QP0s9LK0n84amB4prv
+         /4zR5t5WeQJyt1GSFXDNOFujX7KSH4LcS5x7AKROiHUjaJESEZ+h9dPb7BInSGAnEhxn
+         S61BJiYEi7MMqUY5ekgjFIKe/z4gNldU04/PyosV7fDEJ4De/9iGQ7yvCOv8SEGTIOvb
+         hBZ9Sim07kv1qJSjJ5FBPB9gmdzcD2h4BExrdvEGSwRycO5C5TXIJfX0k8y04kL4+g3Z
+         aqKA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:thread-index:mime-version:date:subject:to:from
+         :arc-authentication-results;
+        bh=iSeqG3kCeobtFe9c4rYkga4+FtgB49kFtgPpNaU/+qs=;
+        b=L+Mk1Uit81CKl/dGhvDm3j7p1M9k9BiQqvknQWDM/kZe5SdS1deobfVYyoEjAaWT43
+         04hWINSfOW00m/M0Yg3a+qeJ+9YiJNADBeoIQxiy+CZcFWOlBdNdVH1Buxr89TKGaSAt
+         POR07Jm/FOsg147uhj2PYgWPwbSCpacSYNtMD/qSjzMZX6JAy6hy0TlG3CAC5vYHKNVZ
+         8d2hsSXRK5c9KLfQkRo4EIaEGqb2p2Z4BPEEPa5aVJ8/lGPR8PN9Ip+JM2DjpQXyH2ei
+         dqrhECGQ8tbW0CLOACC235XjHNf7/yDmdGwcAkwiBt8XbI8bSwvbhmOAkdzoWnu4VbHl
+         bW9Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of editorial@scientific-openaccess.com designates 103.236.135.242 as permitted sender) smtp.mailfrom=editorial@scientific-openaccess.com
+Return-Path: <editorial@scientific-openaccess.com>
+Received: from smtp2.ebkmktserver.com (smtp2.ebkmktserver.com. [103.236.135.242])
+        by mx.google.com with ESMTPS id o10si7515914wrg.396.2018.02.13.02.22.37
+        for <kongxiangzheng@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 13 Feb 2018 02:22:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of editorial@scientific-openaccess.com designates 103.236.135.242 as permitted sender) client-ip=103.236.135.242;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of editorial@scientific-openaccess.com designates 103.236.135.242 as permitted sender) smtp.mailfrom=editorial@scientific-openaccess.com
+Received: from smtp2.ebkmktserver.com ([192.168.10.238])
+	by smtp2.ebkmktserver.com (8.14.7/8.14.7) with ESMTP id w1DALSsv005668
+	for <kongxiangzheng@gmail.com>; Tue, 13 Feb 2018 15:21:34 +0500
+Received: from hina415357ac63 ([192.168.10.238]) by smtp2.ebkmktserver.com with Microsoft SMTPSVC(6.0.2600.5512);
+	 Tue, 13 Feb 2018 14:52:37 +0500
+From: "The Open Neurology Journal " <editorial@scientific-openaccess.com>
+To: <kongxiangzheng@gmail.com>
+Subject: Invitation for the Post of Advisory Board Membership (The Open Neurology Journal)
+Date: Tue, 13 Feb 2018 14:52:23 +0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_12ABC_01D3A4DA.49E00400"
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: AdOkqsfAzryS1hvKQYe0vH9znYbJeg==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Message-ID: <HINA-415357AC63Hh2w00004ab0@smtp2.ebkmktserver.com>
+X-OriginalArrivalTime: 13 Feb 2018 09:52:37.0312 (UTC) FILETIME=[6109FC00:01D3A4B0]
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_12ABC_01D3A4DA.49E00400
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+The Open Neurology Journal
+
+
+ 
+
+Dr. X.-Z. Kong
+
+State Key Laboratory of Cognitive Neuroscience and Learning
+
+IDG/McGovern Institute for Brain Research, Beijing Normal University
+
+Beijing
+
+Beijing
+
+China
+
+ 
+
+Dear Dr. Kong, 
+
+ 
+
+The Open Neurology Journal is an Open Access online journal, which publishes
+research articles, reviews, letters and guest edited single topic issues in
+all areas of neurology and neurological disorders.
+
+ 
+
+The journal is in its twelfth successful year of publication, and is indexed
+by PubMed, PubMed Central, Scopus, EMBASE, Chemical Abstracts, Index
+Copernicus, PubsHub, Directory of Open Access Journals (DOAJ), CNKI, Open
+J-Gate, J-Gate, Genamics JournalSeek and MediaFinderR-Standard Periodical
+Directory.
+
+                
+
+We are looking to expand the Advisory Board of The Open Neurology Journal.
+If your field of interest falls within the scope of the journal, which may
+be viewed at https://www.benthamopen.com/TONEUJ/aims-scope/ and you are
+interested to join, then please send us your CV, a list of publications,
+h-index and citations for consideration by the Editor in Chief at
+<mailto:editorial@benthamopen.com> editorial@benthamopen.com
+
+ 
+
+Your role as an Advisory Board Member will be to: 
+
+ 
+
+1.  Submit or solicit from your colleagues at least one paid article for the
+journal in 2018 and at least one article annually thereafter.
+
+2.  Contribute and/or solicit Guest Edited thematic issues to the journal in
+a hot area (at least one thematic issue in the next two years). 
+
+3.  Peer-review submitted articles for the journal, which are in your area
+of expertise (2 to 3 times per year). 
+
+ 
+
+We look forward to receiving your positive response at
+editorial@benthamopen.org 
+
+ 
+
+Sincerely,
+
+ 
+
+M. Alam
+
+Director
+
+Bentham Open
+
+ 
+
+[Should you not want to receive any further emails, then please click here
+<mailto:unsub-oa@benthamopen.org> . Please also provide any other email
+address that you might be using, to ensure that you do not receive any
+further emails]
+
+ 
+
+
+------=_NextPart_000_12ABC_01D3A4DA.49E00400
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:Arial;
+	color:#0D0D0D;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.CharChar
+	{font-family:Arial;
+	color:#0D0D0D;}
+span.CharChar1
+	{font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-132;
+	mso-list-type:simple;
+	mso-list-template-ids:794964872;}
+@list l0:level1
+	{mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:-131;
+	mso-list-type:simple;
+	mso-list-template-ids:1312463098;}
+@list l1:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:-130;
+	mso-list-type:simple;
+	mso-list-template-ids:1839506166;}
+@list l2:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:-129;
+	mso-list-type:simple;
+	mso-list-template-ids:1090975288;}
+@list l3:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:-128;
+	mso-list-type:simple;
+	mso-list-template-ids:-47667756;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:-127;
+	mso-list-type:simple;
+	mso-list-template-ids:-1606495282;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:-126;
+	mso-list-type:simple;
+	mso-list-template-ids:-44424564;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:-125;
+	mso-list-type:simple;
+	mso-list-template-ids:-1960778248;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:-120;
+	mso-list-type:simple;
+	mso-list-template-ids:1148875020;}
+@list l8:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:-119;
+	mso-list-type:simple;
+	mso-list-template-ids:866661918;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<h1 align=3Dcenter style=3D'text-align:center;background:white'><b><font =
+size=3D4
+face=3DCalibri><span style=3D'font-size:14.0pt;font-family:Calibri'>The =
+Open
+Neurology Journal<o:p></o:p></span></font></b></h1>
+
+<p class=3DMsoPlainText><span class=3Dapple-converted-space><font =
+size=3D2
+color=3Dblack face=3DCalibri><span =
+style=3D'font-size:10.0pt;font-family:Calibri;
+color:black;background:white'>&nbsp;</span></font></span><font =
+face=3DCalibri><span
+style=3D'font-family:Calibri'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>Dr.</span></font><font size=3D2 =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri'> X.-Z. =
+Kong<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>State Key Laboratory of Cognitive Neuroscience and
+Learning</span></font><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>IDG/McGovern Institute for Brain Research, Beijing =
+Normal
+University</span></font><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>Beijing</span></font><font size=3D2 =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></font><=
+/p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>Beijing</span></font><font size=3D2 =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></font><=
+/p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>China</span></font><font size=3D2 =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></font><=
+/p>
+
+<p class=3DMsoPlainText><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:10.0pt;font-family:Calibri'><o:p>&nbsp;</o:p></span></=
+font></p>
+
+<p class=3DMsoPlainText><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri'>Dear Dr. Kong, =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'><o:p>&nbsp;<=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><b><i><font size=3D2 =
+color=3Dblack
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:black;
+background:white;font-weight:bold;font-style:italic'>The Open Neurology =
+Journal</span></font></i></b><span
+class=3Dapple-converted-space><font size=3D2 color=3Dblack =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:black;background:whit=
+e'>&nbsp;</span></font></span><font
+size=3D2 color=3Dblack face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:black;background:white'>is an Open Access online journal, which =
+publishes
+research articles, reviews, letters and guest edited single topic issues =
+in all
+areas of neurology and neurological =
+disorders.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'><o:p>&nbsp;<=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>The
+journal is in its twelfth successful year of publication, and is indexed =
+by </span></font><font
+size=3D2 color=3Dblack face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:black;background:white'>PubMed, PubMed Central, Scopus, EMBASE, =
+Chemical
+Abstracts, Index Copernicus, PubsHub, Directory of Open Access Journals =
+(DOAJ),
+CNKI, Open J-Gate, J-Gate, Genamics JournalSeek and =
+MediaFinder&reg;-Standard
+Periodical Directory.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span lang=3DEN-GB =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:#0D0D0D'>We are looking to expand the Advisory Board of The Open =
+</span></font><font
+size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri'>Neurology</span></font><fo=
+nt
+size=3D2 color=3D"#0d0d0d" face=3DCalibri><span lang=3DEN-GB =
+style=3D'font-size:11.0pt;
+font-family:Calibri;color:#0D0D0D'> Journal. If your field of interest =
+falls
+within the scope of the journal, which may be viewed at =
+</span></font><font
+size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri'><a
+href=3D"https://www.benthamopen.com/TONEUJ/aims-scope/">https://www.benth=
+amopen.com/TONEUJ/aims-scope/</a>
+</span></font><font size=3D2 color=3D"#0d0d0d" face=3DCalibri><span =
+lang=3DEN-GB
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>and you are
+interested to join, then please send us your CV, a list of publications,
+h-index and citations for consideration by the Editor in Chief at =
+</span></font><font
+size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri'><a
+href=3D"mailto:editorial@benthamopen.com"><span =
+lang=3DEN-GB>editorial@benthamopen.com</span></a></span></font><font
+size=3D2 color=3D"#0d0d0d" face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:
+Calibri;color:#0D0D0D'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'><o:p>&nbsp;<=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>Your
+role as an Advisory Board Member will be to: =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>&nbsp;<o:p><=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>1.&nbsp;
+Submit or solicit from your colleagues at least one paid article for the
+journal in 2018 and at least one article annually =
+thereafter.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>2.&nbsp;
+Contribute and/or solicit Guest Edited thematic issues to the journal in =
+a hot
+area (at least one thematic issue in the next two years). =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>3.&nbsp;
+Peer-review submitted articles for the journal, which are in your area =
+of
+expertise (2 to 3 times per year). <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>&nbsp;<o:p><=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#0d0d0d"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>We
+look forward to receiving your positive response at </span></font><font =
+size=3D2
+face=3DCalibri><span style=3D'font-size:11.0pt;font-family:Calibri'><a
+href=3D"mailto:editorial@benthamopen.org">editorial@benthamopen.org</a></=
+span></font><font
+size=3D2 color=3D"#0d0d0d" face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:
+Calibri;color:#0D0D0D'> <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'><o:p>&nbsp;<=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>Sincerely,<o=
+:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'><o:p>&nbsp;<=
+/o:p></span></font></p>
+
+<p class=3DMsoNormal><b><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D;font-weight:b=
+old'>M.
+Alam<o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>Director<o:p=
+></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3D"#0d0d0d" =
+face=3DCalibri><span
+style=3D'font-size:11.0pt;font-family:Calibri;color:#0D0D0D'>Bentham =
+Open<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><span class=3Dapple-converted-space><font size=3D2 =
+color=3Dblack
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:black;
+background:white'><o:p>&nbsp;</o:p></span></font></span></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D2
+color=3Dblack face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:black'>[Should you not want to receive any further emails, then =
+please </span></font><font
+size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri'><a
+href=3D"mailto:unsub-oa@benthamopen.org">click =
+here</a></span></font><font
+size=3D2 color=3Dblack face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:black'>. Please also provide any other email address that you =
+might be
+using</span></font><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'>, to ensure that you do not receive any further =
+emails]<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt;
+font-family:Calibri'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_12ABC_01D3A4DA.49E00400--
+

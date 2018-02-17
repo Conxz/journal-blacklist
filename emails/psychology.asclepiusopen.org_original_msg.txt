@@ -1,0 +1,924 @@
+Received: from CO1NAM04HT053.eop-NAM04.prod.protection.outlook.com
+ (2603:1096:b00::33) by BM1PR0101MB2065.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via BM1PR01CA0117.INDPRD01.PROD.OUTLOOK.COM; Fri, 9 Feb 2018 09:34:16 +0000
+Received: from CO1NAM04FT047.eop-NAM04.prod.protection.outlook.com
+ (10.152.90.60) by CO1NAM04HT053.eop-NAM04.prod.protection.outlook.com
+ (10.152.91.127) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.464.8; Fri, 9 Feb
+ 2018 09:34:13 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.101.84)
+ smtp.mailfrom=asclepiusopen.org; outlook.com; dkim=pass (signature was
+ verified) header.d=asclepiusopen.onmicrosoft.com;outlook.com;
+ dmarc=bestguesspass action=none header.from=asclepiusopen.org;
+Received-SPF: Pass (protection.outlook.com: domain of asclepiusopen.org
+ designates 104.47.101.84 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.47.101.84;
+ helo=IND01-BO1-obe.outbound.protection.outlook.com;
+Received: from IND01-BO1-obe.outbound.protection.outlook.com (104.47.101.84)
+ by CO1NAM04FT047.mail.protection.outlook.com (10.152.90.126) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.464.8 via
+ Frontend Transport; Fri, 9 Feb 2018 09:34:13 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:6FB60F8F7C74BB0380A18A288054C671F27C182AC6E5817FB31374ADA0193DAD;UpperCasedChecksum:E29905B5EEBDD3B3028E1596988A71253B7B37F32949FD357BAB8285EF84753A;SizeAsReceived:8498;Count:38
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=asclepiusopen.onmicrosoft.com; s=selector1-asclepiusopen-org;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=CbwZTj0FwuXSGlb63+UZ4VFRPsCmR8wdyBiXQ0e+Kbg=;
+ b=HPudyv4awVzZHLa1mfmkRqzs3qQPfNmhHtXHD1XnEpFhcs0Al8BrDghDzeRmZ4qYKaaPB0JF/UVE5M0HQx35Id88On39G5/v/+zE9KXOAsESy6bCga3ObQZvJ1tNytdpt5pLSRW4sBzeS5q0S3i1RlKz3ofEeFhnIpSNnSjMruQ=
+Received: from ArunPC (106.0.38.149) by
+ BMXPR01MB0696.INDPRD01.PROD.OUTLOOK.COM (10.174.215.141) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.464.11; Fri, 9 Feb 2018 09:34:09 +0000
+From: "Psychology" <psychology@asclepiusopen.org>
+To: <xiangzhen.kong@outlook.com>
+Subject: Publish your articles in Highly Accessed Journals
+Date: Fri, 9 Feb 2018 15:00:30 +0530
+Message-ID: <0b8401d3a189$212990c0$637cb240$@org>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0B85_01D3A1B7.3AE1CCC0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdOhhgJvqFelm++XSlWSQnwL0D7JEw==
+Content-Language: en-us
+X-Originating-IP: [106.0.38.149]
+X-ClientProxiedBy: SG2PR06CA0116.apcprd06.prod.outlook.com (10.175.207.146) To
+ BMXPR01MB0696.INDPRD01.PROD.OUTLOOK.COM (10.174.215.141)
+Return-Path: psychology@asclepiusopen.org
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 22ad560e-59ef-4913-f383-08d56fa0484e
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(7021125)(4534165)(7022125)(4603075)(4627221)(201702281549075)(7048125)(7024125)(7027125)(7028125)(7023125)(5600026)(4604075)(2017052603307)(7153060)(7193020);SRVR:BMXPR01MB0696;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BMXPR01MB0696;3:dWy+erXg0WM5vYo8Myrq7ou8sAO8aACX5ksTZozPcQhJI7Wco/ggOOp0bnsAgH9a+YmXj4NBln15wTFbMc39fTarC4/lkF5pXaOBtgsy+iMFcYxBFXzGgBJ74mBFckP8jqZZbcf1Jhg++uxMwWiDPRUFiqKegDyoqSYceepgMqDD5zlNsnTUahfazFq4KGUKu0a951R1OxGu66vx9x+BgbDHHqh3U01PSkp6z9LDZVp/42jMGAzQD62IfrBCzx+R;25:A/O4MzcavmMO7vnhtQjq/jFaCm/zyDBAshqWni8UrLRMnAIVHymwSSegmklluptyQklxF6/+iVihhMGbefM/gxQahZE12NFNk9y2PujEX38FfLS/Kk7qCw/y1MGeM5Al32jNivXPS5dslwnt+KgoNnJyfOtTiIYVkhd92Dg3USUxegbCs0NlMO7p4rlR9FEOGPPv1vS+8ilmkGCQ+IvLWq8muZL0dFQP2v/1GwhzPQ5irQgu9BJbIRW3AcAHM4LQX6fLmS3h5DhVALAa/xy5wb87ehnGAfpdnB8NvrmCyL0QyPf1YJ7ymIfzj6KhWEM1ddaj7IMOuC1OvjYrD7zggQ==;31:viPgKF1bAVAO7heAbDDQEo0qJimDWWwt+2o71DOe6oMnPTfcPQvIxsI8pSxXxXtE0Pqb1xV8eISBC01BSf8U+4JQXQ3yG0IDMEamKM0GSG+e4K2OUG/MR6ZoJoMiRjN1S26PtrxdlU4ieZOvnacgzb8ZN4Uewv+MZeMpoXMkHg1Cc1Fo0gVntFEDkZ7ulweiZGsEVh7xsu8Oisv4DfwMacLFae5PwFxXFhO7mYvbjaY=
+X-MS-TrafficTypeDiagnostic: BMXPR01MB0696:|CO1NAM04HT053:
+X-Microsoft-Antispam-PRVS: <BMXPR01MB06964B33EF57FF2550442B9ADEF20@BMXPR01MB0696.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(165176249663242)(209352067349851)(21748063052155);UriScan:(28532068793085)(20558992708506)(165176249663242)(209352067349851)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040501)(2401047)(5005006)(8121501046)(2017080701011)(3002001)(93006095)(93001095)(10201501046)(3231101)(2400082)(944501161)(6041288)(20161123562045)(20161123564045)(2016111802025)(20161123558120)(20161123560045)(6072148)(6043046)(201708071742011);SRVR:BMXPR01MB0696;BCL:0;PCL:0;RULEID:;SRVR:BMXPR01MB0696;BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:CO1NAM04HT053;BCL:0;PCL:0;RULEID:;SRVR:CO1NAM04HT053;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BMXPR01MB0696;4:Cor7RRFk39YP728vrN2FBCsRMPS27sNUTCMdnJipQpBNpiIujRGwfnIpFLDy2ie78/4PEQIQucqsE17ryEih3FWgMmIC6/94wDo8FqYI/+gGHY9gO8I4QLFFJIIg5i+eGl3IAB1poOUWFqTDUO8kliaFhHT7/rqi6AG0mXTZygNvaj4VinP7ymh33q4Hlx9dMbxSNOmTUb+MgR8AWJS1JoTJ/zCjYMhyvVAF5vOa3HtR+rsPu+qQwN+1N0aflpVUFJInZxFggJ+INl6kmeeB/bhp8C2JXPQFM5hmwxbX/6L+4asjP9uTJCj1Quopz9X6ca7cO4Pvg/IvGOBP74P2MZ+mF7xSyJlSJIX0cMs89yozr1ovystJ+U3T4Rv3j+ssBB+KM3SXb/Uf9ID7fizWZT2ruYcPwMLl6OCzYiqTol4Da1i3PdN+VUoEpmM1ZEtA9mip7aqmty1nnYAV2jDxPA==
+X-Forefront-PRVS: 057859F9C5
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(7916004)(39380400002)(346002)(376002)(39850400004)(396003)(366004)(23363002)(199004)(189003)(186003)(71636004)(61296003)(59696002)(2351001)(6346003)(7736002)(236005)(16526019)(54896002)(7826002)(68736007)(316002)(59450400001)(106356001)(16586007)(6306002)(6486002)(386003)(5660300001)(14726001)(33896004)(606006)(26005)(9686003)(53366004)(50226002)(84116003)(6496006)(52116002)(81166006)(25786009)(81156014)(3846002)(39060400002)(790700001)(18717965001)(6116002)(53376002)(1420700001)(72586001)(66066001)(8936002)(44736005)(478600001)(270700001)(6916009)(6666003)(2906002)(260700001)(53936002)(7066003)(97736004)(102836004)(84326002)(8676002)(96836002)(33716001)(86362001)(105586002)(72596006)(493534005)(19627235001);DIR:OUT;SFP:1101;SCL:1;SRVR:BMXPR01MB0696;H:ArunPC;FPR:;SPF:None;PTR:InfoNoRecords;A:0;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: asclepiusopen.org does not
+ designate permitted sender hosts)
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=psychology@asclepiusopen.org; 
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BMXPR01MB0696;23:EqJOjhSPsFDR1HXPIvfE8kAKKvZP3UnnqqB+siyHi?=
+ =?us-ascii?Q?i6UZipFTGVTNsH6ReLE4CDYFtx8DtvrQP98L6ALumP3VLYpvMO3PacS2/b4s?=
+ =?us-ascii?Q?b1j/5uWpqYb8ppNE9r/5ElshMXgw5QcqBEwJO7NzwxBwZclhOYKLYH99reGM?=
+ =?us-ascii?Q?oxMQQul6DrOgDDfktnX6i+oylTQh+JJszmPjN4nkloIuuCc/0D4nCqVTEBK0?=
+ =?us-ascii?Q?MaiITTt7mpgXGwlFBAuGBXMYGRKBmEAR+ovWCnZAkQkxj5BiuesfcvkmuHmZ?=
+ =?us-ascii?Q?JnSwdoniRg+vko8z/uOI8xGJUPdGl8Tg38kjV4AJpNmJwjHLsZcYN500x2KF?=
+ =?us-ascii?Q?ZsbqWdaeLnZayDY+Kq+JVX+N2ZE4Apos1MxL/NRj6dSAIpQhKLzWKvFgHxPJ?=
+ =?us-ascii?Q?t2Ne5me7ep/8jeCnIJoq9cHMXUYnH9zU4erqKBksX3l8Yg/fB1u0ftPOFYee?=
+ =?us-ascii?Q?MM7Iar4Q6pfIntCRJGHHHpfrzrS+Dy6TQ/sBdE0OJ2vRfC+G2DTmI0pB0qB2?=
+ =?us-ascii?Q?N0sc1/t75AuXFRCafJaFLvVMNcNh5ag9TrsrS4djSjxC92GGeU8pYM2Ic09a?=
+ =?us-ascii?Q?T3dbpfKSGxonhu07mhkFGkC2yvTMFQyzjBC4gjnUqlwryZMHQiGM0pT3tZy6?=
+ =?us-ascii?Q?xi/TVBPmf5pTU+ntt1SJumUs/v3ZxxGizMz05y4PgnYM/86PAk28MS8jFRvS?=
+ =?us-ascii?Q?nMjfb0ed17zmQXY8bVR/moYkwC/2OtRRjwHWuIZ3yOol5dkBewBQVQegDr/+?=
+ =?us-ascii?Q?0Z4HsnlKxWwm6jHTq72z9o8zVVfsLN/XB3HWhcC9gW2ftW0Ld2Qw4dEy++xB?=
+ =?us-ascii?Q?I/A3Bbbnfm4rEvPzv1ZiSzE4SqLDxYOYXA3t8ga+Iz+TOHdThUtsCczB1VQw?=
+ =?us-ascii?Q?82HzYzNRPJRACBvatoYAYB3N1WA8qChcsRwzHbSjuARnDQIoWCowpmIcKAg7?=
+ =?us-ascii?Q?gI+GWgGSPJSZw4UhCnorTL4ZSEn+Z58DwG9r1ZRLzGROcK7WFgwxPgR7cZSC?=
+ =?us-ascii?Q?puOZ3EmDXCcgkHJlqTymfgyROldaFXgPScT5fXpsF0ZD0GvxATU7wt6ZLWFP?=
+ =?us-ascii?Q?hTImj+BPTgq5gRrUrHDblCOZFtLNASxV7TvDxCSyRQu7rfz+ulsE1FD1M6jc?=
+ =?us-ascii?Q?+EdfRTIyksu7qUs4VGEg5hjKF6IwnHfXF7K3u8S0aFDC5/YT/mWXc0l+z59J?=
+ =?us-ascii?Q?siVW0Zq2/hGOv2n+820PT1KtYXIsHkD2HwxqjpvCOtACKehb8u43W6S7UJel?=
+ =?us-ascii?Q?dinUE/rIvTOYHMclRYTylEDa+kweN5/EGjEb9kfmHKM9oHSz4aSKd/mLnhej?=
+ =?us-ascii?Q?nyqlGZPENEmYXLA6NwrEY7DtR0ECTVI2qrXOTaG1/tSGzKtcvg6tUyokzhxE?=
+ =?us-ascii?Q?TBpc642+tNNfVqEB4R5pjfJKY7imR2CM7Vl459gfVhxrGzLDjB4RVdKB9YgF?=
+ =?us-ascii?Q?LjqpDHA7KCUzo7txAaVnCVrz1TQESvzZDke4D5MreahcPleoC5rIds+SFFd4?=
+ =?us-ascii?Q?N+JVAy+1RjygUNG48zYI0l3VAN+TnUGEXbu2IQWRM7hJYylr4eGMRjljVsB5?=
+ =?us-ascii?Q?azFyZDOh6eAlMW40+IKnwFLUCFfyMYm/R30jbPoufR9IOUbUK0MWAflTljcM?=
+ =?us-ascii?Q?ugFAGr4EgVcAOW2QEcvnXVzoS5OVv10M30lyAHGgWo=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BMXPR01MB0696;6:1ZfssdM5cUSKLWzwJR+LZnWC/cDvSZrRJp0OIT4UG7w0Eh7thFvNox9cbkWO64BK4yEwwlfahc2IDCciAtsN8i7RxLeYJ8Tc18gWIARZVkBvUxjxSIjpNI9+WCiVx8C7sx2evoIovfVTwq0uHNtMhk0btKiXmfLUoGmQNlopJ9vM4NIktDgT2+btw6HGu7c65vuU//dHDpma+j/VU56lnIbyLibS7ByguEY5vSsHcFukEqGEkizx5D+zBrwrbJ3NRMti8VV/mRMqcAsVGmMA6IvINab6Goc57DiyGxqeOeiVtusiCbvVDP4Rm5K4ldBQCDCXnhu6qXMP+yYX4onrgo8qwSvUuNdsnnOrwz+1cFM=;5:jZ/8JHlDF9vBFcbM8Ppn+KjSwnz+lve+a/88VCCBgoYvAYCKZ0R2ksx1Ml7hQnAHIP4pVN0Fo/z7ICCVXmhE7HriQprvcEQEZId99YIZXmfmoUQ/+XmhQIC80cS1QPYfHQPtX6UlWfLQ+AcXeXKR/irqq9NgqeB7S74CUbqjEu8=;24:tZZaTVSfOb5kl73JYaGPHnp8Z/WPfzNLlV8wqOuGzkoWn+/et1eY9IYCM/bekCIOd0d87cw56pq8A8uwzrZ4hG2R7enEswiVWsozjY1b0kQ=;7:8HmRTe0DCJ3MMVek3jc/e4rQtpCAm7qeazzOIQ7eSjBXC8JgCfvLmU51VerylsmDmdnp319xCHtpW3DVeBzpQxYlU1quC/0cHgINea+qPtWOeOZQN8oXdoeL41g0Ozv6f7Qz9kgwh8C96TTgqbPOvZYnZmAxMGxq5VK4Hbdk8CwrO1Owl9QX9Tc5DWEeyUQiLISXWJ+hud0n0Fdyyc32G1Pspfd65MmdnU9zJyxy+ve/4uHFTffC7R2ficWqGjOq
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BMXPR01MB0696
+X-IncomingHeaderCount: 38
+X-MS-Exchange-Organization-Network-Message-Id: 22ad560e-59ef-4913-f383-08d56fa0484e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: CO1NAM04FT047.eop-NAM04.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM04FT047;1:Rv+EFD55odQZn+7YyrhGU0FGMwCgjj4YBCK8SaNbeSMu5o3Jh9Kmu/wMfUQqdEOGGgVhW0ZVxdDaRvJfBx5asETTA2ewSqbLb0bhIxVrVvkULOB1XMRogoZ3HTwVYf74
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:CO1NAM04HT053;H:IND01-BO1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: CO1NAM04FT047.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:CO1NAM04HT053;
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM04HT053;3:2YlIEkYHKTZvUU/EUQT3Syd5IcKZ43c/DUhUk/OFXrZrbQhoOfBFOI6D/7NwOKF7EkKgi4UMRGvsWgsMjaU8rv3FLyLMkLpkqs+gIg3kUsy9jvLh/NhTTcwJ83fk9pLtXqqW3r3fBWW1n4XziZ0PzB7inhh3/nJSN6ZEk+8CMoXLLFs9bwOXIWPOL7uoOORS7cUPH5XwiitoMJgnmw4pApuNTYdLbWILoHCF2kUQkEE9Yc0iWqR9Qza2eP10S44R3WOIYpj0L2divwEyshJ/uaiZ7XFIHkDlFqUPuG3pHG/3cOllKuhpjZTbkzOIR883;25:5KE5Us8lwWQZf5lFHcg7chVAmZOjmA3sMjDsmjqnZzNS7w6FlzufFpq80B/5DWHez4l6QiSflMMbIY8KYVWdxIAtJ4PeYBfo0A3QY2bsmHTqqZqs28ADkxTJmXTM8+4YHuoe5EaC3qSSfIih3uVCDdlhSCd45Sln9TYGz117enB4EnZwUbTJpO7G9cLO4RgmiV3S3bPPV2GmHmRBst+UZtuvQbqLDHA1PY8CUQwogEZwcAu5XqSY6gFHtmle9VXHWcIqYQ5nFlGJbEIMtYm0CNFJGVK2QO2Uuzl0cPrNamPChfPPGTrEqhYBJnVQ95f0Gz3uW/doHBiKz60+8zaJpQ==;31:sH+iWOgXxUBGAGMP8K60apFMM/TQ4GknJrJL/ZNrnX4hl/Kt3rpTbx/F3gJqeWQJYfQiZUkbgvdbt8mhjdWAKigWJqS9zEFjbDX4FrsmJ3dShRDzb/aFCmTCApXEMoBH9c3ZyZ9nYk5RgVVnqrqSaV0mRCP63j08JbJAbIzD1rjpxpHEvHP03qM+0j+N9mxd91C4Yy669sYnuNZ7F+MIIXxC04j2jFXKyO1ujSv0Z6Y=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.101.84
+X-SID-PRA: PSYCHOLOGY@ASCLEPIUSOPEN.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM04HT053;4:0iWr//ISpfLKo7G6HlPpJU2JjCARbKgeeko9MTgmxkck4Y9IcSUTepI9qpA9VOtjRTsEJmMJRAmR/HNEhNOYMUWNLjwEFQcVDjSDkuZmCMpI38ZFsmUo8yQbG69CoITku6qkRNdLUoT6rlg0SVWLI98T0+1Sey4hcVcY3JPiGa5e+HhjDGIR8Y4WAy9KXZuPTX0T+8rmAscVPbkrK3kqUE+r9BYgiiUsJkiCIwOaVBz2s0t2rWNVrzrg/NbJo9Snz+JMmgOg8cUriE60eMD5tzFqVCXVHtks/Wf43BCNA9L/xsXDP9IMbSpD2LEZVbpZdop9BLhFPzLbagRxVqYu1kS2VBsvET6qVI6sqdQkLW8OZLoqmr775BixFzu7wJHiFkzv7HC7ebeqq6Yd2OaNIrvIMdcoXGi2XulbroY8dZFPLq9GX59zBONMvaKkuwcJDdPIi/hRNxZre/ktfINXzg==;23:kpDuJjHGbZY7fYqF8TaEevuAd+mzMiOiu43/1jpU1Qs205tw4CliwhT35UO1MxFI/jSpkYpuHrRnmomuYmm96/Ap5Ug0F4xRpzBJ4uNghR/kF8OtaY/Oj1UhUKsc5yVTd4IB8fmAmNMqUed4Z2Wu1HL04jrgv0sfKHWZsv/G+6k=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 2AoSA+9073DR6lgRwOUdPe+QyssDkbDuPMXqq0OChq0IXYqZOTJtM8ASK6G5utfjUk9mYBkeH7t6PEwN/9rNrU07hTp821kR25loy/LTjm4=
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM04HT053;6:U4zbQZ6uzYjHHSxC/zBUZnAQrUtu5sjClf+NQ2div62Hrvg7hziKC1qYLNOr6M/8SjmX+sKZwVJmJ5viv47FSC5rIHlZLalT4DAHLhND2/TW3ou0f3r0LD/dojG7gn14G+CiGZJJNS4dtgAkeM7yChsnJVSw+LEbUG4kaTYb/KhxCBrRizC+0h6KW+h07XmuV7j17VaiMaf80QHZEd68hrcPbKwNOUh4tgkCK5wDiz76kASVVjypXs1+R8X0Hm6Z9uGquw1z+39rbsDPHQczjP8SmW+caiLt23AscE+o1BK3UENt182zvSixetO7k3HK0ScN9BIM5EWAiCat4vfTaiTpzEdEQKySnOvYYfd2DLs=;5:oJp6kYTtPZekOTBH6I0bPCu6HepVncOGZ0kzqF1axH/9izcdOuI63E++7oSNU8RjBLXcLOJ4QETUjk7XXZ8xd3LXYQrMlhzrDsRxI2ixdC+nGgg6uyl0Q+RzybkVwbGyE7qMy6GRUE6r/x6pojAaqvuigT0yl6Pn3iJ48i+QXao=;24:5YRRms8hBIhxwaee+hxYBQxvemAiC+MPwR0TQ4ykcTtFwQrDrLE1yyZlTyGU7ouKwbLin9gRWh/SvHjySUQEDAbz23Vdfsfxvb4WgBdM/+0=;7:a+UUgNgPKSUrU2ewlW3yNj3d9sn2h7WQEIswN50CqcTH6rkTKBnxwXgn1mIxN35rKszSSkLbASdCUrfOwuf7+84b05UIMJVh96KPcOZS+3KbQSj0o+upfk8zcda3Jq51WOhGBYrflDIfvtmQjSLL/+jIsCWDZIkOzil0Fkv6dhUQbQxSbjV8JEI34UI2R3q2J3R6Gyr06v/L5WKpeoDGtpSHDNbqVW38itgYlVDIpTOiSH6FuuUPfhjGgDgPfNTv
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Feb 2018 09:34:13.6533
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 22ad560e-59ef-4913-f383-08d56fa0484e
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM04HT053
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5189618
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0464.017
+X-Microsoft-Exchange-Diagnostics:
+	1;BM1PR0101MB2065;27:IFPSHGUArIPJ6D8K7o4ZDkVDk8+PHd7Wz8B4FvjgmWKVr7tKWbWLhEoH1AiMBqXYwmPQ846Sb6NI6ScTi7iPaV9/YMexRgC8Y+cP5VSnpilafj2ogcIntHnojT/qqUPf
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqD94E82dD/hh3sJXIRjtT4LayR3g7176XcLX9UHOzKAo22SELmLY7u6PM74Qwnp0Fcv5yJk44sDJ4B9q1fTRklj/wJlcdDfpsasmHCe5tAHPDhMwuZFtgIUfAlJwz0WmxlkkWPns3xxkP0bTnOjUfyFoPC0kB1RR6QQfkCQCv1nJJLEkocdz1p5Ze0v3HCokxlIB7yzb0Wbw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	u4ebtqlCO9GboJv+pOsh1XFms8loTKIAlPX/pfCS3GSyCtPVFdIuVAjrePsHDYmPAkr5dfnl3CcRCjU68HxEN3oeKigj103aZe+8pn1XnuyMfyQg1JmOJELUfLqI9Miju9fP/SWhizAe5xo1NZ5TMLWUS095EyaaDaCS5aaJyS/BKNRU9YyO5Uy6X9Mfuo4Nt2T0hId8UVtwwMeJWszLA3XhyS8Q0rF9N0GPgKXshAz42pyuifUptU4FzARP4jvKGWbWp6ITsz0x8QSlBEZATg==
+MIME-Version: 1.0
+
+------=_NextPart_000_0B85_01D3A1B7.3AE1CCC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;BM1PR0101MB2065;27:IFPSHGUArIPJ6D8K7o4ZDkVDk8+PHd7Wz8B4FvjgmWKVr7tKWbWLhEoH1AiMBqXYwmPQ846Sb6NI6ScTi7iPaV9/YMexRgC8Y+cP5VSnpilafj2ogcIntHnojT/qqUPf
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqD94E82dD/hh3sJXIRjtT4LayR3g7176XcLX9UHOzKAo22SELmLY7u6PM74Qwnp0Fcv5yJk44sDJ4B9q1fTRklj/wJlcdDfpsasmHCe5tAHPDhMwuZFtgIUfAlJwz0WmxlkkWPns3xxkP0bTnOjUfyFoPC0kB1RR6QQfkCQCv1nJJLEkocdz1p5Ze0v3HCokxlIB7yzb0Wbw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	u4ebtqlCO9GboJv+pOsh1XFms8loTKIAlPX/pfCS3GSyCtPVFdIuVAjrePsHDYmPAkr5dfnl3CcRCjU68HxEN3oeKigj103aZe+8pn1XnuyMfyQg1JmOJELUfLqI9Miju9fP/SWhizAe5xo1NZ5TMLWUS095EyaaDaCS5aaJyS/BKNRU9YyO5Uy6X9Mfuo4Nt2T0hId8UVtwwMeJWszLA3XhyS8Q0rF9N0GPgKXshAz42pyuifUptU4FzARP4jvKGWbWp6ITsz0x8QSlBEZATg==
+
+
+Clinical Research in Psychology
+
+
+ 
+
+Dear XZ Xiang-Zhen Kong,
+
+ 
+
+Greetings from Asclepius Open!!!
+
+
+ 
+
+It is our honor and privilege to suggest your name as one of the potential
+author after exploring your research article "Human navigation network: the
+intrinsic functional organization and behavioral relevance" and we hope that
+you are continuing to pursue research work in the subject. We would like to
+know more about your current research work. So, we recommend your name as
+one of authors who can contribute to the upcoming issue of CRP.
+
+ 
+
+ <http://bit.ly/2BVHNeu> Clinical Research in Psychology is an online,
+academic peer reviewed journal which serves Scientific Community Globally
+through its open access publishing pattern. The journal is published with
+"Asclepius" a well reputed international publishing group. 
+
+
+ 
+
+You are welcome to submit a Research/Review/Case reports/Commentaries/Short
+communication/Clinical Image/Letter to editor for the upcoming issue. All
+the submitted manuscripts will be subjected to critical and transparent peer
+review process with our eminent editorial team and qualified reviewers. Our
+journal covers wide range of topics on 
+
+ 
+
+
+.      Psychiatry Diseases
+
+.       Community Psychiatry
+
+
+.      Anxiety Disorders
+
+.       Depressive Disorders
+
+
+.      Addiction Psychiatry
+
+.       Child and Adolescent Psychiatry
+
+
+.      Psychotherapy
+
+.       Neuropsychology and its techniques
+
+
+ 
+
+You are requested to have a look at  <http://bit.ly/2AOx71W> Author
+Guidelines, you can send your valuable manuscript at our email id -
+psychology@asclepiusopen.org 
+
+
+ 
+
+We anticipate your reply at the earliest. Feel free to contact us for
+further queries on our journal. It is our pleasure to help you.
+
+ 
+
+We wish you a Happy Day. Thank You.
+
+
+ 
+
+Warm Regards
+
+John Christopher 
+
+Editorial Assistant
+
+Clinical Research in Psychology 
+
+Asclepius Open  LLC
+
+Ashburn, USA
+
+ 
+
+If you wish not to receive our mails, Please reply with "Opt-out" in the
+Subject.
+
+ 
+
+
+------=_NextPart_000_0B85_01D3A1B7.3AE1CCC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;BM1PR0101MB2065;27:IFPSHGUArIPJ6D8K7o4ZDkVDk8+PHd7Wz8B4FvjgmWKVr7tKWbWLhEoH1AiMBqXYwmPQ846Sb6NI6ScTi7iPaV9/YMexRgC8Y+cP5VSnpilafj2ogcIntHnojT/qqUPf
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqD94E82dD/hh3sJXIRjtT4LayR3g7176XcLX9UHOzKAo22SELmLY7u6PM74Qwnp0Fcv5yJk44sDJ4B9q1fTRklj/wJlcdDfpsasmHCe5tAHPDhMwuZFtgIUfAlJwz0WmxlkkWPns3xxkP0bTnOjUfyFoPC0kB1RR6QQfkCQCv1nJJLEkocdz1p5Ze0v3HCokxlIB7yzb0Wbw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	u4ebtqlCO9GboJv+pOsh1XFms8loTKIAlPX/pfCS3GSyCtPVFdIuVAjrePsHDYmPAkr5dfnl3CcRCjU68HxEN3oeKigj103aZe+8pn1XnuyMfyQg1JmOJELUfLqI9Miju9fP/SWhizAe5xo1NZ5TMLWUS095EyaaDaCS5aaJyS/BKNRU9YyO5Uy6X9Mfuo4Nt2T0hId8UVtwwMeJWszLA3XhyS8Q0rF9N0GPgKXshAz42pyuifUptU4FzARP4jvKGWbWp6ITsz0x8QSlBEZATg==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.contextualextensionhighlight
+	{mso-style-name:contextualextensionhighlight;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:3366209;
+	mso-list-template-ids:-1692366242;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:35393085;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1512490062 1971096688 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:231356042;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1856166150 67698703 67698713 67698715 67698703 67698=
+713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:634675898;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-246401066 1933483066 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	color:windowtext;
+	mso-ansi-font-weight:normal;}
+@list l4
+	{mso-list-id:693461101;
+	mso-list-template-ids:597607832;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:752698192;
+	mso-list-template-ids:132780170;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:971058055;
+	mso-list-template-ids:369503518;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:1074740794;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1652031666 67698689 67698691 67698693 67698689 67698=
+691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:1089892608;
+	mso-list-template-ids:-707389670;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:1320691814;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1028629396 67698703 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10
+	{mso-list-id:1418668650;
+	mso-list-template-ids:-1339142390;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l11
+	{mso-list-id:1631666129;
+	mso-list-template-ids:-139793590;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1897819308;
+	mso-list-template-ids:-1303757998;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l13
+	{mso-list-id:1945764388;
+	mso-list-template-ids:-1853698872;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+
+<div class=3D"Section1">
+
+<table class=3D"LightList-Accent12" border=3D"1" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"border-collapse:collapse;border:none">
+ <tr style=3D"height:42.25pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border:solid #4F8=
+1BD 1.0pt;
+  border-bottom:none;background:#4F81BD;padding:0in 5.4pt 0in 5.4pt;height:
+  42.25pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:0in;margin=
+-bottom:.0001pt;
+  text-align:center;line-height:normal"><a name=3D"_GoBack"><b><span lang=
+=3D"EN-GB" style=3D"font-size:18.0pt;font-family:&quot;Times New Roman&quot=
+;,&quot;serif&quot;;color:white">Clinical
+  Research in Psychology</span></b></a><b><span style=3D"font-size:18.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:white;bac=
+kground:white"><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style=3D"height:44.0pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border:solid #4F8=
+1BD 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:44.0pt">
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><b><span style=3D"=
+font-size:
+  12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&n=
+bsp;</o:p></span></b></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><b><span style=3D"=
+font-size:
+  12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Dear XZ=
+ Xiang-Zhen Kong,<o:p></o:p></span></b></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><b><span style=3D"=
+font-size:
+  12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&n=
+bsp;</o:p></span></b></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Greetings from=
+ </span><b><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;ser=
+if&quot;">Asclepius Open!!!</span></b><b><span style=3D"font-size:12.0pt;fo=
+nt-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p></o:p></span>=
+</b></p>
+  </td>
+ </tr>
+ <tr style=3D"height:62.0pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border-top:none;b=
+order-left:
+  solid #4F81BD 1.0pt;border-bottom:none;border-right:solid #4F81BD 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:62.0pt">
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span class=3D"contextualextensionhighlight">=
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;;border:none windowtext 1.0pt;
+  padding:0in;background:white"><o:p>&nbsp;</o:p></span></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span class=3D"contextualextensionhighlight">=
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;;border:none windowtext 1.0pt;
+  padding:0in;background:white">It is our honor and privilege to suggest yo=
+ur
+  name as one of the potential author after exploring your research article=
+ <b>&#8220;</b></span></span><b><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,&quot;serif&quot;;border:none windowtext 1.0pt=
+;
+  padding:0in;background:white">Human navigation network: the intrinsic
+  functional organization and behavioral relevance</span></b><span class=3D=
+"contextualextensionhighlight"><b><span style=3D"font-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;border:none win=
+dowtext 1.0pt;
+  padding:0in;background:white">&#8221; </span></b></span><span class=3D"co=
+ntextualextensionhighlight"><span style=3D"font-size:12.0pt;font-family:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;border:none windowtext 1.0p=
+t;padding:0in;
+  background:white">and we hope that you are continuing to pursue research =
+work
+  in the subject. We would like to know more about your current research wo=
+rk.
+  So, we recommend your name as one of authors who can contribute to the
+  upcoming issue of </span></span><b><span style=3D"font-size:12.0pt;font-f=
+amily:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;background:white">CRP.<o:p>=
+</o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><b><span style=3D"font-size:12.0pt;font-famil=
+y:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;background:white"><o:p>&nbs=
+p;</o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><a href=3D"http://bit.ly/2BVHNeu"><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Clinical
+  Research in Psychology</span></a><span class=3D"contextualextensionhighli=
+ght"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot=
+;,&quot;serif&quot;;border:none windowtext 1.0pt;
+  padding:0in;background:white"> is an online, academic peer reviewed journ=
+al
+  which serves Scientific Community Globally through its open access publis=
+hing
+  pattern. The journal is published with &#8220;Asclepius&#8221; a well rep=
+uted
+  international publishing group. </span></span><span style=3D"font-size:12=
+.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p></o:p></s=
+pan></p>
+  </td>
+ </tr>
+ <tr style=3D"height:82.25pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border:solid #4F8=
+1BD 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:82.25pt">
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white">You are welcome to submit a Research/Review/Case
+  reports/Commentaries/Short communication/Clinical Image/Letter to editor =
+for
+  the upcoming issue. All the submitted manuscripts will be subjected to
+  critical and transparent peer review process with our eminent editorial t=
+eam
+  and qualified reviewers. Our journal covers wide range of topics on <o:p>=
+</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:8.0pt;font-family:&q=
+uot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+  <div align=3D"center">
+  <table class=3D"MsoTableGrid" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"83%" style=3D"width:83.56%;border-collapse:collapse;border:=
+none">
+   <tr style=3D"height:2.65pt">
+    <td width=3D"43%" nowrap=3D"" valign=3D"bottom" style=3D"width:43.82%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:2.65pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:33.05pt;margin-bottom:.0001pt;text-indent=
+:
+    -13.5pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportList=
+s]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-l=
+ist:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Psychiatry
+    Diseases<o:p></o:p></span></p>
+    </td>
+    <td width=3D"56%" nowrap=3D"" valign=3D"bottom" style=3D"width:56.18%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:2.65pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:31.7pt;margin-bottom:.0001pt;text-indent:
+    -15.05pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportLis=
+ts]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-=
+list:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span =
+style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;ser=
+if&quot;">Community
+    Psychiatry<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"height:2.65pt">
+    <td width=3D"43%" nowrap=3D"" valign=3D"bottom" style=3D"width:43.82%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:2.65pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:33.05pt;margin-bottom:.0001pt;text-indent=
+:
+    -13.5pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportList=
+s]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-l=
+ist:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Anxiety
+    Disorders<o:p></o:p></span></p>
+    </td>
+    <td width=3D"56%" nowrap=3D"" valign=3D"bottom" style=3D"width:56.18%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:2.65pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:31.7pt;margin-bottom:.0001pt;text-indent:
+    -15.05pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportLis=
+ts]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-=
+list:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span =
+style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;ser=
+if&quot;">Depressive
+    Disorders<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"height:3.0pt">
+    <td width=3D"43%" nowrap=3D"" valign=3D"bottom" style=3D"width:43.82%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:3.0pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:33.05pt;margin-bottom:.0001pt;text-indent=
+:
+    -13.5pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportList=
+s]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-l=
+ist:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Addiction
+    Psychiatry<o:p></o:p></span></p>
+    </td>
+    <td width=3D"56%" nowrap=3D"" valign=3D"bottom" style=3D"width:56.18%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:3.0pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:31.7pt;margin-bottom:.0001pt;text-indent:
+    -15.05pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportLis=
+ts]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-=
+list:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span =
+style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;ser=
+if&quot;">Child and
+    Adolescent Psychiatry<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"height:3.0pt">
+    <td width=3D"43%" nowrap=3D"" valign=3D"bottom" style=3D"width:43.82%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:3.0pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:33.05pt;margin-bottom:.0001pt;text-indent=
+:
+    -13.5pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportList=
+s]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-l=
+ist:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&qu=
+ot;">Psychotherapy<o:p></o:p></span></p>
+    </td>
+    <td width=3D"56%" nowrap=3D"" valign=3D"bottom" style=3D"width:56.18%;p=
+adding:0in 5.4pt 0in 5.4pt;
+    height:3.0pt">
+    <p class=3D"MsoListParagraph" style=3D"mso-margin-top-alt:0in;margin-ri=
+ght:0in;
+    margin-bottom:0in;margin-left:31.7pt;margin-bottom:.0001pt;text-indent:
+    -15.05pt;line-height:normal;mso-list:l7 level1 lfo14"><![if !supportLis=
+ts]><span style=3D"font-size:12.0pt;font-family:Symbol"><span style=3D"mso-=
+list:Ignore">&middot;<span style=3D"font:7.0pt &quot;Times New Roman&quot;"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span =
+style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;ser=
+if&quot;">Neuropsychology
+    and its techniques<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span class=3D"con=
+textualextensionhighlight"><span style=3D"font-size:12.0pt;font-family:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;border:none windowtext 1.0p=
+t;padding:0in;
+  background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style=3D"height:7.1pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border-top:none;b=
+order-left:
+  solid #4F81BD 1.0pt;border-bottom:none;border-right:solid #4F81BD 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:7.1pt">
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><b><span style=3D"font-size:12.0pt;font-famil=
+y:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;background:white"><o:p>&nbs=
+p;</o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white">You are requested to have a look at </span><a href=3D"h=
+ttp://bit.ly/2AOx71W"><span style=3D"font-size:12.0pt;font-family:&quot;Tim=
+es New Roman&quot;,&quot;serif&quot;;
+  background:white">Author Guidelines</span></a><span style=3D"font-size:12=
+.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">, you can send your
+  valuable manuscript at our email id &#8211; </span><b><span style=3D"font=
+-size:
+  12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">psychol=
+ogy@asclepiusopen.org</span></b><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,&quot;serif&quot;;background:
+  white"> <b><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style=3D"height:3.0pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border:solid #4F8=
+1BD 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:3.0pt">
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white">We anticipate your reply at the earliest. Feel free to
+  contact us for further queries on our journal. It is our pleasure to help
+  you.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;t=
+ext-align:
+  justify;line-height:normal"><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;;
+  background:white">We wish you a Happy Day. Thank You.<o:p></o:p></span></=
+p>
+  </td>
+ </tr>
+ <tr style=3D"height:96.65pt">
+  <td width=3D"632" valign=3D"top" style=3D"width:474.0pt;border:solid #4F8=
+1BD 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:96.65pt">
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">Warm Regards<o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">John Christopher <o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">Editorial Assistant<o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">Clinical Research in
+  Psychology <o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">Asclepius Open&nbsp; LLC<o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e">Ashburn, USA<o:p></o:p></span></p>
+  <p class=3D"MsoNoSpacing" style=3D"text-align:justify"><span style=3D"fon=
+t-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o=
+:p></span></p>
+  <p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;l=
+ine-height:
+  normal"><b><span style=3D"font-size:12.0pt;font-family:&quot;Times New Ro=
+man&quot;,&quot;serif&quot;;
+  background:white">If you wish not to receive our mails, Please reply with
+  &quot;Opt-out&quot; in the Subject.</span></b><span style=3D"font-size:12=
+.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;background:whit=
+e"><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;line-height:115%;fon=
+t-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0B85_01D3A1B7.3AE1CCC0--
+

@@ -13,16 +13,26 @@ Austin Journal of Pharmacology and Therapeutics | [Website](http://austinpublish
 American Research Journal of Neurology | [Website](https://www.arjonline.org/american-research-journal-of-neurology) | arjneu_editor@arjonline.org | [American Research Journals](https://www.arjonline.org/)
 Asian Academic Research Journal of Social Sciences & Humanities | [Website](www.asianacademicresearch.org) | editor@asianacademicresearch.org | [Asian Academic Research Associates](www.asianacademicresearch.org)
 Asian Academic Research Journal of Multidisciplinary | [Website](www.asianacademicresearch.org) | editor@asianacademicresearch.org | [Asian Academic Research Associates](www.asianacademicresearch.org)
-American Journal of Psychiatry and Neuroscience  | [Website](http://www.psychiatneurosci.org) | member@journalofcancer.org | [Science Publishing Group](http://www.sciencepublishinggroup.com/)
+American Journal of Psychiatry and Neuroscience | [Website](http://www.psychiatneurosci.org) | member@journalofcancer.org | [Science Publishing Group](http://www.sciencepublishinggroup.com/)
+Annals of Cognitive Science | [Website](http://scholarlypages.org/journal.php?jid=cognitive-science) | cognitive-science@scholarlyscipages.org | [Scholarly Pages](http://scholarlypages.org/index.php)
+Australasian Medical Journal | [Website](http://amj.net.au/index.php/AMJ) | medicalresearch@amj.net.au | [ ]( )
+Advanced Materials and Technologies for Environmental Sciences | [Website](http://sciedtech.eu/journals/advmtenvsci/) | anton@sciedtech.eu | [SciEdTech platform](http://sciedtech.eu/)
+American Journal of BioScience | [Website](http://www.ajbio.org/) | editorialboard@advinmaterials.org | [Science Publishing Group](http://www.sciencepublishinggroup.com/)
 
 ## B
 
 ## C
+Journal | Link | Email | Press
+------- |------|-------|------
 Chirurgia | [Website](https://www.minervamedica.it/en/journals/chirurgia/index.php) | mailing.redazione@minervamedica.it | [Minerva Medica Publishing](https://www.minervamedica.it/en/about-us.php)
+Cytology& Histology International Journal | [Website](https://www.medwinpublishers.com/CHIJ/index.php) | cytology@medwinpublishers.org | [Medwin Publishers](https://www.medwinpublishers.com/)
+Clinical Research in Psychology | [Website](http://asclepiusopen.com/clinical-research-in-psychology/) | psychology@asclepiusopen.org | [Asclepius Open](http://asclepiusopen.com/)
 
 ## D
 
 ## G
+Journal | Link | Email | Press
+------- |------|-------|------
 Gazzetta Medica Italiana | [Website](https://www.minervamedica.it/en/journals/gazzetta-medica-italiana/index.php) | mailing.redazione@minervamedica.it | [Minerva Medica Publishing](https://www.minervamedica.it/en/about-us.php)
 
 ## I
@@ -34,6 +44,7 @@ International Journal of Current Advanced Research | [Website](www.journalijcar.
 IOSR Journal of Engineering | [Website](http://www.iosrjen.org/) | jen5.paper@rediffmail.com | [International organization of Scientific Research](http://www.iosrjournals.org/)
 International Journal of Negative Results | [Website](https://oap-cancer.org/journal/ijnr) | info@oap-cancer.org | [Open Access Pub](https://oap-cancer.org/)
 International Journal of Clinical Medicine Research | [Website](http://www.ijcmr.org) | editor@ascie.org | [American Association for Science and Technology(AASCIT)](http://www.aascit.org/home/index)
+International Journal of Computer Science and Mobile Computing | [Website](http://www.ijcsmc.com/) | papers.journal@lycos.com | [ ]( )
 
 ## J
 Journal | Link | Email | Press
@@ -43,11 +54,16 @@ Journal of Neuropsychiatry Disorders & Therapy | [Website](http://www.annexpubli
 Journal of Clinical Research and Medicine | [Website](http://researchopenworld.com/category/journal-of-clinical-research-and-medicine/) | editor.jcrm@rowjournals.com | [Research Open](http://researchopenworld.com/)
 Journal of Addictive Behaviors, Therapy & Rehabilitation | [Website](https://www.scitechnol.com/addictive-behaviors-therapy-rehabilitation.php) | editor.jabtr@scitechnol.com | [SciTechnol](https://www.scitechnol.com/)
 Journal of Addiction Research | [Website](http://www.opastonline.com/journal-of-addiction-research/) | editor.jar@opastpublishinggroup.com | [OPAST Group](http://www.opastonline.com/)
+Journal of Neuroscience and Neurological Disorders | [Website](https://www.heighpubs.org/jnnd/) | jnnd@heighpubs.us | [Heighten Science](https://www.heighpubs.org/)
+Journal of Biomedical Science and Engineering | [Website](http://www.scirp.org/journal/JBiSE/) | jbise@shcoing.com | [Scientific Research](http://www.scirp.org/)
+Journal of Addiction and Therapies | [Website]( ) | addiction@clinicalaspects.com | [Gavin Publishers](https://gavinpublishers.com/index.php)
+Journal of Software Engineering and Applications | [Website](http://www.scirp.org/journal/JSEA/) | jsea@onialsc.com | [Scientific Research](http://www.scirp.org/)
 
 ## M
 Journal | Link | Email | Press
 ------- |------|-------|------
 Mathews Journal of Pharmaceutical Science | [Website](http://mathewsopenaccess.com/pharmaceutical-science.html) | pharmaceutical@mathewsopenaccess.net | [Mathews Open Access](http://mathewsopenaccess.com/)
+Mathews Journal of Case Reports | [Website](http://mathewsopenaccess.com/case-reports.html) | casereports@mathewsopenaccess.us | [Mathews Open Access](http://mathewsopenaccess.com/)
 Magnetic Materials and Its Applications | [Website](http://www.scirp.org/journal/htmlOfSpecialIssue.aspx?ID=4639&JournalID=174) | msa@eopfen.com | [Scientific Research](http://www.scirp.org/)
 Medical Research Archives | [Website](http://journals.ke-i.org/index.php/mra/issue/view/71) | editorialboard@mrajournal.org | [KEI Journals](http://journals.ke-i.org/)
 Mental Health and Addiction Research | [Website](http://www.oatext.com/Mental-Health-and-Addiction-Research-MHAR.php) | mentalhealth@oatextjournals.com | [OA Text](http://www.oatext.com/index.php)
@@ -74,7 +90,14 @@ Journal | Link | Email | Press
 Research journal of Nervous System | [Research Journal of Nervous System](http://www.imedpub.com/research-journal-of-nervous-system/) | nervousystem@imedjournals.com | [Insight Medical Publishing](http://www.imedpub.com/)
 Research Advances in Brain Disorders and Therapy | [Website](https://gavinpublishers.com/journals/submitmanuscript) | braindisorder@medicinalsciences.com | [Gavin Publishers](https://gavinpublishers.com/)
 
+## T
+Journal | Link | Email | Press
+------- |------|-------|------
+The Open Neurology Journal | [Website](https://www.benthamopen.com/TONEUJ/aims-scope/) | editorial@benthamopen.org | [BENTHAM Open](https://www.benthamopen.com/index.php)
+
 ## Others
 Journal | Link | Email | Press
 ------- |------|-------|------
 All journals | [Website](http://www.ajmie.org/journals) | submission@ijmsa.org | [SciencePublishing Group](http://www.ajmie.org/journals)
+All journals | [Website]( ) |  | [Gavin Publishers](https://gavinpublishers.com/index.php)
+All journals | [Website]( ) |  | [Remedy Publications](http://www.remedypublications.com/)

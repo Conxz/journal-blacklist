@@ -1,0 +1,169 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.137.93 with SMTP id f29csp2477028edf;
+        Mon, 5 Feb 2018 03:39:40 -0800 (PST)
+X-Google-Smtp-Source: AH8x225lKmkTauEEbF7it8qf507Gl9okmsF962Rtceqy+//oFSrsrbcHf7GohD4pyh+KDg4SFZ/X
+X-Received: by 10.99.114.87 with SMTP id c23mr5945880pgn.122.1517830780072;
+        Mon, 05 Feb 2018 03:39:40 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1517830780; cv=none;
+        d=google.com; s=arc-20160816;
+        b=lZh2fsQ5u4yzODgVfLsjDFliZZ5wHvrZESanKgE7AXE7p5NIrU4S3PGckiUl2iWQSs
+         s4JlCA0e2FzAGeLdYtpiq1aWI74Opawo7GDpj7bKxkoBjC1xNGf98LBKifYgGfWdoyKr
+         uFpDMdlCd71qwx0VUgWu/D0Xtui6avpkBIgZ6d4rOiLbPcP8iqZff3ziM1qH83cRJLff
+         2pnzTe/8MvC0GYhG55VOokWJFvE6Mb2KE7I2LA4Y6Y3gZhlsOGtyVA0o3MXgUTRMm0Ve
+         Eoorf5ls3sGI5HhaUjsqQzZAgFXZr6bAhGQVbZuxEy6iswed6JJZFYor2JNrbrZIX5+p
+         eWkg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:message-id:to:reply-to:from:date
+         :arc-authentication-results;
+        bh=o1IDpULwPysZjxIXhVg/ozT24RVjOoVrUtEDj/06nDk=;
+        b=yek6TeZSoo7v5XyTP0qOuWp+Fou3vpg8lxf3f1OozMbHtkytsoR8D3q7kmciLNNK4B
+         IVhuRh7t9UPjfnqkkY92Fwm17VAu0H4VHrvqKpA3cYDQu6rYEJlwXSpGgqmKqcsO87IB
+         YFoKSS+NfOU/WmR99dDEDxLD/6CP+QX9lhMTe9iSMsYc8pv6gHZD6IfrOk/gZor+maDm
+         vVFKR5tLzM56bklYg5XuOdFfbk9OLqvP9ANu7pOBmJgW/s2eyHqk9DloeWTOrQevwMQU
+         D/g2BsMKN/AATDV1fZ4UpddFfXn7T4qgifk1US0/45cldON3URg0kA684TznuysEZqOe
+         JG/A==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of jsea@onialsc.com designates 106.14.80.159 as permitted sender) smtp.mailfrom=jsea@onialsc.com
+Return-Path: <jsea@onialsc.com>
+Received: from onialsc.com (mail.onialsc.com. [106.14.80.159])
+        by mx.google.com with ESMTP id b184si4938599pfg.179.2018.02.05.03.39.39
+        for <kongxiangzheng@gmail.com>;
+        Mon, 05 Feb 2018 03:39:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of jsea@onialsc.com designates 106.14.80.159 as permitted sender) client-ip=106.14.80.159;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of jsea@onialsc.com designates 106.14.80.159 as permitted sender) smtp.mailfrom=jsea@onialsc.com
+Received: from WIN-A9S0SUBJN6U (unknown [222.73.31.225])
+	by onialsc.com (Postfix) with ESMTPA id DF479180519
+	for <kongxiangzheng@gmail.com>; Mon,  5 Feb 2018 19:39:38 +0800 (CST)
+Date: Mon, 5 Feb 2018 19:39:37 +0800 (CST)
+From: Journal of Software Engineering and Applications <jsea@onialsc.com>
+Reply-To: jsea@scirp.org
+To: kongxiangzheng@gmail.com
+Message-Id: <7BC3C68DA039E606D667FF54E6D0D5BC.20180205193937@onialsc.com>
+Subject: Due: February 28th_Thematic Issue on "Fuzzy Logic and Intelligent
+ Systems" for Xiang-zhen Kong
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_132616650_628408656.1517830777021"
+
+------=_Part_132616650_628408656.1517830777021
+Content-Type: multipart/related; 
+	boundary="----=_Part_132616651_339705446.1517830777021"
+
+------=_Part_132616651_339705446.1517830777021
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head>
+  <style type=3D"text/css">
+<!--
+.STYLE1 {color: #000000}
+.STYLE2 {color: #0066CC}
+-->
+</style>=20
+ </head>
+ <body>
+  <br />
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <table width=3D"700" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"font-family:Georgia, Times New Roman, Times, serif;border:1px solid #=
+aaaaaa;overflow:hidden;" class=3D"ke-zeroborder">
+   <tbody>
+    <tr>
+     <td width=3D"20%" align=3D"center" style=3D"color:#ffffff;font-size:30=
+px;padding:10px;line-height:1.3em;background:linear-gradient(to right botto=
+m,#DCD5D0,#D7C3B3);background-color:#D7C3B3;border-radius:0 0 20px 0;"><spa=
+n class=3D"STYLE1">Special Issue on</span></td>
+     <td width=3D"80%" align=3D"center" style=3D"color:#000000;font-size:30=
+px;padding:20px;line-height:1.3em;">&quot;Fuzzy Logic and Intelligent Syste=
+ms&quot;</td>
+    </tr>
+    <tr>
+     <td width=3D"20%"></td>
+     <td width=3D"80%" align=3D"right" style=3D"padding:10px;font-size:16px=
+;background:linear-gradient(to right,#D7C3B3,#DCD5D0);background-color:#D7C=
+3B3;border-radius:20px 0 0px 20px;color:#ffffff;"><span class=3D"STYLE1">Su=
+bmission Deadline: February 28th, 2018<br />Publishing Date: April 2018</sp=
+an></td>
+    </tr>
+    <tr>
+     <td width=3D"20%" style=3D"font-size:20px;padding:15px;border-right:5p=
+x solid #D7C3B3;">Dear Xiang-zhen Kong,</td>
+     <td width=3D"80%" style=3D"font-size:16px;line-height:1.5em;padding:20=
+px;border-left:5px solid #D7C3B3;"><p>Journal of Software Engineering and A=
+pplications (JSEA) is launching a special issue on &quot; <a href=3D"http:/=
+/www.scirp.org/journal/htmlOfSpecialIssue.aspx?ID=3D4565&amp;JournalID=3D45=
+&amp;utm_campaign=3DSpecialIssue&amp;utm_source=3De_si&amp;utm_medium=3Djse=
+a_flis_20180117_liuyajing_132467&amp;utm_content=3D3126_onialsc.com" target=
+=3D"_blank" style=3D"color:#4669DE;font-size:18px;"><u>Fuzzy Logic and Inte=
+lligent Systems</u></a>&quot; and aiming to provide a professional publishi=
+ng platform for academic exchange. Concerning your expertise in this field,=
+ we would like to invite you to send your original research papers to this =
+issue before February 28th as below:</p><p>via our <a href=3D"http://papers=
+ubmission.scirp.org/paper/showAddPaper?journalID=3D11&amp;utm_campaign=3Dpa=
+persubmission&amp;utm_source=3De_si&amp;utm_medium=3Djsea_flis_20180117_liu=
+yajing_132467&amp;utm_content=3D3126_onialsc.com" target=3D"_blank" style=
+=3D"color:#4669DE;font-size:18px;"><u>Paper Contribution Platform</u></a> O=
+R by email to <span class=3D"STYLE2">papersubmission.lyj@gmail.com</span> (=
+please indicate the name of our special issue or journal in your email; any=
+ inquiry is also welcome).</p></td>
+    </tr>
+    <tr>
+     <td style=3D"font-size:20px;padding:20px 20px 10px;border-right:10px s=
+olid #D7C3B3;">Potential Topics (not limited to)</td>
+     <td style=3D"font-size:16px;line-height:1.5em;padding:15px;border-left=
+:10px solid #D7C3B3;">
+      <ul>
+       <li>Fuzzy neural network</li>
+       <li>Artificial intelligence and computational intelligence</li>
+       <li>Intelligent control and fuzzy control</li>
+       <li>Data analysis and fuzzy logic</li>
+       <li>Fuzzy clustering analysis</li>
+       <li>Fuzzy model for prediction</li>
+       <li>Fuzzy logic and management system</li>
+       <li>Fuzzy theory and its applications</li>
+      </ul></td>
+    </tr>
+    <tr>
+     <td width=3D"20%" style=3D"font-size:20px;padding:20px 20px 10px;borde=
+r-right:10px solid #D7C3B3;">Other Special Issues in JSEA</td>
+     <td width=3D"80%" style=3D"font-size:16px;line-height:1.5em;padding:15=
+px;border-left:10px solid #D7C3B3;">* Software Design and System Architectu=
+re <span style=3D"color:#999999;">(Submission Deadline: February 19th, 2018=
+)</span><br /> * Software Analysis Patterns <span style=3D"color:#999999;">=
+(March 13th, 2018)</span><br /> * Computer Simulation and Applications <spa=
+n style=3D"color:#999999;">(March 29th, 2018)</span></td>
+    </tr>
+    <tr>
+     <td width=3D"20%" style=3D"font-size:20px;padding:20px 20px 10px;borde=
+r-right:15px solid #D7C3B3;">About this Journal</td>
+     <td width=3D"80%" style=3D"font-size:16px;line-height:1.5em;padding:20=
+px;border-left:15px solid #D7C3B3;"><p>The h5-index for the journal is 17 b=
+ased on the Google Scholar Metrics (June 2017)</p><p>There are 1023 citatio=
+ns in <strong>Web of Science (Clarivate Analytics)</strong> for articles pu=
+blished in the journal JSEA as of June 2017, which increase by 88% compared=
+ to 543 citations as of June 2016.&nbsp;</p></td>
+    </tr>
+    <tr>
+     <td colspan=3D"2" align=3D"center" style=3D"padding:15px;font-size:16p=
+x;line-height:1.5em;background:linear-gradient(#D7C3B3,#DCD5D0);background-=
+color:#D7C3B3;color:#ffffff;"><span class=3D"STYLE1">Best regards,<br /> Pr=
+of. Yashwant K. Malaiya (Colorado State University, USA)<br /> Editor-in-Ch=
+ief <br /> JSEA Editorial Office</span></td>
+    </tr>
+   </tbody>
+  </table>
+  <span id=3D"unSub" style=3D"font-size:10pt;font-family:verdana,arial,helv=
+etica,sans-serif;line-height:20px;">This message was sent to [kongxiangzhen=
+g@gmail.com]. <a href=3D"http://www.member.scirp.org/member/transferParamet=
+erAction.action?personID=3D9115028&amp;identifier=3D612C70ABF8DCFE1314E8A4E=
+92378133D1AEB3F5C105B4208B7502F8EC0C5FE72&amp;blackListTypeId=3D1" target=
+=3D"_blank">Unsubscribe</a></span>
+  <br />
+ </body>
+</html>
+------=_Part_132616651_339705446.1517830777021--
+
+------=_Part_132616650_628408656.1517830777021--

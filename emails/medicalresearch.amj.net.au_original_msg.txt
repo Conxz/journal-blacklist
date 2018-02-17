@@ -1,0 +1,314 @@
+Received: from BY2NAM01HT055.eop-nam01.prod.protection.outlook.com
+ (2603:1096:a00:1::30) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0114.INDPRD01.PROD.OUTLOOK.COM; Tue, 13 Feb 2018 09:07:52 +0000
+Received: from BY2NAM01FT043.eop-nam01.prod.protection.outlook.com
+ (10.152.68.57) by BY2NAM01HT055.eop-nam01.prod.protection.outlook.com
+ (10.152.69.149) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.464.11; Tue, 13
+ Feb 2018 09:07:50 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.101.77)
+ smtp.mailfrom=amj.net.au; outlook.com; dkim=pass (signature was verified)
+ header.d=omicsgroupo365.onmicrosoft.com;outlook.com; dmarc=bestguesspass
+ action=none header.from=amj.net.au;
+Received-SPF: Pass (protection.outlook.com: domain of amj.net.au designates
+ 104.47.101.77 as permitted sender) receiver=protection.outlook.com;
+ client-ip=104.47.101.77; helo=IND01-BO1-obe.outbound.protection.outlook.com;
+Received: from IND01-BO1-obe.outbound.protection.outlook.com (104.47.101.77)
+ by BY2NAM01FT043.mail.protection.outlook.com (10.152.68.194) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.464.11 via
+ Frontend Transport; Tue, 13 Feb 2018 09:07:50 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:BBE377032CD19EA403DBD885A047B44E2A1425E950C9956F60EDA168B2D01A2D;UpperCasedChecksum:3028554C37E7C616F7988178510F8614DDEEA57F758594DAB1C995E6F37084E2;SizeAsReceived:8537;Count:39
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=omicsgroupo365.onmicrosoft.com; s=selector1-omicsgroupo365-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=raDL5fGDgF9COS4bOlpaZQzO+TI0y7oYJDnPy9M3lYA=;
+ b=l7N9EdQ8vNR0PSSZTbC7Fv8Lg4udYj9A6pH7FzHkLN+J+WpP59+jsv6IuT0x+vNrnvhqFPW9e02LXi9chnnmFn8ffovBiUWJm399aZ30jVidYq6JsNCqpXAxDdOuj7qWhT6iCTqAypZa5KFV49VqWtOSLDkz5gzK+TFga4JQ2NU=
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=medicalresearch@amj.net.au; 
+Received: from HZXG152 (220.225.72.25) by
+ MA1PR01MB0681.INDPRD01.PROD.OUTLOOK.COM (10.174.57.23) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.485.10; Tue, 13 Feb 2018 09:07:46 +0000
+From: "Australasian Medical Journal" <medicalresearch@amj.net.au>
+To: <xiangzhen.kong@outlook.com>
+Subject: Editor - Australasian Medical Journal
+Date: Tue, 13 Feb 2018 14:32:19 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAMHaAb7S56pMneO7rsdLpkTCgAAAEAAAAO0WQhespttGhuVWHqO4jvYBAAAAAA==@amj.net.au>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_07D2_01D3A4D7.75492C50"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdOkqVf1+if++2uLRYCy+NkEKdC6RA==
+Content-Language: en-in
+Disposition-Notification-To: Australasian Medical Journal
+	<medicalresearch@amj.net.au>
+X-Originating-IP: [220.225.72.25]
+X-ClientProxiedBy: MA1PR0101CA0007.INDPRD01.PROD.OUTLOOK.COM (52.134.136.145)
+ To MA1PR01MB0681.INDPRD01.PROD.OUTLOOK.COM (10.174.57.23)
+Return-Path: medicalresearch@amj.net.au
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8eb79816-25f8-4b3c-6de3-08d572c1425c
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(5600026)(4604075)(4534165)(4627221)(201703031133081)(201702281549075)(2017052603307)(7153060)(7193020);SRVR:MA1PR01MB0681;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR01MB0681;3:rg7oc2wZfZ4Nxjm6cvekquOYqGwhD4BAoKVVMGqvatNghyyiwslyC2nXJqu9Dwmq24vwXS5OgKGERJFTSMY2dAEejRhi2mTIhfhewX8BOM+g7Afd8DxtM5c8LNDIQOaV3cHv88Rb7mMFlLrlHo/tzAgy7wwcT0k6DlGaVvmeBmkrpOD9wREfylA2G575y62r66zuKIPgs3JoVpmX3KkbanMrYa7qnoDSfwRf51/XddbFy/5dQAC7T1RKvSalzrDb;25:e75uCaew5V83kMATg977s2Wxc0cDw8x/hlhwQtbVuJg9L0n/hV20teYlmhqkGRmC88miOeky2XVk3JjvylCrvXTlrPG+9Vo+2i6agl+1+tc0GYiMrveRgKZTUxC6TbTgP0G+27w04AT9hLGQFXzrVoZu17JXIg0xkRJdbS1I/x5nRaHLf5La1TarvZ89vcf0HxHLF0VJwWEYNOrIAUcevqOR42i1MqsoawpDfxGFjMIhXNQqj4pE7CDwSFFMFJ39yeFz192QkOX3y4CVM+xOC6kwkOM1Woq9aPgBU3JxADErT53//0xzwFWHvJC8p5dvk9jNKxRKKMiZUe2BseclTw==;31:Adx2/61s7DoswujqD8xdrAPcAoN9Y6XhWp7hUFa9cl0e5pzswS509gP/lUoKrpLWjsNU15O6c/gSKF5h6o+eYKL7cYVe8k2a2EAKzWUEEH1lyNZA7v8ySXISb14p4sdXIq3YWBspbAbgeDOJI8m1WTG4RANlXuL+Lu6fVNppIITXVSzPbXzZdGpSpN884Lcgv7+AfpDOiEVUkAGRXAvIRmZ5FThJ3MuRDYS5/hfBins=
+X-MS-TrafficTypeDiagnostic: MA1PR01MB0681:|BY2NAM01HT055:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR01MB0681;20:j/bJ9lJjvVXjYR803BS/D61urmNwK21UmHbOpPlZubuqkS5tb5uVXkTBBRRMincWB3UQObOEWfOW6bUKCXmCEwXk7dre4sXeHm0uNxmrJxD+I/FYAhHlcGHtgUeV45JsWMWzzyh+dsT/0vtJzg5eiSP4sxBNe5JzJ8Gj8EnWEn2IHPaHLgaFpcONSdidwZRT6ObLb0b0WtLFxBAHW6RAXaEnXPAazkTFv6mqQ2/967XUPqeyqgks87Sd43vt6KWA;4:HRlN9mL1HvoMS7p5f0Gr/YcSyyJ1tGZkUqzmSAD9y25cbJoGE2HHMOzV7VosAglzkMEM0MDEo+/TBpyV5mF3fHDrVynAHzII1QQB+Hl2OUiJG/Ymzypk/wGCEE6UStkUtxwpTTRZJxtdbQ0ep09isTVXAu7EIiMS6AQQLQT230slkocWo3ZopKgIouGZMKwTlJcdad9fbCIlMQjCaXbTwV1A2hq+++OuKnagMFI51Hc2NPgW6egAw65b2WY7jsO3A8hJfPqswgxWpEAXCXo6E1+XNvX0n8cyntOAGT4bShul/lY1HIaA2StMisD+FVXXOna70S5E0u9cVCt0yRIaHJl3Ilg9dmQbzVY6vJIjHdSbyZXwopw98ZOU5yqRcHQy
+X-Microsoft-Antispam-PRVS: <MA1PR01MB0681BB6BDF610FB1E032FA3C85F60@MA1PR01MB0681.INDPRD01.PROD.OUTLOOK.COM>
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(21748063052155);UriScan:(28532068793085)(20558992708506)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(6040501)(2401047)(8121501046)(5005006)(10201501046)(3002001)(3231101)(944501161)(93006095)(93001095)(6041288)(20161123558120)(20161123562045)(20161123564045)(20161123560045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(6072148)(201708071742011);SRVR:MA1PR01MB0681;BCL:0;PCL:0;RULEID:;SRVR:MA1PR01MB0681;BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:BY2NAM01HT055;BCL:0;PCL:0;RULEID:;SRVR:BY2NAM01HT055;
+X-Forefront-PRVS: 0582641F53
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(39860400002)(396003)(376002)(366004)(346002)(39380400002)(199004)(189003)(102836004)(606006)(16799955002)(61296003)(71636004)(7736002)(8676002)(81166006)(81156014)(26005)(478600001)(6496006)(106356001)(260700001)(39060400002)(270700001)(15188155005)(236005)(6916009)(42882006)(50226002)(68736007)(6666003)(52116002)(97736004)(5660300001)(25786009)(36756003)(75216001)(53936002)(74826001)(59450400001)(8936002)(7826002)(66066001)(6486002)(186003)(6116002)(3846002)(790700001)(16526019)(86362001)(74482002)(2351001)(54896002)(84326002)(6306002)(16586007)(2906002)(626008)(316002)(413944005)(88246002)(347745004)(105586002)(386003)(56704002)(19623215001);DIR:OUT;SFP:1101;SCL:1;SRVR:MA1PR01MB0681;H:HZXG152;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received-SPF: None (protection.outlook.com: amj.net.au does not designate
+ permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;MA1PR01MB0681;23:A56lrQQFB5UtoK0ksIo8pJWJXovN9uZecWub+BeHu?=
+ =?us-ascii?Q?DpYNSel7Hwt1YCEzN6YF9GI7dHaFQR+RGLyBhFR9c0S0DZoWZ+uVVvIgpLAq?=
+ =?us-ascii?Q?bnJarDeGkHihCoeITT4KTU2sE2xrSxWqEMTwqr9OkOTHv0wx/qO1HK0kmvT5?=
+ =?us-ascii?Q?14t6GL/CBCLiM8BR4xe0QVh5bACypKrxmeo0NWjVBP0KC9PHryv6RGVjH32W?=
+ =?us-ascii?Q?VlAfLHJKBzDpHt5ZBi/SbUMmE80Dr0HoRQ0HZ6DQQqSaIuOdYZcDgK2ABa+7?=
+ =?us-ascii?Q?SggfN75Wx1Fgot0DYJbI2M/pPF3+1u/ZUKH34MBVQ6uZWSiS7/xjpEAAfAeh?=
+ =?us-ascii?Q?aM0o+xWE3az7koKJtbt8oFDVuqVN9ahhL8G06YoWW5fUlZ2ExjJbG+lgqdUW?=
+ =?us-ascii?Q?mqdGD5urdvw0fR71F6AzbOgnEkUHtk3uaelVcf0FZKDYyw4pyl3M3basDhA1?=
+ =?us-ascii?Q?/eh2r2L4PSNweP95j+6sdfNND98WHJZpHOtugKhnQiKT/qL1ZA/KYakvYqvO?=
+ =?us-ascii?Q?BDmNc4EnhviYd9FgYiyExFEN5mZzvMHre/NHyuShcGKB8tiD3ldxCodbJE3w?=
+ =?us-ascii?Q?XBqULV/UPFPQDn234rZUvrXHDoj+Rjao5OsKTQj7MzC6j6mDDBJ6unU1tAT9?=
+ =?us-ascii?Q?5/KOOCyxVRYIaJ5/BuWW1YCVAwfYpH2dP7ZkR7PmMaiMY/t83OuOF94hwtjS?=
+ =?us-ascii?Q?XNWXEpSr39QeXDj0HOCNnktXPo+vWa593wzJX5fGfL7UQfnFmfm5bqbt+LFb?=
+ =?us-ascii?Q?W6dlLg78NR4wwCh9vtftSUzKXodXlyWlzePjbO1XkRf9N3MZqwTqblctTbCH?=
+ =?us-ascii?Q?cpTiMbWjnggHztzzyGqnzhn4wdtKUzyYomNCVuUbZL7cybpk7P5pLBe4m0CI?=
+ =?us-ascii?Q?RhQzY6IDBTs4l30AIrxHCkNQWHbfpAkrugkIHCRwn1huqkz5dQlIx557rkwh?=
+ =?us-ascii?Q?EEDX2uB3nghpoB6t6QmD4w1phNZWA0R2FpEF6HmlsIyO9xwUjoV2VNR5o8DH?=
+ =?us-ascii?Q?iEztBgijCs4m0tHUJ+i1OtQD3K4avx5/5i5EL7krTETenH3DdBuVg8jcRRxH?=
+ =?us-ascii?Q?wy/mg/Qn7fIWCdnOlUGFeUVSwyUClKot9tzb0v4fg3JEm9yqLipiKQKSRmzo?=
+ =?us-ascii?Q?1x58J9xDiHodzgVT40h7lH1XrRQUN4yNzhtfj5I9XfcKs85R11foPMBBLeDV?=
+ =?us-ascii?Q?63DVQiYD4BdOqj3MmF1H1xTKKb7d1gDp1oSyvXQ1qnRw0wYlO0nXj9zN/rRx?=
+ =?us-ascii?Q?Fim8NRutwzklyAzM86CFaTT3WT81qrtwEHbPCvNTMuXV/xGmR9YUMT2UYu0A?=
+ =?us-ascii?Q?07Ztn2jTqQFowMnbG8ItP2Ds+HTaZsgHCk78Ui06z73K93NAcn9dzaw92++v?=
+ =?us-ascii?Q?stRpC4QEAJlgnfIRcwPDIOfp+h2k+4klqBMbQqqL/Zikqf1qS8IgGwc9zhDZ?=
+ =?us-ascii?Q?yMjYss9RvI0ugnrYrFi25cMTTQ2+fs26AX5cT85rSKKKqCTqwZstRnc/0XHw?=
+ =?us-ascii?Q?msDaZOLC7q/duYprtHpqqMEF4N+Ke6YKx0=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;MA1PR01MB0681;6:yVigeAtWO+MYp3MdwtD8tFHOqx2kIUGSEGhB1s2L8HOT9s6GXDO9fN88QwAkBzcYd9Jhf8dPbHbSdsHvHBjzQ/HRWNIsInLkhpNaUNJrnWCMmAOZOHaQlNaM1bqMfLUWCeMJ/YzaCf43tZUT449/tROeLmRwtuit7xRbUasISETpFBriUCTedF29SBTK+OEP4uT7gdqrWqcpucMhQaF24m6Hwmo9JtZpzIHssLNd449VUf9IoIOlfYNH7lfYcluh9PcwT5IdExTuMzrdcMaCjczxs/QBnDHP/iKEgEUYkX2jYoW/oauMoSRtezf5vRsXO9z6iRp+Amjwgga+xCYa9zC+2pq/pX+iBzMuiKZ2VKk=;5:Jx0wZXd6DLtu433o699sCgbRzNO5KSYmFS312zqHK77HI58ZyLgJNSfh7P3V7+3TDXUgrDd0v8PPGtq8Rx0pDPxVLtjlAp/YazQk0MK/GgvDcMWifH78o2o2X2QLbG4rnkeRcI1UqlQXx6a3DHMMOp6mI5C2EbGhooA43U9mwnA=;24:BcOCIUzHbkHL6O5gy5HVFPwSESHrL9F5PBk7d2D9RE6W1Op0idl8qh+9PcXwkyKds1ipxEb6+xLaUKO/dm2IakCvPOMvpk1FRDcRiNZI6ug=;7:ip2x1fr3IMdk/YDsb4wj0AAfdAshQPlhm4N92w5IDQERmGQN1Vw79H+Snlw2cQynpR9caRNZNCWqiL0kxDZVPB61AFRwclR1TKFHOSlOqL5RB20YRHfg+70/ceL8BvGSOlegXEwOZMRJ6V43d0C9Vq+HsgnU/gI1pnd1N05UAjngO0WX59NvTvcYRc2HFUbVFXiuyL/H1fCGLeKCH8hNY1nQbZ3963cIvFgpkct6pAwzOVLo7Q5YQVea6m8Bp3Um
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MA1PR01MB0681
+X-IncomingHeaderCount: 39
+X-MS-Exchange-Organization-Network-Message-Id: 8eb79816-25f8-4b3c-6de3-08d572c1425c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2NAM01FT043.eop-nam01.prod.protection.outlook.com
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01FT043;1:qEpN2uzMxdVd5A+dO2d29bC+cWrHVqYY1cPhupkFM5B5MOHYJE4kU2Jgiapopo+6d2k6hMmPt6c+CCMm6UD5XuEtfn74K2b7NO0hOAtNN22xG6ASziFvVt7Esh4y0dIh
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:BY2NAM01HT055;H:IND01-BO1-obe.outbound.protection.outlook.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: BY2NAM01FT043.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:BY2NAM01HT055;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT055;3:ptvvqJ0P/DyaN+Sz4Nhr365jrzWs5d9L7SRmJMQfudTpPtuaqU4T3HS5o9QhBkyykqinLHFeU2Mt+hYIrzhb683tH43JO8m1y41G5MxH8Ke0Aw//0JDG2wuG7zOSNMSkoWhMOnpz3vgHc17Y5ACPQGwa9gViT+jfdK7dwslyntYiSAczZ8PZDJscXhQVWY8RJ1HwO0qTZOH+HNWKn1n40UD0mGlJRjYooPQVdwPWdKKtcC2c7SudWrDIcpzWFbQ42+4wKhcD2KIy/bdGdIcB5McdZWRvMUePNUnDCjirLsE0uRzE9LDlxXvT5u3bbtmg;25:zP7TYM/rA9/hjkDSrzrciUFMUkYyy9nGgS3MLX8Nn1cn7c19rzw3LQ37SbF8i/5b8Z4SH07vlIhFMIVYQMBV2o+63+LvdqQJ5g95NPOXI2XPO6zLouX2AcyeTZ42lIeCnQVAHawmuewjTpgVN0KzHiD1ipw9WxMsvqUTMqzPfKLCFzRVvcelg2zghCEMtAiZmLdhJ/+klpJ1/Syto+ZFPpqPOoWU8G4RqQrbYEYqcyMnCHgOf6mE0MBufa6XM0loRz9yHrThOQCDRRsdq97HnxbHRlOf6pZN7KjMelsVn7wmmQePAKTU7VVPcwxN/4R0snuiBAfkkCHJ80EQEOyJzw==;31:xd9r6cwaUV5n7UFTgmHytjmZtPtojlkHZCkGXaVHt/BCY70XjLSpjuLfCWmhqt1SJzRZUzOPG9pzLskuunh1lgYcQaa1POapBVQOuTl5FLRRbo4MPaSRBNuOO/81loIcqnmYsJmgPn8ZSIcicM+zIhXPquns1wJA+QhiQrOoEnZ3YRec4J6SwWZln75vMLobXZuErhcnrJ18PKY7CpmSe3BG9vCbLNT8kaeMaxW2uc8=
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.47.101.77
+X-SID-PRA: MEDICALRESEARCH@AMJ.NET.AU
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT055;4:onqcNLo/H24WZg1vyQ6m27aiPKWQaxmKFHQ8nVS/jR1xuHTFD1cpg76hm473IvF0ifi8lhfYyrr6WrIw7NF8CE2/mjIgJs57V6DO23zeUGFD29e/WMBt8OK33upifvRhDAV8ncHW2ni7Kjw2PeYm3UTWHmTX5tF6WS0mp0dVtPoerZlHDCBashwCOWjWsrx/fhYa5PQi4Dc7Sqg0ywTT83eJ2qfevvfS8junQp22DDmCNNjLEAb5cjaMWiAdyO97T/cAt512mWIeN2AvsHsHEk5qAoymo9ZY6t0+E4WvSmQPWN/CmJ3fa20SIimTIqmcVHxOghBUNuBPHU/Dsr5gv7+Q6Gghl9rQJCzv/ZQBp+HQeZjoMTi+q1M2PLe0DugL;23:KSTJev2PE6yiEHfmTaIeqCB53eH0Al5X5SYCCDb6yor69uafjhtdeo63YI5yVTrG7dbM1haLTKcq6Ru77sGUoxhe+mSpuKhuuuOu0pXl9XA+wBcAKv/5xFB1OLKHVq/7tBZLJsN53bd7E0uIm++A9wRA0F+1mORk/m1GtwGlcbg=;6:PcrYHbr5UCRTt3ubT41xg9h/T1Lh+2GeeZX/neKrfLNq+rZ+797qEqOIgYRSc/0w6JBRoXDHqgPXQcLqA/WFHOKj/krxq2AcmkGyhirh5OgrsaLHH08bRnYCr6jVHckAe3zk6GISyVugem3h9ar5tkg4o91cTjPt540s6PdDX8OLvZUoWgFJoTmZubwpG6saNafWD3EBQcViHsF2jhebheBSOmN1hF2yJ4ugNNN62sEw4Ufmt1dPZlxAq8F0f49fLELDUGiofxXvIdfBTpYlEAiTMieVR2fNabjbbXUuoOXQuXEgsu1/hhrtG/TzgQuRpsBPAXtRGNBqN0CxwZvZKG9W5NQo9NyWrVfowZ3h3QM=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: UJsTPTP/iLgom/zNRWBwuUUg0vGgqAywEeLW2rPU0RxqY5aVmfBk692AMOL7J21b98vRnxAt7jx6UWmKv15K9LjY93bLHPs/DMc/yRK4P2s=
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM01HT055;5:UiePEvr6q+Rr1ax3bgQnw0X/45tlftL5uTrUamrrqpiftctCarEg8E6GTystTN+f6/yLv+7P6ZNSCUJx85weORnOJs+e3pZt+WELsO69MI+aEQM78a+5v/vcrqXCZSAGnD/8ImUJY+TltaBcBTxkjx3MauhrobjxvVYUMj2dCjg=;24:nwEg52D4LS66wtRC5ZGcT6Z9130+jlNvI508YdAIm0b9tK6zdWaBgZaWhFowp8bve9LC9FYIfrI396+GjVPt7pA/oSJ44KjccGDlNFwNJs8=;7:CBW4ofGGLU60gdQWulW0c6abFyvFPtep8h6PjwPU8U4sExSE+DdfSrGzNM2O4+FHQVsRjhMKo5Ieay08BlcAlx+ksaxqa5YxCrFW2RGAMWH6HSlM0K+48fE6dyC/Yg5BIqNZjcQOrJMDtOfdpqsNM3RSgsgSOj9zHvbGXBcIiAp1eiMXmSn+mJPdpfSVuBJ1ubypfYqnv3KTdqn+a76utsy+QqaSjAv+5SN6ZxaG897RTtGQ+mtKXNfL8VK5ELCx
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Feb 2018 09:07:50.5245
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8eb79816-25f8-4b3c-6de3-08d572c1425c
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2NAM01HT055
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0117726
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0485.002
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:e7Y2HMHZo3pvCFZncajLDodZCs+H7HPmjLxRJw7V1H6c1WcvqESleIxBOUaAduz1VGX/c2coyIxuLTikk7vpblMH+IJ/WX7hC6ePKAterLsZ5birk64CHRZC7bmfr6v7
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yp1H64LtFsazUBiBjx+7cePR3QEG1Q8aa3wKzs4H6AEG3GiJEQIMn2JLOpFQuzBspOLG/YRwJ3lDnuRFgU+kcyaJb+JygBjeYCSa8oE1Mq1YagRDheGW3H8nz3jo5xF3Vl/1wYXcRWENQ0rT13dv1larKL95u8B+aKyqD6LvYDZL5bpzFqg8quHdJSAP3Dqx/Y=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	vYsPEWmj+DHj3SKnH7BynBwnicEbCu2W8GanSpn0obhN8+NT6Qg/Ioz5w4nZCZ8Kg44YSEIX/1CUVMgkhi491SEhTSerFvQx1dP9WX/YmobLyj/uqO310DDc33UoDzzfum0fD+sqZ/7h+v4F/O/ihpNKGbyP8OqMFnOMk23jsKwgf7QUwUb1H9sjMYLjnL572krIep+Xr1HSJuQYlMQ7k1Wu8+iHexthR6LlM/YYjEGTCM/N3mYnwvmdJl34dqow56eif+jqPXZpMqMDtFzveQ==
+MIME-Version: 1.0
+
+------=_NextPart_000_07D2_01D3A4D7.75492C50
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:e7Y2HMHZo3pvCFZncajLDodZCs+H7HPmjLxRJw7V1H6c1WcvqESleIxBOUaAduz1VGX/c2coyIxuLTikk7vpblMH+IJ/WX7hC6ePKAterLsZ5birk64CHRZC7bmfr6v7
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yp1H64LtFsazUBiBjx+7cePR3QEG1Q8aa3wKzs4H6AEG3GiJEQIMn2JLOpFQuzBspOLG/YRwJ3lDnuRFgU+kcyaJb+JygBjeYCSa8oE1Mq1YagRDheGW3H8nz3jo5xF3Vl/1wYXcRWENQ0rT13dv1larKL95u8B+aKyqD6LvYDZL5bpzFqg8quHdJSAP3Dqx/Y=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	vYsPEWmj+DHj3SKnH7BynBwnicEbCu2W8GanSpn0obhN8+NT6Qg/Ioz5w4nZCZ8Kg44YSEIX/1CUVMgkhi491SEhTSerFvQx1dP9WX/YmobLyj/uqO310DDc33UoDzzfum0fD+sqZ/7h+v4F/O/ihpNKGbyP8OqMFnOMk23jsKwgf7QUwUb1H9sjMYLjnL572krIep+Xr1HSJuQYlMQ7k1Wu8+iHexthR6LlM/YYjEGTCM/N3mYnwvmdJl34dqow56eif+jqPXZpMqMDtFzveQ==
+
+
+Dear Xiang-Zhen Kong,
+
+
+Greetings!
+
+
+I would like to introduce myself as the Managing Editor for the Australasian
+Medical Journal. 
+
+Australasian Medical Journal is indexed in following databases ISI's ESCI
+(Web of Science), CNKI, Scopus, Embase, EBSCO HOST, Scimago, Index
+Copernicus, DOAJ, ROAD, World Cat and etc.
+
+I would request you to submit a manuscript for possible publication in
+<http://amj.net.au/index.php?journal=AMJ> Australasian Medical Journal. We
+publish Original Research articles/ Review articles/ Case studies/ Brief
+reports/ Clinical audits/ Research Protocols/ Short communications/ Image
+articles/ Editorials and Letters to Editor.
+
+Kindly let me know about your valuable decision on this at your earliest
+convenience.
+
+
+E-mail us at  <mailto:editor@amj.net.au> editor@amj.net.au or
+<mailto:medicalresearch@amj.net.au> medicalresearch@amj.net.au
+
+Thanks in anticipation,
+
+Rick Steves
+Managing Editor
+
+Australasian Medical Journal
+Ph: +44-203-769-1765
+
+ 
+
+
+------=_NextPart_000_07D2_01D3A4D7.75492C50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:e7Y2HMHZo3pvCFZncajLDodZCs+H7HPmjLxRJw7V1H6c1WcvqESleIxBOUaAduz1VGX/c2coyIxuLTikk7vpblMH+IJ/WX7hC6ePKAterLsZ5birk64CHRZC7bmfr6v7
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yp1H64LtFsazUBiBjx+7cePR3QEG1Q8aa3wKzs4H6AEG3GiJEQIMn2JLOpFQuzBspOLG/YRwJ3lDnuRFgU+kcyaJb+JygBjeYCSa8oE1Mq1YagRDheGW3H8nz3jo5xF3Vl/1wYXcRWENQ0rT13dv1larKL95u8B+aKyqD6LvYDZL5bpzFqg8quHdJSAP3Dqx/Y=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	vYsPEWmj+DHj3SKnH7BynBwnicEbCu2W8GanSpn0obhN8+NT6Qg/Ioz5w4nZCZ8Kg44YSEIX/1CUVMgkhi491SEhTSerFvQx1dP9WX/YmobLyj/uqO310DDc33UoDzzfum0fD+sqZ/7h+v4F/O/ihpNKGbyP8OqMFnOMk23jsKwgf7QUwUb1H9sjMYLjnL572krIep+Xr1HSJuQYlMQ7k1Wu8+iHexthR6LlM/YYjEGTCM/N3mYnwvmdJl34dqow56eif+jqPXZpMqMDtFzveQ==
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Palatino Linotype";
+	panose-1:2 4 5 2 5 5 5 3 3 4;}
+@font-face
+	{font-family:Nyala;
+	panose-1:2 0 5 4 7 3 0 2 0 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-IN" link=3D"blue"=
+ vlink=3D"purple"><div class=3D"WordSection1"><table class=3D"MsoNormalTabl=
+e" border=3D"0" cellpadding=3D"0" width=3D"900" style=3D"width:675.0pt"><tr=
+><td style=3D"padding:.75pt .75pt .75pt .75pt"><p class=3D"MsoNormal" style=
+=3D"margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal"><b><span st=
+yle=3D"font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Dear Xi=
+ang-Zhen Kong,<o:p></o:p></span></b></p></td></tr><tr style=3D"height:33.15=
+pt"><td style=3D"padding:.75pt .75pt .75pt .75pt;height:33.15pt"><p class=
+=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;line-height=
+:normal"><span style=3D"font-family:&quot;Palatino Linotype&quot;,&quot;ser=
+if&quot;">Greetings!<b><o:p></o:p></b></span></p></td></tr><tr><td style=3D=
+"padding:.75pt .75pt .75pt .75pt"><p class=3D"MsoNormal"><span style=3D"fon=
+t-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">I would like to i=
+ntroduce myself as the Managing Editor for the <span style=3D"background:wh=
+ite">Australasian Medical Journal</span>. <o:p></o:p></span></p><p class=3D=
+"MsoNormal"><span style=3D"font-family:&quot;Palatino Linotype&quot;,&quot;=
+serif&quot;">Australasian Medical Journal is indexed in following databases=
+ <b>ISI&#8217;s ESCI (Web of Science), CNKI, Scopus, Embase, EBSCO HOST, Sc=
+imago, Index Copernicus, DOAJ, ROAD, World Cat </b>and etc.<o:p></o:p></spa=
+n></p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Palatino Lino=
+type&quot;,&quot;serif&quot;">I would request you to submit a manuscript fo=
+r possible publication in </span><a href=3D"http://amj.net.au/index.php?jou=
+rnal=3DAMJ"><span style=3D"font-family:&quot;Palatino Linotype&quot;,&quot;=
+serif&quot;">Australasian Medical Journal</span></a><span style=3D"font-fam=
+ily:&quot;Palatino Linotype&quot;,&quot;serif&quot;">. We publish Original =
+Research articles/ Review articles/ Case studies/ Brief reports/ Clinical a=
+udits/ Research Protocols/ Short communications/ Image articles/ Editorials=
+ and Letters to Editor</span><span style=3D"font-family:Nyala">.<o:p></o:p>=
+</span></p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Palatino=
+ Linotype&quot;,&quot;serif&quot;">Kindly let me know about your valuable d=
+ecision on this at your earliest convenience.<o:p></o:p></span></p></td></t=
+r><tr><td style=3D"padding:.75pt .75pt .75pt .75pt"><p class=3D"MsoNormal" =
+style=3D"margin-bottom:12.0pt"><span style=3D"font-family:&quot;Palatino Li=
+notype&quot;,&quot;serif&quot;">E-mail us at </span><a href=3D"mailto:edito=
+r@amj.net.au"><span style=3D"font-family:&quot;Palatino Linotype&quot;,&quo=
+t;serif&quot;">editor@amj.net.au</span></a><span style=3D"font-family:&quot=
+;Palatino Linotype&quot;,&quot;serif&quot;"> or </span><a href=3D"mailto:me=
+dicalresearch@amj.net.au"><span style=3D"font-family:&quot;Palatino Linotyp=
+e&quot;,&quot;serif&quot;">medicalresearch@amj.net.au</span></a><span style=
+=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Palatino Linotype&q=
+uot;,&quot;serif&quot;"><o:p></o:p></span></p><p class=3D"MsoNormal" style=
+=3D"margin-bottom:12.0pt"><span style=3D"font-family:&quot;Palatino Linotyp=
+e&quot;,&quot;serif&quot;">Thanks in anticipation,</span><span style=3D"fon=
+t-size:10.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&q=
+uot;serif&quot;"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"marg=
+in-bottom:0cm;margin-bottom:.0001pt;line-height:normal"><span style=3D"font=
+-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Rick Steves<span s=
+tyle=3D"background:yellow;mso-highlight:yellow"><br></span><span style=3D"c=
+olor:black;background:white">Managing Editor<o:p></o:p></span></span></p><p=
+ class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;line-=
+height:normal"><span style=3D"font-family:&quot;Palatino Linotype&quot;,&qu=
+ot;serif&quot;;color:black;background:white">Australasian Medical Journal</=
+span><span style=3D"font-family:&quot;Palatino Linotype&quot;,&quot;serif&q=
+uot;;background:yellow;mso-highlight:yellow"><br></span><span style=3D"font=
+-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;;color:black;backgro=
+und:white">Ph: &#43;44-203-769-1765</span><span style=3D"font-family:&quot;=
+Palatino Linotype&quot;,&quot;serif&quot;"><o:p></o:p></span></p></td></tr>=
+</table><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p></div></body></html>=
+
+------=_NextPart_000_07D2_01D3A4D7.75492C50--
+

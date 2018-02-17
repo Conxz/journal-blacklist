@@ -1,0 +1,196 @@
+Received: from DM3NAM03HT111.eop-NAM03.prod.protection.outlook.com
+ (2603:1096:a00:1::21) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0105.INDPRD01.PROD.OUTLOOK.COM; Thu, 8 Feb 2018 13:19:20 +0000
+Received: from DM3NAM03FT007.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.52) by DM3NAM03HT111.eop-NAM03.prod.protection.outlook.com
+ (10.152.83.104) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.20.464.13; Thu, 8
+ Feb 2018 13:19:19 +0000
+Authentication-Results: spf=pass (sender IP is 69.59.172.23)
+ smtp.mailfrom=email.questedge.co.in; outlook.com; dkim=none (message not
+ signed) header.d=none;outlook.com; dmarc=none action=none
+ header.from=mathewsopenaccess.us;
+Received-SPF: Pass (protection.outlook.com: domain of email.questedge.co.in
+ designates 69.59.172.23 as permitted sender) receiver=protection.outlook.com;
+ client-ip=69.59.172.23; helo=rlf1.maildirectbeta.com;
+Received: from rlf1.maildirectbeta.com (69.59.172.23) by
+ DM3NAM03FT007.mail.protection.outlook.com (10.152.82.68) with Microsoft SMTP
+ Server id 15.20.485.12 via Frontend Transport; Thu, 8 Feb 2018 13:19:18 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:8400FCA8ABC862B77BB0769F36FB1E5AECA91CCEA65FAA412218AF4EB194D53E;UpperCasedChecksum:47CE30F4BEE556409A977A0BECA4731B0E8A183A2A8478C0CE3B6854DF654609;SizeAsReceived:2013;Count:22
+Received: from mst117.mdreg-mstnew.qlc.co.in (mdreg-mstnew.qlc.co.in [172.16.0.101])
+	by rlf1.maildirectbeta.com (Postfix) with ESMTP id A951617A8887
+	for <xiangzhen.kong@outlook.com>; Thu,  8 Feb 2018 18:49:17 +0530 (IST)
+Received: from mst135.mdreg-mstnew.qlc.co.in (unknown [172.16.0.135])
+	by mst117.mdreg-mstnew.qlc.co.in (Postfix) with ESMTP id 8D3487A804F
+	for <xiangzhen.kong@outlook.com>; Thu,  8 Feb 2018 18:49:17 +0530 (IST)
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1])
+	by mst135.mdreg-mstnew.qlc.co.in (Postfix) with ESMTP id 81E99412040
+	for <xiangzhen.kong@outlook.com>; Thu,  8 Feb 2018 18:49:17 +0530 (IST)
+Reply-To: "casereports@mathewsopenaccess.us"
+	<casereports@mathewsopenaccess.us>
+From: Mathews Journal of Case Reports <casereports@mathewsopenaccess.us>
+To: <xiangzhen.kong@outlook.com>
+Subject: Manuscript Invitation
+X-Abuse-Reports-To: abuse@email.questedge.co.in
+X-campaignid: 1518095646
+List-Id: <34445_45464_0_1518095646_21285>
+ListMember: <xiangzhen.kong@outlook.com>
+List-Subscribe: <http://email.questedge.co.in/misc/pages/subscribe/MzQ0NDVfNDU0NjR+eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21+MF9DfjE1MTgwOTU2NDY=>, <mailto:subscribe@email.questedge.co.in?subject=Subscribe+34445_45464_0_1518095646_21285>
+List-Unsubscribe: <http://email.questedge.co.in/misc/pages/subscribe/MzQ0NDVfNDU0NjR+eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21+MF9DfjE1MTgwOTU2NDY=>, <mailto:unsubscribe@email.questedge.co.in?subject=Unsubscribe+34445_45464_0_1518095646_21285_>
+List-Archive: <http://email.questedge.co.in/misc/pages/archive/34445_45464_0_1518095646_21285_0>
+List-Owner: <mailto:listowner@email.questedge.co.in>
+List-Post: NO
+Errors-To: errors@email.questedge.co.in
+X-Mailer: MailDirect v2.03 for [Mathews international publishers]
+Content-Type: multipart/alternative;
+	boundary="b1_67d5e7e6b452095bfc5eca5bc593585d"
+Message-ID: <20180208131917.8D3487A804F@mst117.mdreg-mstnew.qlc.co.in>
+Date: Thu, 8 Feb 2018 18:49:17 +0530
+X-IncomingHeaderCount: 22
+Return-Path: xiangzhen.kong=outlook.com+1518095646+34445_45464+201802@email.questedge.co.in
+X-MS-Exchange-Organization-Network-Message-Id: c14cfd8c-a92d-4e55-b65b-08d56ef68f67
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03FT007;1:a8vDNDknvSJnChsAbLikJ1hmMqDMJZws/E07DExkyFIgGo7y2hT8YlbDxpRKgsPUFWYaZsuYl8L+fVuR9GJix4ZNApRKwL0caCqFuOygN3lEvnn2HSn8X1uk37LUI7kn
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:DM3NAM03HT111;H:rlf1.maildirectbeta.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: DM3NAM03FT007.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: c14cfd8c-a92d-4e55-b65b-08d56ef68f67
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(8291501071);SRVR:DM3NAM03HT111;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT111;3:lsxYi4VVGN94pNuJD+Ms85zcRR0R2aNjCLV1rcT681qtMc2G2+EiH78dPErFVPC8o1rLt3s2JjgoMtYDLpxdb8MSK0eGaAGFpGceDluJo7DZsA7GX3qbujdc1bgXzi1tWqNymS3vF1CQmjMFj1HR8raMu9JlKyEO9p3TFJjpCJN2BjfmQfTGhmateqzH/8dU7wX7vBslgTE9Kq6/bjSmkHX47CKB8CHe9/4OHxgtn/DJM3+fKtBZXEIIwSuDDT8jyjMyLU/hPy6iV+NRPQ+KDfnqJuvGjFJSoM7klfXyfBkgGK+LqNtvn2lxHoP9uAMY;25:8Nn8EgwlsstsSCs7Xqwe0fUGF0YTS6CYzwx+6RTAD79z3lzS4JtHMkaFnmSD1s/xgg1oGx01NPtR0SVojvpd3UWgftQDQ6fTHV8xfExMY9ITR1SEcMBVHGPhbLgh4IeoA5+MeqrvB9UkDhtAqfylRb8OHKZ/1K2p/MF1QkAyiBgAml10DMjODrHDiSoeBd1oncXo0iwmPulDtViux8PD1JYhP/45lJKV8vvDX9vTgK4dv9/O2VSGguzVkiB9RaiQDxk1cEJJMg9dgLd/+Feb79h+0OQf3iXsn2sbn+TGSPMSyJ9K+O1qtBiMxRMvZD6CHc+GrfWfnvdUO4fXtRCYKw==;31:Oy+x8Rp/ehrPVjmRwe8ZfRQzlQWegwSxgyfblXiQvVOYlfOVyUH71OM1Bfrl3639KmCm0bt9o1JnVcgqg/VEpbvRClH+Jikmsczsteq+Vhvjtwkjq31kHH5ZAPKVuuBPlpVJCCYn3umcOgchtVGl9cvKnPfOrmq+rNo04Ui7PVjwvIICr7nIeQ1vks2o/g08ey6X9JaTX9HfbW9BSyhN0U9i9pAeqssSoiWZCuavsik=
+X-MS-TrafficTypeDiagnostic: DM3NAM03HT111:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 69.59.172.23
+X-SID-PRA: CASEREPORTS@MATHEWSOPENACCESS.US
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(20558992708506);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(2400082)(82015058);SRVR:DM3NAM03HT111;BCL:0;PCL:0;RULEID:;SRVR:DM3NAM03HT111;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT111;4:U4MLNs7xZQWvhDzHf4oEZm7fPno4NFr0egjHq8WjTJIzHghuWsfhfVPi0Wx9p3bm5Z2G01tUlGCIMj+zHhlObvh+zN21jxuJ7xYtUMHZ7zsuq4MbK+se2xyE8FHf6cyQmzbR7cg4tE/67AooN0S1QdQkIdgz8lcMv1i2VNb/ifbWezB5ypllaD5KjK7h1aNeT/tEEWvtP/Ex345zP9YVo5K1IpQobp/VtrsLE8t8WG+V8I4DKsvoaYHucUemuG2nWWxKyzI5iIn88Opr/xAr6Xrd7i4W8TWfnRYxuPes21+jC4BlmfS+7PSB0IY07Nr9;23:ntTt5QwYt0UHKgLE0rXkhZRaOAvAwgoO1tLnSDLAA4ZUP2Nfgpcl0T3KW30q3SUa/Bcx7yQPdUQw4CRxM7Xz5tarz1+n1eiWu+TtD2xqxtFOO1qTo5AjuGDcVTY/Q8Mv44TZ9fyWtJOVWCqbWQhJmXlRUTyFEbzV0VyjJoZs75k=;6:9lylwOVnA2/GQnnevftqxgFHJfe6hSswxWHLT5Zr1cfs9Gzfad7WGtMAqesgWvDdOikM3vFYFY1i1XG4mDX31JMi45Brji1btMHmz8ZFoJEdo59LZWWwhigkIpNjI0CC21MpD2F0UpvtIzaG0LYWELzQHMjgIMcjDPOoikc6JOhXCb1l+uq83Z3v7g+QYhav9yuphKpPCdJCrFPBxsFpEQNbcglDJrxrcG8XfVZ0IPNXgl+VAy2k9SujI0TXMIcSuo5gkQTiieQ9ldKmEEG/syezoUBfM49Hy1lxEhMQoCIoVERYqbgiWRQHpEQZY8H+G3JT3uxqn8spMID9KxzW/Q0W5NrJfii8X/9ClAI/qbA=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: xFrWFkRjoSgi/DiBVX/9zTnXicbiIKl1Y/A2gLj0gGtMPHNsk0Tb1CtHCtUi2VSnEQzthHTf/akcjUPBrT4L4u09B5pOnyD1EnYcj+eeqyE=
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT111;5:WLZkhLIFHcLX3eBMxxDx8cVh/q0MF4CXtlawZTEMur27JSXSsU5EjOzF5ZPZiQ4GXMXYVtGcFsVFZNKAcq6hmJ/mApXkMZjSIAt2TeSLgWogf+rYDtVAvB+DHL7d+3u3VTB8XKFAGFfoycYYsM87OLHocdPgGSLELiZVmq7ndyA=;24:GG4gJcUI8X5bv4Lj/D8lt+fZXAs6mdy5UUeUpaGmU4InPLk5yKExNAN+VDZgIR0fREvskxzkjlY0M9bVplmxgKpecGqzWV+4+jNmEjBbpzQ=;7:nmLEZv+syhfz24ADJcdeBS1DmMSsC71wzFxOjn3gBLW5487tmxzAVckE5ZtoWo+DBj4zSSwlE0ZJW9uXhBi4AB1wBhpVtSd9PV001Rt/Rwoe0oE78xv+P/6EbHI9Ghkeuga9/jOrp7HZi1beCgavraH7ENpswrbdFJW4UmPuncPA5I0J6iq2Cb6hAQkEXr65NaH3yy0IliaNoRwn0s5kSEeUUjsnNu0SMrX6EpbpMYj9Ymq0vrVVh4hA39xL4tti
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Feb 2018 13:19:18.0835
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c14cfd8c-a92d-4e55-b65b-08d56ef68f67
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM03HT111
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2447629
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0464.016
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:D5zwWCad9o8qGK3oRHxPMvCCDGrOGAeN5/NIaLY4hCwUrMhdKK/EQvX54HlABYcQeMzBBsFeFbIMlZw7NP11/1vp+/dbOpGYAeFdSBqr2oirRig1MBnHtnbqzZaQ9vvQ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yrJenHr2REzzuBOm4uQHLnCCxNGSepBr0Q07yx4pxE+mG350tvb4OPaymT3sj9QevyDb6iUF8VMK8Wx7OuGqE7o7qHNARl9kragohmQvi1UkqB3HkyTQngKeaFUpt+xFi9JfdVY8LRjjYi73pLLJ7G2pwVDyDyVGleY9cgfOjPa1bV3XaqqdmWPH9tKlxaFbUF5KOLPkuWcvQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	CZIgespB9p/LFauzeFwDIoaB5poik85z3CbhlC7sg1V+6I6eDIWuVIoY2zn1xcN0X8xGJghP9uXGIwwCUmb5AzXPPPjEiab95daDQ2eWw3xjWYVckO+13oqFX3M9/5+lsBLf70Z+C3NbtgF1lrmrW5Q6oP/T2L9mKudD/eLd0iSCp4IZHdrOt10WJw0bPxJWz1Vcs5ZJmY6GbyC0lmVLzCPdHtE/0Qh1sXzSIDhjW5dqGlXhkelM5x5RI/7PA/moWz2bB3rzZ9PLrYHuyVkpCA==
+MIME-Version: 1.0
+
+--b1_67d5e7e6b452095bfc5eca5bc593585d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:D5zwWCad9o8qGK3oRHxPMvCCDGrOGAeN5/NIaLY4hCwUrMhdKK/EQvX54HlABYcQeMzBBsFeFbIMlZw7NP11/1vp+/dbOpGYAeFdSBqr2oirRig1MBnHtnbqzZaQ9vvQ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yrJenHr2REzzuBOm4uQHLnCCxNGSepBr0Q07yx4pxE+mG350tvb4OPaymT3sj9QevyDb6iUF8VMK8Wx7OuGqE7o7qHNARl9kragohmQvi1UkqB3HkyTQngKeaFUpt+xFi9JfdVY8LRjjYi73pLLJ7G2pwVDyDyVGleY9cgfOjPa1bV3XaqqdmWPH9tKlxaFbUF5KOLPkuWcvQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	CZIgespB9p/LFauzeFwDIoaB5poik85z3CbhlC7sg1V+6I6eDIWuVIoY2zn1xcN0X8xGJghP9uXGIwwCUmb5AzXPPPjEiab95daDQ2eWw3xjWYVckO+13oqFX3M9/5+lsBLf70Z+C3NbtgF1lrmrW5Q6oP/T2L9mKudD/eLd0iSCp4IZHdrOt10WJw0bPxJWz1Vcs5ZJmY6GbyC0lmVLzCPdHtE/0Qh1sXzSIDhjW5dqGlXhkelM5x5RI/7PA/moWz2bB3rzZ9PLrYHuyVkpCA==
+
+
+
+
+
+
+Â 
+Mathews Open Access Journals
+ISSN â 2474-3666
+Dear Dr. Xiang-Zhen Kong,
+
+Greetings from Mathews Journal of Case Reports!
+It is our honour to invite eminent scientists like you to publish your quality research work as manuscripts to support global scientific community.
+We are planning to release the next issue by 22nd
+March 2018,
+under the esteem guidance
+of our Editorial board members.Â 
+Considering you as Potential Author we are pleased to invite you to submit aÂ Research, Review, Commentary, Opinion articles, Short commentaries, Case reportÂ towards the journal.
+Mathews Open Access is been indexed in J-Gate, Genamics, Google Scholar
+other sites too.
+Kindly submit your articles by 23rd
+February 2018,
+as an email toÂ casereports@mathewsopenaccess.us, So that we could
+process it for next issue.
+NOTE:
+If it is not feasible to you at this time, please allow us to grasp your feasible time to contribute.
+We will be waiting for a positive response from you. Please be at liberty to approach us regarding any queries and
+concerns.
+Regards,
+Edward Williams
+Editorial Coordinator
+
+
+
+
+--b1_67d5e7e6b452095bfc5eca5bc593585d
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:D5zwWCad9o8qGK3oRHxPMvCCDGrOGAeN5/NIaLY4hCwUrMhdKK/EQvX54HlABYcQeMzBBsFeFbIMlZw7NP11/1vp+/dbOpGYAeFdSBqr2oirRig1MBnHtnbqzZaQ9vvQ
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yrJenHr2REzzuBOm4uQHLnCCxNGSepBr0Q07yx4pxE+mG350tvb4OPaymT3sj9QevyDb6iUF8VMK8Wx7OuGqE7o7qHNARl9kragohmQvi1UkqB3HkyTQngKeaFUpt+xFi9JfdVY8LRjjYi73pLLJ7G2pwVDyDyVGleY9cgfOjPa1bV3XaqqdmWPH9tKlxaFbUF5KOLPkuWcvQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	CZIgespB9p/LFauzeFwDIoaB5poik85z3CbhlC7sg1V+6I6eDIWuVIoY2zn1xcN0X8xGJghP9uXGIwwCUmb5AzXPPPjEiab95daDQ2eWw3xjWYVckO+13oqFX3M9/5+lsBLf70Z+C3NbtgF1lrmrW5Q6oP/T2L9mKudD/eLd0iSCp4IZHdrOt10WJw0bPxJWz1Vcs5ZJmY6GbyC0lmVLzCPdHtE/0Qh1sXzSIDhjW5dqGlXhkelM5x5RI/7PA/moWz2bB3rzZ9PLrYHuyVkpCA==
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title>
+</head>
+<body>
+<p>&nbsp;</p>
+<p align="center" style="text-align:center;"><strong><u><span style="font-family:times new roman,serif;">Mathews Open Access Journals</span></u></strong></p>
+<p align="right" style="text-align:right;"><strong><u><span style="color:red;"><span style="font-family:times new roman,serif;">ISSN â 2474-3666</span></span></u></strong></p>
+<p><strong><span style="color:black;"><span style="font-family:times new
+roman,serif;">Dear Dr. </span></span>Xiang-Zhen Kong</strong><strong><span style="color:black;"><span style="font-family:times new roman,serif;">,</span></span></strong><br>
+<br>
+<span style="color:black;"><span style="font-family:times new roman,serif;">Greetings from </span></span><a href="http://email.questedge.co.in/misc/pages/link/url:~eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MTUxODA5NTY0Nn4zNDQ0NV80NTQ2NH4yMDE4MDJ&#43;VA@@~http://mathewsopenaccess.com/case-reports.html"><span style="font-family:times new roman,serif;">Mathews Journal of Case Reports!</span></a></p>
+<p><span style="color:black;"><span style="font-family:times
+new roman,serif;">It is our honour to invite eminent scientists like you to publish your quality research work as manuscripts to support global scientific community.</span></span></p>
+<p style="text-align:justify;"><strong><span style="color:black;"><span style="font-family:times new roman,serif;">We are planning to release the next issue by 22<sup>nd</sup>
+March 2018,</span></span></strong><span style="color:black;"><span style="font-family:times new roman,serif;">
+under the esteem guidance
+of our Editorial board members.&nbsp;</span></span></p>
+<p><span style="color:black;"><span style="font-family:times new roman,serif;">Considering you as Potential Author we are pleased to invite you to submit a&nbsp;Research, Review, Commentary, Opinion articles, Short commentaries, Case report&nbsp;towards the journal.</span></span></p>
+<p><span style="color:black;"><span style="font-family:times new roman,serif;">Mathews Open Access is been indexed in J-Gate, Genamics, Google Scholar
+other sites too.</span></span></p>
+<p><strong><span style="color:black;"><span style="font-family:times new roman,serif;">Kindly submit your articles by 23<sup>rd</sup>
+February 2018,</span></span></strong><span style="color:black;"><span style="font-family:times new roman,serif;">
+as an email to&nbsp;</span></span><span style="font-family:times new roman,serif;"><a href="mailto:casereports@mathewsopenaccess.us">casereports@mathewsopenaccess.us</a><span style="color:black;">, So that we could
+process it for next issue.</span></span></p>
+<p><span style="color:black;"><span style="font-family:times new roman,serif;"><strong>NOTE:</strong>
+If it is not feasible to you at this time, please allow us to grasp your feasible time to contribute.</span></span></p>
+<p><span style="color:black;"><span style="font-family:times new roman,serif;">We will be waiting for a positive response from you. Please be at liberty to approach us regarding any queries and
+concerns.</span></span></p>
+<p><strong><span style="color:black;"><span style="font-family:times new roman,serif;">Regards,<br>
+Edward Williams<br>
+Editorial Coordinator</span></span></strong></p>
+<img src="http://email.questedge.co.in/misc/pages/email_view_count/~eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MTUxODA5NTY0Nn4zNDQ0NV80NTQ2NH4yMDE4MDJ&#43;VA@@~" width="1" height="1" border="0"></body>
+</html><div style="font-size:11px; color:#666666; font-family:Arial, Helvetica, sans-serif; width:100%; padding-bottom:5px;" align="center">You are receiving this email because of your relationship with the sender. <a href="http://email.questedge.co.in/misc/pages/subscribe/MzQ0NDVfNDU0NjR&#43;eGlhbmd6aGVuLmtvbmdAb3V0bG9vay5jb21&#43;MF9DfjE1MTgwOTU2NDY=
+" style="">To safely unsubscribe or modify your subscription settings please click here</a></div>
+
+
+
+
+--b1_67d5e7e6b452095bfc5eca5bc593585d--
+

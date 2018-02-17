@@ -1,0 +1,411 @@
+Received: from BY2NAM03HT053.eop-NAM03.prod.protection.outlook.com
+ (2603:1096:a00:1::27) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0111.INDPRD01.PROD.OUTLOOK.COM; Fri, 16 Feb 2018 10:34:42 +0000
+Received: from BY2NAM03FT034.eop-NAM03.prod.protection.outlook.com
+ (10.152.84.59) by BY2NAM03HT053.eop-NAM03.prod.protection.outlook.com
+ (10.152.85.105) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.506.19; Fri, 16
+ Feb 2018 10:34:41 +0000
+Authentication-Results: spf=none (sender IP is 174.136.29.40)
+ smtp.mailfrom=scholarlyscipages.org; outlook.com; dkim=fail (no key for
+ signature) header.d=scholarlyscipages.org;outlook.com; dmarc=none action=none
+ header.from=scholarlyscipages.org;
+Received-SPF: None (protection.outlook.com: scholarlyscipages.org does not
+ designate permitted sender hosts)
+Received: from mx-s1.vivawebhost.com (174.136.29.40) by
+ BY2NAM03FT034.mail.protection.outlook.com (10.152.84.211) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.506.19 via Frontend Transport; Fri, 16 Feb 2018 10:34:41 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:8037ACD88D263ED53E703BEC13A9CF8EFCC5EF603125F9DD52C254C87DF323FF;UpperCasedChecksum:3498B19ACE8FF8D5CADEEB47480E2EEDB5FDF7343C060CE2ECF8CA0BF523495F;SizeAsReceived:2368;Count:23
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=scholarlyscipages.org; s=default; h=Content-Type:MIME-Version:Message-ID:
+	Date:Subject:To:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=EilAfOfdxtX3HfiVATHbKNlHaFosqDOTFfAsODoJokI=; b=L4AstMSvm2kA6GbYOHYEoeuk/B
+	oonP01o5BtxeZCBskJJw255JwGWIWhj01kCfaD2Y3Kef2end8Bz5Jv20frPSIX4h3epFFH9HOO19V
+	YnLmus7xtZpVkOgnjFQ4wCbUqy9PM3uwSzEcA6RoNnUlRIvq13TFjRcwVAa2fUhIos48hYXihs0Bl
+	vlrK07/PgrNuCuPA6b4Gk5Vj82N0k5RkaWFCMRFzibFU2hi4gkDahUvZXmUSfw7hxMFidbUlWB21J
+	34rN6q1DimdKEL7zSU2LIqY/8hjxRlaKXi68YJvOJGGTFWB6GBjxUHtI/nYeDoSLakqUNHjPbX+zl
+	g7jE68UQ==;
+Received: from [183.82.124.43] (port=50313 helo=SRO010)
+	by mx-s1.vivawebhost.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <cognitive-science@scholarlyscipages.org>)
+	id 1emdLj-0005Vf-KD
+	for xiangzhen.kong@outlook.com; Fri, 16 Feb 2018 05:34:40 -0500
+From: "Annals of Cognitive Science" <cognitive-science@scholarlyscipages.org>
+To: <xiangzhen.kong@outlook.com>
+Subject: Submissions for upcoming issue- Volume 2, Issue 1
+Date: Fri, 16 Feb 2018 16:04:36 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAACPjE0GUcThFk8B5Dr9H03zCgAAAEAAAALR4f5kmwk5Bh0MpDHWWkUgBAAAAAA==@scholarlyscipages.org>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00EB_01D3A73F.D7C952F0"
+X-Mailer: Microsoft Office Outlook 12.0
+Content-Language: en-us
+Thread-Index: AdOnEbvocrrk2ckTRbqMPsq3BVWEQg==
+Disposition-Notification-To: Annals of Cognitive Science
+	<cognitive-science@scholarlyscipages.org>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - mx-s1.vivawebhost.com
+X-AntiAbuse: Original Domain - outlook.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - scholarlyscipages.org
+X-Get-Message-Sender-Via: mx-s1.vivawebhost.com: authenticated_id: cognitive-science@scholarlyscipages.org
+X-Authenticated-Sender: mx-s1.vivawebhost.com: cognitive-science@scholarlyscipages.org
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-IncomingHeaderCount: 23
+Return-Path: cognitive-science@scholarlyscipages.org
+X-MS-Exchange-Organization-Network-Message-Id: 68c5b41b-3a9f-4f56-83c9-08d57528e348
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03FT034;1:eWLlvhYNvP1M7tIyz1Dw4tDSD6TzTq68n0/UuqQ4v9wdrnc4Xkk6AeuohLybkrK88lsR2xIDbUgvSN8QuP7HtPhtDl/mvsOPWh+PtxSW6pWMxxI25dHzQ9wsqkUR4L6r
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:BY2NAM03HT053;H:mx-s1.vivawebhost.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: BY2NAM03FT034.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 68c5b41b-3a9f-4f56-83c9-08d57528e348
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(640170)(8291501071);SRVR:BY2NAM03HT053;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT053;3:AuBiqhtnql6rvSecJryHKN2G2vCH5y4qHjYSFONEa6uRhMJt6BOlNiYQExgIeSdj7r0hP84qDnYMnkDciVuWMIeDoktmnWuJvR6G8i8rTjqHxoBtlF2gr3rNZaLTRaVxLjjge8CHzeSb4/vOj57VUvhtKY2ujNdU8eF+LBF4/3Bgty0nrfCFRuchGjdq0hBQ+K5c45SbI2WhQtxpBM5jlozDNRuHve9wnCLGa/6iyqk8Ywd4jdYzJHhwyn18OZSgOvQQTbWdh8ivSKxHUVTYviAcUrnZYZaAheh3ui1FEIF9fInUZzbbmUrMGVYxSSbT;25:lD8QAjeS9ZNHEwB2oB/UDlA2pV+IekP5T8uadxqRP3oWPMQxOxNdSB6ynbYw/eGU6nkhUeW3Djp9QUZcH1zRBwNlNdT4y9BrIqxYazuudJwulaTcFzvDYOU2rNT/hG+AL/kKa0fBe6dfwaqToVHGNaYT3JdSzfgILQ8EISxvaFBzkBYNuna85pr4LzFH3wBBJVjcZ3ck22F49Oc7t1GaCz1Nwzziuno7sgbwOzZF/u13lHa7LkzGqnEvCELzF/6klKu1HtlHDrWaS5DAbSpfjxB9cIjx3UrQJl+Tppb4zOLI9OPo6nxcP7KuclW4rZVCrKZNDXXExNEEisEh2FNm8A==;31:OrUSsY7tOht5HzwafQw2sAjpdB/P1oa+t/GZJK3uA6o5pdy11uTtabF6P2lZrngHuU0FnW8JEv27hOuPRG4rdPmsUhgpJUiaUs4N84ho0iFsCn3OdUPAslU6xklkLtUFxSwG9+GmR0/qbg9qQ116CoPe+PtDJhYtDdcDg2IO/xSxzNbNT/SF0cRtwzT+WqpizTScHiWiMthK5bEF1SVT1g34i0wdRyGlwQRdDhvqpos=
+X-MS-TrafficTypeDiagnostic: BY2NAM03HT053:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 174.136.29.40
+X-SID-PRA: COGNITIVE-SCIENCE@SCHOLARLYSCIPAGES.ORG
+X-SID-Result: FAIL
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(209352067349851)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(82015058);SRVR:BY2NAM03HT053;BCL:0;PCL:0;RULEID:;SRVR:BY2NAM03HT053;
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT053;4:9TcCjDhKxIcUpaJ5BsNfdAsfCQ8XbbOgFl5KqjarwlUWiB0jdMNtMyEWYNgBl6/+tbVWqxqanHOYxWV2FndoCUlg4/vqWhTeFqUkb0nIhm98kcz79jO+mHziIYcOLWj5gXoIhJ28L/xnHTAsz8ia2xf9x1pW906IqbsLLjLIvNHZ6y4MSUCr62P8Bb0vwSwlUBhQDIMqS1KOWYpnecUyZ78RcWv/eSLNMUtEOF6utlOFYnjes1vy7qjU8yNK4CSIbpFNQvzjpfSAjb7A7yVgiPLRmZ2yLXKkQ8V1W+u+VwUuEXowrBxvpHZz/U/MrPTA1khmXsFZ35X2NH85ex1pNsvhP1NmWdAU6NkydUWw+Jx05/dcCKWjDsPsVgtp05Ry;23:4rV5E+UkMETug2Qsxa7i/fQXr4Q+Y8EFOtZRTIxkPp/E/xtMaij8aDGm+T5RZw/3wqjoAOe4FgwXwUGL3EHfuSnQwtIHAMwMfHzVGsv9nBfyn8dtRDxi9fGJHIdQySkhwbx+Q8Q1XPVVUT9VLzNdlAqzu+B4U4yi8kSN1W2K2Do=;6:Ij4gPP8l82iSI62e1xYN8HyUAPhdiz8WymyG4SSGKgPgvrH9EAmnWdzxHDPaW9QxtwjLHEqmq5+/5sn19OiPa5onVR9gIXdho6wJUXt9XMhDM1KHPtfyTM6Fo8OqCckAC8IBKhCQJRUwJAk2bPK9zCpPp9RX8tpmdZTOKA1PNBFWuGnoBg1QMWLDAuLd/DrHVRBeMRWuhiDQpW+hg4U9FgYy3+8Yno5DD2WsadcTazqw9bIKdPylxAzO74aCx5oMWdGOaw5j9Si4zgTIH8POh1KTSmIXSgDd8D2nZXZ3tJUlsDI1knrNyKCXS4YTnfHXbE1VevIKim5Wbvh8krFWnEz0ngz3zClBRtMAEpkV56o=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: 5+qlWiEGxao7LKW/aMPOm5DVIP4/PUpFbqUB9Zjh5Ki6CSAoU+pIASzWNA884ynIs8NGWTYYN7q3VOyfzbk13xyN/0VCEYDS9ISjmHFX4wGdjuo5a5o9qIUyjO5G0ScqCL/wT02SmLNZnoSjTyCjLQ==
+X-Microsoft-Exchange-Diagnostics: 1;BY2NAM03HT053;5:Ej1YtKqL55vnZlQGoWcpBQXWVpyhkBWkSalaoumvP0KNWq6RGSUp43114DwyLuQQ3JxgMhq7Op/2CsOLTb/Zm1bdCcDtZuFpbIBVWUFRsvO9YCLNfOpcj1G3ncz+/kUd7yUCVQOpJjzctCzQYBVlKc4NCxyx/S4Zde/eMvCEBn8=;24:GguIe/ML4xkg7Kl5RbtVSUAT0YknMITCxyi+8dX/mqui9nwOH8sw1RGLKxWuWDYfCWeP+RMnq/7Si0JmfPqR/pUKV1cnpS+nevw5PuS5ga4=;7:kN+zjHFyEjcb50StebctKcqDoy8rqPlpeNp7jIQlFVBOBYeo/+ACUYZwiw0VlJ61S8clJ2PDd/m9D1ZehXZ0WmZTspKSI8g1Xmnzr+1ySGr5XNOfk2eTOlX58EyIyvo5p9cShb53VztPnQ7gYyC29KpalkWnvz7UagYj1yWUJT1cbD/cloubwbrEjiB4Qe/F0N8ye3BSUD3DVtRecfLrPE9Wy80956CzaS0f6ZwRxqESLbzLTpgr5EyxuEt5da8V
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Feb 2018 10:34:41.3865
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 68c5b41b-3a9f-4f56-83c9-08d57528e348
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2NAM03HT053
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3181629
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0485.019
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:iG2jlDS27wH8pJxl9MzzHJPq+f42x7CQl45x3mbWh7/KJWY1+Q3iD0VI5/LKKrh/Z9mWxum8rJPGlhSMvk0Zvg0D5EAXfG2fuORnvC8cDgtDQoo33qmBddV6M16oj3mg
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6350004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqyVSi187APmSSIm/52tzliimr+RsX2rY4KxeGFpCMwSmsmZuvRMcmE+ZMSQWn1dNYmyLG4DHi+Ob/uZID7sAcUNCqQmR1jR7mPZe/DEfiYqUPO1Dq4ogOFluG2THlrcLj9xHPqiDOMRGY6TY3FjKeB2lpddHfKMrR0pwUsRjWgozQg7XZcDd0VQ3dKfukVjfVYgGXDreblLQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	E9avObh+ANYX9AjITd1Y7J+qCg4Gwm8AQVwgXOMJQNJkuNZ+/MrzzyjDr+ptRDcI26NyrkswPmL1U0iE7ug4V+admgSQH1RXyiTRPxk/q3xmYyphqz+GJlmdCChirHW0IOaXzoeXN6+Fuu+iLLWrjcZecLwBf8zVCLXb8YgrZGkckMLyBd+giI5cgT+dVk0lr5cIbde6jeSqmLrO5PrtYuy/OGLCvAAhra6+o2z2XqNsdxWDUe25tlaoZBq1bw3MtJ2ROiLWGu4q72Fww3/FkiGfn3UgT3RUR1TqnH72wHMXDu01XcthARfmKVzubIhj
+MIME-Version: 1.0
+
+------=_NextPart_000_00EB_01D3A73F.D7C952F0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:iG2jlDS27wH8pJxl9MzzHJPq+f42x7CQl45x3mbWh7/KJWY1+Q3iD0VI5/LKKrh/Z9mWxum8rJPGlhSMvk0Zvg0D5EAXfG2fuORnvC8cDgtDQoo33qmBddV6M16oj3mg
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6350004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqyVSi187APmSSIm/52tzliimr+RsX2rY4KxeGFpCMwSmsmZuvRMcmE+ZMSQWn1dNYmyLG4DHi+Ob/uZID7sAcUNCqQmR1jR7mPZe/DEfiYqUPO1Dq4ogOFluG2THlrcLj9xHPqiDOMRGY6TY3FjKeB2lpddHfKMrR0pwUsRjWgozQg7XZcDd0VQ3dKfukVjfVYgGXDreblLQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	E9avObh+ANYX9AjITd1Y7J+qCg4Gwm8AQVwgXOMJQNJkuNZ+/MrzzyjDr+ptRDcI26NyrkswPmL1U0iE7ug4V+admgSQH1RXyiTRPxk/q3xmYyphqz+GJlmdCChirHW0IOaXzoeXN6+Fuu+iLLWrjcZecLwBf8zVCLXb8YgrZGkckMLyBd+giI5cgT+dVk0lr5cIbde6jeSqmLrO5PrtYuy/OGLCvAAhra6+o2z2XqNsdxWDUe25tlaoZBq1bw3MtJ2ROiLWGu4q72Fww3/FkiGfn3UgT3RUR1TqnH72wHMXDu01XcthARfmKVzubIhj
+
+Dear Dr. Xiang Zhen Kong,
+
+ 
+
+Greetings from our journal!
+
+ 
+
+We would be honored if you can write/submit an article for Upcoming issue
+towards  <http://scholarlypages.org/journal.php?jid=cognitive-science>
+Annals of Cognitive Science.
+
+ 
+
+Our journal emphasis on artificial intelligence, behavioral experiments,
+cognitive anthropology, cognitive biology, cognitive linguistics, cognitive
+neuropsychology, cognitive neuroscience, cognitive psychology, learning and
+development, levels of analysis, malleable intelligence, memory,
+neurobiological methods, etc.
+
+ 
+
+The fundamental concept of journal is to build that "thinking can best be
+understood in terms of representational structures in the mind and
+computational procedures that operate on those structures".
+
+ 
+
+We would appreciate receiving your submission on or before March 20, 2018.
+
+ 
+
+Submission process:  <http://scholarlypages.org/login.php> Online submission
+system
+
+ 
+
+Your prompt reply is very much appreciated.
+
+ 
+
+Yours sincerely,
+
+Gabriella Ariana 
+
+Annals of Cognitive Science
+
+1805 N Carson Street, Suite S
+
+Carson City, Nevada 89701, USA
+
+
+------=_NextPart_000_00EB_01D3A73F.D7C952F0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:iG2jlDS27wH8pJxl9MzzHJPq+f42x7CQl45x3mbWh7/KJWY1+Q3iD0VI5/LKKrh/Z9mWxum8rJPGlhSMvk0Zvg0D5EAXfG2fuORnvC8cDgtDQoo33qmBddV6M16oj3mg
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6350004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqyVSi187APmSSIm/52tzliimr+RsX2rY4KxeGFpCMwSmsmZuvRMcmE+ZMSQWn1dNYmyLG4DHi+Ob/uZID7sAcUNCqQmR1jR7mPZe/DEfiYqUPO1Dq4ogOFluG2THlrcLj9xHPqiDOMRGY6TY3FjKeB2lpddHfKMrR0pwUsRjWgozQg7XZcDd0VQ3dKfukVjfVYgGXDreblLQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	E9avObh+ANYX9AjITd1Y7J+qCg4Gwm8AQVwgXOMJQNJkuNZ+/MrzzyjDr+ptRDcI26NyrkswPmL1U0iE7ug4V+admgSQH1RXyiTRPxk/q3xmYyphqz+GJlmdCChirHW0IOaXzoeXN6+Fuu+iLLWrjcZecLwBf8zVCLXb8YgrZGkckMLyBd+giI5cgT+dVk0lr5cIbde6jeSqmLrO5PrtYuy/OGLCvAAhra6+o2z2XqNsdxWDUe25tlaoZBq1bw3MtJ2ROiLWGu4q72Fww3/FkiGfn3UgT3RUR1TqnH72wHMXDu01XcthARfmKVzubIhj
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:883441091;
+	mso-list-template-ids:572414424;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+
+<div class=3D"Section1">
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Dear
+Dr. Xiang Zhen Kong,<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Greetings
+from our journal!<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">We
+would be honored if you can write/submit an article for <b>Upcoming issue</=
+b>
+towards </span><a href=3D"http://scholarlypages.org/journal.php?jid=3Dcogni=
+tive-science"><span style=3D"font-family:&quot;Times New Roman&quot;,&quot;=
+serif&quot;">Annals of Cognitive Science</span></a><span style=3D"font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;">.<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Our
+journal emphasis on artificial intelligence, behavioral experiments, cognit=
+ive
+anthropology, cognitive biology, cognitive linguistics, cognitive
+neuropsychology, cognitive neuroscience, cognitive psychology, learning and
+development, levels of analysis, malleable intelligence, memory,
+neurobiological methods, etc.<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">The
+fundamental concept of journal is to build that &quot;thinking can best be
+understood in terms of representational structures in the mind and
+computational procedures that operate on those structures&quot;.<o:p></o:p>=
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">We
+would appreciate receiving your submission on or before <b>March 20, 2018.<=
+o:p></o:p></b></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Submission
+process: </span><a href=3D"http://scholarlypages.org/login.php"><span style=
+=3D"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:blue">O=
+nline submission
+system</span></a><span style=3D"font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;"><o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Your
+prompt reply is very much appreciated.<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><b><span style=3D"font-family:&quot;Times New R=
+oman&quot;,&quot;serif&quot;"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Yours
+sincerely,<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span style=3D"font-family:&quot;Times New Roma=
+n&quot;,&quot;serif&quot;">Gabriella
+Ariana <o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span lang=3D"EN-GB" style=3D"font-family:&quot=
+;Times New Roman&quot;,&quot;serif&quot;">Annals
+of Cognitive Science<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span lang=3D"EN-GB" style=3D"font-family:&quot=
+;Times New Roman&quot;,&quot;serif&quot;">1805
+N Carson Street, Suite S<o:p></o:p></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0in;margin-bottom:.0001pt;tex=
+t-align:
+justify;line-height:normal"><span lang=3D"EN-GB" style=3D"font-family:&quot=
+;Times New Roman&quot;,&quot;serif&quot;">Carson
+City, Nevada 89701, USA</span><span style=3D"font-family:&quot;Times New Ro=
+man&quot;,&quot;serif&quot;"><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_00EB_01D3A73F.D7C952F0--
+

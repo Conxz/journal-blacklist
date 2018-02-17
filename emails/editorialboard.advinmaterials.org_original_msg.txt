@@ -1,0 +1,215 @@
+Delivered-To: kongxiangzheng@gmail.com
+Received: by 10.80.217.72 with SMTP id u8csp869807edj;
+        Tue, 13 Feb 2018 10:40:39 -0800 (PST)
+X-Received: by 10.46.64.203 with SMTP id r72mr1667999lje.38.1518547239566;
+        Tue, 13 Feb 2018 10:40:39 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1518547239; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ED+rgI77YmiUHflWNaKF5Kp3YTs8FIXgFHaMfC8EZHP6JNuH1g1Zx+OQ3zQXMuUyg5
+         zzlxdZyFDRiWmFS3T7z0W9eFaJlbDgqVabAAW7X+8gSoPmdDAzQyaII5kysezhlMHMdE
+         vcpoyeskZXBld8Cu9lAvq7HST7O0pHox7DEaKLuKC6cQqlTGYCNT2/PZLEn5gspc3BHT
+         J263bcWKDveROcHwhj2+OH6kBX57f0Ti5tBUU5Gcn7ZD5tounn6vtWPVHnPgW+Lj5PYE
+         WjRWyRR9IwLaGotQm+MHfHR4DLd/bM+LXm+Vu+bfpoTRoQbQ1mkRfWiBvE61/KXc4oiZ
+         6Y7g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature
+         :arc-authentication-results;
+        bh=IfkynhCuxIbEN45qrGhkwmQ5UtoXNhIua3yHjc9S/7I=;
+        b=ouwljM7sMxAF9MDpcx7Rcpeme+TNnwwxWbBbkdOFC5WZrBzpiJuOl/HSg81oRGM3+K
+         XpOQLpgeX2J5hdNvUbIZ8t/I1a9TmuAOXLgRFcAGON0EyVG2tnyzYH1sM5h0CJ/u5RZp
+         OAYXqjP5UoplNyr/CHGvkRhbQBv7PETIG1TFcBseMDb4renKwOlr797vHihqlnMKFopw
+         27QSj+LauOQp4rs9VCXDrnhcWOWVxLOQEyjHCM5HP+rbSJUvDsDwY8NgASywPOFB55y2
+         VC4MuiFZQjUPkAv6fPY7n3cYhlRdjLItqfLEe3GwVWLfTx7up36N4/Nkj2zGGFITUc5k
+         4rsg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@advinmaterials-org.20150623.gappssmtp.com header.s=20150623 header.b=rE/uFG+4;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of editorialboard@advinmaterials.org) smtp.mailfrom=editorialboard@advinmaterials.org
+Return-Path: <editorialboard@advinmaterials.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l204sor2344552lfe.18.2018.02.13.10.40.38
+        for <kongxiangzheng@gmail.com>
+        (Google Transport Security);
+        Tue, 13 Feb 2018 10:40:39 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of editorialboard@advinmaterials.org) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@advinmaterials-org.20150623.gappssmtp.com header.s=20150623 header.b=rE/uFG+4;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of editorialboard@advinmaterials.org) smtp.mailfrom=editorialboard@advinmaterials.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=advinmaterials-org.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=IfkynhCuxIbEN45qrGhkwmQ5UtoXNhIua3yHjc9S/7I=;
+        b=rE/uFG+4pO2pIEfEzIyW6pdqij8tV9/eGNb6hKtHYAmiuI1aogH5U3jKhRIe1kH1tB
+         Vvmetz56AQ5/I0k1LuVEkXLI2OwI4DTviWYevFLemdAxowu/+w8oh0vfpv7AwhWlATD7
+         JbfnOE4usFj6xVSnOlDaOmE9/MbS9qXfi18XrWs01oB9PCs3R2d6GyMbqgz6ElTZXewb
+         4uSav1ijtecyt8rOwWel6rPDBvbI25d6lSDTbZGNFiNZBfObluKbJ10SryujJPsjTtcc
+         R1ZAo9UcZbWwD6VR5nX8XCBCsCsH8mmxizMjkDgxexGz7cZNYNy4+cgbP8o3bduQbm61
+         zYUw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=IfkynhCuxIbEN45qrGhkwmQ5UtoXNhIua3yHjc9S/7I=;
+        b=kAPHnGIU/M12sdjDondIL1fkwsiJIG3sAd79DYgtOiCWftZY7Urfhj2hP/mej/EiIs
+         DSZ8O2B9UVvnfUlYExkb7b0cdNAwWE2ec8O8ypX0lCJByALdiSI36mgUSvNlCrWomuzx
+         U2fWteSg4ClR2roteMCdhgrHUZATgGIgkgOyBpvBSz8H9LWXqU1HGoCMXQyV7cVXGNVy
+         r5Zl7XLNvpjZ6JvRfBntM+U5pzm+f/Iq1+Da7YZQhganfUFWOnndY3k1xzPyW1pLAG75
+         ZCB4mJLwLHJQIpYEqVK30bBkIxy+R4m2AM2hEUEkdpuMzFgg1l7wHq/35F5i+gBl++Co
+         ev2w==
+X-Gm-Message-State: APf1xPBy9Yd2P4duQ7J7uUOcUqPASCpfhakxuBWFMk+S621twLfCfiFd
+	bMVroT5L93oYjnSVOL1XB1BS3VclKhsHzTI/0BK50znK
+X-Google-Smtp-Source: AH8x227HOQ7h6gJy6904LvtHJaarsYHDMyd0DdL9svQCzBI+lh3Y5WUQaGChmFgCfv/2jEikfaXyHOZIxt2jlsSUATk=
+X-Received: by 10.25.141.212 with SMTP id p203mr1571793lfd.24.1518547238494;
+ Tue, 13 Feb 2018 10:40:38 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.25.40.76 with HTTP; Tue, 13 Feb 2018 10:40:38 -0800 (PST)
+From: "J. AM" <editorialboard@advinmaterials.org>
+Date: Wed, 14 Feb 2018 02:40:38 +0800
+Message-ID: <CAABfR6FBRQHwBWj5mv2ZjuXW3yCykXkBe-kd0Nh97m8m9FnMLQ@mail.gmail.com>
+Subject: Publishing Paper and Becoming Editorial Board Members/Reviewers. Dear
+ Jingguang Li, Xiang-Zhen Kong
+To: kongxiangzheng@gmail.com
+Content-Type: multipart/alternative; boundary="001a11401b7eb9b0e505651c5459"
+
+--001a11401b7eb9b0e505651c5459
+Content-Type: text/plain; charset="UTF-8"
+
+American Journal of BioScience
+(ISSN Print: 2330-0159, Online: 2330-0167)
+Dear Jingguang Li, Xiang-Zhen Kong,
+It is learnt that you have published a paper titled *Morphological
+connectivity correlates with trait impulsivity in healthy adults* in *PeerJ*
+and we are attracted by your paper.
+*American Journal of BioScience * (http://www.ajbio.org)
+<http://www.ajbio.org/>, a peer-reviewed international scientific journal
+devoted to promoting the development of science and technology.
+Send Your Research Paper to the Journal
+The journal has been initiated with an aim to publish research papers. It
+can make specialists in various areas closer to the cutting-edge
+researches. We invite you with sincerity to submit papers to the journal.
+Please refer to the following link to learn more of the manuscript
+submission: http://www.ajbio.org/submission
+Be the Editorial Member or Reviewer
+For the purpose of expanding the editorial board and reviewer team, the
+editorial office of *American Journal of BioScience * cordially invites
+scholars and specialists to be one of the editorial board
+members/reviewers.
+If you are interested in joining the editorial board or reviewer team, you
+can learn more from the following link: http://www.ajbio.org/joinus
+Categories of the Journal (not limited to the following categories)
+
+   1. Biochemical genetics
+   2. Immunology
+   3. Molecular biology
+   4. Parasitology
+   5. Genetics and cytogenetics
+
+
+   1. Endocrinology
+   2. Virology
+   3. Microbiology
+   4. Bioinformatics
+   5. Pharmacology
+
+Benefits of Joining the Editorial Board/Reviewer Team
+
+   1. Build an identity as a well-known expert in your specialized feilds.
+   2. Keep yourself closer with recent scientific innovations.
+   3. Obtain a valuable certificate (electronic version) from the editorial
+   office.
+   4. Display your name and affiliation on the webpage of the journal.
+   5. Gain a privilege of publishing your papers with 20% discount within
+   the occupation.
+
+More information about the special issue, please do not hesitate to contact
+us.
+Regards,
+Editorial Office of *American Journal of BioScience *
+
+--001a11401b7eb9b0e505651c5459
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+<br><br><div style=3D"background:rgb(182,182,182) none repeat scroll 0% 0%;=
+padding:80px 0px 200px 20px;width:100%;color:rgb(33,33,33);line-height:22px=
+;font-family:&quot;Arial&quot;;font-size:13px">   <div style=3D"background:=
+rgb(255,255,255) none repeat scroll 0% 0%;width:700px"><div style=3D"backgr=
+ound:rgb(0,153,204) none repeat scroll 0% 0%;padding:15px 0px 10px 20px;col=
+or:rgb(255,255,255)"><div style=3D"font-size:16px;font-weight:bold">America=
+n Journal of BioScience </div><div>(ISSN Print: 2330-0159, Online: 2330-016=
+7)</div><div></div></div><div style=3D"padding:0px 20px"><div style=3D"padd=
+ing-top:25px"><div style=3D"margin-bottom:5px">Dear Jingguang Li, Xiang-Zhe=
+n Kong,</div><div style=3D"margin-bottom:5px">It is learnt that you have pu=
+blished a paper titled <i>Morphological connectivity correlates with trait =
+impulsivity in healthy adults</i> in <i>PeerJ</i> and we are attracted by y=
+our paper.</div><div style=3D"line-height:22px"><i style=3D"font-weight:bol=
+d">American Journal of BioScience </i> <a style=3D"color:rgb(0,0,255);text-=
+decoration:none;white-space:nowrap" href=3D"http://www.ajbio.org/" target=
+=3D"_blank">(http://www.ajbio.org)</a>, a peer-reviewed international scien=
+tific journal devoted to promoting the development of science and technolog=
+y.  			</div></div><div style=3D"padding:15px 0px 0px"><div style=3D"paddin=
+g-bottom:15px"><div style=3D"border-color:rgb(0,153,204);border-style:solid=
+;border-width:1px"><div><div style=3D"padding:10px 5px;width:180px;text-ali=
+gn:left;color:rgb(0,153,204);line-height:100%;font-family:&quot;Times New R=
+oman&quot;;font-size:20px;font-weight:bold;vertical-align:middle;display:ta=
+ble-cell">Send Your Research Paper to the Journal 						</div><div style=3D=
+"padding:10px;width:457px;line-height:22px;vertical-align:middle;border-lef=
+t:1px solid rgb(0,153,204);display:table-cell"><div style=3D"line-height:22=
+px"> 							The journal has been initiated with an aim to publish research =
+papers. It can make specialists in various areas closer to the cutting-edge=
+ researches. We invite you with sincerity to submit papers to the journal. =
+Please refer to the following link to learn more of the manuscript submissi=
+on:  <a style=3D"color:rgb(0,0,255);text-decoration:none;white-space:nowrap=
+" href=3D"http://www.ajbio.org/submission" target=3D"_blank">http://www.ajb=
+io.org/submission</a> 							</div></div></div></div><div style=3D"padding-=
+top:20px"><div style=3D"color:rgb(0,153,204);line-height:22px;padding-botto=
+m:5px;font-family:&quot;Verdana&quot;;font-size:18px;font-weight:bold;margi=
+n-bottom:5px;border-bottom:2px solid rgb(0,153,204)">Be the Editorial Membe=
+r or Reviewer</div><div style=3D"line-height:22px"> 					For the purpose of=
+ expanding the editorial board and reviewer team, the editorial office of <=
+i>American Journal of BioScience </i> cordially invites scholars and specia=
+lists to be one of the editorial board members/reviewers. 					</div><div s=
+tyle=3D"padding-top:5px"> 					If you are interested in joining the editori=
+al board or reviewer team, you can learn more from the following link: 				=
+	<a style=3D"color:rgb(0,0,255);text-decoration:none;white-space:nowrap" hr=
+ef=3D"http://www.ajbio.org/joinus" target=3D"_blank">http://www.ajbio.org/j=
+oinus</a> 					</div></div></div><div style=3D"padding-bottom:15px"><div st=
+yle=3D"padding-bottom:5px">Categories of the Journal (not limited to the fo=
+llowing categories)</div><div><div style=3D"width:300px;padding-right:20px;=
+display:table-cell"><ol style=3D"margin:0px 0px 0px 20px;padding:0px;list-s=
+tyle-type:disc"><li><span style=3D"color:rgb(33,33,33);font-weight:100">Bio=
+chemical genetics</span></li><li><span style=3D"color:rgb(33,33,33);font-we=
+ight:100">Immunology</span></li><li><span style=3D"color:rgb(33,33,33);font=
+-weight:100">Molecular biology</span></li><li><span style=3D"color:rgb(33,3=
+3,33);font-weight:100">Parasitology</span></li><li><span style=3D"color:rgb=
+(33,33,33);font-weight:100">Genetics and cytogenetics</span></li></ol></div=
+><div style=3D"width:300px;display:table-cell"><ol style=3D"margin:0px 0px =
+0px 20px;padding:0px;list-style-type:disc"><li><span style=3D"color:rgb(33,=
+33,33);font-weight:100">Endocrinology</span></li><li><span style=3D"color:r=
+gb(33,33,33);font-weight:100">Virology</span></li><li><span style=3D"color:=
+rgb(33,33,33);font-weight:100">Microbiology</span></li><li><span style=3D"c=
+olor:rgb(33,33,33);font-weight:100">Bioinformatics</span></li><li><span sty=
+le=3D"color:rgb(33,33,33);font-weight:100">Pharmacology</span></li></ol></d=
+iv></div></div></div></div><div style=3D"background:rgb(51,153,255) none re=
+peat scroll 0% 0%;padding:15px 20px;color:rgb(255,255,255);margin-bottom:20=
+px"><div><div style=3D"color:rgb(255,255,255);line-height:22px;font-family:=
+&quot;Times New Roman&quot;;font-size:20px;font-weight:bold;margin-bottom:5=
+px">Benefits of Joining the Editorial Board/Reviewer Team</div><ol style=3D=
+"margin:0px 0px 0px 10px;padding:0px 10px;font-weight:bold;list-style-type:=
+lower-latin"><li style=3D"padding-bottom:5px"><span style=3D"font-weight:10=
+0">Build an identity as a well-known expert in your specialized feilds.</sp=
+an></li><li style=3D"padding-bottom:5px"><span style=3D"font-weight:100">Ke=
+ep yourself closer with recent scientific innovations.</span></li><li style=
+=3D"padding-bottom:5px"><span style=3D"font-weight:100">Obtain a valuable c=
+ertificate (electronic version) from the editorial office.</span></li><li s=
+tyle=3D"padding-bottom:5px"><span style=3D"font-weight:100">Display your na=
+me and affiliation on the webpage of the journal.</span></li><li style=3D"p=
+adding-bottom:5px"><span style=3D"font-weight:100">Gain a privilege of publ=
+ishing your papers with 20% discount within the occupation.</span></li></ol=
+></div></div><div style=3D"padding:0px 20px 20px"><div style=3D"padding:0px=
+;line-height:200%"><div style=3D"padding-bottom:15px">More information abou=
+t the special issue, please do not hesitate to contact us.</div> 		Regards,=
+<br> 		Editorial Office of <i>American Journal of BioScience </i> 		</div><=
+/div><div style=3D"background:rgb(0,153,204) none repeat scroll 0% 0%;heigh=
+t:20px">=C2=A0</div></div></div><br></div>
+
+--001a11401b7eb9b0e505651c5459--

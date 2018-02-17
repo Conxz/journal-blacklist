@@ -1,0 +1,524 @@
+Received: from VE1EUR01HT077.eop-EUR01.prod.protection.outlook.com
+ (2603:1096:a00:1::34) by MAXPR0101MB2074.INDPRD01.PROD.OUTLOOK.COM with HTTPS
+ via MA1PR01CA0118.INDPRD01.PROD.OUTLOOK.COM; Thu, 8 Feb 2018 13:01:14 +0000
+Received: from VE1EUR01FT037.eop-EUR01.prod.protection.outlook.com
+ (10.152.2.58) by VE1EUR01HT077.eop-EUR01.prod.protection.outlook.com
+ (10.152.3.157) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.464.8; Thu, 8 Feb
+ 2018 13:01:12 +0000
+Authentication-Results: spf=pass (sender IP is 64.98.42.59)
+ smtp.mailfrom=lycos.com; outlook.com; dkim=none (message not signed)
+ header.d=none;outlook.com; dmarc=bestguesspass action=none
+ header.from=lycos.com;
+Received-SPF: Pass (protection.outlook.com: domain of lycos.com designates
+ 64.98.42.59 as permitted sender) receiver=protection.outlook.com;
+ client-ip=64.98.42.59; helo=smtprelay.b.hostedemail.com;
+Received: from smtprelay.b.hostedemail.com (64.98.42.59) by
+ VE1EUR01FT037.mail.protection.outlook.com (10.152.3.7) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.464.8 via Frontend Transport; Thu, 8 Feb 2018 13:01:12 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:AB8E01ECAA87F1D234E82837B49589F8B279ABC8B423FC9509169D60BD341FDF;UpperCasedChecksum:CF82ED74586346683422322AFC57D50168A4804D4A87A5E401D9805DF5C804B6;SizeAsReceived:1101;Count:18
+Received: from filter.hostedemail.com (10.5.19.248.rfc1918.com [10.5.19.248])
+	by smtprelay02.b.hostedemail.com (Postfix) with ESMTP id D6795D3825;
+	Thu,  8 Feb 2018 13:01:10 +0000 (UTC)
+X-Session-Marker: 7061706572732E6A6F75726E616C406C79636F732E636F6D
+X-Spam-Summary:
+X-HE-Tag: women12_7e4d9e413bd2f
+X-Filterd-Recvd-Size: 24759
+Received: from webmail.lycos.com (imap-ext [64.98.36.5])
+	(Authenticated sender: webmail@papers.journal@lycos.com)
+	by omf10.b.hostedemail.com (Postfix) with ESMTPA;
+	Thu,  8 Feb 2018 13:01:07 +0000 (UTC)
+Content-Type: multipart/alternative;
+	boundary="=_deb8e6fa8db928cd9be302e607bf29d7"
+Date: Thu, 8 Feb 2018 13:01:07 +0000
+From: Paper Submission <papers.journal@lycos.com>
+To: undisclosed-recipients:;
+Subject: Call for Papers (High Impact Factor Online Journal)- IMPACT FACTOR:
+ 6.017
+Reply-To: <ijcsmcjournal@gmail.com>
+Mail-Reply-To: ijcsmcjournal@gmail.com
+Message-ID: <375044ba54dac0d7dd4a6219455f1015@lycos.com>
+X-Sender: papers.journal@lycos.com
+User-Agent: Roundcube Webmail/1.2.7
+X-Originating-IP: [49.204.228.35]
+X-IncomingHeaderCount: 18
+Return-Path: papers.journal@lycos.com
+X-MS-Exchange-Organization-Network-Message-Id: 5637a23b-8acd-456e-8e7f-08d56ef407bc
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01FT037;1:oMO+egnj0RO/zc1nvXSotZxYBnKcHmoSUWMkVT1PXmPfy/hsC1WH7TEmFJyDmhM8i2i1wAHBwKZfJuPCHx8rq3VTY6MeN0ASxCMiN/G8Ny2Y+adKrptDpMx0zGa4oQJ4
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:VE1EUR01HT077;H:smtprelay.b.hostedemail.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: VE1EUR01FT037.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 5637a23b-8acd-456e-8e7f-08d56ef407bc
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(5000109)(4604075)(4605076)(610169)(650170)(8291501071);SRVR:VE1EUR01HT077;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT077;3:kcZiJEB+/ZV38Mc3+m9B4NSkzSkLg6tvkVG+Q1oFsjclCOH6xSlUOtfdlLTlExbUaFaeCMp0p6IuJPriSRiX0UbpD3/mIii4wtl0ZIY+ws6ThVC7SFbOVx0nHxHWlYTGmntboYxTbNz5HtPK4/3dm9a9r1fq1PGDaVXFJPiZ1N5vICmmNN1ZQi3yYe+W1KHjtZGRv1KxtA9cW/Aq08bS4eCsXoxWbmCEQ/8n/TO3CdLYdmck5IaHQ4XbnlSy+jLq/yuPnOdlWrRDjZ/6Rpx4Ths3oacCIjwgBgjcF47qz+fgpxWfVgf/c53luF/NpjIw;25:GDmiq8XhQ/bfn1at2ywHJaryFRns5PEeZWpE4gAyOOgcLXTJdVKVrxvEEoBYOxJ3UyZvtyexcmSQu8LW/UehbxrG4Bjnzben0FVfl2YoAS+gUhEJTCL5wY3zTfRqY7xPXrBVwvLpRTkx1AwYoriNqO18M+a4e28VfMe11K9XnNbBa+4WDRnxAD88WE6jTbh77Kj5X2DFJi80PU3E/GOokUGrD+MRqqaG5p9tdmjcuh95kNt8GO+QizO7xx6dPZFOPNDoh3OHYuFd2IZflHTUm+2w343y5wjdrJuJMQcEUxdrEawuf2LXU/Ws1SbxdY/avTQtCQlu1kpUt0POe9iVFg==;31:OKopx8nkLUd69OfR7EMhbBIpJJVq8sdPwyC+VsjpcQm1h2JEf10eV9IG7RX+1hyoNFHqi8XtP8IYV9uECUlKjeWPIuIXNnvUlPPEgJ0Xb2aRwZRYOI8wHzlejvz6/xoMKuBJxSSnxCBB8qcl5W0UwDAPJxhVHMAbsZ5gwKV2ij7oa3Z2l/apRQSB4xzrNGjGALEb+wl5vupwrHPaQzpJDwNkrhZ2zbsK2YLkJleOr90=
+X-MS-TrafficTypeDiagnostic: VE1EUR01HT077:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 64.98.42.59
+X-SID-PRA: PAPERS.JOURNAL@LYCOS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(112526844563539)(148322886591682)(209352067349851)(192374486261705)(31418570063057)(85827821059158)(73312121905874)(211936372134217)(86561027422486)(81227570615382);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444111557)(1160499008)(2400082)(82015058);SRVR:VE1EUR01HT077;BCL:0;PCL:0;RULEID:;SRVR:VE1EUR01HT077;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT077;4:i4pm0sc/FMvf6IettipyEZiz9OtD/7E0sF8kAZ3KfPxvllL0jIM3n+8b/fVdZiRO6aV7sFoWNnEkGlpF6v11VHDXYnud+Ye57o+hUcIuOPz9uwLfL2z2vLLjOtlpwValpNKCRR2CVaFcLxBTXHOIbi7lCCuOAJuQmxLR10hFYf8qZ/8F4YUqag0VFV2/SWOWnc9r5NZ+cmz2I9YBOclqY5KZ7x7cxU+VKgVX2vTIpMKfrTsyV05pWj0HAH+D2ADTgMldCq3TLxeKtOs0tosxwyni/uLUQo12ETlam1ZbScpIfPZ7+aRxbADupU9ww/pIrZC9ZNqncDsGzIyzhFUhDR1MS7tcrRO71GBQXG814nacdt1hJAjisfAJBGhHhirS/BiZkH04QtG9pPb8fqBkl31mzg6fBPVPjJAwr4gFzCf+tORLKIPVaEqnBHzNcIOvGOgFcn4AWkp/4FlfDDU/VCQP48qNrbyeeXsPESPEpXKcFWWPKoTeo5kIIYduQMVr+4tpXxhY7nROtH0yX8fXeGaExW+qtSKwYxh1uunm4SF/7OciPHDoTln46oGF991NSr0M7/MJQ5oedmQ3ByYgOE1btHb0gD50WIE03oVWPkgeg4LlvRJgkws/h63amrUj;23:afRxI/zbyZCb+20b6GzmFkpuUQSx1ZM2JDMfNQQjD4JIwSR5fImEfvm5wlTENYUBcNmZAmbSlLwjhMVGU7aLtfHLI7u2Q9ocdze+w0nk8dBy0gF8lzaaVSiUfcGm/dtsP6URMqytOmE9GlE1Sr8ZrQzUIDWd3YK5lT6QEjS9w+M=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam-Message-Info: fGj7acMgoqUCqFEnYk8GB7vy7tQ9Bspk7NFVBd+yKythOKHVfvtFLHsHoX+NGHKjPwFESlFO2tQ1MOs0cZ0wTBcrJGkifV4UI5/6NomJxnziWFowkjxW5n495WJ8S+c/lvep0z7ozXJUdEpHGouTSQ==
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR01HT077;6:dN4pFTz/KIdYmuPpi65r4MXXAtGkm/pZYGOM3MdhegqDwJxJ8zhMgDFtRBikhB4dH47CqIhqp3ounEy0V7I6P9C7lzYkvuXB6naQkWPv9EdpjkdMlj3cyxdEMj2uq84Yg/OBvAbWjzzMiwkItebE45CeXa6NPcIhMpVZ5dArHdTMRPb88o3EqJLQyQTcUYlhdyhLK3jcGRKNIUFsPo9DU3aKzeFZSj3D8rcoK8DsjgQQ9Kx8bdLYWhNVGn3eB4+oNiCqtD7zY/UzRqtR5PBA1t3fWbZQndokZxENxlB5bsr3PdN0RdakMUg1ByVyYbnZ3J5YvqZMVyd6+Ns+Xlo6pnzW1/4XzOj2ptX4mb9DstU=;5:nAX2RbNPYsfgaT/6yxbWmkA8Uc1vVfsQIzolvO3ek/LTGV1W5aRsk5DPuzPgDo/WgT9elgyeIxDD0E7gauhoLywibK6oWZUXnG6uj6z8TYSblra+p2tiEWR1NcG30aQNsl6h940CpZ/uhO0AX2n1WvZW90xtd8uE41ejfPYJYsM=;24:x21nwbnBc41l3PRhNEVAzSlK02fWjzg7P2MNV//RgrdsemOgbLRMCXGcx2EeL2EEfS3n/+NzSO5813UNIONrvhiU+IxMcrQi8w2GqaHgZps=;7:KzSFjsrKsGd76a+U7NtYe+XIf8Lhvgf5Ck1qCLRHDKH65sAPab6mZSe4KtieZZ0qM3w7BkaOjiKSXiwkYkfK37Ghbmh7BpBrG8PNdjAmDntF7KjWQZ2gra8cy5b1tSrg7q6m3JqmNUwUfIMAxxyEUNLcllvb4tU+5qtVgEyG1ppDPtTDpCfzQH07oCWfUy1FMdDu+3JfSEYEW3g0zNCx02uUbCqo1kM4Vl7GDVxY7RqYZWFz3hIHsrZVg+f9taZm
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Feb 2018 13:01:12.2416
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5637a23b-8acd-456e-8e7f-08d56ef407bc
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR01HT077
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1256520
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0464.016
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:/A88yDX4mRHP4ejmxaGka0rUUhN1B39SFP0VzyfcuKyk5NXYhQVcJg2F5Ub2W0wPW0iABPWU2qXJe46IA+8Vt6EiLIILpvFHqiVm2v/jRGnHtfSI4TB8MSJjsfTH0kGD
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqvSjHSbzbP6qKRwkUwkofwEDozrwwivmVShb3uwRzefixZ4KqMmOkIBsrYOzSxzAlsWYV9fY+lQrml3Vkpr5Z4ZZ+FemIMAdqvwaTHtKq9G+jD+nsVkO38SFsfVSTQxDusFRwg30mXB/uI4AbSTFH45vrKIS4f/NAvYpQ3TjvOxihEV4ETyHUhq2lJQkeurigLwVffw2XEug==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	qOpx1jjgqBL38IDnP4VbIh/rcqGBwBEFlBB5y1t0MaRrOGO5Et2TeRn9kDqNFDaDf9D7ciWuj587+fyd2PWVDiYSHvU9QlnwGVvu1HtG82U0Yjn0B2ekJ/VWhJUsF0RiMUKvMNVRIzjP8HoFnGBCTDJ+jMKeXWmSkuKT1Nf2mis6cCaJnBoD0u4vqrInSk4sSWyFKGeaPo3rd7FGUAYFngjr7Mb7uB0igX6iCoMF6D+cA/fGZpOUyzRYoFmjBNm8itmpuGwSjj9ZtOpRq+N5ob8NLnxZ5k/zRVmmF0ukEbo=
+MIME-Version: 1.0
+
+--=_deb8e6fa8db928cd9be302e607bf29d7
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:/A88yDX4mRHP4ejmxaGka0rUUhN1B39SFP0VzyfcuKyk5NXYhQVcJg2F5Ub2W0wPW0iABPWU2qXJe46IA+8Vt6EiLIILpvFHqiVm2v/jRGnHtfSI4TB8MSJjsfTH0kGD
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqvSjHSbzbP6qKRwkUwkofwEDozrwwivmVShb3uwRzefixZ4KqMmOkIBsrYOzSxzAlsWYV9fY+lQrml3Vkpr5Z4ZZ+FemIMAdqvwaTHtKq9G+jD+nsVkO38SFsfVSTQxDusFRwg30mXB/uI4AbSTFH45vrKIS4f/NAvYpQ3TjvOxihEV4ETyHUhq2lJQkeurigLwVffw2XEug==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	qOpx1jjgqBL38IDnP4VbIh/rcqGBwBEFlBB5y1t0MaRrOGO5Et2TeRn9kDqNFDaDf9D7ciWuj587+fyd2PWVDiYSHvU9QlnwGVvu1HtG82U0Yjn0B2ekJ/VWhJUsF0RiMUKvMNVRIzjP8HoFnGBCTDJ+jMKeXWmSkuKT1Nf2mis6cCaJnBoD0u4vqrInSk4sSWyFKGeaPo3rd7FGUAYFngjr7Mb7uB0igX6iCoMF6D+cA/fGZpOUyzRYoFmjBNm8itmpuGwSjj9ZtOpRq+N5ob8NLnxZ5k/zRVmmF0ukEbo=
+
+International Journal of Computer Science and Mobile Computing
+ISSN: 2320-088X
+A Monthly Journal of Computer Science and Information Technology
+IMPACT FACTOR: 6.017
+
+(AN OPEN ACCESS SCHOLARLY, ONLINE, PEER-REVIEWED, INTERDISCIPLINARY,
+MONTHLY, AND FULLY REFEREED JOURNAL.) 
+
+HTTP://WWW.IJCSMC.COM 
+
+IJCSMCJOURNAL@GMAIL.COM 
+
+CALL FOR PAPERS 
+
+SMOOTH, SIMPLE AND TIMELY PUBLISHING OF REVIEW AND RESEARCH ARTICLES. 
+
+WE ARE PLEASED TO INFORM YOU THAT IJCSMC IS GOING TO LAUNCH ITS NEXT
+ISSUE (VOLUME 7, ISSUE 2, FEBRUARY-2018). WE WOULD LIKE TO INVITE YOU TO
+CONTRIBUTE YOUR RESEARCH, REVIEW, SURVEY, SHORT PAPERS ETC., FOR
+PUBLICATION IN IJCSMC. PAPERS PUBLISHED IN IJCSMC WILL RECEIVE VERY HIGH
+PUBLICITY AND ACQUIRE VERY HIGH REPUTATION. THE JOURNAL COVERS ALL AREAS
+OF COMPUTER SCIENCE, INFORMATION TECHNOLOGY, AND MANY MORE
+(HTTP://WWW.IJCSMC.COM). WE PUBLISH ORIGINAL RESEARCH ARTICLES, REVIEW
+ARTICLES AND TECHNICAL NOTES. THE JOURNAL REVIEWS PAPERS WITHIN ONE WEEK
+OF SUBMISSION AND PUBLISHES ACCEPTED ARTICLES ON THE INTERNET
+IMMEDIATELY UPON RECEIVING THE FINAL VERSIONS. OUR FAST REVIEWING
+PROCESS IS OUR STRENGTH. 
+
+ AUTHORS ARE REQUESTED TO PREPARE THEIR MANUSCRIPT IN IJCSMC PAPER
+FORMAT, BY USING IJCSMC PAPER TEMPLATE [1]. 
+
+FOR AUTHORâS CONVENIENCE, WE STRONGLY FOLLOW THE FOLLOWING STEPS. 
+
+1. RESPONSE WILL BE GIVEN WITHIN 12 HOURS. 
+
+2. THE PAPER WILL BE REVIEWED WITHIN 4 DAYS. 
+
+3. AUTHOR WILL GET THEIR ACCEPTANCE/REJECTION NOTIFICATION WITHIN 7 DAYS
+OF SUBMITTING PAPER. 
+
+5. ALL THE ACCEPTED PAPERS WILL BE OPEN ACCESSIBLE WITH FULL PDF
+DOWNLOAD. 
+
+Topics of interest include, but are not limited to, the following:
+    Computer science
+    Computational mathematics
+    Computer engineering and scientific computing
+    Software engineering
+    Neural networks
+    Nano Technology
+    Natural language processing and information retrieval
+    Algorithm and computational complexity
+    Computer architecture and high performance computing
+    Distributed and grid computing
+    Human-computer interaction
+    Information security
+    Pattern recognition and image processing
+    VLSI design and testing
+    Artificial intelligence
+    Dependable computing
+    Robotics
+    Applied Mathematics
+    Civil Engineering
+    Mechanical Engineering
+    Mobile Computing
+    Computer Networks
+    Multimedia Computing
+
+   Medicine and Many More....
+
+INDEXED IN:  CNKI, INDEX COPERNICUS, JGATE, IJINDEX, SMART VIPER, ENTIRE
+WEB, YAHOO, BING, ISEEK, COMPUTER SCIENCE DIRECTORY, CITESEERX,
+ACADEMIA.EDU, ASR- ACTIVE SEARCH RESULTS, AU SEARCH ENGINE, JAYDE,
+EYESOURCE, JOUR INFORMATICS, GENAMICS, BASE, ACADEMIC JOURNALS DATABASE,
+EMILY CARR, UNIVERSITY OF SASKATCHEWAN, VILLANOVA UNIVERSITY, BEARDS LEE
+LIBRARY, DRJI-DIRECTORY OF RESEARCH JOURNALS INDEXING, CITEFACTOR,
+SCRIBD, YAHOO DIRECTORY, ISSUU, ESNIPS, NET ORBIS, ACADEMICINDEX.NET,
+SCIENCE CENTRAL, RESEARCHBIB, WORLDCAT, SCIENTIFIC INDEXING SERVICES,
+IISS, UNIVERSAL IMPACT FACTOR, INTERNATIONAL SCIENTIFIC INDEXING,
+INNOSPACE, I2OR, DIIF, INDIANSCIENCE.IN, GIGA, LUND UNIVERSITY
+LIBRARIES, SCHOLARSTEER SCHOLARLY INFORMATION, ONESEARCH, IJIF, ESJI,
+COSMOS, SCIENTIFIC CITATION INDEXING, GETCITED, NEWJOUR, AMIDALLA,
+INTERNET ARCHIVE, SCIRUS, THE UNIVERSITY OF HONG KONG LIBRARIES, STATE
+LIBRARY NEW SOUTH WALES, MOBIUS, GLOBAL IMPACT FACTOR, MERCYHURST
+UNIVERSITY HAMMERMILL LIBRARY, UNIVERSITY OF NEW BRUNSWICK LIBRARIES,
+DR. MARTIN LUTHER KING JR. LIBRARY, FALVEY MEMORIAL LIBRARY, CAL STATE
+MONTEREY BAY LIBRARY, WESTERN THEOLOGICAL SEMINARY, HARVESTER SYSTEMS
+UNIVERSITY OF RUHUNA, LIBRARY CATALOGUE UNISA, LIBRIS, ISRAJIF, DRJI,
+ZDB, ISJIS, ACADEMICKEYS, WORLDWIDESCIENCE.ORG AND MANY MORE..... 
+
+ADVANTAGES:
+
+1. IJCSMC Publishes only high quality papers
+
+2. IJCSMC is Indexed in More than 150 international Directories.
+
+3. IJCSMC CHARGES NOMINAL FEE TO THE AUTHORS. 
+4. IJCSMC IS REGISTERED ISSN JOURNAL WITH NISCAIR 
+5. SCOPE OF IJCSMC IS VERY VAST
+
+IMPORTANT DATE: 
+
+LAST DATE FOR SUBMISSION OF MANUSCRIPT: 28TH FEBRUARY 2018. 
+
+LAUNCH OF NEXT ISSUE: 5TH TO 28TH FEBRUARY 2018. 
+
+ONLINE MAINTENANCE FEE: USD 60 [HTTP://IJCSMC.COM/FEE_PAYMENT_OPTIONS
+[2]]
+
+INVITATION FOR EDITORIAL BOARD / REVIEW MEMBERS:
+
+We are happy to invite all Scientists, Academician, Engineers, Scholars
+to work as Editorial Board members or Review members for International
+Journal of Computer Science and Mobile Computing. www.ijcsmc.com [3].
+For joining as a member, kindly send us your updated CV to us at
+ijcsmcjournal@gmail.com 
+
+URL: WWW.IJCSMC.COM [3] 
+
+SUBMIT YOUR MANUSCRIPT THROUGH E-MAIL AT IJCSMCJOURNAL@GMAIL.COM 
+
+Like our page on Facebook to stay up to date: www.facebook.com/ijcsmc
+[4]
+
+FOLLOW US ON TWITTER: WWW.TWITTER.COM/IJCSMC [5] 
+
+--
+Publishing Team
+IJCSMC
+
+-- 
+
+Editor-in-Chief,
+IJCSMC JOURNAL,
+www.ijcsmc.com [3],
+ijcsmcjournal@gmail.com 
+
+Links:
+------
+[1] http://ijcsmc.com/docs/paper_format_IJCSMC.doc
+[2] http://ijcsmc.com/fee_payment_options
+[3] http://www.ijcsmc.com
+[4] http://www.facebook.com/ijcsmc
+[5] http://www.twitter.com/ijcsmc
+--=_deb8e6fa8db928cd9be302e607bf29d7
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+X-Microsoft-Exchange-Diagnostics:
+	1;MAXPR0101MB2074;27:/A88yDX4mRHP4ejmxaGka0rUUhN1B39SFP0VzyfcuKyk5NXYhQVcJg2F5Ub2W0wPW0iABPWU2qXJe46IA+8Vt6EiLIILpvFHqiVm2v/jRGnHtfSI4TB8MSJjsfTH0kGD
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6375004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+X-Message-Info:
+	qoGN4b5S4yqvSjHSbzbP6qKRwkUwkofwEDozrwwivmVShb3uwRzefixZ4KqMmOkIBsrYOzSxzAlsWYV9fY+lQrml3Vkpr5Z4ZZ+FemIMAdqvwaTHtKq9G+jD+nsVkO38SFsfVSTQxDusFRwg30mXB/uI4AbSTFH45vrKIS4f/NAvYpQ3TjvOxihEV4ETyHUhq2lJQkeurigLwVffw2XEug==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	qOpx1jjgqBL38IDnP4VbIh/rcqGBwBEFlBB5y1t0MaRrOGO5Et2TeRn9kDqNFDaDf9D7ciWuj587+fyd2PWVDiYSHvU9QlnwGVvu1HtG82U0Yjn0B2ekJ/VWhJUsF0RiMUKvMNVRIzjP8HoFnGBCTDJ+jMKeXWmSkuKT1Nf2mis6cCaJnBoD0u4vqrInSk4sSWyFKGeaPo3rd7FGUAYFngjr7Mb7uB0igX6iCoMF6D+cA/fGZpOUyzRYoFmjBNm8itmpuGwSjj9ZtOpRq+N5ob8NLnxZ5k/zRVmmF0ukEbo=
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body style=3D"font-size: 10pt; font-family: Verdana,Geneva,sans-serif=
+">
+<div style=3D"text-align: center;"><strong><u><span style=3D"font-size: 14p=
+t; line-height: 115%; color: green; background: white none repeat scroll 0%=
+ 0%;"><span style=3D"color: #ff0000;"><span style=3D"font-size: large;">Int=
+ernational Journal of Computer Science and Mobile Computing</span></span><b=
+r></span></u></strong><strong><u><span style=3D"font-size: 14pt; line-heigh=
+t: 115%; color: green; background: white none repeat scroll 0% 0%;"><span s=
+tyle=3D"font-size: small;">ISSN: 2320-088X<br>A Monthly Journal of Computer=
+ Science and Information Technology<br>IMPACT FACTOR: 6.017</span><br></spa=
+n></u></strong></div>
+<p style=3D"text-align: justify;"><strong><span>(An open access scholarly, =
+online, peer-reviewed, interdisciplinary, monthly, and fully refereed journ=
+al.)</span></strong></p>
+<p style=3D"text-align: justify;"><strong><u><span style=3D"color: blue;"><=
+a href=3D"http://www.ijcsmc.com" target=3D"_blank" data-saferedirecturl=3D"=
+https://www.google.com/url?hl=3Den&amp;q=3Dhttp://www.ijcsmc.com&amp;source=
+=3Dgmail&amp;ust=3D1518181126221000&amp;usg=3DAFQjCNFtgptHKNem82tJK_LOt_a0H=
+VLy3g">http://www.ijcsmc.com</a></span></u></strong></p>
+<p style=3D"text-align: justify;"><strong><u><span style=3D"color: blue;"><=
+span><a href=3D"mailto:ijcsmcjournal@gmail.com" target=3D"_blank">ijcsmcjou=
+rnal@gmail.com</a></span></span></u></strong></p>
+<p style=3D"text-align: justify;"><strong><u><span>CALL FOR PAPERS</span></=
+u></strong></p>
+<p style=3D"text-align: justify;"><strong><span>Smooth, simple and timely p=
+ublishing of review and research articles.</span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>We are pleased to inform yo=
+u that IJCSMC is going to launch its next issue <span style=3D"color: red;"=
+>(Volume 7, Issue 2, February-2018)</span>. We would like to invite you to =
+contribute your Research, Review, Survey, Short Papers etc., for publicatio=
+n in IJCSMC. Papers published in IJCSMC will receive very high publicity an=
+d acquire very high reputation. The journal covers all areas of computer sc=
+ience, Information technology, and many more (<u><span style=3D"color: blue=
+;"><a href=3D"http://www.ijcsmc.com" target=3D"_blank" data-saferedirecturl=
+=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://www.ijcsmc.com&amp;so=
+urce=3Dgmail&amp;ust=3D1518181126221000&amp;usg=3DAFQjCNFtgptHKNem82tJK_LOt=
+_a0HVLy3g">http://www.ijcsmc.com</a></span></u>). We publish original resea=
+rch articles, review articles and technical notes. The journal reviews pape=
+rs within one week of submission and publishes accepted articles on the int=
+ernet immediately upon receiving the final versions. Our fast reviewing pro=
+cess is our strength.</span></strong></p>
+<p style=3D"text-align: justify;">&nbsp;</p>
+<p style=3D"text-align: justify;"><strong><span>&nbsp;Authors are requested=
+ to prepare their manuscript in IJCSMC paper format, by using <a href=3D"ht=
+tp://ijcsmc.com/docs/paper_format_IJCSMC.doc" target=3D"_blank" data-safere=
+directurl=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://ijcsmc.com/d=
+ocs/paper_format_IJCSMC.doc&amp;source=3Dgmail&amp;ust=3D1518181126221000&a=
+mp;usg=3DAFQjCNFtZH-HJ04tSqbPjcxbmvyRRSpFFA">IJCSMC paper Template</a>.</sp=
+an></strong></p>
+<p style=3D"text-align: justify;"><strong><span>For author=E2=80=99s conven=
+ience, we strongly follow the following steps.</span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>1. Response will be given w=
+ithin 12 hours.</span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>2. The paper will be review=
+ed within 4 days.</span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>3. Author will get their Ac=
+ceptance/Rejection Notification within 7 days of submitting paper.</span></=
+strong></p>
+<p style=3D"text-align: justify;"><strong><span>5. All the accepted papers =
+will be open accessible with full PDF download.</span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>&nbsp;</span></strong></p>
+<div style=3D"font-family: arial,sans-serif;"><span><strong><span><span><sp=
+an style=3D"font-family: 'times new roman',serif;"><span style=3D"color: #0=
+b5394;"><span><span><span><span style=3D"font-family: 'times new roman',ser=
+if;"><span style=3D"color: #0b5394;"><span style=3D"color: #ff00ff;"><span =
+style=3D"color: #9900ff;"><span><span style=3D"font-size: large;"><span sty=
+le=3D"color: #ff0000;">Topics of interest include, but are not limited to, =
+the following:</span></span><br></span></span></span></span></span></span><=
+/span></span></span></span></span></span><span style=3D"color: #274e13;"><s=
+pan><span><span style=3D"font-family: 'times new roman',serif;"><span><span=
+><span><span style=3D"font-family: 'times new roman',serif;"><span>&nbsp;&n=
+bsp;&nbsp; Computer science<br>&nbsp;&nbsp;&nbsp; Computational mathematics=
+<br>&nbsp;&nbsp;&nbsp; Computer engineering and scientific computing<br> &n=
+bsp;&nbsp;&nbsp; Software engineering<br>&nbsp;&nbsp;&nbsp; Neural networks=
+<br>&nbsp;&nbsp;&nbsp; Nano Technology<br>&nbsp;&nbsp;&nbsp; Natural langua=
+ge processing and information retrieval<br>&nbsp;&nbsp;&nbsp; Algorithm and=
+ computational complexity<br>&nbsp;&nbsp;&nbsp; Computer architecture and h=
+igh performance computing<br> &nbsp;&nbsp;&nbsp; Distributed and grid compu=
+ting<br>&nbsp;&nbsp;&nbsp; Human-computer interaction<br>&nbsp;&nbsp;&nbsp;=
+ Information security<br>&nbsp;&nbsp;&nbsp; Pattern recognition and image p=
+rocessing<br>&nbsp;&nbsp;&nbsp; VLSI design and testing<br>&nbsp;&nbsp;&nbs=
+p; Artificial intelligence<br>&nbsp;&nbsp;&nbsp; Dependable computing<br> &=
+nbsp;&nbsp;&nbsp; Robotics<br>&nbsp;&nbsp;&nbsp; Applied Mathematics<br>&nb=
+sp;&nbsp;&nbsp; Civil Engineering<br>&nbsp;&nbsp;&nbsp; Mechanical Engineer=
+ing<br>&nbsp;&nbsp;&nbsp; Mobile Computing<br>&nbsp;&nbsp;&nbsp; Computer N=
+etworks<br>&nbsp;&nbsp;&nbsp; Multimedia Computing</span><span><br></span><=
+/span></span></span></span></span></span></span></span></strong></span></di=
+v>
+<div style=3D"font-family: arial,sans-serif;"><strong><span style=3D"color:=
+ #274e13;"><span><span><span style=3D"font-family: 'times new roman',serif;=
+"><span><span><span><span style=3D"font-family: 'times new roman',serif;"><=
+span style=3D"font-size: large;"><span>&nbsp;<span>&nbsp; </span></span></s=
+pan></span></span></span></span></span></span></span><span><span><span styl=
+e=3D"font-family: 'times new roman',serif;"><span><span><span><span style=
+=3D"font-family: 'times new roman',serif;"><span><span><span><span>Medicine=
+ and Many More....</span></span></span></span></span></span></span></span><=
+/span></span></span></span><span><span><span style=3D"font-family: 'times n=
+ew roman',serif;"><span style=3D"color: #0b5394;"><span><span><span><span s=
+tyle=3D"font-family: 'times new roman',serif;"><span style=3D"color: #0b539=
+4;"><span style=3D"font-size: large;"><span style=3D"color: #ff00ff;"><span=
+><br> </span></span></span></span></span></span></span></span></span></span=
+></span></span></strong></div>
+<div style=3D"font-family: arial,sans-serif;"><strong><span><span><span sty=
+le=3D"font-family: 'times new roman',serif;"><span style=3D"color: #0b5394;=
+"><span><span><span><span style=3D"font-family: 'times new roman',serif;"><=
+span style=3D"color: #0b5394;"><span style=3D"font-size: large;"><span styl=
+e=3D"color: #ff00ff;"><br> </span></span></span></span></span></span></span=
+></span></span></span></span></strong></div>
+<div style=3D"font-family: arial,sans-serif;"><span style=3D"font-family: a=
+rial,helvetica,sans-serif;"><span style=3D"color: #274e13;"><span><strong><=
+span><span style=3D"font-size: large;"><span style=3D"color: #ff0000;">Inde=
+xed in:</span></span>&nbsp;</span></strong><strong> CNKI, Index Copernicus,=
+ JGate, ijindex, </strong><strong>Smart Viper, </strong><strong>Entire Web<=
+/strong><strong>, Yahoo</strong><strong>, Bing</strong><strong>, iSeek</str=
+ong><strong>, Computer Science Directory</strong><strong>, CiteseerX</stron=
+g><strong>, Academia.edu</strong><strong>, ASR- Active Search results</stro=
+ng><strong>, AU Search Engine</strong><strong>, Jayde</strong><strong>, Eye=
+Source</strong><strong>, JOUR Informatics</strong><strong>, GENAMICS</stron=
+g><strong>, BASE</strong><strong>, Academic Journals Database</strong><stro=
+ng>, EMILY CARR</strong><strong>, University of Saskatchewan</strong><stron=
+g>, VillaNova University</strong><strong>, Beards Lee Library</strong><stro=
+ng>, DRJI-Directory of Research Journals Indexing, CiteFactor, Scribd, Yaho=
+o Directory, issuu, esnips, Net orbis, AcademicIndex.net, Science Central, =
+ResearchBiB, WorldCat, Scientific Indexing Services, IISS, Universal Impact=
+ Factor, International Scientific Indexing, INNOSPACE, I2OR, DIIF, IndianSc=
+ience.in, GIGA, Lund University Libraries, Scholarsteer Scholarly Informati=
+on, OneSearch, IJIF, ESJI, Cosmos, Scientific Citation Indexing, getCited, =
+NewJour, Amidalla, Internet Archive, Scirus, The University of Hong Kong Li=
+braries, State Library New South Wales, MOBIUS, Global Impact Factor, Mercy=
+Hurst University Hammermill Library, University of New Brunswick Libraries,=
+ Dr. Martin Luther King Jr. Library, Falvey Memorial Library, Cal State Mon=
+terey Bay Library, Western Theological Seminary, Harvester Systems Universi=
+ty of RUHUNA, Library Catalogue UniSA, Libris, ISRAJIF, DRJI, ZDB, ISJIS, A=
+cademicKeys, WorldWideScience.org and <span style=3D"font-size: large;">Man=
+y More</span>.....</strong></span></span> <br> <span style=3D"color: #274e1=
+3;"></span></span><span><span><span style=3D"font-family: 'times new roman'=
+,serif;"><br><span style=3D"color: #9900ff;"><br> </span></span></span></sp=
+an></div>
+<div style=3D"font-family: arial,sans-serif;"><span style=3D"color: #9900ff=
+;"><span><span style=3D"font-family: 'times new roman',serif;"><span style=
+=3D"font-size: large;"><span style=3D"color: #ff0000;"><span style=3D"font-=
+family: arial,helvetica,sans-serif;"><strong>Advantages:</strong></span></s=
+pan></span><br> </span></span></span></div>
+<div><strong><span style=3D"color: #134f5c;"><span style=3D"font-family: ar=
+ial,helvetica,sans-serif;"><span>1. IJCSMC Publishes only high quality pape=
+rs<br> </span></span></span></strong></div>
+<div><strong><span style=3D"color: #134f5c;"><span style=3D"font-family: ar=
+ial,helvetica,sans-serif;"><span>2. IJ</span></span><span style=3D"font-fam=
+ily: arial,helvetica,sans-serif;"><span><span style=3D"font-family: arial,h=
+elvetica,sans-serif;"><span>CSMC</span></span> is Indexed in More than 150 =
+international Directories.<br> </span></span></span></strong></div>
+<div><strong><span style=3D"color: #134f5c;"><span style=3D"font-family: ar=
+ial,helvetica,sans-serif;"><span>3. IJ</span></span><span style=3D"font-fam=
+ily: arial,helvetica,sans-serif;"><span><span style=3D"font-family: arial,h=
+elvetica,sans-serif;"><span><span style=3D"font-family: arial,helvetica,san=
+s-serif;"><span>CSMC</span></span></span></span> Charges nominal fee to the=
+ authors.</span></span></span></strong></div>
+<div><span style=3D"color: #134f5c;"><span style=3D"font-family: arial,helv=
+etica,sans-serif;"><span></span></span></span><strong><span style=3D"color:=
+ #134f5c;"><span style=3D"font-family: arial,helvetica,sans-serif;"><span>4=
+. IJ</span></span><span style=3D"font-family: arial,helvetica,sans-serif;">=
+<span><span style=3D"font-family: arial,helvetica,sans-serif;"><span><span =
+style=3D"font-family: arial,helvetica,sans-serif;"><span>CSMC</span></span>=
+</span></span> is registered ISSN journal with NISCAIR</span></span></span>=
+</strong></div>
+<div><strong><span style=3D"color: #134f5c;"><span style=3D"font-family: ar=
+ial,helvetica,sans-serif;"><span><span>5. Scope of IJ</span></span></span><=
+/span></strong><span style=3D"font-family: arial,helvetica,sans-serif;"><sp=
+an style=3D"color: #9900ff;"><span><span><strong><span style=3D"color: #134=
+f5c;"><span style=3D"font-family: arial,helvetica,sans-serif;"><span><span =
+style=3D"font-family: arial,helvetica,sans-serif;"><span>CSMC</span></span>=
+</span></span> is very vast</span></strong></span></span></span></span><br>=
+<span style=3D"font-family: arial,helvetica,sans-serif;"><span style=3D"col=
+or: #9900ff;"><span><span></span></span></span></span></div>
+<p><br></p>
+<p style=3D"text-align: justify;"><span style=3D"background-color: #ffff00;=
+"><strong><u><span style=3D"font-size: 14pt; line-height: 115%; background-=
+image: none; background-repeat: repeat;">Important date:</span></u></strong=
+></span></p>
+<p style=3D"text-align: justify;"><strong><span style=3D"background-color: =
+#ffff00;"><span style=3D"font-size: 14pt; line-height: 115%; background-ima=
+ge: none; background-repeat: repeat;">Last Date for Submission of Manuscrip=
+t: 28th February 2018.</span></span></strong></p>
+<p style=3D"text-align: justify;"><strong><span style=3D"background-color: =
+#ffff00;"><span style=3D"font-size: 14pt; line-height: 115%; background-ima=
+ge: none; background-repeat: repeat;">Launch of Next Issue: 5th</span><span=
+ style=3D"font-size: 14pt; line-height: 115%; background-image: none; backg=
+round-repeat: repeat;"><span style=3D"font-size: 14pt; line-height: 115%; b=
+ackground-image: none; background-repeat: repeat;"> </span>to 28th </span><=
+span style=3D"font-size: 14pt; line-height: 115%; background-image: none; b=
+ackground-repeat: repeat;"><span style=3D"font-size: 14pt; line-height: 115=
+%; background-image: none; background-repeat: repeat;">February</span></spa=
+n><span style=3D"font-size: 14pt; line-height: 115%; background-image: none=
+; background-repeat: repeat;"></span><span style=3D"font-size: 14pt; line-h=
+eight: 115%; background-image: none; background-repeat: repeat;"> 2018.</sp=
+an></span><span style=3D"font-size: 14pt; line-height: 115%; background: re=
+d none repeat scroll 0% 0%;"></span></strong></p>
+<p style=3D"text-align: justify;">&nbsp;</p>
+<p style=3D"text-align: justify;"><strong><span style=3D"color: #ff0000;"><=
+span style=3D"font-size: large;"><span style=3D"font-size: large;">Online M=
+aintenance</span> Fee: USD 60 [<a href=3D"http://ijcsmc.com/fee_payment_opt=
+ions" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/url?=
+hl=3Den&amp;q=3Dhttp://ijcsmc.com/fee_payment_options&amp;source=3Dgmail&am=
+p;ust=3D1518181126221000&amp;usg=3DAFQjCNFJMq74Eky8LG4nVNy27PcTJMX_cQ">http=
+://ijcsmc.com/fee<wbr>_payment_options</a></span></span></strong><strong><s=
+pan style=3D"color: #ff0000;"><span style=3D"font-size: large;"><span style=
+=3D"color: #ff0000;"><span style=3D"font-size: large;"><span style=3D"color=
+: #0000ff;"><span style=3D"font-size: 12pt; font-family: 'times new roman',=
+serif;"></span></span></span></span>]<br></span></span></strong></p>
+<p style=3D"text-align: justify;"><span></span><span><span style=3D"font-fa=
+mily: times new roman,serif;"><span><span style=3D"color: #ff0000;"><span s=
+tyle=3D"font-size: large;"><u><strong><br></strong></u></span></span></span=
+></span></span></p>
+<p style=3D"text-align: justify;"><span><span style=3D"font-family: times n=
+ew roman,serif;"><span><span style=3D"color: #ff0000;"><span style=3D"font-=
+size: large;"><u><strong>Invitation for Editorial Board / Review Members:</=
+strong></u></span></span><br>&nbsp;<br>We are happy to invite all Scientist=
+s, Academician, Engineers, Scholars to work as Editorial Board members or R=
+eview members for International Journal of Computer Science and Mobile Comp=
+uting. <a href=3D"http://www.ijcsmc.com" target=3D"_blank" data-saferedirec=
+turl=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://www.ijcsmc.com&am=
+p;source=3Dgmail&amp;ust=3D1518181126221000&amp;usg=3DAFQjCNFtgptHKNem82tJK=
+_LOt_a0HVLy3g">www.ijcsmc.com</a>. For joining as a member, kindly send us =
+your updated CV to us at <a>ijcsmcjournal@gmail.com</a></span></span></span=
+></p>
+<p style=3D"text-align: justify;"><strong><span>URL: <u><span style=3D"colo=
+r: blue;"><a href=3D"http://www.ijcsmc.com" target=3D"_blank" data-saferedi=
+recturl=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://www.ijcsmc.com=
+&amp;source=3Dgmail&amp;ust=3D1518181126221000&amp;usg=3DAFQjCNFtgptHKNem82=
+tJK_LOt_a0HVLy3g">www.ijcsmc.com</a></span></u></span></strong></p>
+<p style=3D"text-align: justify;"><strong><span>Submit your manuscript thro=
+ugh E-mail at <u><span style=3D"color: blue;"><span><a href=3D"mailto:ijcsm=
+cjournal@gmail.com" target=3D"_blank">ijcsmcjournal@gmail.com</a></span></s=
+pan></u></span></strong></p>
+<p style=3D"margin-bottom: 12pt; text-align: justify;"><strong><span>Like o=
+ur page on Facebook to stay up to date: </span><span style=3D"color: blue;"=
+><a href=3D"http://www.facebook.com/ijcsmc" target=3D"_blank" data-saferedi=
+recturl=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://www.facebook.c=
+om/ijcsmc&amp;source=3Dgmail&amp;ust=3D1518181126221000&amp;usg=3DAFQjCNE3H=
+bsZYOVma9Chdwow-U_EUHNeIg">www.facebook.com/ijcsmc</a></span><br></strong><=
+/p>
+<p style=3D"margin-bottom: 12pt; text-align: justify;"><strong>Follow us on=
+ Twitter: <span style=3D"color: #000099;"><a href=3D"http://www.twitter.com=
+/ijcsmc" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/u=
+rl?hl=3Den&amp;q=3Dhttp://www.twitter.com/ijcsmc&amp;source=3Dgmail&amp;ust=
+=3D1518181126221000&amp;usg=3DAFQjCNG7G68AmpDhaXMCfT9fP98uoaarLg">www.twitt=
+er.com/ijcsmc</a></span></strong></p>
+<p><strong>--<br> Publishing Team<span><span style=3D"color: #888888;"><spa=
+n><span style=3D"color: #888888;"><span style=3D"color: #888888;"><br> IJCS=
+MC</span></span></span></span></span></strong><br clear=3D"all"><br>-- </p>
+<div>Editor-in-Chief,<br>IJCSMC JOURNAL,<br><a href=3D"http://www.ijcsmc.co=
+m" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/url?hl=
+=3Den&amp;q=3Dhttp://www.ijcsmc.com&amp;source=3Dgmail&amp;ust=3D1518181126=
+221000&amp;usg=3DAFQjCNFtgptHKNem82tJK_LOt_a0HVLy3g">www.ijcsmc.com</a>,<br=
+><a>ijcsmcjournal@gmail.com</a></div>
+
+</body></html>
+
+--=_deb8e6fa8db928cd9be302e607bf29d7--
+
